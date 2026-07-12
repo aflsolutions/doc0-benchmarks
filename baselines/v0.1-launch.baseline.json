@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "label": "v0.1-launch",
+  "corpora": {
+    "hono-2026-07": {
+      "structural": {
+        "pages": 26,
+        "avgWords": 859,
+        "avgH2Sections": 7.2,
+        "avgWordsPerSection": 120,
+        "thinPages": 0,
+        "noisePages": 0,
+        "citationDensityPer1k": 35.89,
+        "pagesBelowMinCitationDensity": 0,
+        "validDiagramPages": 21,
+        "invalidDiagramPages": 0
+      },
+      "chains": {
+        "pages": 26,
+        "chains": 29,
+        "chainsPerPage": 1.115,
+        "hopVerificationRate": 0.293,
+        "hopBreakdown": {
+          "verified": 22,
+          "reversed": 3,
+          "edge-missing": 23,
+          "name-missing": 27
+        }
+      }
+    },
+    "redis-2026-07": {
+      "structural": {
+        "pages": 37,
+        "avgWords": 970,
+        "avgH2Sections": 6.3,
+        "avgWordsPerSection": 154,
+        "thinPages": 0,
+        "noisePages": 0,
+        "citationDensityPer1k": 16.14,
+        "pagesBelowMinCitationDensity": 0,
+        "validDiagramPages": 29,
+        "invalidDiagramPages": 0
+      },
+      "chains": {
+        "pages": 37,
+        "chains": 35,
+        "chainsPerPage": 0.946,
+        "hopVerificationRate": 0.266,
+        "hopBreakdown": {
+          "verified": 29,
+          "reversed": 2,
+          "edge-missing": 48,
+          "name-missing": 30
+        }
+      }
+    }
+  }
+}
