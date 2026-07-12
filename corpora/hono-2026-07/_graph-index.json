@@ -1,0 +1,3477 @@
+{
+  "schema_version": 1,
+  "wiki_id": "8268c9be-d46d-58eb-a882-1b7d4f5b6def",
+  "node_names": [
+    "extractGroupsFromPath",
+    "shallowEqual",
+    "stripWeak",
+    "IntrinsicAttributes",
+    "compress.ts",
+    "decodeBase64Url",
+    "JwtHeaderInvalid",
+    "useCallback",
+    "joinPaths",
+    "createRoot",
+    "streaming",
+    "selectEncoding",
+    "getConnInfo",
+    "ContextVariableMap",
+    "redirectPlugin",
+    "index.ts",
+    "Style",
+    "HonoRequest",
+    "jwk",
+    "isMiddleware",
+    "CxType",
+    "jwt",
+    "vercel",
+    "factory",
+    "linear-router",
+    "html.ts",
+    "matcher.ts",
+    "node",
+    "input",
+    "proxy",
+    "testClient",
+    "convertHeaders",
+    "handle",
+    "handler.ts",
+    "LinkHTMLAttributes",
+    "router.ts",
+    "warnIfStorelessAccess",
+    "jsr.json",
+    "middleware.ts",
+    "acceptsConfig",
+    "convertIPv4ToBinary",
+    "hasUnsafeSelectorChar",
+    "components.ts",
+    "index.ts",
+    "useOptimistic",
+    "deno.d.ts",
+    "mergePath",
+    "insert",
+    "timeout",
+    "constants.ts",
+    "RouteData",
+    "NONCE",
+    "renderToString",
+    "Hono",
+    "ContextVariableMap",
+    "getConnInfo",
+    "newCssClassNameObject",
+    "createCssContext",
+    "index.ts",
+    "serveStatic",
+    "meta",
+    "getConnInfo",
+    "search",
+    "jsx-renderer",
+    "isContentEncodingBinary",
+    "pretty-json",
+    "initializeGenerator",
+    "ToSSGResult",
+    "isDeDupeCandidateLink",
+    "Hono",
+    "match",
+    "isDepsChanged",
+    "index.ts",
+    "jwa.ts",
+    "inspectRoutes",
+    "constructor",
+    "serve-static",
+    "constructor",
+    "BunWebSocketData",
+    "sse.ts",
+    "flushSync",
+    "Router",
+    "types.ts",
+    "request-id",
+    "runWithRenderContext",
+    "static-absolute-root",
+    "verifying",
+    "Node",
+    "trailing-slash",
+    "match",
+    "README.md",
+    "get",
+    "getFilePathWithoutDefaultDocument",
+    "FilterStaticGenerateRouteData",
+    "getMethod",
+    "method",
+    "useContext",
+    "validator",
+    "ProxyFetch",
+    "PrettyOptions",
+    "keys.test.json",
+    "useEffect",
+    "createCssJsxDomObjects",
+    "handle",
+    "getRequestContext",
+    "establishWebSocket",
+    "compose",
+    "startTransition",
+    "ParamHTMLAttributes",
+    "css.ts",
+    "Node",
+    "catchCallback",
+    "ViewTransitionType",
+    "utf8.ts",
+    "validateOptions",
+    "jsx-runtime.ts",
+    "WebSocketHelperDefineContext",
+    "constructor",
+    "ClientCert",
+    "resumeWithContextValues",
+    "MIGRATION.md",
+    "tsconfig.spec.json",
+    "toString",
+    "handleNonDot",
+    "FormHTMLAttributes",
+    "render.ts",
+    "parseBody",
+    "writeln",
+    "index.ts",
+    ".octocov.consolidated.perf-measures.yml",
+    "convertFormDataToBodyData",
+    "createHash",
+    "tsconfig.json",
+    "match",
+    "vitest.config.ts",
+    "conninfo.ts",
+    "ScriptHTMLAttributes",
+    "components.ts",
+    "CallbackOptions",
+    "route",
+    "mockStreamifyResponse",
+    "index.html",
+    "smart-router",
+    "unauthorizedResponse",
+    "close",
+    "DetailsHTMLAttributes",
+    "accepts",
+    "parseBody",
+    "QuoteHTMLAttributes",
+    "encodeJwtPart",
+    "normalizeFormValue",
+    "KeyframesType",
+    "ALBProxyEvent",
+    "LatticeV2Processor",
+    "queries",
+    "powered-by",
+    "jsx-dev-runtime.ts",
+    "hello.world",
+    "button",
+    "handler.ts",
+    "use",
+    "index.ts",
+    "CssEscapedString",
+    "getCookie",
+    "Fragment",
+    "CssType",
+    "SecureHeadersOptions",
+    "bunfig.toml",
+    "hello.world",
+    "DelHTMLAttributes",
+    "CloudFrontEdgeEvent",
+    "tiny.ts",
+    "TextRespond",
+    "index.ts",
+    "handle",
+    "index.ts",
+    "index.ts",
+    "createResult",
+    "index.ts",
+    "etagMatches",
+    "ClientResponse",
+    "ALBRequestContext",
+    "actionState",
+    "index.ts",
+    "Context",
+    "toSSG",
+    "applyNodeObject",
+    "TableHTMLAttributes",
+    "testing",
+    "cloudflare-workers",
+    "index.ts",
+    "skipInvalidAcceptValue",
+    "index.ts",
+    "expandIPv6",
+    "static-absolute-root",
+    "index.ts",
+    "SlotHTMLAttributes",
+    "detectFromCookie",
+    "LambdaContext",
+    "link",
+    "link",
+    "getBunServer",
+    "normalizeLanguage",
+    "server.ts",
+    "index.ts",
+    "detectLanguage",
+    "add",
+    "handleParent",
+    "OptionHTMLAttributes",
+    "handler.ts",
+    "SendOptions",
+    "isRawRequest",
+    "ssg",
+    "index.ts",
+    "HtmlHTMLAttributes",
+    "index.ts",
+    "timing",
+    "JwtAlgorithmMismatch",
+    "FetchEvent",
+    "CSRFOptions",
+    "getNextParam",
+    "JwtTokenSignatureMismatched",
+    "Identity",
+    "handleMiddleware",
+    "EventV2Processor",
+    "EventAttributes",
+    "cx",
+    "plugins.ts",
+    "appendTrailingSlash",
+    "utils.ts",
+    "RouterRoute",
+    "plain.txt",
+    "cssCommon",
+    "mockStreamifyResponse",
+    "BunWebSocketHandler",
+    "handle",
+    "CreateWebSocket",
+    "SSEMessage",
+    "importPrivateKey",
+    "skipInvalidParam",
+    "Context",
+    "index.html",
+    "verify",
+    "ThHTMLAttributes",
+    "detectFromHeader",
+    "useRequestContext",
+    "index.ts",
+    "getConnInfo",
+    "cloudflare-pages",
+    "ReportingEndpointOptions",
+    "OlHTMLAttributes",
+    "CloudFrontHeader",
+    "captureRenderContext",
+    "CloudFrontEvent",
+    "res",
+    "static",
+    "isSecFetchSite",
+    "CssType",
+    "package.cjs.json",
+    "StatsLike",
+    "Accept",
+    "dirname",
+    "applySelectValue",
+    "Authorizer",
+    "handleParsingNestedValues",
+    "index.ts",
+    "SelectHTMLAttributes",
+    "hasUnsafeStyleValue",
+    "FileHandleLike",
+    "JwtTokenInvalid",
+    "getPermissionsPolicyDirectives",
+    "findInsertBefore",
+    "bun",
+    "timeout",
+    "cloneElement",
+    "deepMerge",
+    "JSXNode",
+    "jsxFn",
+    "LatticeRequestContextV2",
+    "buildRequestInitFromRequest",
+    "InsHTMLAttributes",
+    "createResponseInstance",
+    "JSXAttributes",
+    "isSSGContext",
+    "createElement",
+    "index.ts",
+    "toSSG",
+    "tsconfig.json",
+    "close",
+    "plain.txt",
+    "render",
+    "constructor",
+    "useLayoutEffect",
+    "mergeBuffers",
+    "getFilePath",
+    "streamHandle",
+    "bearer-auth",
+    "setCookies",
+    "defaultJoin",
+    "websocket.ts",
+    "deno.react-jsx.json",
+    "path.ts",
+    "serveStatic",
+    "intrinsic-elements.ts",
+    "every",
+    "createBody",
+    "StyleHTMLAttributes",
+    "TokenHeader",
+    "encodeBase64",
+    "utils.ts",
+    "Hono",
+    "throwInvalidIPv4Address",
+    "convertIPv6ToBinary",
+    "buildMatcher",
+    "ColgroupHTMLAttributes",
+    "blockError",
+    "isValidKeyframeName",
+    "constructor",
+    "serialize",
+    "constructor",
+    "ipRestriction",
+    "HTMLRespond",
+    "_decodeURI",
+    "acceptsOptions",
+    "CreateHandlersInterface",
+    "index.ts",
+    "ALBProcessor",
+    "replaceContainer",
+    "hono-base.ts",
+    "JwtHeaderRequiresKid",
+    "timingSafeEqualString",
+    "createRequest",
+    "add",
+    "OutputHTMLAttributes",
+    "index.ts",
+    "cacheValidName",
+    "preset",
+    "showRoutes",
+    "abort",
+    "createRef",
+    "isWhitespace",
+    "ToSSGOptions",
+    "static",
+    "concurrent.ts",
+    "env",
+    "contextStorage",
+    "startViewTransition",
+    "start",
+    "renderToReadableStream",
+    "ClientRequestImpl",
+    "perf-measures",
+    "defaultIsContentTypeBinary",
+    "getProcessor",
+    "JSXFunctionNode",
+    "cxCommon",
+    "logger",
+    "getKeyAlgorithm",
+    "CloudFrontCustomOrigin",
+    "keyframes",
+    "encode.ts",
+    "validator",
+    "CreateCssJsxDomObjectsType",
+    "Accept",
+    "isDir",
+    "registerStaticRule",
+    "handler.ts",
+    "Response",
+    "middleware",
+    "decodeJwtPart",
+    "deno-jsx",
+    "tryDecode",
+    "hooks",
+    "types.ts",
+    "StyleType",
+    "generateRoutes",
+    "useInsertionEffect",
+    "composeRef",
+    "disableSSG",
+    "JwtSymmetricAlgorithmNotAllowed",
+    "dispatch",
+    "createRenderer",
+    "getContent",
+    "cloneElement",
+    "setSignedCookie",
+    "index.ts",
+    "param",
+    "defaultMatch",
+    "ProgressHTMLAttributes",
+    "createCssContext",
+    "defaultPlugin",
+    "digest.ts",
+    "createContextProviderFunction",
+    "tsconfig.json",
+    "tsconfig.build.json",
+    "tryDecodeURIComponent",
+    "components.ts",
+    "hc",
+    "activeRouter",
+    "createBunWebSocket",
+    "pipe",
+    "RenderToReadableStreamOptions",
+    "useTransition",
+    "replaceUrlProtocol",
+    "VideoHTMLAttributes",
+    "UnsupportedPathError",
+    "loadAsyncLocalStorage",
+    "tsconfig.json",
+    "index.ts",
+    "ProxyRequestInit",
+    "auth",
+    "jwt.ts",
+    "vitest.config.ts",
+    "sleep",
+    "isProxyEventALB",
+    "ApiGatewayRequestContextV2",
+    "TimingOptions",
+    "ColHTMLAttributes",
+    "NewResponse",
+    "GetCookie",
+    "constants.ts",
+    "form",
+    "css",
+    "utils.ts",
+    "popNodeStack",
+    "handler.ts",
+    "node.ts",
+    "ipaddr.ts",
+    "EmbedHTMLAttributes",
+    "useViewTransition",
+    "determineExtension",
+    "CompressionOptions",
+    "encodeBase64Url",
+    "ClientContext",
+    "toStringToBuffer",
+    "buildStyleString",
+    "getResponse",
+    "script",
+    "AnchorHTMLAttributes",
+    "FileSystemModule",
+    "set",
+    "index.ts",
+    "toSVGAttributeName",
+    "bun",
+    "isNodeString",
+    "isValidAttributeName",
+    "input",
+    "context.ts",
+    "startTime",
+    "utils",
+    "run",
+    "generateFilePath",
+    "index.ts",
+    "normalizePath",
+    "bundle-check",
+    "useEffectCommon",
+    "CssClassName",
+    "HandlerInterface",
+    "utils.ts",
+    "cache",
+    "getPattern",
+    "types.ts",
+    "CloudFrontConfig",
+    "stream.ts",
+    "cache",
+    "FieldsetHTMLAttributes",
+    "style",
+    "isValidStylePropertyName",
+    "notFoundHandler",
+    "verifySignature",
+    "plain.txt",
+    "isValidTagName",
+    "conninfo.ts",
+    "etag",
+    "getQueryParams",
+    "index.ts",
+    "SSGPlugin",
+    "streamSSE",
+    "throwInvalidIPv6Address",
+    "router.ts",
+    "splitRule",
+    "helper",
+    "json",
+    "Pool",
+    "resolveCallback",
+    "parseCidrPrefix",
+    "resolveInitialState",
+    "router.ts",
+    "handler.ts",
+    "index.html",
+    "cookie",
+    "node.ts",
+    "useDebugValue",
+    "html",
+    "equal",
+    "defaultOnInvalidSlug",
+    "cx",
+    "index.ts",
+    "getQueryStrings",
+    "getRouterName",
+    "OptgroupHTMLAttributes",
+    "ToSSGAdaptorInterface",
+    "title",
+    "PatternRouter",
+    "saveContentToFile",
+    "splitRoutingPath",
+    "isIgnorableAttributeError",
+    "serveStatic",
+    "client.ts",
+    "index.ts",
+    "add",
+    "timing.ts",
+    "res",
+    "index.ts",
+    "setCookie",
+    "accepts",
+    "conninfo.ts",
+    "jsx",
+    "route",
+    "runner",
+    "index.ts",
+    "getColorEnabledAsync",
+    "conninfo",
+    "importPublicKey",
+    "vitest.config.ts",
+    "parseSigned",
+    "html",
+    "compress",
+    "validator.ts",
+    "language",
+    "readyState",
+    "registerAction",
+    "fetchRP",
+    "ssg.ts",
+    "serve-static.ts",
+    "md5",
+    "workerd",
+    "ExtendableEvent",
+    "ErrorBoundary",
+    "constructor",
+    "matchedRoutes",
+    "RegExpRouter",
+    "websocket",
+    "request.ts",
+    "HonoJsonWebKey",
+    "createContext",
+    "index.ts",
+    "jws.ts",
+    "toKebabCase",
+    "memo",
+    "index.ts",
+    "body.ts",
+    "newCssClassNameObject",
+    "JwtAlgorithmNotAllowed",
+    "CxType",
+    "close",
+    "clearWildcardRegExpCache",
+    "shouldTransform",
+    "ContextVariableMap",
+    "JwtTokenIssuer",
+    "secureHeaders",
+    "utils.ts",
+    "removeNode",
+    "CONTRIBUTING.md",
+    "hono.ts",
+    "jwk.ts",
+    "createProxy",
+    "base.ts",
+    "isStylesheetLinkWithPrecedence",
+    "intrinsic-element",
+    "requestId",
+    "unauthorizedResponse",
+    "getContextValuesIn",
+    "Callback",
+    "useImperativeHandle",
+    "index.ts",
+    "apply",
+    "tryDecodeURI",
+    "ReportToOptions",
+    "DefaultContextType",
+    "adapter",
+    "mount",
+    "rawCssString",
+    "resolveChildEarly",
+    "getReportingEndpoints",
+    ".octocov.consolidated.perf-measures.main.yml",
+    "timing",
+    "streamText",
+    "final",
+    "mock.ts",
+    "trimTrailingSlash",
+    "adapter",
+    "filterStaticGenerateRoutes",
+    "valid",
+    "constructor",
+    "index.ts",
+    "conninfo.ts",
+    "conninfo.ts",
+    "ssg.ts",
+    "apply",
+    "SetHeaders",
+    "getContent",
+    "getNameSpaceContext",
+    "parseIPv4ToBinary",
+    "accepts.ts",
+    "bearerAuth",
+    "viewTransitionHook",
+    "SSGParamsMiddleware",
+    "basic-auth",
+    "csrf",
+    "parseAccept",
+    "arrayBuffer",
+    "childrenToString",
+    "getQueryString",
+    "check-bundle-size.ts",
+    "CloudFrontHeaders",
+    "SmartRouter",
+    "createWSContext",
+    "methodOverride",
+    "ResponseInit",
+    "streamToNodeStream",
+    "APIGatewayProxyEvent",
+    "index.ts",
+    "secure-headers.ts",
+    "deleteCookie",
+    "useRef",
+    "constructor",
+    "customFetch",
+    "buffer.ts",
+    "getConnInfo",
+    "ip-restriction",
+    "convertIPv4BinaryToString",
+    "utils.ts",
+    "baseRoutePath",
+    "getExecutionCtx",
+    "index.ts",
+    "BunServerWebSocket",
+    "getNextAcceptValue",
+    "index.ts",
+    "replaceGroupMarks",
+    "formActionableElement",
+    "documentMetadataTag",
+    "getHeaders",
+    "documentMetadataTag",
+    "readyState",
+    "throwHTTPException",
+    "language.ts",
+    "humanize",
+    "JSXFragmentNode",
+    "sha1",
+    "hooks",
+    "setMetric",
+    "TrieRouter",
+    "insertRule",
+    "signing",
+    "vitest.config.ts",
+    "isCryptoKey",
+    "jsxRenderer",
+    "conninfo.ts",
+    "distinctRemoteAddr",
+    "basePath",
+    "http-status.ts",
+    "index.ts",
+    "ClientContextClient",
+    "cacheLanguage",
+    "getContent",
+    "write",
+    "title",
+    "websocket.ts",
+    "index.ts",
+    "ApiGatewayRequestContext",
+    "buildRegExp",
+    "router.ts",
+    "serializeInitParams",
+    "toArray",
+    "ref",
+    "run",
+    "buildInitParams",
+    "isIPv6LinkLocal",
+    "fetch-result-please.ts",
+    "forwardRef",
+    "findChildNodeIndex",
+    "getContext",
+    "makeSignature",
+    "compose.ts",
+    "ExecutionContext",
+    "SetHeadersOptions",
+    "MapHTMLAttributes",
+    "serveStatic",
+    "constructor",
+    "dev",
+    "serve-static.ts",
+    "PreparedRegExpRouter",
+    "index.ts",
+    "CloudFrontRequest",
+    "childrenToStringToBuffer",
+    "deno.precompile.json",
+    "setHeaders",
+    "Trie",
+    "tsconfig.base.json",
+    "server.ts",
+    "index.ts",
+    "DialogHTMLAttributes",
+    "fastly",
+    "pemToBinary",
+    "isLatticeEventV2",
+    "header",
+    "deno.json",
+    "index.ts",
+    "TextareaHTMLAttributes",
+    "getTime",
+    "onMessage",
+    "colorStatus",
+    "reg-exp-router",
+    "addUpdateTask",
+    "keyframes",
+    "exportPublicJwkFrom",
+    "tsconfig.json",
+    "hydrateRoot",
+    "query",
+    "resolveFallbackStr",
+    "poweredBy",
+    "newJSXNode",
+    "returnWithoutSpecialBehavior",
+    "filepath.ts",
+    "camelToKebab",
+    "SSGParam",
+    "router",
+    "JSONRespond",
+    "ContextVariableMap",
+    "toSSG",
+    "blob",
+    "getCryptoKey",
+    "toHash",
+    "tryGetContext",
+    "generate-app.ts",
+    "index.html",
+    "accept.ts",
+    "verifyWithJwks",
+    "isOldBunVersion",
+    "generateDigest",
+    "message",
+    "req",
+    "LatticeProxyEventV2",
+    "ParseBody",
+    "languageDetector",
+    "codecov.yml",
+    "MediaHTMLAttributes",
+    "getConnInfo",
+    "generateCookie",
+    "normalizeIntrinsicElementKey",
+    "helloworld",
+    "IPRestrictionRules",
+    "TdHTMLAttributes",
+    "main",
+    "basePath",
+    "isContentTypeBinary",
+    "aws-lambda",
+    "replaceUrlParam",
+    "vitest.config.ts",
+    "unmount",
+    "pattern-router",
+    "removeIndexString",
+    "index.ts",
+    "createResult",
+    "SSEStreamingApi",
+    "convertIPv4MappedIPv6ToIPv4",
+    "timingSafeEqual",
+    "getCookies",
+    "add",
+    "CODE_OF_CONDUCT.md",
+    "permissions-policy.ts",
+    "main",
+    "streaming.ts",
+    "_getQueryParam",
+    "useId",
+    "IframeHTMLAttributes",
+    "Suspense",
+    "BodyRespond",
+    "TrackHTMLAttributes",
+    "prepared-router.ts",
+    "popContextValues",
+    "dom",
+    "UpgradeWebSocket",
+    "DetailedError",
+    "handle",
+    "constructor",
+    "index.ts",
+    "CloudFrontS3Origin",
+    "var",
+    "log",
+    "getMimeType",
+    "errorHandler",
+    "ContentSecurityPolicyOptions",
+    "cloneRawRequest",
+    "client.ts",
+    "clearCache",
+    "JwtTokenIssuedAt",
+    "ContextRenderer",
+    "isAllowedSecFetchSite",
+    "onlySSG",
+    "ButtonHTMLAttributes",
+    "types.ts",
+    "shouldSkipCacheControl",
+    "meta",
+    "SetMetric",
+    "helloworld",
+    "ToSSGInterface",
+    "isValidElement",
+    "HTMLAttributes",
+    "buildNode",
+    "WSContext",
+    "intrinsic-element",
+    "MeterHTMLAttributes",
+    "EventV1Processor",
+    "buildRegExpStr",
+    "Context",
+    "Get",
+    "RenderToStringOptions",
+    "jwt.ts",
+    "UpgradeWebSocketOptions",
+    "decodeHeader",
+    "consumeWhitespace",
+    "jsx",
+    "renderNode",
+    "handlerName",
+    "DataHTMLAttributes",
+    "getConnInfo",
+    "add",
+    "handleParsingAllValues",
+    "isProxyEventV2",
+    "ConnInfo",
+    "createContext",
+    "common.ts",
+    "type",
+    "useDeferredValue",
+    "tsconfig.build.json",
+    "captureContextValues",
+    "LiHTMLAttributes",
+    "SourceHTMLAttributes",
+    "parseResponseContent",
+    "cookie.ts",
+    "cors",
+    "tsconfig.json",
+    "preprocessRequestInit",
+    "CognitoIdentity",
+    "insert",
+    "getNextChildren",
+    "matchedRoutes",
+    "form",
+    "utils.ts",
+    "appendStyle",
+    "runtime-tests",
+    "MenuHTMLAttributes",
+    "vitest.config.ts",
+    "text",
+    "constructor",
+    "TypedURL",
+    "url.ts",
+    "cancel",
+    "context-storage",
+    "ssg.ts",
+    "event",
+    "index.ts",
+    "formActionableElement",
+    "documentStartViewTransition",
+    "bufferToString",
+    "startTransitionHook",
+    "jwk",
+    "JwtPayloadRequiresAud",
+    "fire",
+    "Root",
+    "getPath",
+    "getSignedCookie",
+    "buildSearchParams",
+    "detectFromQuery",
+    "runCallback",
+    "url",
+    "DefaultContextType",
+    "constructor",
+    "src",
+    "ensureWithinOutDir",
+    "wrapTime",
+    "readContextValueIn",
+    "CSSProperties",
+    "NotFoundResponse",
+    "ignoreTrailingWhitespace",
+    "addHeader",
+    "parseQuality",
+    "scripts",
+    "ContextVariableMap",
+    "LanguageVariables",
+    "onAbort",
+    "basic-auth.ts",
+    "logger",
+    "CloudFrontResponse",
+    "serve-static.ts",
+    "buildAndExportAllMatchers",
+    "type-check",
+    "getConnInfo",
+    "style",
+    "AudioHTMLAttributes",
+    "protocol",
+    "createPool",
+    "ObjectHTMLAttributes",
+    "JwtTokenNotBefore",
+    "DetectorOptions",
+    "isDir",
+    "JwtTokenAudience",
+    "detectResponseType",
+    "index.ts",
+    "compareKey",
+    "setInternalTagFlag",
+    "IntrinsicElements",
+    "APIGatewayProxyEventV2",
+    "_serialize",
+    "constructor",
+    "types.ts",
+    "index.ts",
+    "constructor",
+    "decodeBase64",
+    "css",
+    "build",
+    "stream-mock.ts",
+    "types.ts",
+    "decode",
+    "trie.ts",
+    "getEventSpec",
+    "renderFallback",
+    "buildWildcardRegExp",
+    "createRequest",
+    "raw",
+    "method-override",
+    "match",
+    "netlify",
+    "getNameSpaceContext",
+    "process-results.ts",
+    "JwtTokenExpired",
+    "proxy",
+    "parseIPv6HexCode",
+    "KeygenHTMLAttributes",
+    "components.ts",
+    "except",
+    "http-exception.ts",
+    "index.ts",
+    "normalizeLabel",
+    "trie-router",
+    "conninfo.ts",
+    "button",
+    "prettyJSON",
+    "addClassNameToContext",
+    "trimCookieWhitespace",
+    "some",
+    "splitPath",
+    "sanitizeHeaderValue",
+    "styleObjectForEach",
+    "sha256",
+    "isDynamicRoute",
+    "getCurrentStore",
+    "index.ts",
+    "getExtension",
+    "getResume",
+    "detectFromPath",
+    "service-worker",
+    "BaseHTMLAttributes",
+    "getDomainName",
+    "lambda-edge",
+    "ViewTransitionType",
+    "ShowRoutesOptions",
+    "insertIntoHead",
+    "getRuntimeKey",
+    "insert",
+    "applyProps",
+    "useReducer",
+    "isObject",
+    "getCSPDirectives",
+    "router.ts",
+    "send",
+    "write",
+    "toString",
+    "plain.txt",
+    "compress",
+    "constructor",
+    "CloudFrontResult",
+    "constants.ts",
+    "pull",
+    "getReportToOptions",
+    "combineAfterResponseHooks",
+    "KeyframesType",
+    "hasChildren",
+    "sign",
+    "constantTimeEqualString",
+    "deno",
+    "shouldDeDupeByKey",
+    "text.ts",
+    "ssgParams",
+    "time",
+    "findStyleSheet",
+    "index.ts",
+    "index.ts",
+    "defineWebSocketHelper",
+    "module",
+    "lambda-edge",
+    "open",
+    "getPath",
+    "index.ts",
+    "useActionState",
+    "setCookiesToResult",
+    "TimeHTMLAttributes",
+    "isAllowedOrigin",
+    "cors",
+    "context.ts",
+    "routePath",
+    "getHeaderValue",
+    "headers.ts",
+    "memo",
+    "serve-static-module.ts",
+    "createInvalidIPAddressError",
+    "HTTPException",
+    "parse",
+    "jwt",
+    "generateRedirectHtml",
+    "package.json",
+    "getPathNoStrict",
+    "useFormStatus",
+    "wrappedNext",
+    "mod.ts",
+    "index.ts",
+    "etag",
+    "LabelHTMLAttributes",
+    "request",
+    "common.ts",
+    "parseFormData",
+    "index.ts",
+    "parseAcceptLanguage",
+    "client.ts",
+    "buildMatcherFromPreprocessedRoutes",
+    "render",
+    "DefaultRenderer",
+    "isValidClassName",
+    "buildAllMatchers",
+    "jsx-dev-runtime.ts",
+    "stringBufferToString",
+    "checkOptionalParameter",
+    "Set",
+    "getFilteredHeaders",
+    "serializeSigned",
+    "endTime",
+    "jsxEscape",
+    "add",
+    "mime.ts",
+    "context.ts",
+    "addValidatedData",
+    "deno",
+    "WSContextInit",
+    "update",
+    "color.ts",
+    "HTTPResponseError",
+    "jsxAttr",
+    "jwt",
+    "stream.ts",
+    "basicAuth",
+    "crypto.ts",
+    "isSameContext",
+    "StreamingApi",
+    "Fragment",
+    "setDefaultContentType",
+    "CanvasHTMLAttributes",
+    "Style",
+    "BlockquoteHTMLAttributes",
+    "handleSegments",
+    "shouldSkipCache",
+    "handler",
+    "then",
+    "match",
+    "jsx-runtime.ts",
+    "types.ts",
+    "executionCtx",
+    "toAttributeName",
+    "combine",
+    "css",
+    "secure-headers",
+    "keyframesCommon",
+    "render",
+    "readyState",
+    "escapeToBuffer",
+    "jsxDEV",
+    "bodyLimit",
+    "children.ts",
+    "handler.ts",
+    "ImgHTMLAttributes",
+    "mergePath",
+    "ElementChildrenAttribute",
+    "index.ts",
+    "lambda",
+    "IntrinsicElements",
+    "getContentFromKVAsset",
+    "start",
+    "write",
+    "encodeSignaturePart",
+    "AreaHTMLAttributes",
+    "serveStatic",
+    "index.ts",
+    "convertIPv6BinaryToString",
+    "isTokenHeader",
+    "createWSMessageEvent",
+    "constructor",
+    "bytes",
+    "createPortal",
+    "tsconfig.json",
+    "index.ts",
+    "LinearRouter",
+    "router.ts",
+    "updateSync",
+    "docs",
+    "minify",
+    "index.ts",
+    "getColorEnabled",
+    "conninfo.ts",
+    "writeSSE",
+    "useState",
+    "tsconfig.json",
+    "protocol",
+    "invokeTag",
+    "generateSignedCookie",
+    "stream",
+    "formData",
+    "index.ts",
+    "useMemo",
+    "csrf",
+    "parseResponse",
+    "MetaHTMLAttributes",
+    "body-limit",
+    "InputHTMLAttributes",
+    "generateNonce",
+    "fallbackUpdateFn",
+    "combineBeforeRequestHooks",
+    "constructor",
+    "buildAllMatchers",
+    "findMiddleware",
+    "constructor",
+    "resolveCallbackSync",
+    "Hono",
+    "GetSignedCookie",
+    "bufferToFormData",
+    "jsxDEV",
+    "index.ts",
+    "scripts",
+    "quick.ts",
+    "types.ts",
+    "renderToReadableStream",
+    "request-id.ts",
+    "isIPv4MappedIPv6",
+    "findTargetHandler",
+    "Timer",
+    "combineAfterGenerateHooks",
+    "ClientContextEnv",
+    "JwtAlgorithmNotImplemented",
+    "routePath",
+    "JwtAlgorithmRequired",
+    "websocket.ts",
+    "ContextVariableMap",
+    "client",
+    "index.ts",
+    "ReportToEndpoint",
+    "parseVaryDirectives",
+    "handle",
+    "checkUserAgentEquals",
+    "script",
+    "WSEvents"
+  ],
+  "edges": [
+    {
+      "from": "button",
+      "to": "formActionableElement",
+      "confidence": 0.95
+    },
+    {
+      "from": "documentMetadataTag",
+      "to": "isDeDupeCandidateLink",
+      "confidence": 0.95
+    },
+    {
+      "from": "applyNodeObject",
+      "to": "findInsertBefore",
+      "confidence": 0.95
+    },
+    {
+      "from": "importPublicKey",
+      "to": "pemToBinary",
+      "confidence": 0.95
+    },
+    {
+      "from": "getColorEnabledAsync",
+      "to": "getColorEnabled",
+      "confidence": 0.95
+    },
+    {
+      "from": "startTime",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "removeNode",
+      "to": "isNodeString",
+      "confidence": 0.95
+    },
+    {
+      "from": "process-results.ts",
+      "to": "main",
+      "confidence": 0.95
+    },
+    {
+      "from": "streamHandle",
+      "to": "getRequestContext",
+      "confidence": 0.95
+    },
+    {
+      "from": "methodOverride",
+      "to": "getExecutionCtx",
+      "confidence": 0.95
+    },
+    {
+      "from": "verify",
+      "to": "isTokenHeader",
+      "confidence": 0.95
+    },
+    {
+      "from": "write",
+      "to": "write",
+      "confidence": 0.95
+    },
+    {
+      "from": "index.ts",
+      "to": "Hono",
+      "confidence": 0.9
+    },
+    {
+      "from": "some",
+      "to": "handler",
+      "confidence": 0.5
+    },
+    {
+      "from": "Style",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "blockError",
+      "to": "HTTPException",
+      "confidence": 0.9
+    },
+    {
+      "from": "createWSContext",
+      "to": "WSContext",
+      "confidence": 0.9
+    },
+    {
+      "from": "buildSearchParams",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "verify",
+      "to": "JwtHeaderInvalid",
+      "confidence": 0.9
+    },
+    {
+      "from": "buildNode",
+      "to": "toString",
+      "confidence": 0.9
+    },
+    {
+      "from": "ErrorBoundary",
+      "to": "getResume",
+      "confidence": 0.95
+    },
+    {
+      "from": "insertRule",
+      "to": "splitRule",
+      "confidence": 0.95
+    },
+    {
+      "from": "validator",
+      "to": "addValidatedData",
+      "confidence": 0.5
+    },
+    {
+      "from": "getDomainName",
+      "to": "getHeaderValue",
+      "confidence": 0.95
+    },
+    {
+      "from": "createResult",
+      "to": "text",
+      "confidence": 0.5
+    },
+    {
+      "from": "add",
+      "to": "UnsupportedPathError",
+      "confidence": 0.9
+    },
+    {
+      "from": "cx",
+      "to": "css",
+      "confidence": 0.95
+    },
+    {
+      "from": "validator",
+      "to": "HTTPException",
+      "confidence": 0.9
+    },
+    {
+      "from": "etag",
+      "to": "etagMatches",
+      "confidence": 0.95
+    },
+    {
+      "from": "bodyLimit",
+      "to": "HTTPException",
+      "confidence": 0.9
+    },
+    {
+      "from": "hc",
+      "to": "ClientRequestImpl",
+      "confidence": 0.95
+    },
+    {
+      "from": "log",
+      "to": "colorStatus",
+      "confidence": 0.95
+    },
+    {
+      "from": "cache",
+      "to": "parseVaryDirectives",
+      "confidence": 0.95
+    },
+    {
+      "from": "meta",
+      "to": "returnWithoutSpecialBehavior",
+      "confidence": 0.95
+    },
+    {
+      "from": "handle",
+      "to": "createRequest",
+      "confidence": 0.95
+    },
+    {
+      "from": "writeSSE",
+      "to": "write",
+      "confidence": 0.9
+    },
+    {
+      "from": "cssCommon",
+      "to": "toHash",
+      "confidence": 0.95
+    },
+    {
+      "from": "createRequest",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "handle",
+      "to": "createResult",
+      "confidence": 0.95
+    },
+    {
+      "from": "findMiddleware",
+      "to": "buildWildcardRegExp",
+      "confidence": 0.95
+    },
+    {
+      "from": "buildAllMatchers",
+      "to": "clearWildcardRegExpCache",
+      "confidence": 0.95
+    },
+    {
+      "from": "getHeaders",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "constructor",
+      "to": "SmartRouter",
+      "confidence": 0.9
+    },
+    {
+      "from": "build",
+      "to": "isSameContext",
+      "confidence": 0.95
+    },
+    {
+      "from": "detectFromHeader",
+      "to": "parseAcceptLanguage",
+      "confidence": 0.95
+    },
+    {
+      "from": "applyProps",
+      "to": "isIgnorableAttributeError",
+      "confidence": 0.95
+    },
+    {
+      "from": "methodOverride",
+      "to": "query",
+      "confidence": 0.5
+    },
+    {
+      "from": "createResult",
+      "to": "setCookies",
+      "confidence": 0.95
+    },
+    {
+      "from": "ipRestriction",
+      "to": "buildMatcher",
+      "confidence": 0.95
+    },
+    {
+      "from": "cssCommon",
+      "to": "normalizeLabel",
+      "confidence": 0.95
+    },
+    {
+      "from": "streamHandle",
+      "to": "write",
+      "confidence": 0.5
+    },
+    {
+      "from": "parseBody",
+      "to": "isRawRequest",
+      "confidence": 0.95
+    },
+    {
+      "from": "createContext",
+      "to": "toString",
+      "confidence": 0.9
+    },
+    {
+      "from": "match",
+      "to": "UnsupportedPathError",
+      "confidence": 0.9
+    },
+    {
+      "from": "context.ts",
+      "to": "setDefaultContentType",
+      "confidence": 0.95
+    },
+    {
+      "from": "applyNodeObject",
+      "to": "applyProps",
+      "confidence": 0.95
+    },
+    {
+      "from": "meta",
+      "to": "documentMetadataTag",
+      "confidence": 0.95
+    },
+    {
+      "from": "close",
+      "to": "close",
+      "confidence": 0.95
+    },
+    {
+      "from": "secureHeaders",
+      "to": "setHeaders",
+      "confidence": 0.95
+    },
+    {
+      "from": "style",
+      "to": "returnWithoutSpecialBehavior",
+      "confidence": 0.95
+    },
+    {
+      "from": "close",
+      "to": "close",
+      "confidence": 0.95
+    },
+    {
+      "from": "hc",
+      "to": "establishWebSocket",
+      "confidence": 0.95
+    },
+    {
+      "from": "verify",
+      "to": "JwtTokenSignatureMismatched",
+      "confidence": 0.9
+    },
+    {
+      "from": "generateDigest",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "websocket.ts",
+      "to": "close",
+      "confidence": 0.9
+    },
+    {
+      "from": "Suspense",
+      "to": "toString",
+      "confidence": 0.9
+    },
+    {
+      "from": "throwInvalidIPv6Address",
+      "to": "createInvalidIPAddressError",
+      "confidence": 0.95
+    },
+    {
+      "from": "streamHandle",
+      "to": "createRequest",
+      "confidence": 0.95
+    },
+    {
+      "from": "keyframesCommon",
+      "to": "toHash",
+      "confidence": 0.95
+    },
+    {
+      "from": "basicAuth",
+      "to": "HTTPException",
+      "confidence": 0.9
+    },
+    {
+      "from": "verifyWithJwks",
+      "to": "JwtAlgorithmMismatch",
+      "confidence": 0.9
+    },
+    {
+      "from": "start",
+      "to": "close",
+      "confidence": 0.5
+    },
+    {
+      "from": "dispatch",
+      "to": "handler",
+      "confidence": 0.5
+    },
+    {
+      "from": "input",
+      "to": "formActionableElement",
+      "confidence": 0.95
+    },
+    {
+      "from": "handle",
+      "to": "getRequestContext",
+      "confidence": 0.95
+    },
+    {
+      "from": "secureHeaders",
+      "to": "getFilteredHeaders",
+      "confidence": 0.95
+    },
+    {
+      "from": "handle",
+      "to": "createResult",
+      "confidence": 0.95
+    },
+    {
+      "from": "jsxRenderer",
+      "to": "createRenderer",
+      "confidence": 0.95
+    },
+    {
+      "from": "verify",
+      "to": "JwtTokenExpired",
+      "confidence": 0.9
+    },
+    {
+      "from": "deepMerge",
+      "to": "isObject",
+      "confidence": 0.95
+    },
+    {
+      "from": "secureHeaders",
+      "to": "getReportingEndpoints",
+      "confidence": 0.95
+    },
+    {
+      "from": "search",
+      "to": "hasChildren",
+      "confidence": 0.95
+    },
+    {
+      "from": "inspectRoutes",
+      "to": "handlerName",
+      "confidence": 0.95
+    },
+    {
+      "from": "Suspense",
+      "to": "popNodeStack",
+      "confidence": 0.95
+    },
+    {
+      "from": "applyNodeObject",
+      "to": "applyNodeObject",
+      "confidence": 0.95
+    },
+    {
+      "from": "childrenToStringToBuffer",
+      "to": "childrenToStringToBuffer",
+      "confidence": 0.95
+    },
+    {
+      "from": "ipRestriction",
+      "to": "blockError",
+      "confidence": 0.95
+    },
+    {
+      "from": "convertFormDataToBodyData",
+      "to": "handleParsingAllValues",
+      "confidence": 0.95
+    },
+    {
+      "from": "captureRenderContext",
+      "to": "getCurrentStore",
+      "confidence": 0.95
+    },
+    {
+      "from": "streamHandle",
+      "to": "streamToNodeStream",
+      "confidence": 0.95
+    },
+    {
+      "from": "viewTransitionHook",
+      "to": "documentStartViewTransition",
+      "confidence": 0.95
+    },
+    {
+      "from": "req",
+      "to": "HonoRequest",
+      "confidence": 0.9
+    },
+    {
+      "from": "bearerAuth",
+      "to": "throwHTTPException",
+      "confidence": 0.95
+    },
+    {
+      "from": "streamSSE",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "useState",
+      "to": "resolveInitialState",
+      "confidence": 0.95
+    },
+    {
+      "from": "dispatch",
+      "to": "dispatch",
+      "confidence": 0.95
+    },
+    {
+      "from": "hono-base.ts",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "prettyJSON",
+      "to": "query",
+      "confidence": 0.5
+    },
+    {
+      "from": "some",
+      "to": "wrappedNext",
+      "confidence": 0.95
+    },
+    {
+      "from": "verifyWithJwks",
+      "to": "json",
+      "confidence": 0.5
+    },
+    {
+      "from": "getNextChildren",
+      "to": "getNextChildren",
+      "confidence": 0.95
+    },
+    {
+      "from": "applyProps",
+      "to": "toString",
+      "confidence": 0.9
+    },
+    {
+      "from": "importPrivateKey",
+      "to": "isCryptoKey",
+      "confidence": 0.95
+    },
+    {
+      "from": "startTime",
+      "to": "getTime",
+      "confidence": 0.95
+    },
+    {
+      "from": "etag",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "insert",
+      "to": "Node",
+      "confidence": 0.95
+    },
+    {
+      "from": "getCurrentStore",
+      "to": "loadAsyncLocalStorage",
+      "confidence": 0.95
+    },
+    {
+      "from": "serializeInitParams",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "useCallback",
+      "to": "isDepsChanged",
+      "confidence": 0.95
+    },
+    {
+      "from": "parseAccept",
+      "to": "parseQuality",
+      "confidence": 0.95
+    },
+    {
+      "from": "resumeWithContextValues",
+      "to": "getCurrentStore",
+      "confidence": 0.95
+    },
+    {
+      "from": "build",
+      "to": "apply",
+      "confidence": 0.95
+    },
+    {
+      "from": "compress",
+      "to": "selectEncoding",
+      "confidence": 0.95
+    },
+    {
+      "from": "NONCE",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "languageDetector",
+      "to": "detectLanguage",
+      "confidence": 0.95
+    },
+    {
+      "from": "catchCallback",
+      "to": "renderFallback",
+      "confidence": 0.95
+    },
+    {
+      "from": "handler.ts",
+      "to": "EventV2Processor",
+      "confidence": 0.95
+    },
+    {
+      "from": "validator",
+      "to": "json",
+      "confidence": 0.5
+    },
+    {
+      "from": "sign",
+      "to": "encodeSignaturePart",
+      "confidence": 0.95
+    },
+    {
+      "from": "stream",
+      "to": "StreamingApi",
+      "confidence": 0.9
+    },
+    {
+      "from": "css",
+      "to": "newCssClassNameObject",
+      "confidence": 0.95
+    },
+    {
+      "from": "csrf",
+      "to": "HTTPException",
+      "confidence": 0.9
+    },
+    {
+      "from": "cache",
+      "to": "shouldSkipCache",
+      "confidence": 0.95
+    },
+    {
+      "from": "secureHeaders",
+      "to": "getCSPDirectives",
+      "confidence": 0.95
+    },
+    {
+      "from": "createCssContext",
+      "to": "newCssClassNameObject",
+      "confidence": 0.95
+    },
+    {
+      "from": "verifying",
+      "to": "importPublicKey",
+      "confidence": 0.95
+    },
+    {
+      "from": "throwInvalidIPv4Address",
+      "to": "createInvalidIPAddressError",
+      "confidence": 0.95
+    },
+    {
+      "from": "resolveCallback",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "constructor",
+      "to": "cancel",
+      "confidence": 0.5
+    },
+    {
+      "from": "getQueryParams",
+      "to": "_getQueryParam",
+      "confidence": 0.95
+    },
+    {
+      "from": "signing",
+      "to": "importPrivateKey",
+      "confidence": 0.95
+    },
+    {
+      "from": "check-bundle-size.ts",
+      "to": "main",
+      "confidence": 0.95
+    },
+    {
+      "from": "saveContentToFile",
+      "to": "generateFilePath",
+      "confidence": 0.95
+    },
+    {
+      "from": "buildMatcher",
+      "to": "registerStaticRule",
+      "confidence": 0.95
+    },
+    {
+      "from": "validator",
+      "to": "arrayBuffer",
+      "confidence": 0.5
+    },
+    {
+      "from": "match",
+      "to": "match",
+      "confidence": 0.95
+    },
+    {
+      "from": "verify",
+      "to": "JwtAlgorithmRequired",
+      "confidence": 0.9
+    },
+    {
+      "from": "cssCommon",
+      "to": "isValidClassName",
+      "confidence": 0.95
+    },
+    {
+      "from": "bufferToFormData",
+      "to": "formData",
+      "confidence": 0.5
+    },
+    {
+      "from": "html",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "generateFilePath",
+      "to": "determineExtension",
+      "confidence": 0.95
+    },
+    {
+      "from": "etag",
+      "to": "initializeGenerator",
+      "confidence": 0.95
+    },
+    {
+      "from": "getNextAcceptValue",
+      "to": "skipInvalidAcceptValue",
+      "confidence": 0.95
+    },
+    {
+      "from": "jwt",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "convertIPv4ToBinary",
+      "to": "parseIPv4ToBinary",
+      "confidence": 0.95
+    },
+    {
+      "from": "pull",
+      "to": "close",
+      "confidence": 0.95
+    },
+    {
+      "from": "updateSync",
+      "to": "apply",
+      "confidence": 0.95
+    },
+    {
+      "from": "constructor",
+      "to": "RegExpRouter",
+      "confidence": 0.9
+    },
+    {
+      "from": "verifying",
+      "to": "getKeyAlgorithm",
+      "confidence": 0.95
+    },
+    {
+      "from": "buildMatcherFromPreprocessedRoutes",
+      "to": "buildRegExp",
+      "confidence": 0.9
+    },
+    {
+      "from": "add",
+      "to": "findMiddleware",
+      "confidence": 0.95
+    },
+    {
+      "from": "languageDetector",
+      "to": "validateOptions",
+      "confidence": 0.95
+    },
+    {
+      "from": "convertIPv6ToBinary",
+      "to": "isIPv6LinkLocal",
+      "confidence": 0.95
+    },
+    {
+      "from": "sign",
+      "to": "encodeJwtPart",
+      "confidence": 0.95
+    },
+    {
+      "from": "useContext",
+      "to": "readContextValueIn",
+      "confidence": 0.95
+    },
+    {
+      "from": "generate-app.ts",
+      "to": "generateRoutes",
+      "confidence": 0.95
+    },
+    {
+      "from": "getProcessor",
+      "to": "isProxyEventV2",
+      "confidence": 0.95
+    },
+    {
+      "from": "buildRegExpStr",
+      "to": "buildRegExpStr",
+      "confidence": 0.95
+    },
+    {
+      "from": "jsxFn",
+      "to": "JSXNode",
+      "confidence": 0.95
+    },
+    {
+      "from": "verifyWithJwks",
+      "to": "JwtHeaderRequiresKid",
+      "confidence": 0.9
+    },
+    {
+      "from": "getContextValuesIn",
+      "to": "warnIfStorelessAccess",
+      "confidence": 0.95
+    },
+    {
+      "from": "handler.ts",
+      "to": "EventV1Processor",
+      "confidence": 0.95
+    },
+    {
+      "from": "documentMetadataTag",
+      "to": "returnWithoutSpecialBehavior",
+      "confidence": 0.95
+    },
+    {
+      "from": "useTransition",
+      "to": "startTransitionHook",
+      "confidence": 0.95
+    },
+    {
+      "from": "createResult",
+      "to": "arrayBuffer",
+      "confidence": 0.5
+    },
+    {
+      "from": "buildInitParams",
+      "to": "buildAndExportAllMatchers",
+      "confidence": 0.95
+    },
+    {
+      "from": "fetchRP",
+      "to": "DetailedError",
+      "confidence": 0.95
+    },
+    {
+      "from": "css",
+      "to": "newCssClassNameObject",
+      "confidence": 0.95
+    },
+    {
+      "from": "keyframesCommon",
+      "to": "isValidKeyframeName",
+      "confidence": 0.95
+    },
+    {
+      "from": "link",
+      "to": "returnWithoutSpecialBehavior",
+      "confidence": 0.95
+    },
+    {
+      "from": "isValidStylePropertyName",
+      "to": "cacheValidName",
+      "confidence": 0.95
+    },
+    {
+      "from": "cache",
+      "to": "open",
+      "confidence": 0.5
+    },
+    {
+      "from": "close",
+      "to": "close",
+      "confidence": 0.95
+    },
+    {
+      "from": "ssg.ts",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "jwt",
+      "to": "unauthorizedResponse",
+      "confidence": 0.95
+    },
+    {
+      "from": "ErrorBoundary",
+      "to": "catchCallback",
+      "confidence": 0.95
+    },
+    {
+      "from": "verifyWithJwks",
+      "to": "JwtHeaderInvalid",
+      "confidence": 0.9
+    },
+    {
+      "from": "applyProps",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "hc",
+      "to": "deepMerge",
+      "confidence": 0.9
+    },
+    {
+      "from": "trie.ts",
+      "to": "Node",
+      "confidence": 0.9
+    },
+    {
+      "from": "serializeSigned",
+      "to": "_serialize",
+      "confidence": 0.95
+    },
+    {
+      "from": "match",
+      "to": "search",
+      "confidence": 0.9
+    },
+    {
+      "from": "constructor",
+      "to": "SmartRouter",
+      "confidence": 0.9
+    },
+    {
+      "from": "renderNode",
+      "to": "replaceContainer",
+      "confidence": 0.95
+    },
+    {
+      "from": "constructor",
+      "to": "LinearRouter",
+      "confidence": 0.9
+    },
+    {
+      "from": "decode",
+      "to": "decodeJwtPart",
+      "confidence": 0.95
+    },
+    {
+      "from": "csrf",
+      "to": "isAllowedOrigin",
+      "confidence": 0.95
+    },
+    {
+      "from": "handleMiddleware",
+      "to": "getResponse",
+      "confidence": 0.9
+    },
+    {
+      "from": "importPublicKey",
+      "to": "isCryptoKey",
+      "confidence": 0.95
+    },
+    {
+      "from": "websocket.ts",
+      "to": "close",
+      "confidence": 0.9
+    },
+    {
+      "from": "convertIPv6ToBinary",
+      "to": "parseIPv4ToBinary",
+      "confidence": 0.95
+    },
+    {
+      "from": "convertIPv6BinaryToString",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "prettyJSON",
+      "to": "json",
+      "confidence": 0.5
+    },
+    {
+      "from": "sign",
+      "to": "signing",
+      "confidence": 0.9
+    },
+    {
+      "from": "renderToReadableStream",
+      "to": "toString",
+      "confidence": 0.9
+    },
+    {
+      "from": "resumeWithContextValues",
+      "to": "getContextValuesIn",
+      "confidence": 0.95
+    },
+    {
+      "from": "link",
+      "to": "documentMetadataTag",
+      "confidence": 0.95
+    },
+    {
+      "from": "client.ts",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "preprocessRequestInit",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "importPublicKey",
+      "to": "exportPublicJwkFrom",
+      "confidence": 0.95
+    },
+    {
+      "from": "websocket.ts",
+      "to": "WSContext",
+      "confidence": 0.9
+    },
+    {
+      "from": "cache",
+      "to": "addHeader",
+      "confidence": 0.95
+    },
+    {
+      "from": "context.ts",
+      "to": "createResponseInstance",
+      "confidence": 0.95
+    },
+    {
+      "from": "createContext",
+      "to": "JSXFragmentNode",
+      "confidence": 0.9
+    },
+    {
+      "from": "compose",
+      "to": "dispatch",
+      "confidence": 0.95
+    },
+    {
+      "from": "run",
+      "to": "close",
+      "confidence": 0.9
+    },
+    {
+      "from": "captureRenderContext",
+      "to": "captureContextValues",
+      "confidence": 0.95
+    },
+    {
+      "from": "getNextParam",
+      "to": "ignoreTrailingWhitespace",
+      "confidence": 0.95
+    },
+    {
+      "from": "stringBufferToString",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "style",
+      "to": "documentMetadataTag",
+      "confidence": 0.95
+    },
+    {
+      "from": "start",
+      "to": "toString",
+      "confidence": 0.9
+    },
+    {
+      "from": "websocket.ts",
+      "to": "onMessage",
+      "confidence": 0.5
+    },
+    {
+      "from": "parseFormData",
+      "to": "isRawRequest",
+      "confidence": 0.95
+    },
+    {
+      "from": "readContextValueIn",
+      "to": "warnIfStorelessAccess",
+      "confidence": 0.95
+    },
+    {
+      "from": "basePath",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "insertIntoHead",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "timingSafeEqualString",
+      "to": "constantTimeEqualString",
+      "confidence": 0.95
+    },
+    {
+      "from": "cors",
+      "to": "set",
+      "confidence": 0.95
+    },
+    {
+      "from": "send",
+      "to": "send",
+      "confidence": 0.95
+    },
+    {
+      "from": "verify",
+      "to": "JwtPayloadRequiresAud",
+      "confidence": 0.9
+    },
+    {
+      "from": "link",
+      "to": "documentMetadataTag",
+      "confidence": 0.95
+    },
+    {
+      "from": "getHeaders",
+      "to": "sanitizeHeaderValue",
+      "confidence": 0.95
+    },
+    {
+      "from": "index.ts",
+      "to": "HTTPException",
+      "confidence": 0.9
+    },
+    {
+      "from": "ssg.ts",
+      "to": "parseResponseContent",
+      "confidence": 0.95
+    },
+    {
+      "from": "createContext",
+      "to": "getContextValuesIn",
+      "confidence": 0.95
+    },
+    {
+      "from": "createCssContext",
+      "to": "newCssClassNameObject",
+      "confidence": 0.95
+    },
+    {
+      "from": "hydrateRoot",
+      "to": "render",
+      "confidence": 0.95
+    },
+    {
+      "from": "getNextParam",
+      "to": "skipInvalidParam",
+      "confidence": 0.95
+    },
+    {
+      "from": "isValidAttributeName",
+      "to": "cacheValidName",
+      "confidence": 0.95
+    },
+    {
+      "from": "runWithRenderContext",
+      "to": "getCurrentStore",
+      "confidence": 0.95
+    },
+    {
+      "from": "createHash",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "createResult",
+      "to": "text",
+      "confidence": 0.5
+    },
+    {
+      "from": "websocket.ts",
+      "to": "WSContext",
+      "confidence": 0.9
+    },
+    {
+      "from": "get",
+      "to": "createProxy",
+      "confidence": 0.95
+    },
+    {
+      "from": "compress",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "renderNode",
+      "to": "apply",
+      "confidence": 0.95
+    },
+    {
+      "from": "compress",
+      "to": "shouldTransform",
+      "confidence": 0.95
+    },
+    {
+      "from": "route",
+      "to": "handler",
+      "confidence": 0.95
+    },
+    {
+      "from": "buildMatcherFromPreprocessedRoutes",
+      "to": "Trie",
+      "confidence": 0.9
+    },
+    {
+      "from": "run",
+      "to": "writeSSE",
+      "confidence": 0.95
+    },
+    {
+      "from": "addClassNameToContext",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "build",
+      "to": "errorHandler",
+      "confidence": 0.5
+    },
+    {
+      "from": "jwk",
+      "to": "unauthorizedResponse",
+      "confidence": 0.95
+    },
+    {
+      "from": "ErrorBoundary",
+      "to": "renderFallback",
+      "confidence": 0.95
+    },
+    {
+      "from": "appendTrailingSlash",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "createRequest",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "applyProps",
+      "to": "normalizeFormValue",
+      "confidence": 0.95
+    },
+    {
+      "from": "useEffect",
+      "to": "useEffectCommon",
+      "confidence": 0.95
+    },
+    {
+      "from": "isValidKeyframeName",
+      "to": "isValidClassName",
+      "confidence": 0.95
+    },
+    {
+      "from": "formActionableElement",
+      "to": "newJSXNode",
+      "confidence": 0.95
+    },
+    {
+      "from": "isAllowedSecFetchSite",
+      "to": "isSecFetchSite",
+      "confidence": 0.95
+    },
+    {
+      "from": "verify",
+      "to": "JwtTokenInvalid",
+      "confidence": 0.9
+    },
+    {
+      "from": "cxCommon",
+      "to": "hasUnsafeSelectorChar",
+      "confidence": 0.95
+    },
+    {
+      "from": "joinPaths",
+      "to": "handleSegments",
+      "confidence": 0.95
+    },
+    {
+      "from": "importPrivateKey",
+      "to": "pemToBinary",
+      "confidence": 0.95
+    },
+    {
+      "from": "secureHeaders",
+      "to": "getReportToOptions",
+      "confidence": 0.95
+    },
+    {
+      "from": "ignoreTrailingWhitespace",
+      "to": "isWhitespace",
+      "confidence": 0.95
+    },
+    {
+      "from": "title",
+      "to": "JSXNode",
+      "confidence": 0.9
+    },
+    {
+      "from": "getPermissionsPolicyDirectives",
+      "to": "camelToKebab",
+      "confidence": 0.95
+    },
+    {
+      "from": "useEffectCommon",
+      "to": "isDepsChanged",
+      "confidence": 0.95
+    },
+    {
+      "from": "message",
+      "to": "onMessage",
+      "confidence": 0.5
+    },
+    {
+      "from": "build",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "hc",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "getNextParam",
+      "to": "consumeWhitespace",
+      "confidence": 0.95
+    },
+    {
+      "from": "documentMetadataTag",
+      "to": "insertIntoHead",
+      "confidence": 0.95
+    },
+    {
+      "from": "streamToNodeStream",
+      "to": "write",
+      "confidence": 0.5
+    },
+    {
+      "from": "buildRegExp",
+      "to": "buildRegExpStr",
+      "confidence": 0.9
+    },
+    {
+      "from": "getKeyAlgorithm",
+      "to": "JwtAlgorithmNotImplemented",
+      "confidence": 0.9
+    },
+    {
+      "from": "childrenToString",
+      "to": "toString",
+      "confidence": 0.9
+    },
+    {
+      "from": "constructor",
+      "to": "TrieRouter",
+      "confidence": 0.9
+    },
+    {
+      "from": "apply",
+      "to": "applyNodeObject",
+      "confidence": 0.95
+    },
+    {
+      "from": "constructor",
+      "to": "TrieRouter",
+      "confidence": 0.9
+    },
+    {
+      "from": "consumeWhitespace",
+      "to": "isWhitespace",
+      "confidence": 0.95
+    },
+    {
+      "from": "documentMetadataTag",
+      "to": "JSXNode",
+      "confidence": 0.9
+    },
+    {
+      "from": "replaceContainer",
+      "to": "replaceContainer",
+      "confidence": 0.95
+    },
+    {
+      "from": "renderFallback",
+      "to": "resolveFallbackStr",
+      "confidence": 0.95
+    },
+    {
+      "from": "time",
+      "to": "humanize",
+      "confidence": 0.95
+    },
+    {
+      "from": "verifyWithJwks",
+      "to": "JwtTokenInvalid",
+      "confidence": 0.9
+    },
+    {
+      "from": "script",
+      "to": "documentMetadataTag",
+      "confidence": 0.95
+    },
+    {
+      "from": "applyNodeObject",
+      "to": "findChildNodeIndex",
+      "confidence": 0.95
+    },
+    {
+      "from": "keyframesCommon",
+      "to": "normalizeLabel",
+      "confidence": 0.95
+    },
+    {
+      "from": "hc",
+      "to": "createProxy",
+      "confidence": 0.95
+    },
+    {
+      "from": "handleMiddleware",
+      "to": "Context",
+      "confidence": 0.9
+    },
+    {
+      "from": "proxy",
+      "to": "preprocessRequestInit",
+      "confidence": 0.95
+    },
+    {
+      "from": "handle",
+      "to": "createRequest",
+      "confidence": 0.95
+    },
+    {
+      "from": "methodOverride",
+      "to": "formData",
+      "confidence": 0.5
+    },
+    {
+      "from": "timingSafeEqual",
+      "to": "timingSafeEqualString",
+      "confidence": 0.95
+    },
+    {
+      "from": "decode",
+      "to": "JwtTokenInvalid",
+      "confidence": 0.9
+    },
+    {
+      "from": "NONCE",
+      "to": "generateNonce",
+      "confidence": 0.95
+    },
+    {
+      "from": "createResult",
+      "to": "convertHeaders",
+      "confidence": 0.95
+    },
+    {
+      "from": "splitRoutingPath",
+      "to": "replaceGroupMarks",
+      "confidence": 0.95
+    },
+    {
+      "from": "toStringToBuffer",
+      "to": "toString",
+      "confidence": 0.95
+    },
+    {
+      "from": "createRequest",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "insertRule",
+      "to": "findStyleSheet",
+      "confidence": 0.95
+    },
+    {
+      "from": "returnWithoutSpecialBehavior",
+      "to": "toString",
+      "confidence": 0.9
+    },
+    {
+      "from": "except",
+      "to": "TrieRouter",
+      "confidence": 0.9
+    },
+    {
+      "from": "applyNodeObject",
+      "to": "applySelectValue",
+      "confidence": 0.95
+    },
+    {
+      "from": "captureRenderContext",
+      "to": "resumeWithContextValues",
+      "confidence": 0.95
+    },
+    {
+      "from": "handler.ts",
+      "to": "ALBProcessor",
+      "confidence": 0.95
+    },
+    {
+      "from": "createRequest",
+      "to": "getDomainName",
+      "confidence": 0.95
+    },
+    {
+      "from": "decodeHeader",
+      "to": "JwtTokenInvalid",
+      "confidence": 0.9
+    },
+    {
+      "from": "throwHTTPException",
+      "to": "HTTPException",
+      "confidence": 0.9
+    },
+    {
+      "from": "add",
+      "to": "add",
+      "confidence": 0.95
+    },
+    {
+      "from": "getCookies",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "except",
+      "to": "handler",
+      "confidence": 0.5
+    },
+    {
+      "from": "captureContextValues",
+      "to": "readContextValueIn",
+      "confidence": 0.95
+    },
+    {
+      "from": "write",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "applyProps",
+      "to": "toAttributeName",
+      "confidence": 0.95
+    },
+    {
+      "from": "useLayoutEffect",
+      "to": "useEffectCommon",
+      "confidence": 0.95
+    },
+    {
+      "from": "deepMerge",
+      "to": "deepMerge",
+      "confidence": 0.95
+    },
+    {
+      "from": "render",
+      "to": "toString",
+      "confidence": 0.95
+    },
+    {
+      "from": "websocket.ts",
+      "to": "onMessage",
+      "confidence": 0.5
+    },
+    {
+      "from": "csrf",
+      "to": "isAllowedSecFetchSite",
+      "confidence": 0.95
+    },
+    {
+      "from": "resolveChildEarly",
+      "to": "toString",
+      "confidence": 0.9
+    },
+    {
+      "from": "errorHandler",
+      "to": "getResponse",
+      "confidence": 0.5
+    },
+    {
+      "from": "showRoutes",
+      "to": "getColorEnabled",
+      "confidence": 0.9
+    },
+    {
+      "from": "handler.ts",
+      "to": "LatticeV2Processor",
+      "confidence": 0.95
+    },
+    {
+      "from": "splitRoutingPath",
+      "to": "extractGroupsFromPath",
+      "confidence": 0.95
+    },
+    {
+      "from": "handleSegments",
+      "to": "handleNonDot",
+      "confidence": 0.95
+    },
+    {
+      "from": "useInsertionEffect",
+      "to": "useEffectCommon",
+      "confidence": 0.95
+    },
+    {
+      "from": "res",
+      "to": "createResponseInstance",
+      "confidence": 0.95
+    },
+    {
+      "from": "toStringToBuffer",
+      "to": "toSVGAttributeName",
+      "confidence": 0.95
+    },
+    {
+      "from": "build",
+      "to": "isNodeString",
+      "confidence": 0.95
+    },
+    {
+      "from": "getContent",
+      "to": "open",
+      "confidence": 0.5
+    },
+    {
+      "from": "cx",
+      "to": "css",
+      "confidence": 0.95
+    },
+    {
+      "from": "getContent",
+      "to": "isDir",
+      "confidence": 0.95
+    },
+    {
+      "from": "convertFormDataToBodyData",
+      "to": "handleParsingNestedValues",
+      "confidence": 0.95
+    },
+    {
+      "from": "applyNodeObject",
+      "to": "getNextChildren",
+      "confidence": 0.95
+    },
+    {
+      "from": "signing",
+      "to": "getKeyAlgorithm",
+      "confidence": 0.95
+    },
+    {
+      "from": "applySelectValue",
+      "to": "normalizeFormValue",
+      "confidence": 0.95
+    },
+    {
+      "from": "mergeBuffers",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "resumeWithContextValues",
+      "to": "popContextValues",
+      "confidence": 0.95
+    },
+    {
+      "from": "res",
+      "to": "setDefaultContentType",
+      "confidence": 0.95
+    },
+    {
+      "from": "getNextAcceptValue",
+      "to": "consumeWhitespace",
+      "confidence": 0.95
+    },
+    {
+      "from": "documentMetadataTag",
+      "to": "toString",
+      "confidence": 0.9
+    },
+    {
+      "from": "parseFormData",
+      "to": "convertFormDataToBodyData",
+      "confidence": 0.95
+    },
+    {
+      "from": "parseResponseContent",
+      "to": "arrayBuffer",
+      "confidence": 0.5
+    },
+    {
+      "from": "verifyWithJwks",
+      "to": "isTokenHeader",
+      "confidence": 0.95
+    },
+    {
+      "from": "build",
+      "to": "fallbackUpdateFn",
+      "confidence": 0.95
+    },
+    {
+      "from": "buildInitParams",
+      "to": "add",
+      "confidence": 0.95
+    },
+    {
+      "from": "renderFallback",
+      "to": "getResume",
+      "confidence": 0.95
+    },
+    {
+      "from": "verify",
+      "to": "verifying",
+      "confidence": 0.9
+    },
+    {
+      "from": "startTransitionHook",
+      "to": "runCallback",
+      "confidence": 0.95
+    },
+    {
+      "from": "cloneRawRequest",
+      "to": "HTTPException",
+      "confidence": 0.9
+    },
+    {
+      "from": "jsxFn",
+      "to": "JSXFunctionNode",
+      "confidence": 0.95
+    },
+    {
+      "from": "getNextAcceptValue",
+      "to": "getNextParam",
+      "confidence": 0.95
+    },
+    {
+      "from": "convertIPv6ToBinary",
+      "to": "parseIPv6HexCode",
+      "confidence": 0.95
+    },
+    {
+      "from": "renderToString",
+      "to": "toString",
+      "confidence": 0.9
+    },
+    {
+      "from": "start",
+      "to": "close",
+      "confidence": 0.5
+    },
+    {
+      "from": "applyProps",
+      "to": "getEventSpec",
+      "confidence": 0.95
+    },
+    {
+      "from": "startTransition",
+      "to": "runCallback",
+      "confidence": 0.95
+    },
+    {
+      "from": "languageDetector",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "getContentFromKVAsset",
+      "to": "get",
+      "confidence": 0.5
+    },
+    {
+      "from": "getNextChildren",
+      "to": "isNodeString",
+      "confidence": 0.95
+    },
+    {
+      "from": "verifyWithJwks",
+      "to": "JwtAlgorithmNotAllowed",
+      "confidence": 0.9
+    },
+    {
+      "from": "main",
+      "to": "toKebabCase",
+      "confidence": 0.95
+    },
+    {
+      "from": "title",
+      "to": "documentMetadataTag",
+      "confidence": 0.95
+    },
+    {
+      "from": "hc",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "getNextAcceptValue",
+      "to": "ignoreTrailingWhitespace",
+      "confidence": 0.95
+    },
+    {
+      "from": "script",
+      "to": "returnWithoutSpecialBehavior",
+      "confidence": 0.95
+    },
+    {
+      "from": "Fragment",
+      "to": "JSXFragmentNode",
+      "confidence": 0.95
+    },
+    {
+      "from": "generateRedirectHtml",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "createWSContext",
+      "to": "send",
+      "confidence": 0.9
+    },
+    {
+      "from": "streamSSE",
+      "to": "SSEStreamingApi",
+      "confidence": 0.95
+    },
+    {
+      "from": "update",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "detectFromQuery",
+      "to": "query",
+      "confidence": 0.5
+    },
+    {
+      "from": "verify",
+      "to": "JwtTokenNotBefore",
+      "confidence": 0.9
+    },
+    {
+      "from": "parseResponseContent",
+      "to": "text",
+      "confidence": 0.5
+    },
+    {
+      "from": "detectLanguage",
+      "to": "cacheLanguage",
+      "confidence": 0.95
+    },
+    {
+      "from": "resolveFallbackStr",
+      "to": "getResume",
+      "confidence": 0.95
+    },
+    {
+      "from": "constructor",
+      "to": "Node",
+      "confidence": 0.9
+    },
+    {
+      "from": "cors",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "convertIPv4ToBinary",
+      "to": "throwInvalidIPv4Address",
+      "confidence": 0.95
+    },
+    {
+      "from": "stream",
+      "to": "close",
+      "confidence": 0.9
+    },
+    {
+      "from": "endTime",
+      "to": "getTime",
+      "confidence": 0.95
+    },
+    {
+      "from": "verify",
+      "to": "JwtTokenIssuedAt",
+      "confidence": 0.9
+    },
+    {
+      "from": "createRequest",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "runWithRenderContext",
+      "to": "loadAsyncLocalStorage",
+      "confidence": 0.95
+    },
+    {
+      "from": "toString",
+      "to": "insertRule",
+      "confidence": 0.95
+    },
+    {
+      "from": "requestId",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "parseAccept",
+      "to": "getNextAcceptValue",
+      "confidence": 0.95
+    },
+    {
+      "from": "jwk",
+      "to": "HTTPException",
+      "confidence": 0.9
+    },
+    {
+      "from": "getContextValuesIn",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "add",
+      "to": "buildWildcardRegExp",
+      "confidence": 0.95
+    },
+    {
+      "from": "setHeaders",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "convertIPv6ToBinary",
+      "to": "throwInvalidIPv6Address",
+      "confidence": 0.95
+    },
+    {
+      "from": "context.ts",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "returnWithoutSpecialBehavior",
+      "to": "JSXNode",
+      "confidence": 0.9
+    },
+    {
+      "from": "verify",
+      "to": "JwtTokenAudience",
+      "confidence": 0.9
+    },
+    {
+      "from": "fetchRP",
+      "to": "detectResponseType",
+      "confidence": 0.95
+    },
+    {
+      "from": "buildRequestInitFromRequest",
+      "to": "HTTPException",
+      "confidence": 0.9
+    },
+    {
+      "from": "input",
+      "to": "formActionableElement",
+      "confidence": 0.95
+    },
+    {
+      "from": "form",
+      "to": "newJSXNode",
+      "confidence": 0.95
+    },
+    {
+      "from": "res",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "set",
+      "to": "set",
+      "confidence": 0.95
+    },
+    {
+      "from": "update",
+      "to": "updateSync",
+      "confidence": 0.95
+    },
+    {
+      "from": "jsxAttr",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "jwk",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "shouldSkipCache",
+      "to": "shouldSkipCacheControl",
+      "confidence": 0.95
+    },
+    {
+      "from": "etagMatches",
+      "to": "stripWeak",
+      "confidence": 0.95
+    },
+    {
+      "from": "handleSegments",
+      "to": "handleParent",
+      "confidence": 0.95
+    },
+    {
+      "from": "writeln",
+      "to": "write",
+      "confidence": 0.95
+    },
+    {
+      "from": "trimTrailingSlash",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "parseSigned",
+      "to": "verifySignature",
+      "confidence": 0.95
+    },
+    {
+      "from": "appendStyle",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "serializeSigned",
+      "to": "makeSignature",
+      "confidence": 0.95
+    },
+    {
+      "from": "poweredBy",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "redirectPlugin",
+      "to": "generateRedirectHtml",
+      "confidence": 0.95
+    },
+    {
+      "from": "toStringToBuffer",
+      "to": "childrenToStringToBuffer",
+      "confidence": 0.95
+    },
+    {
+      "from": "resolveFallbackStr",
+      "to": "toString",
+      "confidence": 0.9
+    },
+    {
+      "from": "applyNodeObject",
+      "to": "isNodeString",
+      "confidence": 0.95
+    },
+    {
+      "from": "insert",
+      "to": "Node",
+      "confidence": 0.95
+    },
+    {
+      "from": "timing",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "isValidTagName",
+      "to": "cacheValidName",
+      "confidence": 0.95
+    },
+    {
+      "from": "buildMatcherFromPreprocessedRoutes",
+      "to": "UnsupportedPathError",
+      "confidence": 0.9
+    },
+    {
+      "from": "constructor",
+      "to": "PatternRouter",
+      "confidence": 0.9
+    },
+    {
+      "from": "generateDigest",
+      "to": "mergeBuffers",
+      "confidence": 0.95
+    },
+    {
+      "from": "meta",
+      "to": "documentMetadataTag",
+      "confidence": 0.95
+    },
+    {
+      "from": "build",
+      "to": "invokeTag",
+      "confidence": 0.95
+    },
+    {
+      "from": "renderFallback",
+      "to": "toString",
+      "confidence": 0.9
+    },
+    {
+      "from": "parseBody",
+      "to": "parseFormData",
+      "confidence": 0.95
+    },
+    {
+      "from": "verify",
+      "to": "JwtTokenIssuer",
+      "confidence": 0.9
+    },
+    {
+      "from": "button",
+      "to": "formActionableElement",
+      "confidence": 0.95
+    },
+    {
+      "from": "getProcessor",
+      "to": "isLatticeEventV2",
+      "confidence": 0.95
+    },
+    {
+      "from": "serialize",
+      "to": "_serialize",
+      "confidence": 0.95
+    },
+    {
+      "from": "buildMatcher",
+      "to": "parseCidrPrefix",
+      "confidence": 0.95
+    },
+    {
+      "from": "_getQueryParam",
+      "to": "_decodeURI",
+      "confidence": 0.95
+    },
+    {
+      "from": "verify",
+      "to": "JwtAlgorithmMismatch",
+      "confidence": 0.9
+    },
+    {
+      "from": "index.ts",
+      "to": "getColorEnabledAsync",
+      "confidence": 0.9
+    },
+    {
+      "from": "route",
+      "to": "basePath",
+      "confidence": 0.95
+    },
+    {
+      "from": "colorStatus",
+      "to": "getColorEnabledAsync",
+      "confidence": 0.9
+    },
+    {
+      "from": "getProcessor",
+      "to": "isProxyEventALB",
+      "confidence": 0.95
+    },
+    {
+      "from": "styleObjectForEach",
+      "to": "hasUnsafeStyleValue",
+      "confidence": 0.95
+    },
+    {
+      "from": "proxy",
+      "to": "buildRequestInitFromRequest",
+      "confidence": 0.95
+    },
+    {
+      "from": "index.ts",
+      "to": "get",
+      "confidence": 0.5
+    },
+    {
+      "from": "parseResponse",
+      "to": "fetchRP",
+      "confidence": 0.9
+    },
+    {
+      "from": "title",
+      "to": "documentMetadataTag",
+      "confidence": 0.95
+    },
+    {
+      "from": "methodOverride",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "parse",
+      "to": "trimCookieWhitespace",
+      "confidence": 0.95
+    },
+    {
+      "from": "jwt",
+      "to": "HTTPException",
+      "confidence": 0.9
+    },
+    {
+      "from": "verifyWithJwks",
+      "to": "JwtSymmetricAlgorithmNotAllowed",
+      "confidence": 0.9
+    },
+    {
+      "from": "createContext",
+      "to": "getCurrentStore",
+      "confidence": 0.95
+    },
+    {
+      "from": "createResult",
+      "to": "toString",
+      "confidence": 0.5
+    },
+    {
+      "from": "useContext",
+      "to": "getCurrentStore",
+      "confidence": 0.95
+    },
+    {
+      "from": "styleObjectForEach",
+      "to": "isValidStylePropertyName",
+      "confidence": 0.95
+    },
+    {
+      "from": "parseSigned",
+      "to": "getCryptoKey",
+      "confidence": 0.95
+    },
+    {
+      "from": "parseFormData",
+      "to": "arrayBuffer",
+      "confidence": 0.9
+    },
+    {
+      "from": "script",
+      "to": "documentMetadataTag",
+      "confidence": 0.95
+    },
+    {
+      "from": "makeSignature",
+      "to": "getCryptoKey",
+      "confidence": 0.95
+    },
+    {
+      "from": "stream",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "newJSXNode",
+      "to": "JSXNode",
+      "confidence": 0.9
+    },
+    {
+      "from": "buildAndExportAllMatchers",
+      "to": "buildAllMatchers",
+      "confidence": 0.95
+    },
+    {
+      "from": "decodeHeader",
+      "to": "decodeJwtPart",
+      "confidence": 0.95
+    },
+    {
+      "from": "_serialize",
+      "to": "getTime",
+      "confidence": 0.5
+    },
+    {
+      "from": "useMemo",
+      "to": "isDepsChanged",
+      "confidence": 0.95
+    },
+    {
+      "from": "style",
+      "to": "documentMetadataTag",
+      "confidence": 0.95
+    },
+    {
+      "from": "createResult",
+      "to": "arrayBuffer",
+      "confidence": 0.5
+    },
+    {
+      "from": "use",
+      "to": "set",
+      "confidence": 0.5
+    },
+    {
+      "from": "insertRule",
+      "to": "insertRule",
+      "confidence": 0.95
+    },
+    {
+      "from": "secureHeaders",
+      "to": "getPermissionsPolicyDirectives",
+      "confidence": 0.95
+    }
+  ]
+}

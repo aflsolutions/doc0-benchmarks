@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "peer": "zread",
+  "repo": "honojs/hono",
+  "base_url": "https://zread.ai/honojs/hono",
+  "scored_at": "2026-06-25",
+  "pages": [
+    {
+      "slug": "01-overview",
+      "title": "Overview",
+      "url": "https://zread.ai/honojs/hono/1-overview",
+      "sha256": "5dd7fa46717c9101a12f2a54fe7ff294c64c866771ee019086aa324a8aadfe95"
+    },
+    {
+      "slug": "02-quick-start",
+      "title": "Quick Start",
+      "url": "https://zread.ai/honojs/hono/2-quick-start",
+      "sha256": "a5a4ad93de1970938af8f27b27da03e06b9515cb02d8d6df51023c7e01826c14"
+    },
+    {
+      "slug": "03-multi-runtime-deployment",
+      "title": "Multi-Runtime Deployment",
+      "url": "https://zread.ai/honojs/hono/3-multi-runtime-deployment",
+      "sha256": "ff67e6b9c103b96ccb495bc92dfb1fc2484d67cb2700019da7bf817244760be0"
+    },
+    {
+      "slug": "04-latest-updates",
+      "title": "Latest Updates",
+      "url": "https://zread.ai/honojs/hono/4-latest-updates",
+      "sha256": "d707769d9a066e3c945a5c4753aa5997fba77aea50c0a354d0af9c756f6d1c63"
+    },
+    {
+      "slug": "05-issues-and-feedback",
+      "title": "Issues and Feedback",
+      "url": "https://zread.ai/honojs/hono/5-issues-and-feedback",
+      "sha256": "90e9e186328bf81d4ecfc465da7a4684f467cf78a9d6943d051e94c11f48583e"
+    },
+    {
+      "slug": "06-about-contributors",
+      "title": "About Contributors",
+      "url": "https://zread.ai/honojs/hono/6-about-contributors",
+      "sha256": "e056963fa0f120e93d1f15a8fc1894fc7cbd01877c85e33250d162a0b20449b9"
+    },
+    {
+      "slug": "07-architecture-overview",
+      "title": "Architecture Overview",
+      "url": "https://zread.ai/honojs/hono/7-architecture-overview",
+      "sha256": "ab0f239904a7108cb6707674dee33eedb6fbe118c18e723a4c79b28db2fb1521"
+    },
+    {
+      "slug": "08-app-instance-and-routing",
+      "title": "App Instance and Routing",
+      "url": "https://zread.ai/honojs/hono/8-app-instance-and-routing",
+      "sha256": "c93721fc72c01fe9f03e16e803758bbbe453971cfe69dbfddef4961b284fc8c6"
+    },
+    {
+      "slug": "09-context-and-request-handling",
+      "title": "Context and Request Handling",
+      "url": "https://zread.ai/honojs/hono/9-context-and-request-handling",
+      "sha256": "0a4cbf5a16f40ca322c13da0e6cff40dddc17cc509864720cefc1cd3a8d3b53d"
+    },
+    {
+      "slug": "10-middleware-composition-pipeline",
+      "title": "Middleware Composition Pipeline",
+      "url": "https://zread.ai/honojs/hono/10-middleware-composition-pipeline",
+      "sha256": "c9e425fdb6a3aba1ea1673b58fe801656a72075b97ba344aef2ea3ba4536e498"
+    },
+    {
+      "slug": "11-smart-router-strategy",
+      "title": "Smart Router Strategy",
+      "url": "https://zread.ai/honojs/hono/11-smart-router-strategy",
+      "sha256": "35d9f4d6ab541f4f1132dfa9129611f9e454a7189c1324be6c9bb017f0326ff2"
+    },
+    {
+      "slug": "12-regexprouter-and-trierouter",
+      "title": "RegExpRouter and TrieRouter",
+      "url": "https://zread.ai/honojs/hono/12-regexprouter-and-trierouter",
+      "sha256": "b385302f7de930921f398a91ce57a1155f43638ba12ddcda8baf1418ae4e3179"
+    },
+    {
+      "slug": "13-route-patterns-and-parameters",
+      "title": "Route Patterns and Parameters",
+      "url": "https://zread.ai/honojs/hono/13-route-patterns-and-parameters",
+      "sha256": "66ce02200718e7ef3a170f7ee03c06450f6d845c7acc4a46c10090cbcb718be9"
+    },
+    {
+      "slug": "14-type-safe-handler-interfaces",
+      "title": "Type-Safe Handler Interfaces",
+      "url": "https://zread.ai/honojs/hono/14-type-safe-handler-interfaces",
+      "sha256": "800b6756beb9126dced02a5b4da16dafd44c74fbdd0a2ee3a084d8d8193b78a2"
+    },
+    {
+      "slug": "15-validator-middleware",
+      "title": "Validator Middleware",
+      "url": "https://zread.ai/honojs/hono/15-validator-middleware",
+      "sha256": "34f8e18a0b6cd9062c415ef91fc4a50f8269b838bb0a2ec4d33a3d58894a5eb5"
+    },
+    {
+      "slug": "16-schema-type-inference",
+      "title": "Schema Type Inference",
+      "url": "https://zread.ai/honojs/hono/16-schema-type-inference",
+      "sha256": "46037ba29f747823e8dce8a5681029fa17d051a6e03944358870e73bb771bf73"
+    },
+    {
+      "slug": "17-cloudflare-workers-adapter",
+      "title": "Cloudflare Workers Adapter",
+      "url": "https://zread.ai/honojs/hono/17-cloudflare-workers-adapter",
+      "sha256": "baf3960c4be004710fee7462b2679e92aaf7389898d7efcd439b38d78d638ed9"
+    },
+    {
+      "slug": "18-node-js-and-bun-adapters",
+      "title": "Node.js and Bun Adapters",
+      "url": "https://zread.ai/honojs/hono/18-node-js-and-bun-adapters",
+      "sha256": "94ac8293d92aff930a08ebb6e1d19f826c46e3f2fc6c20971ea2717d05046ae2"
+    },
+    {
+      "slug": "19-aws-lambda-and-vercel-adapters",
+      "title": "AWS Lambda and Vercel Adapters",
+      "url": "https://zread.ai/honojs/hono/19-aws-lambda-and-vercel-adapters",
+      "sha256": "c57cd503aba572bff44c93ced6b154aad11e6a53c114e552ac1d85a1f90f7860"
+    },
+    {
+      "slug": "20-jsx-runtime-and-rendering",
+      "title": "JSX Runtime and Rendering",
+      "url": "https://zread.ai/honojs/hono/20-jsx-runtime-and-rendering",
+      "sha256": "714a7e7f656add29ddb13bd559a4e7575971f3a292261747a2e3ec16dc279189"
+    },
+    {
+      "slug": "21-streaming-ssr-and-suspense",
+      "title": "Streaming SSR and Suspense",
+      "url": "https://zread.ai/honojs/hono/21-streaming-ssr-and-suspense",
+      "sha256": "a5ef5a2de18a9e7294eaac31c15b776b54deae7badbd0927cd5eb2fad398c275"
+    },
+    {
+      "slug": "22-jsx-components-and-fragments",
+      "title": "JSX Components and Fragments",
+      "url": "https://zread.ai/honojs/hono/22-jsx-components-and-fragments",
+      "sha256": "118acc21024dd445b5b1f4aab4499634c8da357d80af03e0334d08f4535cb016"
+    },
+    {
+      "slug": "23-cors-and-auth-middleware",
+      "title": "CORS and Auth Middleware",
+      "url": "https://zread.ai/honojs/hono/23-cors-and-auth-middleware",
+      "sha256": "429d2e2890b62b9d05a62301854362a177768b14c8a4c29d145c9165c7698a26"
+    },
+    {
+      "slug": "24-jwt-and-security-middleware",
+      "title": "JWT and Security Middleware",
+      "url": "https://zread.ai/honojs/hono/24-jwt-and-security-middleware",
+      "sha256": "1a85a9b26ee0cf2c1349cc6f0474d04185af3ad78a03fbda21027e7526b22bf4"
+    },
+    {
+      "slug": "25-performance-middleware",
+      "title": "Performance Middleware",
+      "url": "https://zread.ai/honojs/hono/25-performance-middleware",
+      "sha256": "adf85360e11ceaef5156b1bd48233a9876ab4d5d8a9b5113c8b56ba44ee0fb27"
+    },
+    {
+      "slug": "26-logger-and-utility-middleware",
+      "title": "Logger and Utility Middleware",
+      "url": "https://zread.ai/honojs/hono/26-logger-and-utility-middleware",
+      "sha256": "ff052a6d8b88104315b16d3534b1dd25a5e525c08ad604590478460ef7b15c33"
+    },
+    {
+      "slug": "27-type-safe-rpc-client",
+      "title": "Type-Safe RPC Client",
+      "url": "https://zread.ai/honojs/hono/27-type-safe-rpc-client",
+      "sha256": "f011efaf3ab35c13566b843e522a262bc3d6934d58b84a3f773cb5e3cdc997e6"
+    },
+    {
+      "slug": "28-proxy-based-api-generation",
+      "title": "Proxy-Based API Generation",
+      "url": "https://zread.ai/honojs/hono/28-proxy-based-api-generation",
+      "sha256": "2a2f588fbd747b47055c20fbfe3838d39f19c33f5f73dcc7975fcae2b6a1d1e7"
+    },
+    {
+      "slug": "29-ssg-and-static-site-generation",
+      "title": "SSG and Static Site Generation",
+      "url": "https://zread.ai/honojs/hono/29-ssg-and-static-site-generation",
+      "sha256": "8aa57d140bf3c93d2d74dddd858bd5839ec846b4a3c6070500155b5b227de7bf"
+    },
+    {
+      "slug": "30-websocket-support",
+      "title": "WebSocket Support",
+      "url": "https://zread.ai/honojs/hono/30-websocket-support",
+      "sha256": "f7d1c7d25edf5159c3e716757bf944b32ea6cdb17ece6e2ae941e470533e660e"
+    },
+    {
+      "slug": "31-streaming-and-sse-helpers",
+      "title": "Streaming and SSE Helpers",
+      "url": "https://zread.ai/honojs/hono/31-streaming-and-sse-helpers",
+      "sha256": "f1cf40082fea497c205f0fbe38e95cf75dbc0dc45bcc3d70c80d0a29cbce795d"
+    }
+  ],
+  "_description": "zread.ai-generated reference wiki for honojs/hono, gathered 2026-06-25 for the T4b hono corpus (zread.ai/honojs/hono)."
+}
