@@ -3,7 +3,7 @@
   "peer": "zread",
   "repo": "redis/redis",
   "base_url": "https://zread.ai/redis/redis",
-  "scored_at": "2026-06-27",
+  "scored_at": "2026-07-12",
   "pages": [
     {
       "slug": "01-overview",

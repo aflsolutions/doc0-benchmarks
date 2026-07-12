@@ -3,283 +3,283 @@
   "peer": "deepwiki",
   "repo": "honojs/hono",
   "base_url": "https://deepwiki.com/honojs/hono",
-  "scored_at": "2026-06-25",
+  "scored_at": "2026-07-12",
   "pages": [
     {
       "slug": "00-overview",
       "title": "Overview",
       "url": "https://deepwiki.com/honojs/hono/1-overview",
-      "sha256": "37c685a4195cb56dc3ee2c9426fb8c3fbd01895fa57d1a120744fc23e0cd0674"
+      "sha256": "c5e530325728d7a42ae8eaea0f136d825ed3e3091ca19917bf29925695150929"
     },
     {
       "slug": "01-package-structure-and-module-exports",
       "title": "Package Structure and Module Exports",
       "url": "https://deepwiki.com/honojs/hono/1.1-package-structure-and-module-exports",
-      "sha256": "a5db70f5f750ec3e6d273eca45ee3afdd056ca8bcc14301df75cb4ba7beaee57"
+      "sha256": "a24d61f95e67cd7c0400b24843d933cdf3cf2abe936248ceebe946f510bcf5ed"
     },
     {
       "slug": "02-multi-runtime-architecture-and-web-standards",
       "title": "Multi-Runtime Architecture and Web Standards",
       "url": "https://deepwiki.com/honojs/hono/1.2-multi-runtime-architecture-and-web-standards",
-      "sha256": "3e475692023d4465777d4ba6ffe948db7d15346d23c0bb1072947c75ff01b2ee"
+      "sha256": "4bd1b86238765430a0c7b692d443be432a02224a2a3f31a8501ba134af2f0297"
     },
     {
       "slug": "03-build-system-and-distribution",
       "title": "Build System and Distribution",
       "url": "https://deepwiki.com/honojs/hono/1.3-build-system-and-distribution",
-      "sha256": "78258189352e68f02cc1249a51d47348a7e321402d62417fd9a974837e21b7d1"
+      "sha256": "217838a75127a9a38af177b7385b216ca1a6bc6f4e575fefdf994776eb6bf845"
     },
     {
       "slug": "04-testing-and-ci-cd-infrastructure",
       "title": "Testing and CI/CD Infrastructure",
       "url": "https://deepwiki.com/honojs/hono/1.4-testing-and-cicd-infrastructure",
-      "sha256": "f7ae102879b415bb2009961a012edc3b8eb0f2fc23111bea602be25bc95fbb04"
+      "sha256": "8d72c21eb04f3749b6edaa9d764807a81b5542bb16d89d36bcc21cfe94a7de12"
     },
     {
       "slug": "05-core-framework",
       "title": "Core Framework",
       "url": "https://deepwiki.com/honojs/hono/2-core-framework",
-      "sha256": "7c7a0cb2ee4853ff5dfbb89d3c8bfbc65d7c402d89970790a07e6c962eaacfae"
+      "sha256": "2fb54183fd7cef0087512b0fde3a346bd806b5a9dddf517af02e3338ff3074db"
     },
     {
       "slug": "06-hono-application-class-and-honobase",
       "title": "Hono Application Class and HonoBase",
       "url": "https://deepwiki.com/honojs/hono/2.1-hono-application-class-and-honobase",
-      "sha256": "8280c71dd7079e77d93be5c10de13b97ea070208dc1fa030aac000ca8d1e730f"
+      "sha256": "32606b68abfff86bced614371f0409b15841b30ebfcfb3e7b1c774c004debc30"
     },
     {
       "slug": "07-context-object",
       "title": "Context Object",
       "url": "https://deepwiki.com/honojs/hono/2.2-context-object",
-      "sha256": "2828e5487037dcb50f2697a7ad56b42ca7080d1a4b8ee9edb261a5906cde6989"
+      "sha256": "57fe80a5c81ee24bf0158e8b2ac4c3983ebb9a07750db08b4f111f5984ddf3ac"
     },
     {
       "slug": "08-honorequest-and-request-parsing",
       "title": "HonoRequest and Request Parsing",
       "url": "https://deepwiki.com/honojs/hono/2.3-honorequest-and-request-parsing",
-      "sha256": "c1478712e2c7973509034719089406378ca3486fc896cea4f26cf2a5ef3ae5bc"
+      "sha256": "f83d0382b40ea188e39035bf93ede620c19e6666710319e66481fbf88f782043"
     },
     {
       "slug": "09-middleware-composition-and-execution",
       "title": "Middleware Composition and Execution",
       "url": "https://deepwiki.com/honojs/hono/2.4-middleware-composition-and-execution",
-      "sha256": "3fb9af7f2b24d79235f860713ab18d37869ab27b5f6d02b723170d24f54c0a9b"
+      "sha256": "9541ee36ba9ba021ee842614c679f0b7faf2484afe46c17ac2cb458d198a0c91"
     },
     {
       "slug": "10-type-system-and-end-to-end-type-safety",
       "title": "Type System and End-to-End Type Safety",
       "url": "https://deepwiki.com/honojs/hono/2.5-type-system-and-end-to-end-type-safety",
-      "sha256": "ffd412da56051e27b4fc5e6672893eb41f88fd052ce8e30ff4be2517e08bdd85"
+      "sha256": "cf4207d25ea25f939bfd8edaab3ea4ffbb78af982e02e9f7ff443574c757deae"
     },
     {
       "slug": "11-routing-system",
       "title": "Routing System",
       "url": "https://deepwiki.com/honojs/hono/3-routing-system",
-      "sha256": "9fa28b47a90f975e131b5e2f2e98522254cedaafceefd8be9fb1ae606ea4c3a4"
+      "sha256": "813a5fbb803e43b1050397829fbe56d671bf603ee1b354ca49f86a0ffe8770ed"
     },
     {
       "slug": "12-router-architecture-and-smartrouter",
       "title": "Router Architecture and SmartRouter",
       "url": "https://deepwiki.com/honojs/hono/3.1-router-architecture-and-smartrouter",
-      "sha256": "a7f8eda1e9717d4fd874f5339264129cb328e02c9dbe714741a4735a028a4bdc"
+      "sha256": "e7e275065d6f5ae228865d5d1ac6661e96b37ea7bae5f1e1ce076f9d75dac433"
     },
     {
       "slug": "13-trierouter-implementation",
       "title": "TrieRouter Implementation",
       "url": "https://deepwiki.com/honojs/hono/3.2-trierouter-implementation",
-      "sha256": "03bbe3806e64a8ecbf23dc23b490e42e3d6b28c95bfb13ffd698b096cd7149ba"
+      "sha256": "099f6f15bf133987170914ecdd6829be7f5af7722b08cc50156426e45d07624b"
     },
     {
       "slug": "14-regexprouter-implementation",
       "title": "RegExpRouter Implementation",
       "url": "https://deepwiki.com/honojs/hono/3.3-regexprouter-implementation",
-      "sha256": "13cf277506bff3d75dfd59f28b6981f8139d46e146c3a5798c75c5444d24c1ae"
+      "sha256": "fe8a11804a8ac53a2c2d5b8519fc108b7735dca2e0d1b4af67c8591664744d1d"
     },
     {
       "slug": "15-patternrouter-and-linearrouter",
       "title": "PatternRouter and LinearRouter",
       "url": "https://deepwiki.com/honojs/hono/3.4-patternrouter-and-linearrouter",
-      "sha256": "bb53531a3d852cf82021c6625825949ca3b44740723cc535a4dd455bd58dfe42"
+      "sha256": "d7a049c7d58acb7e958dc7381a5e0d2c0800059ef03c55dfcd377379602c990e"
     },
     {
       "slug": "16-url-and-path-processing-utilities",
       "title": "URL and Path Processing Utilities",
       "url": "https://deepwiki.com/honojs/hono/3.5-url-and-path-processing-utilities",
-      "sha256": "c9d20a49253d01192d1290af361a39c54d2d8479857ffd5df90451fc24b71e64"
+      "sha256": "a2b7797dc57a40aed1fc2a1a965ab20845cd4305d962695bf3aa9ff5aec4018a"
     },
     {
       "slug": "17-request-validation",
       "title": "Request Validation",
       "url": "https://deepwiki.com/honojs/hono/4-request-validation",
-      "sha256": "75f6e9751f884dde2d6360624efdeee98d26fb1c34fea31ab8d922167c753657"
+      "sha256": "795a2b910f301594d478273d246834a7b6b35b90be237f121d40700b63862d89"
     },
     {
       "slug": "18-validator-middleware-system",
       "title": "Validator Middleware System",
       "url": "https://deepwiki.com/honojs/hono/4.1-validator-middleware-system",
-      "sha256": "a18aaacc69d940a068d608e5f5101ae4e81c1093545bd832450fa02922f3087a"
+      "sha256": "dad50184867ba3d30925d60beb3cf9470f7170119f092ac01f69487d034b7c0b"
     },
     {
       "slug": "19-body-parsing-and-caching-strategy",
       "title": "Body Parsing and Caching Strategy",
       "url": "https://deepwiki.com/honojs/hono/4.2-body-parsing-and-caching-strategy",
-      "sha256": "4f881587ad35ad12613be6cfed052e99abfc2a208422d5eaf12c2b68a4278f4c"
+      "sha256": "ee36cbf7d57205d377b5723c7b0f05bd2a5d8e4ca345229f64caf7f28f7e9a58"
     },
     {
       "slug": "20-type-safe-http-client-hc",
       "title": "Type-Safe HTTP Client (hc)",
       "url": "https://deepwiki.com/honojs/hono/5-type-safe-http-client-(hc)",
-      "sha256": "c298c7f763bb87237b33ffb4cedadab45926bd50f3abc3d169b795336fed7e5f"
+      "sha256": "802b50039b7b1646b99ba1d9926289e6d1910783e4f9a5eb6ed454e17bd33aaa"
     },
     {
       "slug": "21-client-architecture-and-proxy-system",
       "title": "Client Architecture and Proxy System",
       "url": "https://deepwiki.com/honojs/hono/5.1-client-architecture-and-proxy-system",
-      "sha256": "23f0dfa85ad5efa7a8de8a2cba0309ab20188f381b333b0d498bb1b52a04bdad"
+      "sha256": "fe66f4bcbe9734db6bba73b16f604caed509eff0c2ff822d005d79d697a5c6d0"
     },
     {
       "slug": "22-request-building-and-execution",
       "title": "Request Building and Execution",
       "url": "https://deepwiki.com/honojs/hono/5.2-request-building-and-execution",
-      "sha256": "1deddf2db366d9d645796126eaf4e7620f6eff5a33b0f85abc3231bc44a5183f"
+      "sha256": "78a456f7ca6e7c7cf353192955f27571e98041072e48f0ac8451d78df6aaa766"
     },
     {
       "slug": "23-type-inference-and-response-handling",
       "title": "Type Inference and Response Handling",
       "url": "https://deepwiki.com/honojs/hono/5.3-type-inference-and-response-handling",
-      "sha256": "016e6987f670c7032cb63853e75e0760b10dc004a51043ccc33f3da2ed6a1777"
+      "sha256": "1cf839360734fb3f4f6c1607fa8eb9c068878b3aad0dfc513d35fd89301bce7c"
     },
     {
       "slug": "24-url-generation-and-websocket-support",
       "title": "URL Generation and WebSocket Support",
       "url": "https://deepwiki.com/honojs/hono/5.4-url-generation-and-websocket-support",
-      "sha256": "a4907027acc129696b7860469ede2556538c431341b1afeb4fb60cdc97a9bd82"
+      "sha256": "a8e50394176225c7a251e96205b43966f99a12d6e75eefc333e59c819ead04da"
     },
     {
       "slug": "25-middleware-ecosystem",
       "title": "Middleware Ecosystem",
       "url": "https://deepwiki.com/honojs/hono/6-middleware-ecosystem",
-      "sha256": "969f6cd9202f4edf3941bd12299d6ab773d00271a8010b56cd6d7c7df8d49ea9"
+      "sha256": "c51acba3b8b3a2f522f28db07a1550046e71b1395d937b6a3397ff65ec7ee46b"
     },
     {
       "slug": "26-authentication-middleware",
       "title": "Authentication Middleware",
       "url": "https://deepwiki.com/honojs/hono/6.1-authentication-middleware",
-      "sha256": "a21a086480774ece80f22db2c496570d8262e9b3186b32fa2debec2c183d835f"
+      "sha256": "fc23319588a8394f6cede90c6bff5c6d1fa622274f4e598bcf53536067b178a5"
     },
     {
       "slug": "27-built-in-middleware-overview",
       "title": "Built-in Middleware Overview",
       "url": "https://deepwiki.com/honojs/hono/6.2-built-in-middleware-overview",
-      "sha256": "ea5fff7279e9c1e632f11194a061301b47c56d5100b54bae586353cd6465e148"
+      "sha256": "bc41ba528f645a200ee57e077989b369ae13751a742a66b1b131c6a17f7bf25c"
     },
     {
       "slug": "28-jsx-and-ui-rendering",
       "title": "JSX and UI Rendering",
       "url": "https://deepwiki.com/honojs/hono/7-jsx-and-ui-rendering",
-      "sha256": "59c0dcd609a138f892d83c3c7c2dbc938b381209b08f0cee5f9400a95f2ce4c7"
+      "sha256": "5f37d5e5fd0daed161f534577587344c2ebb804f4ddff245a86c363808c27b66"
     },
     {
       "slug": "29-jsx-server-side-rendering",
       "title": "JSX Server-Side Rendering",
       "url": "https://deepwiki.com/honojs/hono/7.1-jsx-server-side-rendering",
-      "sha256": "6d1651e7156cd75643e210793714399913b01c6a86a1370bdb715f887f7004e1"
+      "sha256": "caea5fc6e1b55a9a27db9245ed37b03476849a298dfa7e37b84dd8f698ed9525"
     },
     {
       "slug": "30-jsx-component-features",
       "title": "JSX Component Features",
       "url": "https://deepwiki.com/honojs/hono/7.2-jsx-component-features",
-      "sha256": "c979d4d2be5b3431a2ba4ac72f78b4bfe214304c9f3fee8d384b8785d581d523"
+      "sha256": "39948010ffdc7d01ca6238a6168d95684aa57dbbfd1d8268f10096d87485cbac"
     },
     {
       "slug": "31-hooks-api",
       "title": "Hooks API",
       "url": "https://deepwiki.com/honojs/hono/7.3-hooks-api",
-      "sha256": "eb2a037cf438612be0b99d9ad6ed2e6d809a43cc4c0346f5368f1fb933e72164"
+      "sha256": "eda6896673b853f0c410959cd337abead2d4b3b696325baa2278d1c7994fcb59"
     },
     {
       "slug": "32-dom-rendering-and-virtual-dom-reconciliation",
       "title": "DOM Rendering and Virtual DOM Reconciliation",
       "url": "https://deepwiki.com/honojs/hono/7.4-dom-rendering-and-virtual-dom-reconciliation",
-      "sha256": "ecfec90c89bfebdd29bbe443fb7b6dbdb9282fd1dd8a4fa6bf82fb2c3b46855e"
+      "sha256": "2cfbf7a3311bd32ffd2f8c2cd155e2561e327ddb201884cb0b78ba005428759d"
     },
     {
       "slug": "33-concurrent-rendering-features",
       "title": "Concurrent Rendering Features",
       "url": "https://deepwiki.com/honojs/hono/7.5-concurrent-rendering-features",
-      "sha256": "9b846a467faec278a07e20b44440b703e704b2473ae7a740fdbd8287a6ef3164"
+      "sha256": "7577142ca794c01a41c5a12567a34435473e2ba7485495897a8bb2f539eec4a9"
     },
     {
       "slug": "34-context-api-error-boundaries-and-suspense",
       "title": "Context API, Error Boundaries, and Suspense",
       "url": "https://deepwiki.com/honojs/hono/7.6-context-api-error-boundaries-and-suspense",
-      "sha256": "f8942ae02815b477670736808c037e40b0f2b87549ba4709767b5b506d39040c"
+      "sha256": "c9eef334b3ada65ff787d05a94bde863bd072886b4b2fbdaca70194aa88fa26d"
     },
     {
       "slug": "35-platform-adapters",
       "title": "Platform Adapters",
       "url": "https://deepwiki.com/honojs/hono/8-platform-adapters",
-      "sha256": "0c62d82c1a1aa1e9ff0a144667ef122f23f866a0f8e29220393eb41c7e020ce6"
+      "sha256": "23438174f2f1073f47f3a20e77afb6c712e395d070dccf27dfec27d7ebc158b0"
     },
     {
       "slug": "36-adapter-architecture-and-eventprocessor-pattern",
       "title": "Adapter Architecture and EventProcessor Pattern",
       "url": "https://deepwiki.com/honojs/hono/8.1-adapter-architecture-and-eventprocessor-pattern",
-      "sha256": "29247f57fae4905f176633ad33f4c321698cda66d177ffc6529392ba1032fce8"
+      "sha256": "f9771c0448cf358d30b0a3c01dcc75932591af9ef860f3490bfa74151b05086a"
     },
     {
       "slug": "37-aws-lambda-adapter",
       "title": "AWS Lambda Adapter",
       "url": "https://deepwiki.com/honojs/hono/8.2-aws-lambda-adapter",
-      "sha256": "0d3e95bb45452b0507d0cad9538577653fe6f08a74d0ade2b9dfc513cd67cd33"
+      "sha256": "1efd432c10f26ddb1b185b5ddb7564206115d85b37a41ea64dd1ac45a22143f6"
     },
     {
       "slug": "38-streaming-response-support",
       "title": "Streaming Response Support",
       "url": "https://deepwiki.com/honojs/hono/8.3-streaming-response-support",
-      "sha256": "78d27b89ea6a77a4728c2fb222f5905ccc67bd29fb22b3f84cd6bb13222dbbbe"
+      "sha256": "56b3c3e2010c97ab27907f8831c11bca92f6db0d8befd0d067ad7589180c6945"
     },
     {
       "slug": "39-other-runtime-adapters",
       "title": "Other Runtime Adapters",
       "url": "https://deepwiki.com/honojs/hono/8.4-other-runtime-adapters",
-      "sha256": "ff916f0832a4e20f16132819e4f6fbc333f6cc4a38d9202be2f4717ed5229fd2"
+      "sha256": "1a10713dbd3c860f91cf092893681a91552ea5e41495ae6198fee72f7c4f7e61"
     },
     {
       "slug": "40-helper-utilities",
       "title": "Helper Utilities",
       "url": "https://deepwiki.com/honojs/hono/9-helper-utilities",
-      "sha256": "fd0379e34ce15f23075789058afe81dc23bf7b3970f0755e80dcb6d5cb356bff"
+      "sha256": "4915509ac1fcf480a60e96e27894548d47d1202a258cd7c46976fcb4d384a345"
     },
     {
       "slug": "41-url-and-path-processing-utilities",
       "title": "URL and Path Processing Utilities",
       "url": "https://deepwiki.com/honojs/hono/9.1-url-and-path-processing-utilities",
-      "sha256": "7c3da1e2cc1ec5e26462c6abe8acb73db066664a6adebca5de02d7904f8d1af2"
+      "sha256": "a2b7797dc57a40aed1fc2a1a965ab20845cd4305d962695bf3aa9ff5aec4018a"
     },
     {
       "slug": "42-cookie-html-and-content-helpers",
       "title": "Cookie, HTML, and Content Helpers",
       "url": "https://deepwiki.com/honojs/hono/9.2-cookie-html-and-content-helpers",
-      "sha256": "3a4c991cc4007f09da6893057239ab96a760a745b40498b7d75800562a653dd5"
+      "sha256": "b15ccb0e40b4a53f36d2fa11defbc2db15cc7cf26028d899215a6008df37e9e4"
     },
     {
       "slug": "43-static-site-generation-and-streaming",
       "title": "Static Site Generation and Streaming",
       "url": "https://deepwiki.com/honojs/hono/9.3-static-site-generation-and-streaming",
-      "sha256": "ff911b6b765693b6a81e60db57a4dac1d3c648fd0d39ed6e7b452f7590cf05ba"
+      "sha256": "e909ca1527db6f8459293d9e722623de1387f25174634b2b2af4ecca5ebfe2f5"
     },
     {
       "slug": "44-websocket-connection-info-and-other-helpers",
       "title": "WebSocket, Connection Info, and Other Helpers",
       "url": "https://deepwiki.com/honojs/hono/9.4-websocket-connection-info-and-other-helpers",
-      "sha256": "3ba261353ae6ccf6b8b0e7a3995198248fbc527d4548a3ade387c7a60086ef63"
+      "sha256": "c4cfcfc36d0bc173371c03f4b5b2845e48f1cc3a19d8b4678dab907dc90ab587"
     },
     {
       "slug": "45-glossary",
       "title": "Glossary",
       "url": "https://deepwiki.com/honojs/hono/10-glossary",
-      "sha256": "749ff50ea8317c782d47cad6f66a8b1a281793f2972f370387b72e9f5bef3166"
+      "sha256": "de0f59ef80f1150914b51ee1847c1a9a8f5bf48a85370948a0ff77f31b910072"
     }
   ],
   "_description": "DeepWiki-generated reference wiki for honojs/hono, gathered 2026-06-25 for the T4b hono corpus (deepwiki.com/honojs/hono)."

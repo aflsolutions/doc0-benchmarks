@@ -3,139 +3,139 @@
   "peer": "deepwiki",
   "repo": "redis/redis",
   "base_url": "https://deepwiki.com/redis/redis",
-  "scored_at": "2026-06-27",
+  "scored_at": "2026-07-12",
   "pages": [
     {
       "slug": "00-overview",
       "title": "Overview",
       "url": "https://deepwiki.com/redis/redis/1-overview",
-      "sha256": "c4cb7cca676e87994529bfe197c0483afa6aa1aebd59f350ff1e6a752d8797d0"
+      "sha256": "137756b8a08305b1af47b06e991bc8fff3edadef7e720088751a8d9eb9f92e1c"
     },
     {
       "slug": "01-redis-core",
       "title": "Redis Core",
       "url": "https://deepwiki.com/redis/redis/2-redis-core",
-      "sha256": "d9338b76e5d9069a123224eca464d2738062d867bb90369cce5a9b15e3ebd660"
+      "sha256": "9109e65e0846b048f5c9be0b191e5433c11d8a5a92da7e2d404250977f635795"
     },
     {
       "slug": "02-server-architecture-and-lifecycle",
       "title": "Server Architecture and Lifecycle",
       "url": "https://deepwiki.com/redis/redis/2.1-server-architecture-and-lifecycle",
-      "sha256": "6de69538ec3ce894bc2de239d104bd0280d3ad8e92f8d86bddc4f1aad3133c37"
+      "sha256": "50bb74d6e1703c4418fd38c07d6182ccb4c69359a702b9d2893c048de9bce8cf"
     },
     {
       "slug": "03-event-loop",
       "title": "Event Loop",
       "url": "https://deepwiki.com/redis/redis/2.2-event-loop",
-      "sha256": "b753ee7ea4b4a0839d1a8d40cfb4b308a47760b2397622547fac97eec56af7c2"
+      "sha256": "7491a47a74f9d00e385f22776b84f28e3cf925208d7e34932bc6a6921c8fb79f"
     },
     {
       "slug": "04-client-connection-management",
       "title": "Client Connection Management",
       "url": "https://deepwiki.com/redis/redis/2.3-client-connection-management",
-      "sha256": "cfd24ba17731f20fac38b65b8be7a03b1ccda33105fff72ef34727019a781dc3"
+      "sha256": "055f4c91b63a5ac752a2d4072acdbb0e63a60dad7bee38511c1656dcbd5b46f1"
     },
     {
       "slug": "05-networking-and-connection-abstraction",
       "title": "Networking and Connection Abstraction",
       "url": "https://deepwiki.com/redis/redis/2.4-networking-and-connection-abstraction",
-      "sha256": "46a574ed6fe531ed8ce864416d1bb878c1a30e7e6bbe8e0f926f33754fea86f9"
+      "sha256": "0f1b67c00ef7d2c295a28891e53f6843c09e38f80e33389304ee0cb3c5941d1b"
     },
     {
       "slug": "06-command-processing-pipeline",
       "title": "Command Processing Pipeline",
       "url": "https://deepwiki.com/redis/redis/2.5-command-processing-pipeline",
-      "sha256": "242f054a4bc37a7800f95b777e17236be1dfbb32fe4beba940d5c8fe8dd85870"
+      "sha256": "0cd945805f21fea38c045f91ca5bd5b87cea1f1686db42b9976594d2e4305bca"
     },
     {
       "slug": "07-configuration-management",
       "title": "Configuration Management",
       "url": "https://deepwiki.com/redis/redis/2.6-configuration-management",
-      "sha256": "e30e87e6360e8cb0c2579b250a6050391da88bd0f1ee08a2cd33317714f9cf3c"
+      "sha256": "a7f47a52e7f3bfe0e34f4e359dbd5f8ffe6afbe7a2b641ee67ea1f1f93f2c745"
     },
     {
       "slug": "08-access-control-lists-acl",
       "title": "Access Control Lists (ACL)",
       "url": "https://deepwiki.com/redis/redis/2.7-access-control-lists-acl",
-      "sha256": "9f13c45db77a1fe0c52f9270d97bb0565bb561f3d437b6f65f77980ce0af7c05"
+      "sha256": "2a558ad930574b05e68af0cb377b135d3af28a24cde8d648694127c9696e6293"
     },
     {
       "slug": "09-client-side-caching-and-tracking",
       "title": "Client-Side Caching and Tracking",
       "url": "https://deepwiki.com/redis/redis/2.8-client-side-caching-and-tracking",
-      "sha256": "67fdde5f05a91734a4f75e68b67d7c2ebcb120e80ad038ba53fde9a23b2e4b4c"
+      "sha256": "8efc28d74127f68df3772f27b245f4933be1ab0b40497c05efdee7e73d78780f"
     },
     {
       "slug": "10-data-storage-and-management",
       "title": "Data Storage and Management",
       "url": "https://deepwiki.com/redis/redis/3-data-storage-and-management",
-      "sha256": "e4ed900061e080b86a34ff38b17bb34b6f1c6caf885e301f81a576c3528b8788"
+      "sha256": "522178877c645cdf727f6d269141240538c05801cdddaa709b07e111bb5836eb"
     },
     {
       "slug": "11-core-data-types-implementation",
       "title": "Core Data Types Implementation",
       "url": "https://deepwiki.com/redis/redis/3.1-core-data-types-implementation",
-      "sha256": "f41658b40cfc1d82a684e54e4cf797a7b893819a4b3ef80718942aa3df592b3f"
+      "sha256": "a27c0aa9738278ebea60bb03e7c739b1a500c7f4d1af88e98b72f1dd9cde8c4c"
     },
     {
       "slug": "12-streams-and-consumer-groups",
       "title": "Streams and Consumer Groups",
       "url": "https://deepwiki.com/redis/redis/3.2-streams-and-consumer-groups",
-      "sha256": "27cf2a461325aaa803636973c52a88cd285d0f22d8687dccae343746662e134c"
+      "sha256": "544d7a701c955027be6452a94ea370ed67e6c8a452cb1c316781a5141598813f"
     },
     {
       "slug": "13-dictionary-and-key-value-store",
       "title": "Dictionary and Key-Value Store",
       "url": "https://deepwiki.com/redis/redis/3.3-dictionary-and-key-value-store",
-      "sha256": "51c695e7b976d5e9d6c53f3b835746beaaadcf36977dc251dabb50dd3939c7bf"
+      "sha256": "8d8a1e08a200009154038ecfd624698541c7ace2e268cbfbf9550932af65b1fc"
     },
     {
       "slug": "14-compact-data-structures",
       "title": "Compact Data Structures",
       "url": "https://deepwiki.com/redis/redis/3.4-compact-data-structures",
-      "sha256": "33df509fbc0dc1369e0b86273b5d19269d4cadac8ade73381de335faece0360c"
+      "sha256": "3f5384953390421429924052650fcd3d0570d224030f2c22ff1e96dfe0155ee0"
     },
     {
       "slug": "15-geospatial-data",
       "title": "Geospatial Data",
       "url": "https://deepwiki.com/redis/redis/3.5-geospatial-data",
-      "sha256": "92da5d6143f4ecab0a24035ac2b45747b0f00826ae02e71abe762fbc8d1d23ef"
+      "sha256": "6701b3915471a0f47f137552f26ce553994bddf3e8a93e1f4d7150f713cd6658"
     },
     {
       "slug": "16-hyperloglog-and-bitfield",
       "title": "HyperLogLog and Bitfield",
       "url": "https://deepwiki.com/redis/redis/3.6-hyperloglog-and-bitfield",
-      "sha256": "fe93d7ccc8cb6b81c0427d9a8051668f76d8a51e45ec74b052ccc80541229401"
+      "sha256": "305fabf37111ccd59cf0f4aba51f8dc58cb8fbfb2b004e849fbd57b52f31d3e3"
     },
     {
       "slug": "17-vector-sets",
       "title": "Vector Sets",
       "url": "https://deepwiki.com/redis/redis/3.7-vector-sets",
-      "sha256": "a162f5f1f8b2005158e095baaed9d977212284d8e02138438d8b5838590ba50c"
+      "sha256": "84d60b3a03419799b2f87d12d04bf625e0c1971f37c093a6976bddc42f08ae62"
     },
     {
       "slug": "18-memory-management",
       "title": "Memory Management",
       "url": "https://deepwiki.com/redis/redis/4-memory-management",
-      "sha256": "c2f247996d2b7f7dd95717ee2d2a813f3b0b6eaab99a64bbb9c720805efaf1ed"
+      "sha256": "b373f17988c32ab6be7f2b0e309953328a195dd493b00dc3d846ec2997d9931e"
     },
     {
       "slug": "19-eviction-and-expiration-policies",
       "title": "Eviction and Expiration Policies",
       "url": "https://deepwiki.com/redis/redis/4.1-eviction-and-expiration-policies",
-      "sha256": "628aa0c0a17c518445ee5437ff8c098226d899e0402c2f639197bf7d197089ca"
+      "sha256": "45545966cfacfd0dce8814a005b580be6e13462d96595151c8623df9d5687654"
     },
     {
       "slug": "20-memory-allocators-and-defragmentation",
       "title": "Memory Allocators and Defragmentation",
       "url": "https://deepwiki.com/redis/redis/4.2-memory-allocators-and-defragmentation",
-      "sha256": "85d1b34aac3137c1adc51ad8bfd479f2023004f58155711eb0f415edfb2ac3c8"
+      "sha256": "56413ef2c73f38b6e8370be9b05203f1272c13416deb11b26650ee47f5944274"
     },
     {
       "slug": "21-sds-string-library",
       "title": "SDS String Library",
       "url": "https://deepwiki.com/redis/redis/4.3-sds-string-library",
-      "sha256": "8a79c66b0527321de4ce3c1af808a24080da9f6ede7a07e583a1dd38b5bf3a55"
+      "sha256": "1c5df5ec0f24346115ced88fa84ff45428a8d7c88fee8347113ffe2594b52d43"
     },
     {
       "slug": "22-scripting-and-extensions",
@@ -147,49 +147,49 @@
       "slug": "23-lua-scripting-and-redis-functions",
       "title": "Lua Scripting and Redis Functions",
       "url": "https://deepwiki.com/redis/redis/5.1-lua-scripting-and-redis-functions",
-      "sha256": "f25ec34198fcc7a9f9105a402aa044a35f031925bd85e42671666fa4ff574877"
+      "sha256": "a6778acbec473b6b33f7ce57ba637a65dfa991210ed563fd6a5bc612673d4fd0"
     },
     {
       "slug": "24-redis-module-api",
       "title": "Redis Module API",
       "url": "https://deepwiki.com/redis/redis/5.2-redis-module-api",
-      "sha256": "eb18a025bbd39d7e977113e6d9f2536fb9a75ccb75cc0e57c0c7da60ea3641d4"
+      "sha256": "a509f552ad65f7d2a8032100b46a7fc6a70a8313f31733b6912012cdbd6ce8c4"
     },
     {
       "slug": "25-bundled-modules",
       "title": "Bundled Modules",
       "url": "https://deepwiki.com/redis/redis/5.3-bundled-modules",
-      "sha256": "49f3dcbb448204de1818436bcbd6046aac702f0ddfbe1528208ee13df81d6018"
+      "sha256": "44cfb325bfc9a2912ee412a92f3f5a9525e994a750c60113c24ad93d8653d8e5"
     },
     {
       "slug": "26-high-availability-and-distribution",
       "title": "High Availability and Distribution",
       "url": "https://deepwiki.com/redis/redis/6-high-availability-and-distribution",
-      "sha256": "a23491e70e88d2117cfbec0d66fe453289c7291efa6cd2939c16688f96174336"
+      "sha256": "e78993078c4481ab01a5b206d0b0e2f478a05eaf5e1c06a2c47f03b8da22e28e"
     },
     {
       "slug": "27-redis-cluster",
       "title": "Redis Cluster",
       "url": "https://deepwiki.com/redis/redis/6.1-redis-cluster",
-      "sha256": "c068eef6946f27f6b4a3ec91f912b95e33c272f941e700185d9d1f9fdd4b2666"
+      "sha256": "b12f227d3ab0963443e680391b2ab3205f447e4b2ffbcea8a3a1cd3c3724511b"
     },
     {
       "slug": "28-redis-sentinel",
       "title": "Redis Sentinel",
       "url": "https://deepwiki.com/redis/redis/6.2-redis-sentinel",
-      "sha256": "b7657ca2fabd702de510367de1608549cd9fc766f9a9e32fde3016cbdd2b3d2e"
+      "sha256": "a7859519bd574445be64a5bde89f2e0539e2c3c01139f0e55920b4cc2715a578"
     },
     {
       "slug": "29-persistence-and-replication",
       "title": "Persistence and Replication",
       "url": "https://deepwiki.com/redis/redis/7-persistence-and-replication",
-      "sha256": "ba30dfe27ec32e22c578eb7799539f3591d6bfa3cd7143e4f5fd2b2ed49b3489"
+      "sha256": "e784cf5ffdab8778aa7596f0e941d3f47a978aeb1532e6db64ce253522a647e3"
     },
     {
       "slug": "30-rdb-persistence",
       "title": "RDB Persistence",
       "url": "https://deepwiki.com/redis/redis/7.1-rdb-persistence",
-      "sha256": "bdfa178e93ca6c0b447a0ef995d503ebb0c2f9036c42c8f6e88d4abba8677939"
+      "sha256": "b6afcfa4d3481bc109fd270feb79574e8923166faa9092c72e12472c862eda8b"
     },
     {
       "slug": "31-aof-persistence",
@@ -201,49 +201,49 @@
       "slug": "32-replication",
       "title": "Replication",
       "url": "https://deepwiki.com/redis/redis/7.3-replication",
-      "sha256": "7973a26ecb0d588481e6f279854caf159225d4ef4181ccdcfb1f2010d575986c"
+      "sha256": "f536d939c284d9a0145e837f7484144587703d3fa7d3c37bff5712ebf446e249"
     },
     {
       "slug": "33-client-tools",
       "title": "Client Tools",
       "url": "https://deepwiki.com/redis/redis/8-client-tools",
-      "sha256": "863a7d2d070e2816c7a604a936774ff323637059be903bb14b4038305b4482a9"
+      "sha256": "468d70b3b39a427b25af2af8a5b70c5cc18a74ff871a9e7b556c0b30bfffc64c"
     },
     {
       "slug": "34-redis-cli-and-benchmark-tools",
       "title": "Redis CLI and Benchmark Tools",
       "url": "https://deepwiki.com/redis/redis/8.1-redis-cli-and-benchmark-tools",
-      "sha256": "6d8674e544129fe4964783599d8a3fe6ab8b5a8d55066b5fd71352019dac6111"
+      "sha256": "43a290b2b20b669bc38ee522ef60f2425e769e02b87ecbde6c874023fa56dfeb"
     },
     {
       "slug": "35-cluster-management-tools",
       "title": "Cluster Management Tools",
       "url": "https://deepwiki.com/redis/redis/8.2-cluster-management-tools",
-      "sha256": "f57dafd5a2cbedae29d42c3a73a632e1310d359ee2c28e83461c13a1f93a6260"
+      "sha256": "fb45335c9e26e8c9e73befc68f868aa4b38be55b457b7568d07f96b159e803a8"
     },
     {
       "slug": "36-development-and-testing",
       "title": "Development and Testing",
       "url": "https://deepwiki.com/redis/redis/9-development-and-testing",
-      "sha256": "ed110c3910787649af985fb5157884dabc877a9d7f3fbf466559d3099cafcd91"
+      "sha256": "f8ba90bb90d9cffc1d74c29d67e55702491c4ffbaaf6637ad2888c77d1f0a13b"
     },
     {
       "slug": "37-build-system-and-dependencies",
       "title": "Build System and Dependencies",
       "url": "https://deepwiki.com/redis/redis/9.1-build-system-and-dependencies",
-      "sha256": "169169fe9f9b15e6a94d23a794704738fe1fc306a6115dd48704bdeef1bab341"
+      "sha256": "003961bcdb3c8ee4e124f2744b838676f0e42daccb64ef948bba0082a8c1637e"
     },
     {
       "slug": "38-testing-framework",
       "title": "Testing Framework",
       "url": "https://deepwiki.com/redis/redis/9.2-testing-framework",
-      "sha256": "caace5f32697200abd270a7b181028210a35b9c318385e0e5f48f59a4d8e6019"
+      "sha256": "ae5ae66fa0a282b13914360a36bd801ec86f8c2da0607e9fbba6cee8562c109b"
     },
     {
       "slug": "39-utility-functions",
       "title": "Utility Functions",
       "url": "https://deepwiki.com/redis/redis/9.3-utility-functions",
-      "sha256": "5c65aa578a133ebf1737ede3d2e812c73a344489a61927c61f58f4074e09edc8"
+      "sha256": "80266729465127beffea54953d328cae1758439932750d54e165de310aed3803"
     },
     {
       "slug": "40-pub-sub-and-transactions",
@@ -255,7 +255,7 @@
       "slug": "41-pub-sub-messaging",
       "title": "Pub/Sub Messaging",
       "url": "https://deepwiki.com/redis/redis/10.1-pub-sub-messaging",
-      "sha256": "8766a163cb9c293bc9f82647d57508c040bb819b03ed02bf0a14773478f72c2f"
+      "sha256": "c58a89a899587912227042c8b1b2809c9db4d5cd2d15cac76bee27a3fed9f296"
     },
     {
       "slug": "42-transactions-multi-exec",
@@ -267,7 +267,7 @@
       "slug": "43-glossary",
       "title": "Glossary",
       "url": "https://deepwiki.com/redis/redis/11-glossary",
-      "sha256": "0e4ebf3ce3439224612f180761a071718f11812bd68a7d25e84fe1401cc5bf7e"
+      "sha256": "c657557244db31784087ebe57b773f4dc4267c1335d5a2eacbafd2202a21ad7a"
     }
   ],
   "_description": "URLs reconstructed 2026-07-12 from DeepWiki's live sidebar navigation (no README recorded the original fetch URLs -- the internal ingestion used the mcp__deepwiki__read_wiki_contents MCP tool, not a direct HTTP fetch; see scripts/wiki-eval/ingest/README.md in doc0-commercial). Hierarchical section numbers (e.g. 2.1, 3.7) were matched to these 44 pages by exact title text, in committed-file order, against DeepWiki's current sidebar -- verified 1:1 for all 44 titles. sha256 is of the COMMITTED page content (title line + body) as originally captured 2026-06-27, which is the content actually scored. Caveat: because the original capture used the MCP tool while fetch-peers.ts does a direct HTTP fetch + flight-payload extraction, a hash mismatch here can reflect either real DeepWiki content drift OR a normalization difference between the two extraction paths -- corroborate before concluding drift. zread mismatches do not have this ambiguity: the internal scrape-zread.py capture and fetch-peers.ts's zread extraction are the SAME technique, verified byte-exact against the committed corpus at write time."

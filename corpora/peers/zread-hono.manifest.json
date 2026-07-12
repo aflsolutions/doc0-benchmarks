@@ -3,13 +3,13 @@
   "peer": "zread",
   "repo": "honojs/hono",
   "base_url": "https://zread.ai/honojs/hono",
-  "scored_at": "2026-06-25",
+  "scored_at": "2026-07-12",
   "pages": [
     {
       "slug": "01-overview",
       "title": "Overview",
       "url": "https://zread.ai/honojs/hono/1-overview",
-      "sha256": "5dd7fa46717c9101a12f2a54fe7ff294c64c866771ee019086aa324a8aadfe95"
+      "sha256": "0d4fd45cc8bf6b8b699295af26b9f6cadda1059498e9c943d35b7439e1bb5dff"
     },
     {
       "slug": "02-quick-start",
@@ -24,28 +24,10 @@
       "sha256": "ff67e6b9c103b96ccb495bc92dfb1fc2484d67cb2700019da7bf817244760be0"
     },
     {
-      "slug": "04-latest-updates",
-      "title": "Latest Updates",
-      "url": "https://zread.ai/honojs/hono/4-latest-updates",
-      "sha256": "d707769d9a066e3c945a5c4753aa5997fba77aea50c0a354d0af9c756f6d1c63"
-    },
-    {
-      "slug": "05-issues-and-feedback",
-      "title": "Issues and Feedback",
-      "url": "https://zread.ai/honojs/hono/5-issues-and-feedback",
-      "sha256": "90e9e186328bf81d4ecfc465da7a4684f467cf78a9d6943d051e94c11f48583e"
-    },
-    {
-      "slug": "06-about-contributors",
-      "title": "About Contributors",
-      "url": "https://zread.ai/honojs/hono/6-about-contributors",
-      "sha256": "e056963fa0f120e93d1f15a8fc1894fc7cbd01877c85e33250d162a0b20449b9"
-    },
-    {
       "slug": "07-architecture-overview",
       "title": "Architecture Overview",
       "url": "https://zread.ai/honojs/hono/7-architecture-overview",
-      "sha256": "ab0f239904a7108cb6707674dee33eedb6fbe118c18e723a4c79b28db2fb1521"
+      "sha256": "215a6ba3d63bfd3bef39bebef10b38e8df5e6ed31e9a67d68ce8c37e24fe80e3"
     },
     {
       "slug": "08-app-instance-and-routing",
@@ -87,7 +69,7 @@
       "slug": "14-type-safe-handler-interfaces",
       "title": "Type-Safe Handler Interfaces",
       "url": "https://zread.ai/honojs/hono/14-type-safe-handler-interfaces",
-      "sha256": "800b6756beb9126dced02a5b4da16dafd44c74fbdd0a2ee3a084d8d8193b78a2"
+      "sha256": "3b7823ac35b989776c55d6ac7c511957ff4342a29ce06db05a259a35bf378edb"
     },
     {
       "slug": "15-validator-middleware",
@@ -99,7 +81,7 @@
       "slug": "16-schema-type-inference",
       "title": "Schema Type Inference",
       "url": "https://zread.ai/honojs/hono/16-schema-type-inference",
-      "sha256": "46037ba29f747823e8dce8a5681029fa17d051a6e03944358870e73bb771bf73"
+      "sha256": "6210d9b0cdf0bddf296227e3c55bb56821452aae1142d2830cc3e692ff8ae1ee"
     },
     {
       "slug": "17-cloudflare-workers-adapter",
@@ -111,7 +93,7 @@
       "slug": "18-node-js-and-bun-adapters",
       "title": "Node.js and Bun Adapters",
       "url": "https://zread.ai/honojs/hono/18-node-js-and-bun-adapters",
-      "sha256": "94ac8293d92aff930a08ebb6e1d19f826c46e3f2fc6c20971ea2717d05046ae2"
+      "sha256": "df4ac2e3047958e82a69e1bc49aa01bdb8f2621c0e5f033d8f695eb225ec2dcc"
     },
     {
       "slug": "19-aws-lambda-and-vercel-adapters",
@@ -123,7 +105,7 @@
       "slug": "20-jsx-runtime-and-rendering",
       "title": "JSX Runtime and Rendering",
       "url": "https://zread.ai/honojs/hono/20-jsx-runtime-and-rendering",
-      "sha256": "714a7e7f656add29ddb13bd559a4e7575971f3a292261747a2e3ec16dc279189"
+      "sha256": "767ed12f957785eedfe4d5bdc2d2e96d135ac1ea9959669276b4c4e93ec9d57e"
     },
     {
       "slug": "21-streaming-ssr-and-suspense",
@@ -141,13 +123,13 @@
       "slug": "23-cors-and-auth-middleware",
       "title": "CORS and Auth Middleware",
       "url": "https://zread.ai/honojs/hono/23-cors-and-auth-middleware",
-      "sha256": "429d2e2890b62b9d05a62301854362a177768b14c8a4c29d145c9165c7698a26"
+      "sha256": "257fb2ffcee25765d13c6e4acc859aec598fd4e8ed75af1d0e7518084fd244e1"
     },
     {
       "slug": "24-jwt-and-security-middleware",
       "title": "JWT and Security Middleware",
       "url": "https://zread.ai/honojs/hono/24-jwt-and-security-middleware",
-      "sha256": "1a85a9b26ee0cf2c1349cc6f0474d04185af3ad78a03fbda21027e7526b22bf4"
+      "sha256": "2a93a86c31ac24674c9714fd4f5e60c9c99926db1424fdfdf4c6ff5deb3d6acc"
     },
     {
       "slug": "25-performance-middleware",
@@ -165,7 +147,7 @@
       "slug": "27-type-safe-rpc-client",
       "title": "Type-Safe RPC Client",
       "url": "https://zread.ai/honojs/hono/27-type-safe-rpc-client",
-      "sha256": "f011efaf3ab35c13566b843e522a262bc3d6934d58b84a3f773cb5e3cdc997e6"
+      "sha256": "ea662b5d7f1b83202c9de40d39446781e583ca0ccbf942581caf46082fc2ae27"
     },
     {
       "slug": "28-proxy-based-api-generation",
@@ -183,7 +165,7 @@
       "slug": "30-websocket-support",
       "title": "WebSocket Support",
       "url": "https://zread.ai/honojs/hono/30-websocket-support",
-      "sha256": "f7d1c7d25edf5159c3e716757bf944b32ea6cdb17ece6e2ae941e470533e660e"
+      "sha256": "cdfe94a8ec26805134032850a630854e2b0eca4accd7ffea1a3a0b6081ea450b"
     },
     {
       "slug": "31-streaming-and-sse-helpers",
@@ -192,5 +174,5 @@
       "sha256": "f1cf40082fea497c205f0fbe38e95cf75dbc0dc45bcc3d70c80d0a29cbce795d"
     }
   ],
-  "_description": "zread.ai-generated reference wiki for honojs/hono, gathered 2026-06-25 for the T4b hono corpus (zread.ai/honojs/hono)."
+  "_description": "zread.ai-generated reference wiki for honojs/hono, gathered 2026-06-25 for the T4b hono corpus (zread.ai/honojs/hono). | 2026-07-12: dropped 3 site-meta pages (latest-updates, issues-and-feedback, about-contributors) \u2014 no longer served as parseable pages by zread and not documentation content; scored set is the remaining doc pages."
 }
