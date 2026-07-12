@@ -10,5 +10,5 @@
   },
   "doc_mode": "technical",
   "page_count": 26,
-  "source_baseline": "eval/wiki-scorecard/baselines/hono-2026-07-12"
+  "source_baseline": "local-db:generation-23aac0a5"
 }
