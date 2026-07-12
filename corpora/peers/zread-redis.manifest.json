@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "peer": "zread",
+  "repo": "redis/redis",
+  "base_url": "https://zread.ai/redis/redis",
+  "scored_at": "2026-06-27",
+  "pages": [
+    {
+      "slug": "01-overview",
+      "title": "Overview",
+      "url": "https://zread.ai/redis/redis/1-overview",
+      "sha256": "736371f8861558867e2b9adb300e5e42db3f4a2dabc3c9345473f964bddb0471"
+    },
+    {
+      "slug": "02-quick-start",
+      "title": "Quick Start",
+      "url": "https://zread.ai/redis/redis/2-quick-start",
+      "sha256": "8bf24e181682f9c75c4bf072d8b4b4f28d62b8b60d3467421057cb3599710d76"
+    },
+    {
+      "slug": "06-architecture-overview",
+      "title": "Architecture Overview",
+      "url": "https://zread.ai/redis/redis/6-architecture-overview",
+      "sha256": "770ebf7582880d9785fd94a91f42a5840d5a284b766f54eff452105d257f547d"
+    },
+    {
+      "slug": "07-ae-event-loop",
+      "title": "ae Event Loop",
+      "url": "https://zread.ai/redis/redis/7-ae-event-loop",
+      "sha256": "51529251289cedc6b8c08bb9461e53b74d19fc37cc8738f5efbf3639ab0cf390"
+    },
+    {
+      "slug": "08-i-o-threading-model",
+      "title": "I/O Threading Model",
+      "url": "https://zread.ai/redis/redis/8-i-o-threading-model",
+      "sha256": "b3097dd33861b99c20760df7a7abd6f487b9364a4dc6fe9cf81dbb3ad6867a6f"
+    },
+    {
+      "slug": "09-sds-dynamic-strings",
+      "title": "SDS Dynamic Strings",
+      "url": "https://zread.ai/redis/redis/9-sds-dynamic-strings",
+      "sha256": "85b9a27b6d0f45d74cb3edd88a48da5a76ff90886e89fb7ad66d4970c5591ad6"
+    },
+    {
+      "slug": "10-dict-hash-tables",
+      "title": "Dict Hash Tables",
+      "url": "https://zread.ai/redis/redis/10-dict-hash-tables",
+      "sha256": "453d4d4553c02dede6e4cfc34a86e450264a3d7fb1d75893eb917fb70474185c"
+    },
+    {
+      "slug": "11-listpack-and-quicklist",
+      "title": "Listpack and Quicklist",
+      "url": "https://zread.ai/redis/redis/11-listpack-and-quicklist",
+      "sha256": "07fb917770a52ccf94f2f4d8910512a01dccf551a4f9e6c924ef6e7cccd21f51"
+    },
+    {
+      "slug": "12-ebuckets-expiry-engine",
+      "title": "ebuckets Expiry Engine",
+      "url": "https://zread.ai/redis/redis/12-ebuckets-expiry-engine",
+      "sha256": "7a9d5e11b298d83750250ebaab1458c47fe208f32738d7cbf0b119ab1917eb00"
+    },
+    {
+      "slug": "13-strings-and-hashes",
+      "title": "Strings and Hashes",
+      "url": "https://zread.ai/redis/redis/13-strings-and-hashes",
+      "sha256": "36bea13c2cfc31b35c81a789e8e016081b194eb1b7757a3a1c7458bbe7ea728a"
+    },
+    {
+      "slug": "14-lists-sets-sorted-sets",
+      "title": "Lists, Sets, Sorted Sets",
+      "url": "https://zread.ai/redis/redis/14-lists-sets-sorted-sets",
+      "sha256": "287d63f276316fc984772429250e153f7a9c3d251d097e112150552d1762f557"
+    },
+    {
+      "slug": "15-streams-and-consumer-groups",
+      "title": "Streams and Consumer Groups",
+      "url": "https://zread.ai/redis/redis/15-streams-and-consumer-groups",
+      "sha256": "175590b1bd107626e16b59cf67c03959cdb76990ca1c7925c3925474ec9f1dfa"
+    },
+    {
+      "slug": "16-vector-sets",
+      "title": "Vector Sets",
+      "url": "https://zread.ai/redis/redis/16-vector-sets",
+      "sha256": "1f872849791604ed6c2d8a8e10ae1fe10b2ecc404c2e031b6f15cf3dd5626da1"
+    },
+    {
+      "slug": "17-rdb-snapshots",
+      "title": "RDB Snapshots",
+      "url": "https://zread.ai/redis/redis/17-rdb-snapshots",
+      "sha256": "2eac984bb5859b88ab36eeb4e57c6eb516187c1f4e43f8e6f8781698da0e9ec0"
+    },
+    {
+      "slug": "18-aof-append-only-log",
+      "title": "AOF Append-Only Log",
+      "url": "https://zread.ai/redis/redis/18-aof-append-only-log",
+      "sha256": "9592bedd78f15d5dc61bc79df49e1669401a073a641dc3b252a8c29b2d581a86"
+    },
+    {
+      "slug": "19-replication-protocol",
+      "title": "Replication Protocol",
+      "url": "https://zread.ai/redis/redis/19-replication-protocol",
+      "sha256": "7eba53122631ab99f4b7ae4edd047355e9ffe96492da53d7cb3a15b93f34b51d"
+    },
+    {
+      "slug": "20-redis-cluster-sharding",
+      "title": "Redis Cluster Sharding",
+      "url": "https://zread.ai/redis/redis/20-redis-cluster-sharding",
+      "sha256": "f9c706bcb223f1b2b8d91ae88283fb9a4327fab7bc571623069e9a922c45c494"
+    },
+    {
+      "slug": "21-sentinel-failover",
+      "title": "Sentinel Failover",
+      "url": "https://zread.ai/redis/redis/21-sentinel-failover",
+      "sha256": "1dcafa5264389be2f4fde593c2d3ff53a669e62fa298817849e7f7950cf48c78"
+    },
+    {
+      "slug": "22-gossip-and-slot-migration",
+      "title": "Gossip and Slot Migration",
+      "url": "https://zread.ai/redis/redis/22-gossip-and-slot-migration",
+      "sha256": "0c8c48dea66d4aec79c7bdda0e95dc0c0ddeec9238fe74b3fc7b56d049b83526"
+    },
+    {
+      "slug": "23-modules-api",
+      "title": "Modules API",
+      "url": "https://zread.ai/redis/redis/23-modules-api",
+      "sha256": "5f2d9b46c7df8334f029ed157dc3e94c6e6c7363ded830dbdc849de5ada57909"
+    },
+    {
+      "slug": "24-acl-access-control",
+      "title": "ACL Access Control",
+      "url": "https://zread.ai/redis/redis/24-acl-access-control",
+      "sha256": "0222d9ebebfffbac10cac03f97eef4c606844002b4817616d41a93163f42c41d"
+    },
+    {
+      "slug": "25-lua-scripting-and-functions",
+      "title": "Lua Scripting & Functions",
+      "url": "https://zread.ai/redis/redis/25-lua-scripting-and-functions",
+      "sha256": "2d7d6d2e0ce622de21d6576b6bef3cc4a927710accc89b0e19793ee0120c3581"
+    },
+    {
+      "slug": "26-configuration-reference",
+      "title": "Configuration Reference",
+      "url": "https://zread.ai/redis/redis/26-configuration-reference",
+      "sha256": "1844608c7fa5802fc02097b15ae7aae6ecc66893484c4e9a0260f4c33ea33916"
+    },
+    {
+      "slug": "27-memory-management-and-eviction",
+      "title": "Memory Management & Eviction",
+      "url": "https://zread.ai/redis/redis/27-memory-management-and-eviction",
+      "sha256": "4dc2a7b4d0755e98b80da455d8995f3f8744adee5968429b484411a1709eff7d"
+    }
+  ],
+  "_description": "URL scheme confirmed live 2026-07-12 (https://zread.ai/redis/redis/<slug>, slug = the section-relative slug zread itself serves, reconstructed from the committed NN-slug.md filename by dropping the zero-pad on the leading number -- e.g. 06-architecture-overview.md -> 6-architecture-overview). Mechanism documented in scripts/wiki-eval/ingest/README.md / scrape-zread.py: a plain HTTP GET with a Chrome User-Agent returns the server-rendered RSC flight payload with the page markdown inline; no headless browser needed. sha256 is of the COMMITTED page content (title line + body) as originally captured 2026-06-27. fetch-peers.ts's zread extraction is the SAME technique scrape-zread.py used and was spot-verified byte-exact against a committed page (06-architecture-overview.md) at manifest-write time, so a mismatch here is a reliable real-drift signal, not an extraction artifact."
+}

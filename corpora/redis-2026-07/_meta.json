@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "repo": "redis/redis",
+  "generated_at": "2026-07-02",
+  "doc0_commit": "175c6b0e",
+  "source_repo_sha": "5b22a09918743ba72952e35e431db23eb3d19605",
+  "models": {
+    "small": "gemini-3.1-flash-lite",
+    "big": "gemini-3.5-flash"
+  },
+  "doc_mode": "technical",
+  "page_count": 37,
+  "source_baseline": "eval/wiki-scorecard/baselines/redis-e1a2-2026-07-02"
+}
