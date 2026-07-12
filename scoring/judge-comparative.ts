@@ -237,11 +237,13 @@ ${wikiA}
 
 === WIKI B (sample) ===
 ${wikiB}`;
-  // NOTE — EU residency: this call sends sampled wiki prose to Google AI Studio
-  // (`gemini-2.5-flash`), a US (non-EU) endpoint. Use this judge for PUBLIC repos only.
-  // Pointing --repo-dir at a private customer clone would send customer source out of the EU,
-  // breaching the project's data-residency rule. WIKI_EVAL_JUDGE_PROVIDER=vertex sends the
-  // same public-repo content to the configured Vertex project/location instead.
+  // NOTE: this call sends sampled wiki prose to whichever backend judgeModel()
+  // selects — Google AI Studio (`gemini-2.5-flash`) by default, or Vertex
+  // (`gemini-3.5-flash`, `global` location) when GOOGLE_VERTEX_PROJECT,
+  // GOOGLE_VERTEX_CLIENT_EMAIL, and GOOGLE_VERTEX_PRIVATE_KEY are all set (see
+  // judge-model.ts). Use this judge for PUBLIC repos only — pointing --repo-dir
+  // at your own private clone sends that source to whichever of these two
+  // external endpoints is selected.
   const { object } = await generateObject({
     model: judgeModel(),
     schema: verdictSchema,

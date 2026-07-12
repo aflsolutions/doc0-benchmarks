@@ -205,11 +205,13 @@ export async function judgeAccuracy(
 
 const supportSchema = z.object({ supported: z.boolean() });
 export const liveAccuracyJudge: AccuracyJudgeFn = async ({ claim, sourceExcerpt }) => {
-  // NOTE — EU residency: this call sends source code excerpts to Google AI Studio
-  // (`gemini-2.5-flash`), a US (non-EU) endpoint. Use this judge for PUBLIC repos only.
-  // Running it against a private customer clone via --repo-dir would send customer source
-  // out of the EU, breaching the project's data-residency rule. WIKI_EVAL_JUDGE_PROVIDER=vertex
-  // sends the same public-repo content to the configured Vertex project/location instead.
+  // NOTE: this call sends source code excerpts to whichever backend judgeModel()
+  // selects — Google AI Studio (`gemini-2.5-flash`) by default, or Vertex
+  // (`gemini-3.5-flash`, `global` location) when GOOGLE_VERTEX_PROJECT,
+  // GOOGLE_VERTEX_CLIENT_EMAIL, and GOOGLE_VERTEX_PRIVATE_KEY are all set (see
+  // judge-model.ts). Use this judge for PUBLIC repos only — running it against
+  // your own private clone via --repo-dir sends that source to whichever of
+  // these two external endpoints is selected.
   //
   // Errors propagate — the caller (judgeAccuracy) counts them as judgeFailures and
   // excludes them from the denominator instead of silently scoring them "unsupported",
