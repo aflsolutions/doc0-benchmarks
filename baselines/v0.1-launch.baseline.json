@@ -53,6 +53,32 @@
           "name-missing": 30
         }
       }
+    },
+    "hono-2026-07-v2": {
+      "structural": {
+        "pages": 23,
+        "avgWords": 887,
+        "avgH2Sections": 6.9,
+        "avgWordsPerSection": 128,
+        "thinPages": 0,
+        "noisePages": 0,
+        "citationDensityPer1k": 33.62,
+        "pagesBelowMinCitationDensity": 0,
+        "validDiagramPages": 19,
+        "invalidDiagramPages": 0
+      },
+      "chains": {
+        "pages": 23,
+        "chains": 16,
+        "chainsPerPage": 0.696,
+        "hopVerificationRate": 0.14,
+        "hopBreakdown": {
+          "verified": 6,
+          "reversed": 0,
+          "edge-missing": 23,
+          "name-missing": 14
+        }
+      }
     }
   }
 }

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "repo": "honojs/hono",
+  "generated_at": "2026-07-12",
+  "doc0_commit": "14d561f3",
+  "source_repo_sha": "d3f97caa29bba1f1ae31a4e023c25224aa2a4261",
+  "models": {
+    "small": "gemini-3.1-flash-lite",
+    "big": "gemini-3.5-flash"
+  },
+  "doc_mode": "technical",
+  "page_count": 23,
+  "source_baseline": "local-db:generation-23aac0a5"
+}

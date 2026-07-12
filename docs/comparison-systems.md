@@ -13,7 +13,8 @@ Judge: `gemini-3.5-flash` on Vertex (`google.vertex.chat`), seed 42, 40 samples 
 | redis/redis | **doc0** | **0.744** | 0.975 | 37 (full corpus) |
 | redis/redis | DeepWiki | 0.692 | 0.975 | 44 (full corpus) |
 | redis/redis | zread | 0.65 | 1.0 | 24 (full corpus) |
-| honojs/hono | doc0 | 0.692 | 0.975 | 26 (full corpus) |
+| honojs/hono | doc0 (v1) | 0.692 | 0.975 | 26 (full corpus) |
+| honojs/hono | doc0 (v2, [citation follow-up](benchmarks/2026-07-12-hono-citation-followup.md)) | 0.795 | — | 23 (full corpus) |
 | honojs/hono | **DeepWiki** | **0.872** | 0.975 | 46 (full corpus) |
 | honojs/hono | zread | 0.667 | 0.975 | 28 (full corpus) |
 
@@ -26,7 +27,10 @@ Neither DeepWiki nor zread exposes (or, as far as we've found, builds) a code gr
 | Corpus | Chains extracted | chainsPerPage | hopVerificationRate |
 |---|---|---|---|
 | redis/redis | 35 | 0.946 | 26.6% |
-| honojs/hono | 29 | 1.115 | 29.3% |
+| honojs/hono (v1) | 29 | 1.115 | 29.3% |
+| honojs/hono (v2) | 16 | 0.696 | 14% |
+
+The hono v2 chain drop is a real regression from the citation-granularity work, analysed (with caveats) in [the follow-up report](benchmarks/2026-07-12-hono-citation-followup.md) §4.
 
 `hopVerificationRate` = share of extracted call-chain hops confirmed against the real, exported symbol graph (`_graph-index.json`) — a deterministic lookup, not an LLM judgment. See the full report for why the remaining hops (`edge-missing`, `name-missing`, `reversed`) are not the same thing as "wrong."
 
@@ -49,7 +53,8 @@ Computed directly against the corpus and freshly-fetched peer content with the s
 
 | System | Precise citations / 1k words | Median cited span (lines) |
 |---|---|---|
-| doc0 | 13.07 | 17 |
+| doc0 (v1) | 13.07 | 17 |
+| doc0 (v2, citation follow-up) | 15.91 | 13 |
 | DeepWiki | 43.2 | 8 |
 | zread | 13.52 | 20 |
 
