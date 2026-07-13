@@ -9,6 +9,8 @@
     "lint": "eslint . --max-warnings 0",
     "typecheck": "tsc --noEmit",
     "bench:grounding": "tsx runners/grounding-scorecard.ts",
+    "bench:codewikibench": "tsx runners/codewikibench.ts",
+    "bench:codewikibench-dryrun": "tsx runners/codewikibench-dryrun.ts",
     "peers:fetch": "tsx corpora/peers/fetch-peers.ts"
   },
   "devDependencies": {
