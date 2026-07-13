@@ -61,6 +61,81 @@ describe("extractChainClaims — mermaid sequence diagrams", () => {
     expect(claims[0].identifiers).toEqual(["App", "Router", "Node", "Store"]);
     expect(claims[0].kind).toBe("mermaid");
   });
+
+  it("resolves participant aliases to their real names (the model's dominant style)", () => {
+    const md = [
+      "```mermaid",
+      "sequenceDiagram",
+      "  participant M as main",
+      "  participant NS as NewPostStore",
+      "  participant PS as PostStore",
+      "  M->>NS: create",
+      "  NS->>PS: write",
+      "```",
+    ].join("\n");
+    const claims = extractChainClaims(md);
+    expect(claims).toHaveLength(1);
+    expect(claims[0].identifiers).toEqual(["main", "NewPostStore", "PostStore"]);
+    expect(claims[0].kind).toBe("mermaid");
+  });
+
+  it("leaves an unaliased diagram's identifiers unchanged (pins existing behavior)", () => {
+    const md = "```mermaid\nsequenceDiagram\n  App->>Router: add\n  Router->>Node: insert\n  Node->>Store: write\n```";
+    const claims = extractChainClaims(md);
+    expect(claims).toHaveLength(1);
+    expect(claims[0].identifiers).toEqual(["App", "Router", "Node", "Store"]);
+  });
+
+  it("resolves aliases declared with the `actor` keyword", () => {
+    const md = [
+      "```mermaid",
+      "sequenceDiagram",
+      "  actor M as main",
+      "  actor NS as NewPostStore",
+      "  actor PS as PostStore",
+      "  M->>NS: create",
+      "  NS->>PS: write",
+      "```",
+    ].join("\n");
+    const claims = extractChainClaims(md);
+    expect(claims).toHaveLength(1);
+    expect(claims[0].identifiers).toEqual(["main", "NewPostStore", "PostStore"]);
+  });
+
+  it("passes an undeclared alias through raw (no declaration -> falls back to the identifier)", () => {
+    const md = "```mermaid\nsequenceDiagram\n  M->>NS: create\n  NS->>PS: write\n```";
+    const claims = extractChainClaims(md);
+    expect(claims).toHaveLength(1);
+    expect(claims[0].identifiers).toEqual(["M", "NS", "PS"]);
+  });
+
+  it("resolves a mix of declared and undeclared participants in the same diagram", () => {
+    const md = [
+      "```mermaid",
+      "sequenceDiagram",
+      "  participant M as main",
+      "  M->>NS: create",
+      "  NS->>PS: write",
+      "```",
+    ].join("\n");
+    const claims = extractChainClaims(md);
+    expect(claims).toHaveLength(1);
+    expect(claims[0].identifiers).toEqual(["main", "NS", "PS"]);
+  });
+
+  it("does not map a bare `participant M` declaration with no `as` clause", () => {
+    const md = [
+      "```mermaid",
+      "sequenceDiagram",
+      "  participant M",
+      "  M->>NS: create",
+      "  NS->>PS: write",
+      "```",
+    ].join("\n");
+    const claims = extractChainClaims(md);
+    expect(claims).toHaveLength(1);
+    expect(claims[0].identifiers).toEqual(["M", "NS", "PS"]);
+  });
 });
 
 describe("verifyChainClaims", () => {

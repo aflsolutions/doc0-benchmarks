@@ -25,6 +25,11 @@ const FENCED_BLOCK = /(```|~~~)(\w*)\n([\s\S]*?)\1/g;
 const MERMAID_SEQ_EDGE = /^\s*([A-Za-z_$][A-Za-z0-9_$]*)\s*->>[+-]?\s*([A-Za-z_$][A-Za-z0-9_$]*)\s*:/;
 // Numbered-prose walkthrough line: "1. `dictRehash` is called…" / "3) `beta`…".
 const NUMBERED_LINE = /^\s*(\d+)[.)]\s+(.*)$/;
+// `participant M as main` / `actor M as main` — the model's dominant style
+// gives participants short aliases, so edges reference the alias (M) rather
+// than the real name (main). `participant M` with no `as` clause is a bare
+// declaration and yields no mapping (M stands for itself downstream).
+const PARTICIPANT_ALIAS = /^\s*(?:participant|actor)\s+([A-Za-z_$][A-Za-z0-9_$]*)\s+as\s+(.+?)\s*$/;
 // First backticked span on a numbered line. Captures the base identifier
 // (with one optional direct dot qualifier, e.g. `Router.add`); after it,
 // tolerates any mix of bracket spans and further dot segments
@@ -63,10 +68,15 @@ export function extractChainClaims(markdown: string): ChainClaim[] {
   for (const m of markdown.matchAll(FENCED_BLOCK)) {
     const [, , lang, body] = m;
     if (lang === "mermaid" && body.includes("sequenceDiagram")) {
+      const aliases = new Map<string, string>();
+      for (const line of body.split("\n")) {
+        const am = PARTICIPANT_ALIAS.exec(line);
+        if (am) aliases.set(am[1], am[2].trim());
+      }
       const edges: Array<{ from: string; to: string }> = [];
       for (const line of body.split("\n")) {
         const em = MERMAID_SEQ_EDGE.exec(line);
-        if (em) edges.push({ from: em[1], to: em[2] });
+        if (em) edges.push({ from: aliases.get(em[1]) ?? em[1], to: aliases.get(em[2]) ?? em[2] });
       }
       for (const chain of chainsFromSequenceEdges(edges)) {
         out.push({ identifiers: chain, kind: "mermaid", raw: m[0].slice(0, 300) });

@@ -17,14 +17,14 @@
       },
       "chains": {
         "pages": 26,
-        "chains": 29,
-        "chainsPerPage": 1.115,
-        "hopVerificationRate": 0.293,
+        "chains": 30,
+        "chainsPerPage": 1.154,
+        "hopVerificationRate": 0.278,
         "hopBreakdown": {
           "verified": 22,
           "reversed": 3,
-          "edge-missing": 23,
-          "name-missing": 27
+          "edge-missing": 24,
+          "name-missing": 30
         }
       }
     },
@@ -43,13 +43,13 @@
       },
       "chains": {
         "pages": 37,
-        "chains": 35,
-        "chainsPerPage": 0.946,
-        "hopVerificationRate": 0.266,
+        "chains": 34,
+        "chainsPerPage": 0.919,
+        "hopVerificationRate": 0.271,
         "hopBreakdown": {
           "verified": 29,
           "reversed": 2,
-          "edge-missing": 48,
+          "edge-missing": 46,
           "name-missing": 30
         }
       }
@@ -69,14 +69,14 @@
       },
       "chains": {
         "pages": 23,
-        "chains": 16,
-        "chainsPerPage": 0.696,
-        "hopVerificationRate": 0.14,
+        "chains": 17,
+        "chainsPerPage": 0.739,
+        "hopVerificationRate": 0.133,
         "hopBreakdown": {
           "verified": 6,
           "reversed": 0,
           "edge-missing": 23,
-          "name-missing": 14
+          "name-missing": 16
         }
       }
     }
