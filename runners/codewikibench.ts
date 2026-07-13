@@ -289,6 +289,31 @@ export function transpileMdx(md: string): string {
 }
 
 // ---------------------------------------------------------------------------
+// Leading source-files <details> block — emission-path strip
+// ---------------------------------------------------------------------------
+
+/**
+ * Strip the ONE leading `<details>…</details>` "Relevant source files" block.
+ * It's navigation scaffolding, not documentation content — and because it
+ * always sits before the page's first H2, the evaluator's parser
+ * (`markdown_to_json`) would drop its words unconditionally, permanently
+ * capping the retained-word fraction. Removing it at emission keeps the
+ * dry-run's denominator honest (only real documentation words are counted).
+ *
+ * Same regex family as doc0's page-linter `stripDetailsBlock`
+ * (`^\s*<details>[\s\S]*?<\/details>\s*`, non-greedy to the FIRST close),
+ * extended to tolerate one leading H1 line — exported corpus pages open with
+ * `# Title` before the block, while doc0-internal pages start at the block
+ * itself (both shapes are handled). Scoped strictly to the leading block:
+ * a `<details>` in the middle of the page body is untouched. Applied in the
+ * emit path (`loadCorpusPages`), NOT inside `transpileMdx` — transpileMdx
+ * stays a general component demotion, this is corpus-scaffolding removal.
+ */
+export function stripLeadingDetailsBlock(md: string): string {
+  return md.replace(/^(\s*(?:# [^\n]*\n)?\s*)<details>[\s\S]*?<\/details>\s*/, "$1");
+}
+
+// ---------------------------------------------------------------------------
 // module_tree.json — hierarchy + user_guide merge
 // ---------------------------------------------------------------------------
 
@@ -344,7 +369,8 @@ function titleCase(s: string): string {
  * is the corpus that's optional and newer to the merge).
  *
  * PURE — no filesystem access. `emitEvaluatorInput` is the thin I/O shell
- * around this (reads corpus dirs, applies `transpileMdx`, writes the plan).
+ * around this (reads corpus dirs, applies `stripLeadingDetailsBlock` +
+ * `transpileMdx`, writes the plan).
  */
 export function planEvaluatorInput(technicalPages: EvaluatorPage[], userGuidePages: EvaluatorPage[] = []): EvaluatorInputPlan {
   const tree: ModuleTree = {};
@@ -394,7 +420,7 @@ async function loadCorpusPages(dir: string): Promise<EvaluatorPage[]> {
   return Promise.all(
     entries.map(async (f) => ({
       slug: f.slice(0, -3),
-      content: transpileMdx(await readFile(join(dir, f), "utf-8")),
+      content: transpileMdx(stripLeadingDetailsBlock(await readFile(join(dir, f), "utf-8"))),
     })),
   );
 }

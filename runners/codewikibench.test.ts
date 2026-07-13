@@ -1,5 +1,11 @@
 import { describe, it, expect } from "vitest";
-import { planEvaluatorInput, transpileMdx, USER_GUIDE_INDEX_SLUG, type EvaluatorPage } from "./codewikibench.ts";
+import {
+  planEvaluatorInput,
+  stripLeadingDetailsBlock,
+  transpileMdx,
+  USER_GUIDE_INDEX_SLUG,
+  type EvaluatorPage,
+} from "./codewikibench.ts";
 
 // ---------------------------------------------------------------------------
 // transpileMdx
@@ -155,6 +161,46 @@ Back up the database first.
   it("passes plain markdown through unchanged", () => {
     const input = "# Title\n\nJust a paragraph with `inline code` and a [link](https://example.com).\n";
     expect(transpileMdx(input)).toBe(input);
+  });
+});
+
+// ---------------------------------------------------------------------------
+// stripLeadingDetailsBlock — emission-path source-files scaffolding removal
+// ---------------------------------------------------------------------------
+
+describe("stripLeadingDetailsBlock", () => {
+  it("strips the leading details block after the H1, rest byte-identical", () => {
+    const details = `<details>
+<summary>Relevant source files</summary>
+
+The following files were used as context for generating this wiki page:
+
+- [src/context.ts](https://github.com/o/r/blob/main/src/context.ts)
+</details>`;
+    const rest = "Intro paragraph before the first section.\n\n## Section A\n\nBody A.\n";
+    const input = `# HTTP Utilities\n\n${details}\n\n${rest}`;
+    expect(stripLeadingDetailsBlock(input)).toBe(`# HTTP Utilities\n\n${rest}`);
+  });
+
+  it("strips a leading details block when there is no H1 (doc0-internal page shape)", () => {
+    const input = `<details>\n<summary>Relevant source files</summary>\n\n- [a.ts](x)\n</details>\n\nBody.\n`;
+    expect(stripLeadingDetailsBlock(input)).toBe("Body.\n");
+  });
+
+  it("does NOT strip a details block in the middle of the page body", () => {
+    const input = `# Title\n\nIntro prose first.\n\n<details>\n<summary>Expand</summary>\n\nHidden extras.\n</details>\n\n## Section\n\nBody.\n`;
+    expect(stripLeadingDetailsBlock(input)).toBe(input);
+  });
+
+  it("leaves a page without any details block unchanged", () => {
+    const input = "# Title\n\nIntro.\n\n## Section A\n\nBody A.\n";
+    expect(stripLeadingDetailsBlock(input)).toBe(input);
+  });
+
+  it("strips only the ONE leading block — a second details block later survives", () => {
+    const input = `# Title\n\n<details>\n<summary>Relevant source files</summary>\n\n- [a.ts](x)\n</details>\n\nIntro.\n\n<details>\n<summary>More</summary>\n\nExtra.\n</details>\n`;
+    const result = stripLeadingDetailsBlock(input);
+    expect(result).toBe(`# Title\n\nIntro.\n\n<details>\n<summary>More</summary>\n\nExtra.\n</details>\n`);
   });
 });
 
