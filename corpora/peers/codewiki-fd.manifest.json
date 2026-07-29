@@ -4,6 +4,7 @@
   "repo": "sharkdp/fd",
   "base_url": "https://codewiki.google/github.com/sharkdp/fd",
   "scored_at": "2026-07-28",
+  "pinned_source_sha": "5a5852e15b44d4917a6098b1c01d3bb535b7717f",
   "pages": [
     {
       "slug": "external-command-execution",

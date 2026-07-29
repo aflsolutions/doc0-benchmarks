@@ -20,6 +20,11 @@ import { fileURLToPath } from "node:url";
 const CITE =
   /\[([^\]]+?)\]\((https:\/\/github\.com\/[^/)]+\/[^/)]+\/blob\/[0-9a-f]{7,40}\/([^)#]+)#L(\d+)(?:-L?(\d+))?)\)/g;
 
+/** A label that is already `path:start[-end]` came from a previous
+ * normalization pass — rewriting it again would stack path tokens into the
+ * prose and change page hashes on every rerun. */
+const ALREADY_NORMALIZED_LABEL = /^\S+:\d+(?:-\d+)?$/;
+
 export interface NormalizeResult {
   files: number;
   rewritten: number;
@@ -37,7 +42,8 @@ export function normalizeCitations(dir: string): NormalizeResult {
     let count = 0;
     const out = src.replace(
       CITE,
-      (_match: string, label: string, url: string, filePath: string, l1: string, l2: string | undefined) => {
+      (match: string, label: string, url: string, filePath: string, l1: string, l2: string | undefined) => {
+        if (ALREADY_NORMALIZED_LABEL.test(label.trim())) return match;
         count++;
         const range = l2 && l2 !== l1 ? `${l1}-${l2}` : l1;
         const name = label.replace(/`/g, "").trim();

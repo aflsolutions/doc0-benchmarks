@@ -4,6 +4,7 @@
   "repo": "argoproj/argo-cd",
   "base_url": "https://codewiki.google/github.com/argoproj/argo-cd",
   "scored_at": "2026-07-28",
+  "pinned_source_sha": "73661b801935213221948c167acd943e1eb20f6e",
   "pages": [
     {
       "slug": "api-and-cli-services",

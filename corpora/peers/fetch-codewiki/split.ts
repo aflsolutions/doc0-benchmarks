@@ -5,7 +5,7 @@
 // pages records the generation commit captured by extract.js.
 //
 //   npx tsx split.ts <extract.json> <outDir>
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -26,6 +26,13 @@ function slugify(title: string): string {
 export function splitExtraction(extraction: CodewikiExtraction, outDir: string): number {
   const { sha, markdown } = extraction;
   mkdirSync(outDir, { recursive: true });
+  // Refetching into an existing dir must not leave pages from removed or
+  // renamed sections behind — stale files would be scanned by
+  // normalizeCitations and scored downstream while _meta.json.pages only
+  // counts the fresh sections.
+  for (const stale of readdirSync(outDir)) {
+    if (stale.endsWith(".md")) rmSync(join(outDir, stale));
+  }
 
   interface Section {
     title: string;

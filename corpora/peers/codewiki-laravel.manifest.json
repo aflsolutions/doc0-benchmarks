@@ -4,6 +4,7 @@
   "repo": "laravel/framework",
   "base_url": "https://codewiki.google/github.com/laravel/framework",
   "scored_at": "2026-07-28",
+  "pinned_source_sha": "cda436eed3a1f700fc8cffec89e99e32bdba8d2e",
   "pages": [
     {
       "slug": "application-foundation-and-lifecycle-management",

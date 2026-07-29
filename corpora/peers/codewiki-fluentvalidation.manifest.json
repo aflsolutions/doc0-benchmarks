@@ -4,6 +4,7 @@
   "repo": "FluentValidation/FluentValidation",
   "base_url": "https://codewiki.google/github.com/FluentValidation/FluentValidation",
   "scored_at": "2026-07-28",
+  "pinned_source_sha": "0f02e0aaabbf1812c87d23865c723e952d39c927",
   "pages": [
     {
       "slug": "dependency-injection-integration",

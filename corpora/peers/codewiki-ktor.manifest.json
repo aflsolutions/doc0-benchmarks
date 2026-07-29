@@ -4,6 +4,7 @@
   "repo": "ktorio/ktor",
   "base_url": "https://codewiki.google/github.com/ktorio/ktor",
   "scored_at": "2026-07-28",
+  "pinned_source_sha": "e3850874c1be95ffabfc98e2f0fec9f21c0860a4",
   "pages": [
     {
       "slug": "build-system-and-dependency-management",

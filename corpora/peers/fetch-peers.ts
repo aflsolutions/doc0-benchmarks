@@ -175,6 +175,38 @@ async function main(): Promise<void> {
     const outDir = join(RESULTS_DIR, dirName);
     await mkdir(outDir, { recursive: true });
 
+    if (manifest.peer === "codewiki") {
+      // CodeWiki renders client-side, so its pages come from the playwright
+      // pipeline in fetch-codewiki/ (extraction + citation normalization),
+      // never from an HTTP fetch here — a raw fetch would hash rendered-app
+      // scaffolding, not the normalized markdown these manifests pin.
+      // Verify-only: hash whatever that pipeline already wrote.
+      const fetched = (await readdir(outDir)).filter((f) => f.endsWith(".md"));
+      if (fetched.length === 0) {
+        console.log(
+          `[fetch-peers] ${manifestFile}: pages not fetched yet — run ` +
+            `\`npx tsx corpora/peers/fetch-codewiki/fetch.ts ${manifest.repo} ${outDir}\` ` +
+            `(needs playwright; see corpora/peers/fetch-codewiki/README.md), then rerun to verify. Skipping.`,
+        );
+        continue;
+      }
+      for (const page of manifest.pages) {
+        const content = await readFile(join(outDir, `${page.slug}.md`), "utf-8").catch(() => null);
+        const actual = content === null ? null : sha256(content);
+        if (actual !== page.sha256) {
+          mismatches.push({
+            manifest: manifestFile,
+            slug: page.slug,
+            url: page.url,
+            expected_sha256: page.sha256,
+            actual_sha256: actual,
+            note: content === null ? "page missing from fetch-codewiki output" : undefined,
+          });
+        }
+      }
+      continue;
+    }
+
     let deepwikiByTitle: Map<string, string> | null = null;
     if (manifest.peer === "deepwiki" && manifest.pages.length > 0) {
       const entryHtml = await fetchHtml(manifest.pages[0].url);

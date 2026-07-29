@@ -4,6 +4,7 @@
   "repo": "resilience4j/resilience4j",
   "base_url": "https://codewiki.google/github.com/resilience4j/resilience4j",
   "scored_at": "2026-07-28",
+  "pinned_source_sha": "2f3d998c85f10b8ff88a3dca9f24bacf11c3a250",
   "pages": [
     {
       "slug": "caching-with-jcache",

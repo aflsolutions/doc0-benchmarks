@@ -22,16 +22,7 @@ Three ingredients, each versioned and inspectable:
 
 doc0 wins every per-repo head-to-head; its worst never-tuned repo outscores both peers' best. Three of the ten repos were a sealed holdout (selected in advance, generated last, no pipeline changes mid-wave) — the holdout mean (0.886) came in *above* the main wave (0.843).
 
-Earlier snapshots (n=40 sampled protocol, superseded by full-population judging):
-
-Claim support is judge-scored (0–1, higher is better); `hopVerificationRate` is the deterministic, code-graph-checked share of call-chain claims doc0 machine-verifies end to end — no peer wiki tool exposes an equivalent number. Full breakdown, honesty section, and per-dimension comparisons: [2026-07-12 grounding scorecard](docs/benchmarks/2026-07-12-grounding-scorecard.md).
-
-| Date | Corpus | doc0 claim support | DeepWiki | zread | doc0 hopVerificationRate | Judge | Report |
-|------|--------|---------------------|----------|-------|--------------------------|-------|--------|
-| 2026-07-12 | redis/redis (37p) | **0.744** (win) | 0.692 | 0.65 | 26.6% | vertex · gemini-3.5-flash · seed 42 · n=40 | [report](docs/benchmarks/2026-07-12-grounding-scorecard.md) |
-| 2026-07-12 | honojs/hono (26p) | 0.692 (loss vs DeepWiki) | **0.872** | 0.667 | 29.3% | vertex · gemini-3.5-flash · seed 42 · n=40 | [report](docs/benchmarks/2026-07-12-grounding-scorecard.md) |
-
-See [`docs/comparison-systems.md`](docs/comparison-systems.md) for the living cross-system table (comparative dimensions, external CodeWikiBench rows).
+Claim support is judge-scored (0–1, higher is better). doc0 also reports `hopVerificationRate` — the deterministic, code-graph-checked share of call-chain claims machine-verified end to end; no peer wiki tool exposes an equivalent number. Earlier snapshots (the n=40 sampled protocol, superseded by full-population judging) live in [`docs/benchmarks/`](docs/benchmarks/); see [`docs/comparison-systems.md`](docs/comparison-systems.md) for the living cross-system table.
 
 ## Reproduce
 

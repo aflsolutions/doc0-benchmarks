@@ -63,8 +63,12 @@ async function fetchCodewiki(repo: string, outDir: string): Promise<FetchOutcome
     await page.goto(url, { timeout: NAV_TIMEOUT_MS });
     await page.waitForLoadState("networkidle", { timeout: NAV_TIMEOUT_MS });
 
+    // Coverage check must be structural, not a bare "404" substring — wiki
+    // prose for web frameworks routinely discusses 404 responses. CodeWiki's
+    // not-found page (served with HTTP 200; it's a client-rendered app) shows
+    // a distinctive headline instead.
     const bodyText = String(await page.evaluate("document.body.innerText"));
-    if (bodyText.includes("404")) return "not-covered";
+    if (/This page doesn[’']t exist/.test(bodyText)) return "not-covered";
 
     // extract.js is a self-invoking expression that returns a JSON string of
     // {sha, markdown}; evaluate it as-is inside the page.

@@ -4,6 +4,7 @@
   "repo": "honojs/hono",
   "base_url": "https://codewiki.google/github.com/honojs/hono",
   "scored_at": "2026-07-28",
+  "pinned_source_sha": "cadff88bba34153646c9b35f24d7cc0cb61be913",
   "pages": [
     {
       "slug": "build-and-packaging-processes",
