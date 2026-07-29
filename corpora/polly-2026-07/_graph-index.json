@@ -1,0 +1,6098 @@
+{
+  "schema_version": 1,
+  "wiki_id": "261d3821-d69c-5fd1-af01-7f8a0b188178",
+  "node_names": [
+    "SingleHealthMetrics",
+    "telemetry.md",
+    "Snippets.Docs",
+    "True",
+    "MyTelemetryListener",
+    "Polly.Simmy.Outcomes",
+    "PipelineExecutingArguments",
+    "TimeoutResilienceStrategy.cs",
+    "Snippets.Docs",
+    "StartedAt",
+    "OnRateLimiterRejectedArguments",
+    "MemberNotNullWhenAttribute",
+    "Docs",
+    "AsBoxedInt",
+    "CreateExecutionInfoWhenNoExecution",
+    "Timeout_V8",
+    "AdvancedCircuitBehavior",
+    "ResiliencePipelineBuilder.TResult.cs",
+    "advanced",
+    "Polly.Bulkhead",
+    "Polly.RateLimit",
+    "Outer",
+    "Migration.Context.cs",
+    "ComponentDisposeHelper",
+    "MyPipelineKey",
+    "ExecuteCore",
+    "NoOpTResultSyntax.cs",
+    "Polly.CircuitBreaker",
+    "Url",
+    "StrategyInstance",
+    "ResetInternal_NeedsLock",
+    "Polly.RateLimit",
+    "PolicyBase.ContextAndKeys.cs",
+    "Registry_V8",
+    "Isolate",
+    "TimeoutStrategyOptions",
+    "KeyHelper.cs",
+    "api",
+    "AdvancedCircuitBreaker",
+    "EnabledGeneratorArguments",
+    "Result",
+    "HedgingActionGeneratorArguments",
+    "Polly",
+    "ResultPredicate.cs",
+    "InstanceName",
+    "ChaosFaultStrategyOptions.cs",
+    "ResilienceContextCreationArguments",
+    "FailureRate",
+    "SeverityProviderArguments",
+    "Polly.Simmy",
+    "Polly.Testing",
+    "ImplementationAsync",
+    "TelemetryEventArguments",
+    "HealthInfo",
+    "CacheAsync",
+    "Health",
+    "HealthWindow",
+    "Context",
+    "ChaosFaultPipelineBuilderExtensions",
+    "AsyncAdvancedCircuitBreakerSyntax",
+    "Key",
+    "LegacySupport",
+    "Pattern_MultipleFailures",
+    "GetPipelineDescriptorCore",
+    "ExecutionTime",
+    "ExceptionType",
+    "CircuitState",
+    "OnReset",
+    "Exception",
+    "ConfigureTelemetry",
+    "RelativeTtl",
+    "AddResiliencePipeline",
+    "BuilderNameFormatter",
+    "ParameterName",
+    "Polly.Telemetry",
+    "IConcurrentPolicyRegistry.cs",
+    "AsyncPolicy.ExecuteOverloads.cs",
+    "Component",
+    "Policy",
+    "Polly.Simmy.Outcomes",
+    "CircuitBreaker",
+    "Context",
+    "UseJitter",
+    "GetAsyncContext",
+    "Polly.RateLimiting",
+    "Polly.Simmy.Fault",
+    "OnPipelineDisposed",
+    "RetryResiliencePipelineBuilderExtensions.cs",
+    "DebuggerDisableUserUnhandledExceptionsAttribute",
+    "Context",
+    "RateLimiterResilienceStrategy",
+    "HasResult",
+    "ResiliencePipelineRegistryOptions.cs",
+    "PolicyBase.cs",
+    "IReadOnlyPolicyRegistry",
+    "DeferredAddition",
+    "Polly",
+    "Implementation",
+    "signing",
+    "TelemetrySource",
+    "Empty",
+    "FallbackAsync",
+    "ExceptionDispatchInfo",
+    "RetryConstants",
+    "Snippets.Docs",
+    "Outcome",
+    "PrepareRequest",
+    "AntiPattern_ReduceThrownExceptions",
+    "Usage",
+    "Polly",
+    "EmptyCallback",
+    "GetResult",
+    "ExecuteCore",
+    "GetEnumerator",
+    "Add",
+    "ExecuteCore",
+    "AttemptNumber",
+    "ContinueOnCapturedContext",
+    "AdvancedCircuitBehavior.cs",
+    "IRateLimitPolicy",
+    "Polly.Extensions",
+    "Polly.Utils",
+    "PolicyWrap",
+    "HedgingDelay",
+    "GetPipelineDescriptor",
+    "DynamicDependencyAttribute",
+    "ResiliencePipelineT.cs",
+    "IsolatedCircuitException.cs",
+    "Polly.Bulkhead",
+    "Retry",
+    "ExecuteCore",
+    "ExternalComponent.cs",
+    "ExecuteAndCapture",
+    "StrategyBuilderContext",
+    "TimeoutGenerator",
+    "ResultTtl",
+    "NoOpPolicy",
+    "CircuitBreakerTResultSyntax",
+    "ChaosBehaviorConstants.cs",
+    "StartProcessingAsync",
+    "Reset",
+    "CircuitBreakerPolicy.cs",
+    "Context",
+    "AdvancedCircuitBreakerAsync",
+    "ChaosStrategyOptions",
+    "Polly.CircuitBreaker",
+    "GetSyncContext",
+    "AdvancedCircuitBreakerAsync",
+    "ResultPredicates",
+    "LastHandledResult",
+    "NotNullIfNotNullAttribute",
+    "FailureCount",
+    "Outcome.TResult.cs",
+    "ResiliencePipelineT.Async.cs",
+    "Polly.CircuitBreaker",
+    "TelemetryListener",
+    "Execute",
+    "Polly.CircuitBreaker",
+    "Polly",
+    "http-client-integrations.md",
+    "Polly.Utils.Pipeline",
+    "AntiPattern_OnlyInjectFault",
+    "Polly.Retry",
+    "OnClosed",
+    "General.cs",
+    "FallbackActionArguments.cs",
+    "ExecuteCore",
+    "Usage",
+    "ResiliencePipelineSyncPolicy",
+    "ResiliencePipeline.AsyncT.cs",
+    "GetMemberAsync",
+    "Contains",
+    "AdvancedCircuitBreakerSyntax",
+    "Snippets.Docs",
+    "ChaosBehaviorPipelineBuilderExtensions",
+    "DisposedFailedArguments",
+    "ToString",
+    "PredicateBuilder",
+    "ValidateTimeSpanTimeout",
+    "ResilienceStrategyOptions.cs",
+    "AsyncSerializingCacheProvider",
+    "ResilienceStrategy.cs",
+    "Snippets.Docs",
+    "TimeoutRejectedException.cs",
+    "Outcome",
+    "AntiPattern_OverusingBuilder",
+    "DefaultMessage",
+    "Snippets.Docs.Utils",
+    "Telemetry",
+    "Migration.Execute.cs",
+    "Polly.Caching",
+    "toc.yml",
+    "OnFallbackArguments",
+    "Initialize",
+    "AddException",
+    "DisposedFailedArguments",
+    "IsExternalInit",
+    "FromResult",
+    "DecorrelatedJitterBackoffV2",
+    "Context",
+    "Outcome",
+    "Polly.Utils",
+    "LogEvent",
+    "RetryEngine.cs",
+    "FaultType",
+    "RegistryMarker",
+    "Polly",
+    "Policy.ContextAndKeys.cs",
+    "Reset_NeedsLock",
+    "StartedAt",
+    "TelemetryEvent",
+    "KeyedServicesDefine",
+    "Execute",
+    "ResilienceContextUsage",
+    "Polly.Registry",
+    "BridgeComponent",
+    "Snippets.Docs",
+    "Polly.Testing",
+    "IncrementSuccess",
+    "CloseCircuit_NeedsLock",
+    "Migration",
+    "TelemetryListenerImpl",
+    "UnconditionalSuppressMessageAttribute.cs",
+    "Instance",
+    "Readme.cs",
+    "Polly.Telemetry",
+    "NotNullWhenAttribute",
+    "DynamicallyAccessedMemberTypes.cs",
+    "Polly.NoOp",
+    "AsyncPolicy.NonGenericImplementation.cs",
+    "ShouldHandlePredicateBuilder",
+    "ResilienceEvent",
+    "PutAsync",
+    "Polly",
+    "Name",
+    "Polly.CircuitBreaker",
+    "hedging.md",
+    "ChaosFaultPipelineBuilderExtensions.cs",
+    "UpdateData",
+    "TimeoutValidator",
+    "Ttl.cs",
+    "ResiliencePipelineAsyncPolicy.TResult.cs",
+    "Retry_V8",
+    "Polly.CircuitBreaker",
+    "TimeoutStrategyOptions.cs",
+    "Return",
+    "EmptyHandlerWithContext",
+    "Context",
+    "Polly",
+    "ReloadableComponent.cs",
+    "OnLatencyInjectedArguments",
+    "ReturnValue",
+    "Polly.Utils",
+    "Polly",
+    "Count",
+    "PolicyBase",
+    "Return",
+    "CreateRegistration",
+    "ExecuteCallbacks",
+    "CancellationToken",
+    "ResilienceStrategyOptions",
+    "Registry",
+    "Pattern_RetryForFallback",
+    "FallbackHandler",
+    "index.md",
+    "Remove",
+    "AsyncBulkheadSyntax.cs",
+    "Registry",
+    "Source",
+    "Usage",
+    "ReloadableComponent",
+    "Snippets.Docs",
+    "Polly.Simmy.Outcomes",
+    "CachePolicy",
+    "CircuitBreakerEngine.cs",
+    "OnTimeout",
+    "ChaosLatencyStrategyOptions",
+    "ServiceProvider",
+    "Snippets",
+    "MyRemoteCallAsync",
+    "AttemptDuration",
+    "Shared",
+    "RetrySyntax.cs",
+    "IAsyncPolicy",
+    "Polly.Hedging",
+    "MeteringEnricherRegistration",
+    "OnRetry",
+    "AddHedging",
+    "RetryCount",
+    "ExtensionIntegration",
+    "UsageWithoutBuilders",
+    "ChaosFaultConstants.cs",
+    "OnActionFailure",
+    "WithPolicyKey",
+    "Utils",
+    "NotNull",
+    "Polly.CircuitBreaker",
+    "IsPolicy",
+    "Polly.Fallback",
+    "UpdateCurrentWindow",
+    "PipelineComponent.cs",
+    "AsyncBulkheadPolicy",
+    "AdvancedCircuitController.cs",
+    "IsolateAsync",
+    "Polly.CircuitBreaker",
+    "Polly",
+    "RateLimiterResilienceStrategy",
+    "CreateResultFromContext",
+    "ResilienceContextUsage.cs",
+    "ExecuteAsync",
+    "RetryStrategyOptions.TResult.cs",
+    "ThrowIfException",
+    "FallbackPredicateArguments",
+    "PipelineExecuted",
+    "OnActionSuccess",
+    "Polly",
+    "CustomMeteringEnricher",
+    "AsyncBulkheadTResultSyntax.cs",
+    "PolicyRegistry",
+    "GetTtl",
+    "ImplementationAsync",
+    "TaskExecution",
+    "PolicyWrap",
+    "ConfigureResiliencePipelineRegistryOptions.cs",
+    "SerializingCacheProvider",
+    "HandleInner",
+    "SyncRoot",
+    "GetValueOrPlaceholder",
+    "Dispose",
+    "ReloadFailedArguments",
+    "Successes",
+    "RegistryContext",
+    "RetryAfter",
+    "ShouldEnableFaults",
+    "Return",
+    "ICachePolicy",
+    "RetryStrategyOptions.cs",
+    "BulkheadTResultSyntax.cs",
+    "GetValue",
+    "FirstStrategy",
+    "Policy",
+    "TryGetResult",
+    "BuilderFactory",
+    "PollyServiceCollectionExtensions",
+    "ParameterValue",
+    "NoOpAsync",
+    "OnBehaviorInjectedArguments",
+    "ImplementationAsync",
+    "ConfigureMyPipelines",
+    "Reset",
+    "CloseCircuitAsync",
+    "Usage",
+    "SafeExecute_V8",
+    "cake.cs",
+    "IRateLimiter",
+    "main.js",
+    "SeverityProviderArguments",
+    "AddResiliencePipelinesContext.cs",
+    "ResiliencePipelineSyncPolicy.cs",
+    "RethrowWithOriginalStackTraceIfDiffersFrom",
+    "ShouldApplyTimeout",
+    "TimedLock.cs",
+    "OutcomeGenerator",
+    "FallbackSyntax",
+    "IncrementFailure",
+    "index.md",
+    "Polly.Hedging.Utils",
+    "NoOpAsync",
+    "Context",
+    "OperationKey",
+    "MinimumThroughput",
+    "Duration",
+    ".markdownlint.json",
+    "PolicyWrapEngine.cs",
+    "Polly.Registry",
+    "FallbackStrategyOptions",
+    "CreateArguments",
+    "OnActionSuccess",
+    "NoOp",
+    "Policy",
+    "FallbackStrategyOptions",
+    "template",
+    "AsyncPolicy",
+    "PolicyRegistry.cs",
+    "Report",
+    "Context",
+    "BuilderInstanceName",
+    "MyApi",
+    "Implementation",
+    "IsInAutomatedBreak_NeedsLock",
+    "Void",
+    "RegistryPipelineComponentBuilder.cs",
+    "ExecuteCore",
+    "Add",
+    "Polly.Simmy.Behavior",
+    "WaitAndRetry",
+    "TryGet",
+    "Write",
+    "RetryTResultSyntax.cs",
+    "WaitAndRetryForeverAsync",
+    "ChaosStrategyHelper.cs",
+    "resources.md",
+    "Polly.Caching",
+    "FallbackActionArguments",
+    "ExecutionTrackingComponent.cs",
+    "RateLimiter_V8",
+    "TrySetStackTrace",
+    "ResilienceContextFactory.cs",
+    "Polly",
+    "DependencyInjection.cs",
+    "toc.yml",
+    "AllowNullAttribute",
+    "ChaosBehaviorStrategy.cs",
+    "DisposeAsync",
+    "Return",
+    "Polly.Fallback",
+    "OnOutcomeInjectedArguments",
+    "SingleHealthMetrics",
+    "AsPolicy",
+    "RateLimiterArguments",
+    "Polly",
+    "ExecuteComponentAot",
+    "Initialize",
+    "OutcomeGenerator",
+    "TelemetrySource",
+    "Implementation",
+    "OnCircuitHalfOpenedArguments",
+    "Polly.Hedging.Utils",
+    "BridgeComponent.TResult.cs",
+    "ChaosLatencyStrategyOptions.cs",
+    "Bulkhead_V8",
+    "RateLimiter.cs",
+    "Implementation",
+    "Log.cs",
+    "AdvancedCircuitBreakerTResultSyntax.cs",
+    "SetProperties",
+    "RegistryPipelineComponentBuilder",
+    "TryGetPipeline",
+    "Context.cs",
+    "ResiliencePipelinesDiagramTimeoutRetryTimeout",
+    "Clear",
+    "HedgedTaskType",
+    "AsTask",
+    "Polly.Retry",
+    "OnActionFailure",
+    "Pattern_ReduceThrownExceptions",
+    "Polly.Simmy.Fault",
+    "Polly.RateLimit",
+    "Arguments",
+    "ReportExecutionAttempt",
+    "Properties",
+    "Polly.CircuitBreaker",
+    "Polly.CircuitBreaker.Health",
+    "RateLimiterResiliencePipelineBuilderExtensions",
+    "ResilienceTelemetrySource.cs",
+    "NullableAttributes.cs",
+    "AsyncRateLimitPolicy",
+    "EmptyStruct.cs",
+    "LatencyGeneratorArguments",
+    "Outer",
+    "AsyncCachePolicy",
+    "CreateComposite",
+    "CircuitBreaker",
+    "Randomizer",
+    "AsyncRateLimitEngine.cs",
+    "ChaosStrategyHelper",
+    "Polly.Retry",
+    "git-workflow.md",
+    "NonSlidingTtl",
+    "Polly.CircuitBreaker",
+    "PollyServiceCollectionExtensions.cs",
+    "Polly",
+    "ExecuteNext",
+    "RollingHealthMetrics",
+    "TimeoutPolicy.cs",
+    "CircuitBreakerAsync",
+    "UserDelegate",
+    "ImplementationAsync",
+    "Polly",
+    "ICacheKeyStrategy.cs",
+    "BulkheadSemaphoreFactory.cs",
+    "Polly.CircuitBreaker.Health",
+    "GetTtl",
+    "AsyncBulkheadEngine.cs",
+    "EmptyHandler",
+    "InitializeFrom",
+    "ResiliencePropertyKey.cs",
+    "LastException",
+    "Timeout",
+    "ContextualTtl.cs",
+    "AsyncFallbackSyntax.cs",
+    "Usage",
+    "ResilienceStrategyTelemetry",
+    "Successful",
+    "Polly",
+    "IsVoid",
+    "OnUnhandledOutcomeAsync",
+    "GetCacheKey",
+    "CircuitBreakerResilienceStrategy",
+    "IsReadOnly",
+    "CompositeComponentDebuggerProxy",
+    "IBulkheadPolicy.cs",
+    "Polly.Telemetry",
+    "Polly",
+    "CircuitState",
+    "ConfigureResiliencePipelineRegistryOptions",
+    "AsyncAdvancedCircuitBreakerTResultSyntax",
+    "AsAsyncPolicy",
+    "Migration.Bulkhead.cs",
+    "CloseAsync",
+    "ResiliencePipelineRegistry",
+    "Context_V7",
+    "PolicyBuilder.OrSyntax.cs",
+    "Event",
+    "TelemetrySource.cs",
+    "AdvancedCircuitBehavior",
+    "Policy.SyncNonGenericImplementation.cs",
+    "ActionGenerator",
+    "Polly.Telemetry",
+    "Telemetry",
+    "SeverityProviderArguments.cs",
+    "Wrappers",
+    "Timeout",
+    "CreateGenerator",
+    "ActualiseCurrentMetric_NeedsLock",
+    "toc.yml",
+    "analyzers",
+    "ShouldHandle",
+    "Write",
+    "reactive-strategy.md",
+    "LastException",
+    "ChaosOutcomeStrategy",
+    "CircuitBreakerResiliencePipelineBuilderExtensions",
+    "Polly",
+    "Polly",
+    "Polly.Fallback",
+    "TypeNameFormatter.cs",
+    "ExecuteAndCaptureAsync",
+    "BulkheadSyntax.cs",
+    "For",
+    "Polly.Caching",
+    "IsExternalInit.cs",
+    "CircuitBreakerStrategyOptions.TResult.cs",
+    "TaskExecution",
+    "Polly.Telemetry",
+    "Polly",
+    "ResolveFallbackResponse",
+    "InjectionRate",
+    "ResilienceEvent.cs",
+    "IHttpStatusApi",
+    "RollingHealthMetrics.cs",
+    "Polly.Utils",
+    "GeneratorHelper.cs",
+    "FallbackActionArguments",
+    "Entry",
+    "Utilities",
+    "TelemetryEventArguments",
+    "Controller",
+    "CompositeComponent",
+    "GetResponseAsync",
+    "Polly.Telemetry",
+    "Count",
+    "ExecutionTrackingComponent",
+    "IsInitialized",
+    "Context",
+    "AdvancedCircuitController",
+    "Polly.Simmy",
+    "ComponentWithDisposeCallbacks.cs",
+    "Polly",
+    "Migration.Retry.cs",
+    "Polly",
+    "FallbackResilienceStrategy",
+    "AntiPattern_1",
+    "AddOrReplaceProperties",
+    "QueueAvailableCount",
+    "Polly.RateLimiting",
+    "CreateFallback",
+    "Outcome",
+    "Polly",
+    "Hedging.cs",
+    "ResultTtl",
+    "PermitHalfOpenCircuitTest",
+    "Polly",
+    "RateLimiterArguments.cs",
+    "ChaosLatencyConstants",
+    "IsolateCircuitAsync",
+    "Polly",
+    "EmptyAction",
+    "Polly.Retry",
+    "RandomUtil",
+    "OnActionSuccess",
+    "AddStrategy",
+    "TelemetryListenerImpl",
+    "BridgeComponent",
+    "IsAccepted",
+    "IRateLimiter.cs",
+    "AsyncTimeoutSyntax.cs",
+    "LastHandledOutcome",
+    "OnActionPreExecute",
+    "ImplementationAsync",
+    "Implementation",
+    "Polly.Simmy.Outcomes",
+    "global.json",
+    "Pattern_OnlyInjectFault",
+    "MemberSignature",
+    "RetryForever",
+    "FinalException",
+    "SomeExceptionType",
+    "Polly.Utils.Pipeline",
+    "Polly.Caching",
+    "Polly.CircuitBreaker",
+    "CacheAsync",
+    "LastException",
+    "ResiliencePipeline",
+    "Snippets.Docs",
+    "Policy",
+    "LastHandledResult",
+    "RetryResilienceStrategy",
+    "ExecuteOutcomeAsync",
+    "HttpClientIntegrations",
+    "IsPolicy.cs",
+    "index.md",
+    "Polly.Simmy.Latency",
+    "BulkheadPolicy",
+    "ISyncPolicy",
+    "PipelineComparer",
+    "ValidationHelper",
+    "Context",
+    "Polly",
+    "ResiliencePipelineBuilderBase",
+    "Polly",
+    "HedgingPredicateArguments",
+    "TryAdd",
+    "ContextPool",
+    "MethodAsync",
+    "ResilienceContextCreationArguments.cs",
+    "Polly",
+    "ResourceDisposal",
+    "EmptyAction",
+    "CacheProviderExtensions",
+    "Polly.Fallback",
+    "TelemetryResiliencePipelineBuilderExtensions.cs",
+    "OnRetry",
+    "AsyncTimeoutEngine.cs",
+    "Pipeline",
+    "Polly.Timeout",
+    "OutcomeGeneratorArguments.cs",
+    "Polly.Telemetry",
+    "Polly.Utils.Pipeline",
+    "Timeout.cs",
+    "CreateReloadable",
+    "RateLimitSyntax.cs",
+    "SafeExecute_V7",
+    "PolicyBase",
+    "Entry",
+    "Polly",
+    "ExecuteCore",
+    "Polly.RateLimit",
+    "FaultGeneratorArguments",
+    "HedgingHandler.cs",
+    "FromPipeline",
+    "IBulkheadPolicy",
+    "Stylecop.json",
+    "HedgingResiliencePipelineBuilderExtensions",
+    "Target",
+    "InjectionRateGenerator",
+    "PipelineExecutedArguments.cs",
+    "ResilienceValidationContext.cs",
+    "AsyncPolicyWrapEngine.cs",
+    "IAsyncPolicy",
+    "BuilderName",
+    "AdvancedCircuitBreaker_V7",
+    "ExecutionRejectedException",
+    "TimeoutUtil",
+    "Snippets.Docs",
+    "Polly",
+    "DisposeHelper",
+    "InjectionRateGenerator",
+    "HealthCount.cs",
+    "HandleNested",
+    "IncrementSuccess",
+    "ExecutionAttemptArguments",
+    "TelemetrySource",
+    "Polly.Simmy.Fault",
+    "RateLimitRejectedException",
+    "RetryAsync",
+    "Utils",
+    "BulkheadRejectedException",
+    "Polly.Fallback",
+    "GetCore",
+    "AntiPattern_CancellationToken",
+    "CircuitStateController",
+    "TimeoutTResultSyntax.cs",
+    "DoesNotReturnIfAttribute",
+    "OutcomeGeneratorArguments",
+    "ResiliencePipelineBuilderBase.cs",
+    "FallbackAction",
+    "ChaosFaultConstants",
+    "Context",
+    "Total",
+    "Testing.cs",
+    "CircuitBreaker",
+    "Polly.Simmy.Latency",
+    "ContinueOnCapturedContext",
+    "ComponentWithDisposeCallbacks",
+    "RateLimit",
+    "Reset",
+    "Polly",
+    "DynamicMode",
+    "MessageId",
+    "Pool",
+    "Policy",
+    "Policy",
+    "IsCancellable",
+    "FallbackEngine",
+    "AsyncNoOpPolicy",
+    "UpdateEnrichmentContext",
+    "Polly.NoOp",
+    "PipelineExecutedArguments",
+    "RetryResilienceStrategy.cs",
+    "ResilienceContextFactory",
+    "CircuitBreakerEngine",
+    "IsHandled",
+    "IncrementFailure_NeedsLock",
+    "EnabledGenerator",
+    "ResiliencePipelineProvider",
+    "OutcomeUtilities.cs",
+    "ExecuteComponent",
+    "ReportAttempt",
+    "DisposeDiscardedComponentSafeAsync",
+    "ExecuteSecondaryActionSync",
+    "NoOp",
+    "Context.Dictionary.cs",
+    "QueueAvailableCount",
+    "Implementation",
+    "Polly.Caching",
+    "Polly.Hedging",
+    "TimeoutAsync",
+    "BreakDurationGeneratorArguments.cs",
+    "OnLatencyInjectedArguments",
+    "PolicyKey",
+    "Polly.Utils",
+    "Polly",
+    "Main",
+    "ExecuteCoreWithoutTelemetry",
+    "Latency",
+    "EmptyStruct",
+    "ShouldHandle",
+    "BulkheadAsync",
+    "Polly.Telemetry",
+    "TryGet",
+    "Polly",
+    "Migration.Wrap.cs",
+    "Polly.RateLimit",
+    "CallXYZOnDownstream1",
+    "HandleInner",
+    "InjectionRateGeneratorArguments",
+    "ResilienceContext",
+    "DelayGenerator",
+    "Polly.Core",
+    "IPolicyRegistry.cs",
+    "Snippets.Docs",
+    "OnRateLimiterRejectedArguments",
+    "Polly.Wrap",
+    "Polly",
+    "INoOpPolicy.cs",
+    "ScheduleHalfOpenTask",
+    "Polly",
+    "Polly.Utilities",
+    "Controller",
+    "Create",
+    "ComponentDisposeHelper.cs",
+    "Registry_V7",
+    "Polly",
+    "Handled",
+    "Polly",
+    "ExceptionPredicates.cs",
+    "CircuitBreakerStateProvider",
+    "TryGetValue",
+    "GetRetryDelay",
+    "AsyncCircuitBreakerSyntax",
+    "UnconditionalSuppressMessageAttribute",
+    "AssemblyName",
+    "Polly.Timeout",
+    "Extensibility",
+    "Polly.Simmy.Behavior",
+    "Polly.Wrap",
+    "AsyncCircuitBreakerPolicy",
+    "OnFallbackArguments.cs",
+    "AsyncCircuitBreakerTResultSyntax.cs",
+    "ResiliencePipelineRegistry.cs",
+    "eng",
+    "Outcome",
+    "Polly.Telemetry",
+    "GetPolicies",
+    "NextDouble",
+    "ExecuteOutcomeAsync",
+    "Policy.TResult.cs",
+    "Polly.Caching",
+    "Category",
+    "GetResultOrRethrow",
+    "AddResiliencePipeline",
+    "FailureRatio",
+    "RateLimitRejectedException",
+    "Strategy",
+    "GetHedgingDelayAsync",
+    "ImplementationAsync",
+    "OnCircuitClosedArguments.cs",
+    "Cache",
+    "Return",
+    "CircuitBreakerManualControl.cs",
+    "ResetAsync",
+    "MaxDelay",
+    "AddResiliencePipelineWithComplexKey",
+    "IncrementSuccess",
+    "ReportFinalExecutionAttempt",
+    "PrimaryContext",
+    "AsyncPolicy",
+    "ResiliencePipelineSyncPolicy",
+    "CircuitState",
+    "Polly",
+    "LockFreeTokenBucketRateLimiter.cs",
+    "RateLimiterConstants",
+    "DoSomething",
+    "AsString",
+    "TryAdd",
+    "RegistrationDisposable",
+    "VoidResult.cs",
+    "TimeoutValidator.cs",
+    "ResilienceEventSeverity.cs",
+    "Polly.Timeout",
+    "NonSlidingTtl.cs",
+    "ChaosLatencyPipelineBuilderExtensions.cs",
+    "Polly.Telemetry",
+    "DelayGenerator",
+    "Reset",
+    "RetryResilienceStrategy",
+    "ImplementationAsync",
+    "DisposeAsync",
+    "ResilienceContextPool",
+    "ExecuteCore",
+    "ChaosLatencyStrategy",
+    "Polly.Registry",
+    "TimeoutUtil.cs",
+    "Execute",
+    "Polly.Simmy.Fault",
+    "HedgingPredicateArguments",
+    "GetTtl",
+    "RetryResiliencePipelineBuilderExtensions",
+    "ResiliencePipelineProvider.cs",
+    "index.md",
+    "ResilienceEvent",
+    "ExecuteCore",
+    "ChaosOutcomeStrategyOptions.cs",
+    "Implementation",
+    "TimeoutGenerator",
+    "CreateConcurrencyLimiter",
+    "OnCircuitClosedArguments",
+    "OnActionPreExecute",
+    "Polly.Retry",
+    "Snippets.Docs",
+    "GetOrAdd",
+    "GetHealthCount_NeedsLock",
+    "Polly",
+    "AddCircuitBreaker",
+    "HedgedTaskType.cs",
+    "TimeoutStrategyOptions",
+    "Polly",
+    "OutcomeType",
+    "Enabled",
+    "ResiliencePipeline",
+    "Component",
+    "TimeoutResiliencePipelineBuilderExtensions",
+    "PermitExecution",
+    "Polly.Caching",
+    "TryGetAsync",
+    "FallbackResiliencePipelineBuilderExtensions.cs",
+    "Context",
+    "ExecuteCore",
+    "CallerArgumentExpressionAttribute",
+    "Dispose",
+    "Polly.Simmy.Latency",
+    "ThrowDisposed",
+    "IncrementFailure",
+    "Polly.Retry",
+    "AbsoluteTtl",
+    "ExecuteCore",
+    "Outcome",
+    "TagsList.cs",
+    "Polly.Caching",
+    "Context",
+    "Implementation",
+    "IsDateTimeOverflow",
+    "RateLimitPolicy",
+    "Polly.Caching",
+    "IOutcomeArguments",
+    "Polly.Utilities",
+    "PolicyBuilder.cs",
+    "DelegateUsage",
+    "MyApi",
+    "RedisConnectionException",
+    "Polly.Telemetry",
+    "AsyncPolicy.GenericImplementation.cs",
+    "HedgingResilienceStrategy.cs",
+    "RegistryPipelineComponentBuilder",
+    "Keys",
+    "AddResiliencePipelines",
+    "CircuitBreaker_V7",
+    "GetDisplayName",
+    "Dispose",
+    "Disposal",
+    "Isolate",
+    "Fallback",
+    "AddChaosBehavior",
+    "ResolveInjectionRate",
+    "TryGetPipeline",
+    "Polly",
+    "HedgingDelayGeneratorArguments",
+    "PolicyBase",
+    "Reset",
+    "CircuitBreaker_V8",
+    "DisposeAsync",
+    "BeforeEachAttempt",
+    "Polly.Timeout",
+    "Timeout_V7",
+    "TryReset",
+    "Migration",
+    "System.Diagnostics.CodeAnalysis",
+    "Get",
+    "Policy",
+    "Polly.Simmy",
+    "Outcome",
+    "FallbackPredicateArguments",
+    "IRetryPolicy",
+    "GetOrAdd",
+    "StrategyName",
+    "fault.md",
+    "ImplementationAsync",
+    "WrapAsync",
+    "ExecuteCore",
+    "RefitExample",
+    "TelemetryUtil",
+    "RetryAsync",
+    "RetryConstants.cs",
+    "ObjectPool.cs",
+    "TryUpdate",
+    "OnFaultInjectedArguments",
+    "Listener",
+    "Context",
+    "RollingHealthMetrics",
+    "AdvancedCircuitBreakerSyntax.cs",
+    "Polly.Fallback",
+    "outcome.md",
+    "Polly.Caching",
+    "Migration.RateLimiter.cs",
+    "CODE_OF_CONDUCT.md",
+    "Values",
+    "HedgingDelayGeneratorArguments",
+    "MeteringEnricher",
+    "SingleHealthMetrics",
+    "Polly.Utils",
+    "SeverityProvider",
+    "Polly",
+    "Usage",
+    "OnFaultInjectedArguments.cs",
+    "OnRetryArguments.cs",
+    "TelemetryOptions",
+    "FaultGenerator",
+    "NoOpPolicy",
+    "ReloadableComponent",
+    "MaxDelay",
+    "Polly.Utils",
+    "OnBehaviorInjectedArguments.cs",
+    "use-with-fsharp-and-visual-basic.md",
+    "Policy.cs",
+    "SlidingTtl.cs",
+    "Policy",
+    "Polly",
+    "ISyncPolicyPolicyWrapExtensions.cs",
+    "TimeoutPolicy",
+    "LastHandledResult",
+    "NoOpEngine",
+    "Polly.Timeout",
+    "PrimaryContext",
+    "HedgingExecutionContext.cs",
+    "LockFreeTokenBucketRateLimiter",
+    "community",
+    "ChaosStrategy",
+    "Polly",
+    "DefaultCacheKeyStrategy",
+    "Component",
+    "HandleRejection",
+    "Reset",
+    "PipelineExecuting",
+    "docfx.json",
+    "TypeNameFormatter",
+    "RetryPredicateArguments",
+    "Entry",
+    "ExceptionPredicates",
+    "Polly.Simmy",
+    "RetryDelay",
+    "AddFallback",
+    "Snippets.Docs",
+    "AddPipelineComponent",
+    "IncrementFailure_NeedsLock",
+    "Context",
+    "Polly.Simmy",
+    "Polly.Fallback",
+    "ExecutionTrackingComponent",
+    "Caching",
+    "TelemetryListeners",
+    "AsyncPolicy",
+    "ResilienceContext.cs",
+    "DefaultPredicates",
+    "Simmy",
+    "MemberNotNullWhenAttribute",
+    "Policy.TResult.ExecuteOverloads.cs",
+    "ChaosLatencyStrategyOptions",
+    "Type",
+    "Polly.Utilities",
+    "RentedContexts",
+    "ChaosStrategy",
+    "HedgingHandler",
+    "GetHealthCount_NeedsLock",
+    "Polly.Simmy",
+    "Polly.Timeout",
+    "RandomUtil.cs",
+    "Context",
+    "UseJitter",
+    "SetTelemetrySource",
+    "RateLimitTResultSyntax.cs",
+    "Inner",
+    "GetContext",
+    "Delay",
+    "Polly.Registry",
+    "AsyncTimeoutPolicy",
+    "ActionGenerator",
+    "Policy",
+    "Hedging",
+    "Polly.Caching",
+    "AddResiliencePipelineGeneric",
+    "RestartRedisAsync",
+    "AddCommonTags",
+    "ImplementationAsync",
+    "KeyHelper",
+    "TimeProvider",
+    "ResilienceValidationContext",
+    "FallbackStrategyOptions.TResult.cs",
+    "fallback.md",
+    "DisposableCancellationTokenSourcePool",
+    "FaultGeneratorDelegates",
+    "Registry",
+    "FromException",
+    "GetPartitionKey",
+    "ConsecutiveCountCircuitController",
+    "HandleInner",
+    "Chaos.Outcome.cs",
+    "Options",
+    "ResiliencePropertyKey",
+    "ResiliencePipelineSyncPolicy",
+    "GetVersion",
+    "Polly.Fallback",
+    "OnRetryArguments",
+    "BrokenCircuitException",
+    "EnrichmentContext",
+    "Polly.Timeout",
+    "BehaviorUsage",
+    "Reset",
+    "UpdateOriginalContext",
+    "ValidationHelper.cs",
+    "AddResiliencePipelineWithTelemetry",
+    "Pattern_1",
+    "BulkheadEngine.cs",
+    "AsyncFallbackPolicy",
+    "OnActionFailure",
+    "GetObjectData",
+    "CircuitBreaker",
+    "Pattern_GeneratorDelegateInjectFaultAndOutcome",
+    "OnCircuitClosed",
+    "Polly.Caching",
+    "Polly.CircuitBreaker",
+    "ExceptionUtilities.cs",
+    "general.md",
+    "ChaosBehaviorStrategy",
+    "IPolicyWrap.cs",
+    "Implementation",
+    "Outcomes",
+    "NotNullWhenAttribute",
+    "Polly.RateLimit",
+    "DisposeCallbacks",
+    "GenericCacheProvider",
+    "Retry",
+    "ShouldInjectAsync",
+    "OnTimeoutArguments",
+    "FailureCount",
+    "Members",
+    "PolicyWrapEngine",
+    "Migration.Policies.cs",
+    "False",
+    "Reset",
+    "ActionContext",
+    "Snippets.Docs",
+    "PredicateBuilder.Operators.cs",
+    "TelemetryUtil.cs",
+    "GetOrAdd",
+    "FromStrategy",
+    "ExecutionRejectedException",
+    "AddRateLimiter",
+    "AntiPattern_BranchingByUrl",
+    "DelegatingComponent",
+    "CachePolicy.cs",
+    "RollingHealthMetrics.cs",
+    "ExecuteCore",
+    "CreateBrokenCircuitException",
+    "TimeProviderExtensions",
+    "Polly.CircuitBreaker",
+    "AddException",
+    "migration-v8.md",
+    "GetGenericRegistry",
+    "ShouldEnableOutcome",
+    "Polly.Caching",
+    "Polly.Caching",
+    "AntiPattern_InjectDelay",
+    "PolicyBuilder",
+    "TimeProviderExtensions.cs",
+    "ChaosBehaviorStrategyOptions",
+    "PipelineComponent",
+    "AdvancedCircuitController",
+    "ConfigureBuilderContext",
+    "EnsureNotDisposed",
+    "WaitForTaskCompetitionAsync",
+    "IPolicyWrap",
+    "TimeProvider",
+    "Polly",
+    "Equals",
+    "Migration",
+    "GeneratorHelper",
+    "Timeout",
+    "Exception",
+    "Meter",
+    "ExecuteAsync",
+    "EnabledGeneratorArguments.cs",
+    "Polly.CircuitBreaker",
+    "TextSearchAsync",
+    "Context",
+    "AsyncNoOpPolicy",
+    "CorrelationId",
+    "polly-contrib.md",
+    "GetObjectData",
+    "Polly.Registry",
+    "HealthCount",
+    "IAsyncPolicyPolicyWrapExtensions.cs",
+    "AsyncCachePolicy.cs",
+    "QuickStart",
+    "Polly",
+    "Polly.Hedging",
+    "ResultPredicates.cs",
+    "WithPolicyKey",
+    "SetRetryAfter",
+    "Fault",
+    "DisposeAsync",
+    "behavior.md",
+    "SingleHealthMetrics.cs",
+    "GetObjectData",
+    "AntiPattern_RetryForFallback",
+    "AsyncPolicy",
+    "AddResiliencePipelineBuilder",
+    "DefaultTimeout",
+    "Component",
+    "ResiliencePipelineRegistry",
+    "TimeoutStrategy.cs",
+    "AsyncCircuitBreakerEngine",
+    "Result",
+    "RetryPredicateArguments.cs",
+    "Snippets.Docs",
+    "CancellationTokenSourcePool.cs",
+    "FaultType",
+    "Polly.CircuitBreaker",
+    "ResilienceTelemetrySource",
+    "CircuitState",
+    "RateLimiterResilienceStrategy.cs",
+    "DependencyInjection",
+    "Snippets.Docs",
+    "BulkheadRejectedException.cs",
+    "TryAddBuilder",
+    "ChaosStrategy.cs",
+    "ChaosBehaviorStrategy",
+    "Polly",
+    "AntiPattern_NestingExecute",
+    "Pattern_ReplaceException",
+    "Guard.cs",
+    "ResultPredicate",
+    "Outcome",
+    "CHANGELOG.md",
+    "GetHashCode",
+    "InitializeAsync",
+    "ExecuteCore",
+    "Polly",
+    "DynamicDependencyAttribute",
+    "dependency-injection.md",
+    "Pattern_CancellationToken",
+    "Create",
+    "AddChaosLatency",
+    "chaos",
+    "ImplementationAsync",
+    "Outcome",
+    "Lock",
+    "Polly.Telemetry",
+    "GetStrategyInstance",
+    "CacheProviderExtensions.cs",
+    "LockFreeTokenBucketRateLimiter",
+    "AsAsyncPolicy",
+    "CircuitBreakerResiliencePipelineBuilderExtensions.cs",
+    "ResiliencePipelineDescriptor",
+    "OnBehaviorInjectedArguments",
+    "ImplementationAsync",
+    "ImplementationAsync",
+    "Policy",
+    "latency.md",
+    "ResilienceEvent",
+    "getting-started.md",
+    "CustomNetworkException",
+    "GetCacheKey",
+    "InitializeSyncContext",
+    "ChaosStrategyOptions.cs",
+    "GenericTtlStrategy.cs",
+    "RetryStrategyOptions",
+    "FaultGenerator",
+    "Create",
+    "Chaos.Latency.cs",
+    "DisposeAsync",
+    "EnsureDisposable",
+    "Enabled",
+    "Count",
+    "Polly",
+    "UnconditionalSuppressMessageAttribute",
+    "RedisConnectionException",
+    "Readme",
+    "Polly",
+    "Delay",
+    "AttemptNumber",
+    "Context",
+    "extensibility.md",
+    "Polly.Utilities",
+    "SomeExceptionType",
+    "ResiliencePipelineDescriptor",
+    "Polly.Caching",
+    "Initialize",
+    "PipelineComponentFactory",
+    "ResiliencePipelineBuilder",
+    "HedgingHandler",
+    "Constants",
+    "TryGet",
+    "Polly.Utilities.Wrappers",
+    "FallbackPolicy.cs",
+    "EnabledGenerator",
+    "Polly.Bulkhead",
+    "CircuitBreakerSyntax.cs",
+    "GeneratorHelper",
+    "Polly",
+    "BackoffType",
+    "FallbackEngine.cs",
+    "OnCircuitOpenedArguments",
+    "ResilienceStrategyTelemetry",
+    "ExceptionType",
+    "Pattern_CircuitPerEndpoint",
+    "CircuitBreakerStrategyOptions",
+    "RateLimitAsync",
+    "ResiliencePipelineRegistry",
+    "InjectionRateGenerator",
+    "Migration.CircuitBreaker.cs",
+    "ObjectPool",
+    "Polly.Utils.Pipeline",
+    "SystemClock",
+    "AsyncPolicy",
+    "ICircuitController",
+    "TagsSpan",
+    "Polly.RateLimiting",
+    "TagsList",
+    "ChaosFaultStrategyOptions",
+    "TimeoutResilienceStrategy",
+    "EventName",
+    "CircuitBreakerResilienceStrategy.cs",
+    "BulkheadPolicy",
+    "Policy",
+    "TelemetryOptions.cs",
+    "ResilienceEventSeverity",
+    "ICacheItemSerializer",
+    "Pattern_CallingMethodBefore",
+    "FaultGenerator.cs",
+    "ITtlStrategy.cs",
+    "RetryPolicy",
+    "Policy",
+    "Context_V8",
+    "CoerceInjectionThreshold",
+    "HealthInfo",
+    "Execute",
+    "AdvancedCircuitBreaker",
+    "CacheTResultSyntax.cs",
+    "Implementation",
+    "RateLimitRejectedException.cs",
+    "BehaviorGeneratorArguments",
+    "Shared",
+    "ResiliencePipelineBuilderExtensions",
+    "Polly.Bulkhead",
+    "CircuitBehavior",
+    "RetryPolicy",
+    "CircuitBreakerSyntax",
+    "ExecutionInfo",
+    "EmptyHandler",
+    "Callback",
+    "BulkheadAvailableCount",
+    "Randomizer",
+    "ProcessingTask",
+    "ExceptionPredicate.cs",
+    "Justification",
+    "Ttl",
+    "AsyncCacheEngine.cs",
+    "NoOp",
+    "Polly.Hedging.Utils",
+    "Polly",
+    "Polly.Hedging",
+    "Polly",
+    "RateLimiterConstants.cs",
+    "TryGet",
+    "WaitAndRetry",
+    "TimeoutPolicy",
+    "AsyncFallbackPolicy",
+    "Polly.Utils",
+    "Polly.Simmy.Utils",
+    "FallbackResilienceStrategy.cs",
+    "RateLimiter",
+    "Pattern_NestingExecute",
+    "EmptyHandlerOfT",
+    "GuidPart",
+    "Strategies",
+    "OnReloadArguments",
+    "ExceptionUtilities",
+    "LockTimeoutException",
+    "TaskHelper",
+    "RelativeTtl",
+    "IsolatedCircuitException",
+    "PatchStrykerConfig",
+    "Polly.Caching",
+    "IChaosManager",
+    "Isolate",
+    "README.md",
+    "AcceptOutcome",
+    "EnableReloads",
+    "ExceptionExtensions.cs",
+    "Snippets.Docs",
+    "Member",
+    "TtlStrategyExtensions",
+    "UpdateOutcomeAsync",
+    "EmptyHandler",
+    "WaitHalfOpenTask",
+    "TimedLock",
+    "ResiliencePipeline.Sync.cs",
+    "Put",
+    "MyMethodAsync",
+    "MaxHedgedAttempts",
+    "Polly.Registry",
+    "TelemetryOptions",
+    "Context",
+    "Polly.Simmy.Behavior",
+    "Context",
+    "GetOptions",
+    "Properties",
+    "Or",
+    "Pattern_OverusingBuilder",
+    "ExecuteSecondaryActionAsync",
+    "Execute",
+    "CompositeComponentDebuggerProxy.cs",
+    "ConfigureBuilderContext",
+    "Polly.Telemetry",
+    "AsyncPolicy",
+    "ResilienceContextPool",
+    "CreateComponent",
+    "MyApiExtensions",
+    "AsyncPolicy.ContextAndKeys.cs",
+    "Implementation",
+    "MeteringEnricher.cs",
+    "Polly.CircuitBreaker",
+    "Polly",
+    "Polly.NoOp",
+    "None",
+    "RunMutationTests",
+    "PipelineName",
+    "ExceptionPredicate",
+    "WithPolicyKey",
+    "DelegateResult.cs",
+    "RateLimit",
+    "Polly",
+    "HandleInner",
+    "OutcomeGenerator",
+    "DelegateResult",
+    "MyApi",
+    "TryRemoveExecutedTask",
+    "IsInitialized",
+    "ExecuteCore",
+    "Result",
+    "GenericCacheProvider",
+    "Snippets.Docs",
+    "PolicyWrap",
+    "WrappedDictionary",
+    "RateLimitAsync",
+    "IsManual",
+    "FallbackSyntax.cs",
+    "HedgingHandler",
+    "CircuitState",
+    "TimeoutResiliencePipelineBuilderExtensions.cs",
+    "MaxQueueingActions",
+    "Polly",
+    "GetOrCreateResiliencePipeline",
+    "Isolate",
+    "AsyncTimeoutEngine",
+    "IPolicyRegistry",
+    "ScheduledTaskExecutor",
+    "MaxRetryAttempts",
+    "IsFixedSize",
+    "Polly.Simmy",
+    "Timeout",
+    "ConsecutiveCountCircuitController.cs",
+    "Snippets.Docs",
+    "AsyncCircuitBreakerPolicy",
+    "PolicyResult",
+    "IAsyncPolicyPolicyWrapExtensions",
+    "CircuitBreakerAsync",
+    "Polly.Utilities.Wrappers",
+    "Build",
+    "OnActionSuccess",
+    "PolicyKeyMustBeImmutableException",
+    "ChaosBehaviorStrategyOptions.cs",
+    "Polly.Caching",
+    "Wrapper",
+    "RelativeTtl.cs",
+    "RegistryOptions",
+    "CallerArgumentExpressionAttribute",
+    "Equals",
+    "RetryAfter",
+    "SingleHealthMetrics.cs",
+    "Build",
+    "Polly",
+    "SetPolicyContext",
+    "Action",
+    "Polly",
+    "BreakDuration",
+    "PredicateBuilder",
+    "Type",
+    "StateWrapper",
+    "TryDisposeSafeAsync",
+    "ValidateObject",
+    "PipelineExecutingArguments.cs",
+    "LastHandledResult",
+    "AddChaosOutcome",
+    "AsyncCircuitBreakerTResultSyntax",
+    "Polly",
+    "Get",
+    "OnLeaseRejected",
+    "RateLimitPolicy",
+    "ResiliencePipelineRegistry.TResult.cs",
+    "Polly",
+    "Handle",
+    "AsyncPolicy",
+    "Create",
+    "DisposableCancellationTokenSourcePool",
+    "AttemptNumber",
+    "ExecuteAndCapture",
+    "Get",
+    "Sentinel",
+    "CancellationTokenSourcePool.Pooled.cs",
+    "WithPolicyKey",
+    "libraries-and-contributions.md",
+    "ShouldHandle",
+    "WithPolicyKey",
+    "Failures",
+    "BreakDurationGeneratorArguments",
+    "Polly.Fallback",
+    "Polly",
+    "Polly.Simmy",
+    "OperationKey",
+    "Polly.CircuitBreaker.Health",
+    "Pattern_MaxDelay",
+    "HedgingResiliencePipelineBuilderExtensions.cs",
+    "GetPolicy",
+    "Context",
+    "IsolatedCircuitException",
+    "ApplyJitter",
+    "Polly.CircuitBreaker",
+    "ResiliencePipelineBuilder.cs",
+    "Foo",
+    "HasPendingExecutions",
+    "BehaviorGenerator",
+    "SerializingCacheProvider.cs",
+    "ResilienceTelemetrySource",
+    "ImplementationAsync",
+    "AddMyApi",
+    "Counter",
+    "EmptyHandlerAsync",
+    "Snippets.Docs",
+    "DelegatingComponent",
+    "ConfigureBuilderContextExtensions.cs",
+    "HedgingController.cs",
+    "AttemptNumber",
+    "ChaosBehaviorStrategyOptions",
+    "Polly.Timeout",
+    "TimeProvider",
+    "ExecuteCore",
+    "Polly",
+    "ForceDisposeAsync",
+    "Actions",
+    "PolicyWrap.cs",
+    "Policy",
+    "GetExceptionType",
+    "Execute",
+    "SwitchExpressions",
+    "FallbackResiliencePipelineBuilderExtensions",
+    "Chaos",
+    "GetTtl",
+    "ResilienceStrategyDescriptor.cs",
+    "ToString",
+    "For",
+    "IsInitialized",
+    "README.md",
+    "Outer",
+    "EnrichmentContext",
+    "FailureRate",
+    "filelist.txt",
+    "Fallback",
+    "TelemetryEventArguments.cs",
+    "Polly.Caching",
+    "TryRemove",
+    "StateProvider",
+    "AsyncPolicyWrap.cs",
+    "Polly.Bulkhead",
+    "Ttl",
+    "Clear",
+    "LoadExecutionAsync",
+    "AntiPattern_SleepingStrategies",
+    "CircuitBreakerPredicateArguments",
+    "FaultGenerator",
+    "HedgingController",
+    "ImplementationAsync",
+    "OnHandledOutcomeAsync",
+    "IncrementFailure_NeedsLock",
+    "ExecuteCoreWithTelemetry",
+    "RetryAfter",
+    "Outcome",
+    "ConsecutiveCountCircuitController",
+    "System.Runtime.CompilerServices",
+    "Polly",
+    "OpenCircuitFor_NeedsLock",
+    "CircuitBreakerManualControl",
+    "Policy",
+    "Add",
+    "ConfigureBuilderContextExtensions",
+    "Polly.Retry",
+    "OnCircuitClosed",
+    "OnHedgingArguments.cs",
+    "Polly",
+    "AddResiliencePipelinesContext",
+    "Context",
+    "IncrementSuccess_NeedsLock",
+    "Next",
+    "ChaosLatencyConstants.cs",
+    "Context",
+    "BridgeComponent",
+    "AddResiliencePipelinesContext",
+    "BridgeComponent",
+    "ResiliencePipelineAsyncPolicy",
+    "HedgingStrategyOptions.TResult.cs",
+    "ExecuteCore",
+    "StrategyBuilderContext",
+    "GenericTtlStrategy",
+    "Polly.Telemetry",
+    "Testing",
+    "Migration",
+    "AsyncRateLimitPolicy",
+    "IsReloadable",
+    "OnFaultInjectedArguments",
+    "Policy",
+    "Outcome",
+    "TryGetAsync",
+    "Latency",
+    "DisposeAsync",
+    "ResultType",
+    "OutcomeUtilities",
+    "GetOrAdd",
+    "SECURITY.md",
+    "ToString",
+    "OnOpened",
+    "AsyncRateLimitSyntax.cs",
+    "System.Diagnostics.CodeAnalysis",
+    "Pattern_FallbackAfterRetries",
+    "ContinueOnCapturedContext",
+    "ResilienceProperties.cs",
+    "CreateComponent",
+    "IHealthMetrics",
+    "Polly.RateLimit",
+    "FlurlExample",
+    "Context",
+    "ExecuteCore",
+    "OrResult",
+    "mdsnippets.json",
+    "RateLimiterStrategyOptions.cs",
+    "ChaosOutcomeStrategy",
+    "EnsureNotDisposed",
+    "Outcome",
+    "NoOpEngineAsync.cs",
+    "ChaosBehaviorPipelineBuilderExtensions.cs",
+    "ResiliencePipelineConversionExtensions.cs",
+    "RentedExecutions",
+    "OnHedgingArguments",
+    "Polly",
+    "AGENTS.md",
+    "IPolicyWrapExtension",
+    "AsyncRetryTResultSyntax",
+    "TtlStrategyExtensions.cs",
+    "HandleTimeout",
+    "IAsyncPolicy.TResult.cs",
+    "Timeout",
+    "ChaosOutcomePipelineBuilderExtensions.cs",
+    "proactive-strategy.md",
+    "TaskHelper.cs",
+    "MemberNotNullAttribute",
+    "ContainsKey",
+    "Polly.DependencyInjection",
+    "BehaviorGeneratorArguments",
+    "CreateStrategy",
+    "ResiliencePipelines.cs",
+    "Snippets.Docs",
+    "DynamicallyAccessedMembersAttribute",
+    "AddPipeline",
+    "CircuitBreakerConstants",
+    "Polly.Caching",
+    "RetryDelayGeneratorArguments",
+    "ReloadTokens",
+    "Context",
+    "Polly",
+    "Chaos",
+    "Polly.Simmy.Behavior",
+    "OnFallbackArguments",
+    "Polly.Retry",
+    "Implementation",
+    "Policy",
+    "AsyncCircuitBreakerEngine.cs",
+    "Retry",
+    "ExecutionTaskSafe",
+    "README.md",
+    "Snippets.Docs",
+    "DoesNotReturnIfAttribute",
+    "Polly.Telemetry",
+    "DynamicDependencyAttribute.cs",
+    "SeverityOverrides",
+    "SlidingTtl",
+    "Polly",
+    "Polly",
+    "RetrySyntax",
+    "FaultGenerator",
+    "Polly.Wrap",
+    "Telemetry",
+    "ICacheKeyStrategy",
+    "Polly",
+    "Polly",
+    "Policy",
+    "HedgingConstants",
+    "HandleResult",
+    "ComponentWithDisposeCallbacks",
+    "Isolate",
+    "ChaosStrategyConstants",
+    "Polly",
+    "OperationKey",
+    "ExceptionExtensions",
+    "Context",
+    "EnrichmentContext.cs",
+    "Policy",
+    "OnFaultInjected",
+    "Migration",
+    "rate-limiter.md",
+    "Polly.Hedging",
+    "TelemetryCoordinates",
+    "CreateBuilder",
+    "DisposeBehavior",
+    "MyMeteringEnricher",
+    "IRateLimitPolicy.cs",
+    "Condition",
+    "README.md",
+    "GetSyncContext",
+    "Polly.Utils",
+    "Lambda",
+    "AsyncPolicy.cs",
+    "AddResiliencePipelineRegistry",
+    "EmptyHandlerWithContext",
+    "CustomNetworkException",
+    "PipelineProviderProviderMocking",
+    "AsyncRetryPolicy",
+    "ResiliencePipeline",
+    "ReloadFailedArguments",
+    "ChaosOutcomeStrategyOptions",
+    "PolicyResult",
+    "Polly.CircuitBreaker",
+    "Outcome",
+    "DelayGenerator",
+    "CallExternalSystem",
+    "OutcomeGeneratorArguments",
+    "SafeRelease",
+    "Polly",
+    "Policies",
+    "AsyncNoOpSyntax.cs",
+    "ConvertValueTaskAsync",
+    "Polly.Utils",
+    "ImplementationAsync",
+    "AbsoluteTtl.cs",
+    "Polly",
+    "CancellationTokenSample",
+    "LastException",
+    "PolicyBuilder",
+    "Polly",
+    "HealthMetrics.cs",
+    "OnHedging",
+    "DynamicReloads",
+    "EnsureNotDisposed",
+    "OrInner",
+    "AsyncNoOpTResultSyntax.cs",
+    "ImplementationAsync",
+    "ResiliencePipelineSyncPolicy.TResult.cs",
+    "Policy",
+    "ContainsKey",
+    "NullComponent",
+    "BulkheadAvailableCount",
+    "ToString",
+    "SamplingDuration",
+    "TelemetrySource",
+    "CONTRIBUTING.md",
+    "Dispose",
+    "Policy",
+    "Telemetry.cs",
+    "BreakDurationGenerator",
+    "CircuitBreakerPredicateArguments.cs",
+    "Snippets.Docs",
+    "Outcome",
+    "PipelineKey",
+    "AsyncAdvancedCircuitBreakerTResultSyntax.cs",
+    "Polly.Telemetry",
+    "System.Diagnostics.CodeAnalysis",
+    "GetCore",
+    "BrokenCircuitException",
+    "OnLatencyInjected",
+    "AsyncCircuitBreakerPolicy.cs",
+    "ChaosFaultStrategy.cs",
+    "RegistryDisposed",
+    "NoOpEngine",
+    "Implementation",
+    "RetryTResultSyntax",
+    "Polly.Timeout",
+    "ResiliencePipelineT.Sync.cs",
+    "InjectionRateGeneratorArguments",
+    "AsyncRetrySyntax.cs",
+    "LatencyUsage",
+    "Strategies",
+    "StateWrapper",
+    "HedgingController",
+    "EmptyAction",
+    "GetType",
+    "ResiliencePipelineAsyncPolicy",
+    "CreateBulkheadSemaphores",
+    "HealthInfo.cs",
+    "Utils",
+    "HttpClientExample",
+    "Outcome.cs",
+    "OnLatencyInjectedArguments.cs",
+    "CircuitState",
+    "AddResult",
+    "IAsyncPolicyExtensions",
+    "GetPipeline",
+    "Retry.cs",
+    "ResiliencePipeline.Async.cs",
+    "OutcomeGeneratorDelegates",
+    "Polly",
+    "ResiliencePipelineRegistry.cs",
+    "Polly.Utils",
+    "ResiliencePipeline",
+    "ChaosStrategyConstants.cs",
+    "GetAsyncContext",
+    "ExecuteInternalAsync",
+    "Polly",
+    "IFallbackPolicy.cs",
+    "RollingHealthMetrics",
+    "Migration",
+    "DisposeBehavior.cs",
+    "toc.yml",
+    "TimeoutGeneratorArguments.cs",
+    "MyApi",
+    "HedgingPredicateArguments.cs",
+    "Snippets.Docs",
+    "GetOrAddPipeline",
+    "RateLimiterArguments",
+    "Put",
+    "ResilienceStrategyTelemetry.cs",
+    "Deserialize",
+    "OnOutcomeInjected",
+    "Polly.DependencyInjection",
+    "FirstMatchOrDefault",
+    "HandleInnerNested",
+    "AddMyChaos",
+    "AsyncPolicy",
+    "Polly.DependencyInjection",
+    "LatencyGenerator",
+    "OnOutcomeInjectedArguments",
+    "Chaos",
+    "GetResult",
+    "BuilderComparer",
+    "Usage",
+    "index.md",
+    "ShouldInjectAsync",
+    "Extensibility.cs",
+    "Polly",
+    "TimeoutStrategy",
+    "SomeExceptionType.cs",
+    "ResilienceStrategyDescriptor",
+    "ConcurrentDictionaryExtensions",
+    "OnRateLimiterRejectedArguments.cs",
+    "ShouldRetryAsync",
+    "ShouldInjectAsync",
+    "RateLimiterResiliencePipelineBuilderExtensions.cs",
+    "MaybeNullWhenAttribute",
+    "IPolicyWrapExtension.cs",
+    "EmptyHandlerWithContext",
+    "ChaosStrategy.TResult.cs",
+    "ICircuitBreakerPolicy",
+    "CircuitBreakerManualControl",
+    "Snippets.Docs",
+    "WithCallerCancellationToken",
+    "GetBreakingException",
+    "OnActionSuccess",
+    "Polly.Telemetry",
+    "Implementation",
+    "OnCircuitHalfOpenedArguments.cs",
+    "PutAsync",
+    "Polly.Utils",
+    "TryRemove",
+    "StrategyBuilderContext.cs",
+    "OnCircuitReset",
+    "Initialize",
+    "Polly",
+    "VoidResult",
+    "Dispose",
+    "Polly",
+    "Policy.ExecuteOverloads.cs",
+    "Polly.Simmy",
+    "ExecutionInfo",
+    "Polly.Simmy.Latency",
+    "TimeoutResilienceStrategy",
+    "SetPolicyContext",
+    "Polly.Registry",
+    "WithSerializer",
+    "Polly.Wrap",
+    "ResiliencePipeline.SyncT.cs",
+    "ResilienceStrategies.cs",
+    "IConcurrentPolicyRegistry",
+    "Usage",
+    "Log",
+    "AsyncRetryTResultSyntax.cs",
+    "ResilienceContextCreationArguments",
+    "CancellationTokenSourcePool",
+    "Polly",
+    "ShouldHandleManualAsync",
+    "QuickStartDi",
+    "Polly.Timeout",
+    "Polly",
+    "RestorePolicyContext",
+    "MyMethodAsync",
+    "Lease",
+    "OnFaultInjected",
+    "Policy",
+    "PredicateBuilder",
+    "AntiPattern_CircuitAwareRetry",
+    "Usage",
+    "Snippets.Docs",
+    "AsLogLevel",
+    "ChaosOutcomePipelineBuilderExtensions",
+    "QueueAvailableCount",
+    "SystemClock.cs",
+    "NoOpSyntax.cs",
+    "CallerArgumentExpressionAttribute.cs",
+    "Latency",
+    "GenericRegistry",
+    "Polly.CircuitBreaker",
+    "EnableReloadsWithMonitor",
+    "IReadOnlyPolicyRegistry.cs",
+    "OnFallback",
+    "ConfigureRegistry",
+    "ResiliencePipelineAsyncPolicy",
+    "UserAvatar",
+    "Migration",
+    "Performance",
+    "CircuitStateController.cs",
+    "ParametrizedCallback",
+    "System.Diagnostics",
+    "FirstComponent",
+    "System.Diagnostics.CodeAnalysis",
+    "Polly",
+    "HedgingExecutionContext",
+    "ResiliencePipelineExtensions",
+    "Return",
+    "RetryStrategyOptions",
+    "AssemblyInfo.cs",
+    "PolicyKey",
+    "Context",
+    "IRetryPolicy.cs",
+    "AntiPattern_CallingMethodBefore",
+    "GetRandomAvatar",
+    "pipelines",
+    "ResilienceStrategy",
+    "Next",
+    "INoOpPolicy",
+    "Wrap",
+    "Polly",
+    "SharedPool",
+    "Policy",
+    "NoOpEngine.cs",
+    "CircuitBreakerStrategyOptions.cs",
+    "Polly",
+    "PredicateResult.cs",
+    "WaitAndRetryForever",
+    "AsyncCacheSyntax.cs",
+    "Write",
+    "ScheduledTaskExecutor",
+    "FaultGeneratorArguments.cs",
+    "Chaos.Index.cs",
+    "ExecuteAsync",
+    "AddOrUpdate",
+    "Polly.CircuitBreaker",
+    "OnOutcomeInjectedArguments.cs",
+    "Migration.Registry.cs",
+    "ChaosFaultStrategyOptions",
+    "Polly.Timeout",
+    "src",
+    "ResiliencePipeline",
+    "Retry_V7",
+    "Migration",
+    "HandleTransientHttpError",
+    "ActionContext",
+    "TryAddBuilder",
+    "Polly",
+    "ResiliencePipeline",
+    "Polly.Simmy.Fault",
+    "FromExceptionAsValueTask",
+    "TelemetryListener",
+    "retry.md",
+    "Pattern_InjectDelay",
+    "ComponentDisposeHelper",
+    "ExecuteAsync",
+    "WithDisposableCallbacks",
+    "Inner",
+    "Pattern_CancellingRetry",
+    "IsEmpty",
+    "GenericRegistry",
+    "CircuitState.cs",
+    "ICacheItemSerializer.cs",
+    "GetEnumerator",
+    "CallPrimary",
+    "PutAsync",
+    "Polly",
+    "DynamicReloadsWithDispose",
+    "toc.yml",
+    "FallbackResilienceStrategy",
+    "AsyncPolicy",
+    "Polly.Utils.Pipeline",
+    "Polly.Simmy.Fault",
+    "Polly.Wrap",
+    "Polly",
+    "DelegateResult",
+    "ExecutionRejectedException.cs",
+    "ConfigureTelemetry",
+    "Context",
+    "CircuitStateController",
+    "CompositeComponent",
+    "Result",
+    "Remove",
+    "Polly",
+    "ExecutionAttemptArguments",
+    "ExecuteScheduledTaskAsync",
+    "ShouldHandleManual",
+    "BulkheadEngine",
+    "AddResiliencePipelineContext",
+    "Polly.RateLimiting",
+    "LastException",
+    "NonSlidingTtl",
+    "Inner",
+    "AsyncPolicyWrap",
+    "BridgeComponentBase",
+    "README.md",
+    "CircuitBreakerPredicateArguments",
+    "AddOutcome",
+    "MaybeNullWhenAttribute",
+    "MyMethod",
+    "Polly.NoOp",
+    "Polly.Simmy.Outcomes",
+    "Put",
+    "Polly.Testing",
+    "AsyncCacheTResultSyntax.cs",
+    "Get",
+    "Polly.CircuitBreaker",
+    "CircuitStateController.cs",
+    "ResiliencePipeline",
+    "ICircuitController.cs",
+    "RetryDelayGeneratorArguments.cs",
+    "Execution",
+    "Polly.Utils",
+    "AsyncCacheEngine",
+    "ResiliencePipelineBuilder",
+    "Polly.Utilities.Wrappers",
+    "AttemptNumber",
+    "Polly",
+    "TimeoutRejectedException",
+    "Performance.cs",
+    "TryUpdate",
+    "LegacySupport.cs",
+    "Polly.Utils",
+    "Polly.Registry",
+    "ResiliencePipelines",
+    "Polly.Utils.Pipeline",
+    "Polly.Hedging.Controller",
+    "AsyncGenericCacheProvider.cs",
+    "ResilienceKeys",
+    "Polly",
+    "BaseDelay",
+    "ResiliencePipelineBuilder",
+    "SerializingCacheProvider",
+    "Timeout",
+    "Reset",
+    "ExternalComponent",
+    "Polly",
+    "ResiliencePipelineSyncPolicy",
+    "ChaosOutcomeConstants.cs",
+    "CopyTo",
+    "AntiPattern_ReplaceException",
+    "Context",
+    "EnabledGeneratorArguments",
+    "AsyncTimeoutPolicy",
+    "Polly.CircuitBreaker",
+    "Policy",
+    "ISyncPolicyPolicyWrapExtensions",
+    "CentralPipeline",
+    "AsyncNoOpPolicy.cs",
+    "Context",
+    "Polly.Fallback",
+    "TelemetryResiliencePipelineBuilderExtensions",
+    "README.md",
+    "Context",
+    "Enrich",
+    "AsyncBulkheadPolicy",
+    "Polly.Fallback",
+    "IHealthMetrics.cs",
+    "ResilienceTelemetryTags.cs",
+    "TryGetDelay",
+    "SlidingTtl",
+    "Add",
+    "FallbackPredicateArguments.cs",
+    "ResultPredicates",
+    "Polly.Utils.Pipeline",
+    "FallbackPolicy",
+    "UnknownResult",
+    "Tasks",
+    "Entry",
+    "Polly.RateLimiting",
+    "ResultTtl.cs",
+    "OnCircuitOpenedArguments.cs",
+    "RollingHealthMetrics",
+    "ISyncCacheProvider",
+    "ResilienceTelemetryTags",
+    "AsyncRateLimitTResultSyntax.cs",
+    "Chaos",
+    "GetPipelineDescriptorGeneric",
+    "OnLatencyInjected",
+    "AntiPattern_MultipleFailures",
+    "Polly",
+    "Polly",
+    "ImplementationAsync",
+    "TimeoutEngine",
+    "OnCircuitReset",
+    "Polly",
+    "AsyncRetrySyntax",
+    "SetStackTrace",
+    "Polly.Hedging",
+    "Polly",
+    "PolicyWrapKey",
+    "MemberNotNullAttribute",
+    "Fallback.cs",
+    "PolicyBuilder",
+    "OnRetryArguments",
+    "Event",
+    "Polly.Caching",
+    "TotalAttempts",
+    "OnPipelineDisposed",
+    "GetInjectionRate",
+    "Polly.Retry",
+    "RetryDelayGeneratorArguments",
+    "DynamicallyAccessedMembersAttribute.cs",
+    "ResiliencePipeline",
+    "Polly.CircuitBreaker",
+    "BulkheadAsync",
+    "EmptyOptions",
+    "cheat-sheets.md",
+    "CircuitBreakerStrategyOptions",
+    "CreateExceptionFromContext",
+    "Add",
+    "OnActionFailure",
+    "RateLimiterRejectedException",
+    "TaskExecution.cs",
+    "Polly.Utilities.Wrappers",
+    "Snippets.Docs",
+    "Hedging",
+    "ResiliencePropertyKey",
+    "AttemptNumber",
+    "Polly.Timeout",
+    "AsyncPolicy.TResult.ExecuteOverloads.cs",
+    "ChaosOutcomeStrategyOptions",
+    "v7",
+    "ResiliencePipelineExtensions.cs",
+    "MaxQueueingActions",
+    "Polly.Timeout",
+    "Options",
+    "Bulkhead",
+    "IsLastAttempt",
+    "TimedLock",
+    "ITimeoutPolicy",
+    "TimeProviderInternal",
+    "Interoperability",
+    "DelayBackoffType",
+    "Polly",
+    "Context",
+    "Polly",
+    "AsyncBulkheadEngine",
+    "ContextualTtl",
+    "FallbackConstants.cs",
+    "PipelineInstanceName",
+    "BrokenCircuitException",
+    "LockTimeoutException",
+    "TryGet",
+    "AsyncPolicyWrap.ContextAndKeys.cs",
+    "Polly.Telemetry",
+    "Polly.Retry",
+    "ResilienceContext",
+    "PipelineComponentFactory.cs",
+    "Policy",
+    "General",
+    "TelemetryListenerImpl.cs",
+    "Context",
+    "IsVoidResult",
+    "WaitAndRetryAsync",
+    "Polly.NoOp",
+    "ResilienceContextPool.Shared.cs",
+    "TelemetryUtil",
+    "Tags",
+    "Dispose",
+    "MyResilienceKeys",
+    "Build",
+    "OnRejected",
+    "ResultFormatter",
+    "index.md",
+    "DisposeAsync",
+    "Implementation",
+    "OnTimeout",
+    "DisposeAsync",
+    "Polly.Caching",
+    "Polly.Utils.Pipeline",
+    "ApplyChaosSelectivelyWithChaosManager",
+    "Polly.Wrap",
+    "RestSharpExample",
+    "FromResultAsValueTask",
+    "AsyncCircuitBreakerSyntax.cs",
+    "RetryPolicy.cs",
+    "CircuitBreakerPolicy",
+    "Migration.Interoperability.cs",
+    "PipelineNameComparer",
+    "PolicyRegistry",
+    "ScheduleTask",
+    "HalfOpenAttempts",
+    "Timeout",
+    "PooledCancellationTokenSourcePool",
+    "RequiresUnreferencedCodeAttribute",
+    "OnCircuitClosedArguments",
+    "ConvertOutcome",
+    "Remove",
+    "RateLimitPolicy.cs",
+    "toc.yml",
+    "PredicateResult",
+    "BuildPipelineComponent",
+    "Wrap",
+    "ManualControl",
+    "IsValidDelay",
+    "ContainsKey",
+    "AttemptNumber",
+    "ResilienceValidationContext",
+    "CentralPipelineIntegration",
+    "Snippets.Docs",
+    "Outcome",
+    "Polly",
+    "LastException",
+    "ChaosOutcomeStrategy.cs",
+    "Strategy",
+    "SetPolicyContext",
+    "ResiliencePipeline.cs",
+    "Snippets.Docs",
+    "Fault",
+    "OnActionFailure",
+    "Bulkhead_V7",
+    "AsyncFallbackEngine.cs",
+    "Fallback",
+    "CancellationToken",
+    "TaskHelper",
+    "DelayGenerator",
+    "TryRegisterOnReload",
+    "Polly.Caching",
+    "Format",
+    "PolicyWrap_V7",
+    "AsyncPolicy",
+    "OnHedgingArguments",
+    "ITtlStrategy",
+    "RegisterCancellationSource",
+    "DefaultRateLimiterOptions",
+    "AntiPattern_CircuitPerEndpoint",
+    "CreateHedgingStrategy",
+    "AsyncFallbackPolicy.cs",
+    "AbsoluteTtl",
+    "Polly.CircuitBreaker",
+    "ParameterName",
+    "Scope",
+    "IAsyncPolicy.cs",
+    "Policy.HandleSyntax.cs",
+    "DisposeAsync",
+    "Polly.Caching",
+    "BehaviorGeneratorArguments.cs",
+    "Polly.Timeout",
+    "AsyncPolicy.TResult.cs",
+    "Polly",
+    "FallbackTResultSyntax",
+    "Guard",
+    "Program",
+    "stryker-config.json",
+    "Context",
+    "ResilienceStrategy",
+    "Polly.Simmy.Behavior",
+    "ExecutePrimaryActionAsync",
+    "OnCircuitHalfOpenedArguments",
+    "Polly.Simmy.Utils",
+    "EmptyHandler",
+    "IFallbackPolicy",
+    "DynamicallyAccessedMembersAttribute",
+    "OutcomeGenerator",
+    "PermitExecution",
+    "CircuitBreaker.cs",
+    "AntiPattern_GeneratorDelegateInjectFault",
+    "Usage",
+    "Latency",
+    "ResiliencePipelinesDiagramRetryTimeout",
+    "LegacySupport",
+    "Bulkhead",
+    "DisposeHelper",
+    "SendAsync",
+    "CreatePredicate",
+    "Polly.Testing",
+    "ChaosLatencyStrategy",
+    "PolicyResult.cs",
+    "System.Runtime.CompilerServices",
+    "HedgingActionGeneratorArguments.cs",
+    "IsRetryable",
+    "IAsyncCacheProvider",
+    "HealthMetrics",
+    "Get",
+    "RateLimiter",
+    "Polly.Wrap",
+    "GetHealthInfo",
+    "performance.md",
+    "OutcomeGenerator.cs",
+    "RateLimiterStrategyOptions",
+    "TimeoutConstants",
+    "TaskHelper.cs",
+    "MemberTypes",
+    "ServiceProvider",
+    "Migration.Timeout.cs",
+    "ScheduledTaskExecutor.cs",
+    "Polly.Simmy.Outcomes",
+    "Failures",
+    "ICircuitBreakerPolicy.cs",
+    "RetryStrategyOptions",
+    "Polly.CircuitBreaker",
+    "TelemetryUtil.cs",
+    "ActualiseCurrentMetric_NeedsLock",
+    "BannedSymbols.txt",
+    "Polly.Utils.Pipeline",
+    "Outcome",
+    "AsyncSerializingCacheProvider.cs",
+    "Polly.Wrap",
+    "Fault",
+    "TagsList",
+    "LoggerFactory",
+    "EmptyCallback",
+    "LatencyGeneratorArguments.cs",
+    "DisposeAsync",
+    "Polly",
+    "Polly.Retry",
+    "ImplementationAsync",
+    "TypeName",
+    "CircuitBreakerResilienceStrategy",
+    "GenericCacheProvider.cs",
+    "GetResponse",
+    "HedgingStrategyOptions",
+    "AsyncRateLimitPolicy.cs",
+    "Execute",
+    "GetCore",
+    "PipelineKey",
+    "IncrementSuccess_NeedsLock",
+    "RateLimiterStrategyOptions",
+    "Cache",
+    "GetHealthInfo",
+    "Dispose",
+    "Polly.Hedging",
+    "GetPipelineDescriptor",
+    "ISyncPolicyExtensions",
+    "GetHealthInfo",
+    "Timeout",
+    "Name",
+    "Snippets.Docs",
+    "Chaos",
+    "Cancel",
+    "Metrics",
+    "testing.md",
+    "AsyncSerializingCacheProvider",
+    "Migration",
+    "AntiPattern_CancellingRetry",
+    "strategies",
+    "CircuitBreakerConstants.cs",
+    "AsyncRetryEngine.cs",
+    "GetMemberName",
+    "AsyncPolicyWrap",
+    "ImplementationAsync",
+    "ResiliencePipelineAsyncPolicy",
+    "AssertInitialized",
+    "ExecuteAsync",
+    "ResiliencePipelineConversionExtensions",
+    "WaitAndRetryForever",
+    "ResilienceProperties",
+    "Polly.Retry",
+    "OnCircuitReset",
+    "Polly.Utils",
+    "TryGet",
+    "GetHashCode",
+    "PredicateBuilder.cs",
+    "Chaos.Behavior.cs",
+    "OnTimeoutArguments.cs",
+    "GetTtl",
+    "PipelineRegistryAdapter",
+    "timeout.md",
+    "ToString",
+    "Polly.CircuitBreaker",
+    "Policy",
+    "package-readme.md",
+    "ExecuteCore",
+    "Polly.RateLimit",
+    "RetryEngine",
+    "Polly",
+    "CircuitBreakerStrategyOptions",
+    "MyApi",
+    "Polly",
+    "Polly.CircuitBreaker",
+    "Implementation",
+    "RateLimitEngine",
+    "ChaosStrategy",
+    "Polly.Utils",
+    "Policy.SyncGenericImplementation.cs",
+    "Snippets.Docs",
+    "CircuitBreakerStateProvider.cs",
+    "ResilienceStrategies",
+    "OnCircuitReset",
+    "Polly.Utils",
+    "CacheEngine.cs",
+    "Snippets.Docs",
+    "DoesNotReturnAttribute",
+    "OnBehaviorInjected",
+    "CheckId",
+    "ConfigureBuilderContext.cs",
+    "Pooling",
+    "OnHalfOpened",
+    "ExecuteAsync",
+    "AsyncFallbackEngine",
+    "SetLastHandledOutcome_NeedsLock",
+    "Entry",
+    "Polly.CircuitBreaker",
+    "Clear",
+    "ShouldEnableChaos",
+    "AddConcurrencyLimiter",
+    "FinalHandledResult",
+    "OnTimeoutArguments",
+    "Polly",
+    "CompositeComponentDebuggerProxy",
+    "WithPolicyKey",
+    "ActionCore",
+    "Polly.Hedging.Utils",
+    "ExecuteAndCaptureInternalAsync",
+    "OnBehaviorInjected",
+    "ExecuteInternalAsync",
+    "Policy",
+    "AsyncRetryEngine",
+    "AttemptNumber",
+    "ResiliencePipelineDescriptor.cs",
+    "CacheEngine",
+    "ExecutionDuration",
+    "PooledCancellationTokenSourcePool",
+    "FaultGenerator",
+    "Polly.Caching",
+    "ChaosStrategy",
+    "Reload",
+    "Reset_NeedsLock",
+    "Polly.Telemetry",
+    "LastHandledResult",
+    "IncrementSuccess_NeedsLock",
+    "Telemetry",
+    "AntiPattern_PeriodicExecution",
+    "FailureCount",
+    "Pattern_BranchingByUrl",
+    "NotNullAttribute",
+    "AttemptNumber",
+    "WaitAndRetryAsync",
+    "Implementation",
+    "DisallowNullAttribute",
+    "ResilienceStrategy.TResult.cs",
+    "RateLimitEngine.cs",
+    "AsyncPolicyWrapEngine",
+    "CompositeComponent.cs",
+    "OnActionSuccess",
+    "resilience-context.md",
+    "Retry",
+    "Latency",
+    "CachePolicy",
+    "ExecuteOutcomeAsync",
+    "OnReloadArguments",
+    "Dispose",
+    "CircuitState",
+    "OnActionPreExecuteAsync",
+    "AdvancedCircuitBreakerTResultSyntax",
+    "ResiliencePipelineRegistryOptions",
+    "AsyncTimeoutPolicy.cs",
+    "GetArgs",
+    "Reset_NeedsLock",
+    "ExternalComponent",
+    "Context",
+    "MyApi",
+    "IssueRequest",
+    "HedgingStrategyOptions",
+    "BreakFor_NeedsLock",
+    "ICachePolicy.cs",
+    "Polly.Registry",
+    "Pattern_CircuitAwareRetry",
+    "ResilienceContextPool.cs",
+    "Polly",
+    "DelayAsync",
+    "BulkheadAvailableCount",
+    "HealthMetrics",
+    "Reset",
+    "AsyncBulkheadPolicy.cs",
+    "TimeoutGeneratorArguments",
+    "Polly.Retry",
+    "RequiresUnreferencedCodeAttribute",
+    "DefaultPredicates.cs",
+    "PolicyWrap_V8",
+    "ChaosBehaviorConstants",
+    "Polly.Utilities",
+    "Polly.CircuitBreaker.Health",
+    "Polly.Utils.Pipeline",
+    "Behavior",
+    "AddReloadToken",
+    "VoidResult",
+    "MeterEvent",
+    "ExceptionPredicates",
+    "BulkheadPolicy.cs",
+    "Successes",
+    "Dispose",
+    "HedgingConstants.cs",
+    "MyChaosOptions",
+    "DisposeAsync",
+    "AnyMatch",
+    "ChaosFaultStrategy",
+    "Polly.RateLimiting",
+    "BridgeComponentBase",
+    "PrimaryMessage",
+    "Polly.Utilities",
+    "Policy",
+    "docs",
+    "Entry",
+    "ExecuteAndCaptureInternalAsync",
+    "CreateFixedWindowLimiter",
+    "RateLimit",
+    "Outcome",
+    "GetCircuitBreaker",
+    "Policy",
+    "ResiliencePipelinesDiagramTimeoutRetry",
+    "AddTimeout",
+    "TimeoutGeneratorArguments",
+    "ValidateSecondsTimeout",
+    "CircuitStateController",
+    "Fallback",
+    "AsyncGenericCacheProvider",
+    "Limiter",
+    "GenericTtlStrategy",
+    "BrokenCircuitException",
+    "Migration",
+    "extensibility",
+    "ApplyChaosSelectively",
+    "LoadedTasks",
+    "AsyncGenericCacheProvider",
+    "TimeoutConstants.cs",
+    "Polly.Registry",
+    "HedgingResilienceStrategy",
+    "public",
+    "System.Diagnostics.CodeAnalysis",
+    "TryGetValue",
+    "CancellationTokenSourcePool",
+    "ExecuteCore",
+    "OnCircuitOpenedArguments",
+    "BridgeComponentBase.cs",
+    "ISyncPolicy",
+    "Component",
+    "Duration",
+    "Remove",
+    "HedgingActionGeneratorArguments",
+    "ResiliencePipelineAsyncPolicy.cs",
+    "Chaos.Fault.cs",
+    "ResiliencePipelineRegistry",
+    "AsyncRetryPolicy",
+    "TryGetAsync",
+    "ExceptionPredicates",
+    "ExecuteAndCaptureAsync",
+    "BrokenCircuitException.cs",
+    "SynchronizationContext",
+    "Polly.Telemetry",
+    "ResiliencePipeline",
+    "Reset",
+    "RetryForever",
+    "Polly.Simmy.Latency",
+    "SynchronizeDataAsync",
+    "PrimaryContext",
+    "ResiliencePipelineBuilderBase",
+    "IOutcomeArguments.cs",
+    "Implementation",
+    "WithExecutionTracking",
+    "TimeoutSyntax.cs",
+    "DynamicallyAccessedMemberTypes",
+    "IsSynchronous",
+    "Create",
+    "PolicyKey",
+    "ResiliencePipelineBuilderExtensions.cs",
+    "Polly.CircuitBreaker",
+    "FailureRate",
+    "Polly",
+    "Policy",
+    "TryWaitForCompletedExecutionAsync",
+    "Polly.Fallback",
+    "GetRetryOptions",
+    "toc.yml",
+    "LatencyGenerator",
+    "DisposeHelper.cs",
+    "ExecuteCoreSync",
+    "AsyncFor",
+    "Polly",
+    "ExecutionAttempt",
+    "InitializeAsyncContext",
+    "BreakDuration",
+    "AsyncFallbackSyntax",
+    "ExecuteAndCapture",
+    "Polly.RateLimiting",
+    "ShouldHandle",
+    "Polly.CircuitBreaker",
+    "HttpClientIntegrations.cs",
+    "Polly.Utils.Pipeline",
+    "NoOpPolicy.cs",
+    "ChaosFaultStrategy",
+    "LatencyGeneratorArguments",
+    "Polly",
+    "Pattern_SleepingStrategies",
+    "Polly",
+    "HedgingHandler",
+    "MaybeNullAttribute",
+    "CircuitBehavior.cs",
+    "RetryForeverAsync",
+    "ShouldHandle",
+    "ExecutionAttemptArguments.cs",
+    "Enrich",
+    "ChaosLatencyStrategy.cs",
+    "GetHealthCount_NeedsLock",
+    "HedgingResilienceStrategy",
+    "InstanceNameFormatter",
+    "Snippets.Docs",
+    "FaultUsage",
+    "ISyncCacheProvider.cs",
+    "resilience-pipeline-registry.md",
+    "BackoffType",
+    "FaultGeneratorArguments",
+    "SingleHealthMetrics",
+    "DelegatingComponent.cs",
+    "RateLimiterRejectedException",
+    "AddResiliencePipeline",
+    "InitializeAsyncContext",
+    "ISyncPolicy.cs",
+    "FallbackHandler.cs",
+    "BridgeComponent.cs",
+    "AsyncTimeoutTResultSyntax.cs",
+    "Migration",
+    "MemberTypes",
+    "IncrementFailure",
+    "Failure",
+    "HedgingDelayGeneratorArguments.cs",
+    "FallbackHandler",
+    "RetryForeverAsync",
+    "Polly.Bulkhead",
+    "Policy",
+    "IsChaosEnabled",
+    "Retry",
+    "Message",
+    "AsyncRetryPolicy.cs",
+    "ChaosOutcomeConstants",
+    "CircuitBreaker",
+    "AddRetry",
+    "Policy",
+    "Polly",
+    "RequiresUnreferencedCodeAttribute.cs",
+    "Policy",
+    "CallSecondary",
+    "Polly",
+    "Implementation",
+    "Constants.cs",
+    "RetryHelper.cs",
+    "Polly.Simmy",
+    "ImplementationAsync",
+    "AsSyncPolicy",
+    "IAsyncPolicyExtensions.cs",
+    "Polly.CircuitBreaker",
+    "OnActionFailure",
+    "ISyncPolicy.TResult.cs",
+    "DebuggerDisableUserUnhandledExceptionsAttribute.cs",
+    "Context",
+    "AsBoxedBool",
+    "Source",
+    "Polly",
+    "GetRequestTimeoutEndpointAsync",
+    "DisposeAsync",
+    "Break_NeedsLock",
+    "BulkheadSemaphoreFactory",
+    "Strategies",
+    "RateLimiter_V7",
+    "ResiliencePipeline",
+    "PermitHalfOpenCircuitTest_NeedsLock",
+    "DefaultCacheKeyStrategy.cs",
+    "EmptyHandler",
+    "Components",
+    "EnabledGenerator",
+    "ExecuteOutcomeAsync",
+    "HandleResult",
+    "Polly.CircuitBreaker",
+    "ObjectPool",
+    "Polly",
+    "CircuitBreakerPolicy",
+    "ExecuteCore",
+    "ConcurrentDictionaryExtensions.cs",
+    "Validator",
+    "Snippets.Docs",
+    "Dispose",
+    "Polly.Registry",
+    "TimeoutRejectedException",
+    "ITimeoutPolicy.cs",
+    "AsyncCachePolicy",
+    "CancellationTokenSourcePool.Disposable.cs",
+    "CancellationTokenSourcePool",
+    "Behavior",
+    "AddOrUpdate",
+    "DisposeHelper",
+    "Polly.Bulkhead",
+    "Implementation",
+    "HedgingHandler",
+    "IAsyncCacheProvider.cs",
+    "Polly.Utilities.Wrappers",
+    "ImplementationAsync",
+    "ExecuteAndCapture",
+    "ExecuteAndCaptureAsync",
+    "DependencyInjection",
+    "WaitAndRetryForeverAsync",
+    "Severity",
+    "DisposeAsync",
+    "ISyncPolicyExtensions.cs",
+    "ExecuteAndCaptureAsync",
+    "Polly.Caching",
+    "Serialize",
+    "Polly",
+    "AddChaosFault",
+    "GetTtl",
+    "PipelineExecutedArguments",
+    "BreakDurationGeneratorArguments",
+    "RetryPredicateArguments",
+    "AsyncPolicyWrap",
+    "AddResiliencePipelineContext.cs",
+    "Duration",
+    "OutcomeUsage",
+    "ResultPredicates",
+    "AsyncRateLimitEngine",
+    "NotNullIfNotNullAttribute",
+    "CircuitBreakerTResultSyntax.cs",
+    "HedgingExecutionContext",
+    "Options",
+    "MyPipelineKey",
+    "Bulkhead",
+    "ExecuteAsync",
+    "DynamicReloads",
+    "ResilienceStrategyDescriptor",
+    "Polly",
+    "ImplementationAsync",
+    "ExpandComponents",
+    "Add",
+    "FallbackPolicy",
+    "InjectionRateGeneratorArguments.cs",
+    "ChaosLatencyPipelineBuilderExtensions",
+    "Get",
+    "Polly.Utils.Pipeline",
+    "BrokenCircuitException.TResult.cs",
+    "CacheSyntax.cs",
+    "Component",
+    "System.Collections.Concurrent",
+    "AsyncFallbackTResultSyntax",
+    "Implementation",
+    "IsSynchronized",
+    "Implementation",
+    "Get",
+    "DelayBackoffType.cs",
+    "TimeoutEngine.cs",
+    "CircuitStateController",
+    "Snippets.Docs",
+    "circuit-breaker.md",
+    "FallbackConstants",
+    "AsyncAdvancedCircuitBreakerSyntax.cs",
+    "GetTtl",
+    "RegistrationDisposable",
+    "Usage",
+    "BulkheadRejectedException",
+    "MeteringEnrichers",
+    "Return",
+    "Pipeline",
+    "CircuitState",
+    "GetPoliciesIterator",
+    "Handle",
+    "TimeoutAsync",
+    "TelemetryListener.cs",
+    "Polly.Utils.Pipeline",
+    "System.Diagnostics.CodeAnalysis",
+    "Set",
+    "Outcome",
+    "AddResiliencePipelineContext",
+    "RateLimiterRejectedException.cs",
+    "Cleanup",
+    "ExecuteAsync",
+    "EnableReloads",
+    "PolicyWrap.ContextAndKeys.cs",
+    "PredicateBuilder.TResult.cs",
+    "Method",
+    "IsManual"
+  ],
+  "edges": [
+    {
+      "from": "DelegateUsage",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "TryWaitForCompletedExecutionAsync",
+      "to": "TryRemoveExecutedTask",
+      "confidence": 0.95
+    },
+    {
+      "from": "Execute",
+      "to": "Execute",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "SetTelemetrySource",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "AddResult",
+      "to": "AddOutcome",
+      "confidence": 0.5
+    },
+    {
+      "from": "FaultGenerator",
+      "to": "FaultGenerator",
+      "confidence": 0.95
+    },
+    {
+      "from": "AddResiliencePipelineWithTelemetry",
+      "to": "MyTelemetryListener",
+      "confidence": 0.95
+    },
+    {
+      "from": "DisposeAsync",
+      "to": "Reset",
+      "confidence": 0.95
+    },
+    {
+      "from": "IncrementFailure",
+      "to": "TryReset",
+      "confidence": 0.95
+    },
+    {
+      "from": "CentralPipeline",
+      "to": "ChaosLatencyStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "Reload",
+      "to": "ResilienceContext",
+      "confidence": 0.5
+    },
+    {
+      "from": "BehaviorUsage",
+      "to": "RestartRedisAsync",
+      "confidence": 0.5
+    },
+    {
+      "from": "AntiPattern_CircuitAwareRetry",
+      "to": "CircuitBreakerStateProvider",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "IsValidDelay",
+      "confidence": 0.5
+    },
+    {
+      "from": "AntiPattern_CancellationToken",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "OnActionPreExecuteAsync",
+      "to": "ScheduleHalfOpenTask",
+      "confidence": 0.95
+    },
+    {
+      "from": "WaitAndRetry",
+      "to": "WaitAndRetry",
+      "confidence": 0.95
+    },
+    {
+      "from": "SwitchExpressions",
+      "to": "False",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "TimeoutGeneratorArguments",
+      "confidence": 0.5
+    },
+    {
+      "from": "CircuitBreaker_V8",
+      "to": "CircuitBreakerStateProvider",
+      "confidence": 0.5
+    },
+    {
+      "from": "OnCircuitReset",
+      "to": "ResetInternal_NeedsLock",
+      "confidence": 0.5
+    },
+    {
+      "from": "GetOrAdd",
+      "to": "GetOrAdd",
+      "confidence": 0.95
+    },
+    {
+      "from": "GetHedgingDelayAsync",
+      "to": "HedgingDelayGeneratorArguments",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteAsync",
+      "to": "ExecuteInternalAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "TrySetStackTrace",
+      "to": "SetStackTrace",
+      "confidence": 0.95
+    },
+    {
+      "from": "Implementation",
+      "to": "AnyMatch",
+      "confidence": 0.5
+    },
+    {
+      "from": "AntiPattern_CircuitPerEndpoint",
+      "to": "GetCircuitBreaker",
+      "confidence": 0.95
+    },
+    {
+      "from": "HandleTimeout",
+      "to": "TimeoutStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "OnTimeoutArguments",
+      "confidence": 0.5
+    },
+    {
+      "from": "ShouldHandleManual",
+      "to": "True",
+      "confidence": 0.5
+    },
+    {
+      "from": "TelemetryCoordinates",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "GetPipelineDescriptor",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "HandleResult",
+      "to": "HandleResult",
+      "confidence": 0.95
+    },
+    {
+      "from": "HttpClientExample",
+      "to": "GetRetryOptions",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnCircuitClosed",
+      "to": "Reset",
+      "confidence": 0.5
+    },
+    {
+      "from": "Lambda",
+      "to": "GetMemberAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "AntiPattern_InjectDelay",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "HandleInner",
+      "to": "HandleInnerNested",
+      "confidence": 0.95
+    },
+    {
+      "from": "IncrementSuccess_NeedsLock",
+      "to": "ActualiseCurrentMetric_NeedsLock",
+      "confidence": 0.95
+    },
+    {
+      "from": "TryGetPipeline",
+      "to": "EnsureNotDisposed",
+      "confidence": 0.95
+    },
+    {
+      "from": "Execute",
+      "to": "RestorePolicyContext",
+      "confidence": 0.5
+    },
+    {
+      "from": "Isolate",
+      "to": "BreakFor_NeedsLock",
+      "confidence": 0.95
+    },
+    {
+      "from": "AddRateLimiter",
+      "to": "RateLimiterStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteSecondaryActionAsync",
+      "to": "ExecuteSecondaryActionSync",
+      "confidence": 0.95
+    },
+    {
+      "from": "Usage",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "Strategies",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "SlidingTtl",
+      "to": "Ttl",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "OnRateLimiterRejectedArguments",
+      "confidence": 0.5
+    },
+    {
+      "from": "OnActionFailure",
+      "to": "GetHealthCount_NeedsLock",
+      "confidence": 0.5
+    },
+    {
+      "from": "OnActionSuccess",
+      "to": "Lock",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteAsync",
+      "to": "GetAsyncContext",
+      "confidence": 0.95
+    },
+    {
+      "from": "AddChaosFault",
+      "to": "ChaosFaultStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "CreateRegistration",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnUnhandledOutcomeAsync",
+      "to": "ExecuteScheduledTaskAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "TryGetResult",
+      "confidence": 0.5
+    },
+    {
+      "from": "HandleTransientHttpError",
+      "to": "False",
+      "confidence": 0.5
+    },
+    {
+      "from": "Pattern_MaxDelay",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "TryWaitForCompletedExecutionAsync",
+      "to": "WaitForTaskCompetitionAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnActionPreExecuteAsync",
+      "to": "SetTelemetrySource",
+      "confidence": 0.5
+    },
+    {
+      "from": "CentralPipeline",
+      "to": "FaultGenerator",
+      "confidence": 0.5
+    },
+    {
+      "from": "EnsureNotDisposed",
+      "to": "ThrowDisposed",
+      "confidence": 0.95
+    },
+    {
+      "from": "ReloadableComponent",
+      "to": "TryRegisterOnReload",
+      "confidence": 0.95
+    },
+    {
+      "from": "GetTtl",
+      "to": "Ttl",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteAndCaptureInternalAsync",
+      "to": "GetExceptionType",
+      "confidence": 0.5
+    },
+    {
+      "from": "GetCore",
+      "to": "IsCancellable",
+      "confidence": 0.5
+    },
+    {
+      "from": "AntiPattern_ReplaceException",
+      "to": "CustomNetworkException",
+      "confidence": 0.95
+    },
+    {
+      "from": "TimeoutResilienceStrategy",
+      "to": "Create",
+      "confidence": 0.5
+    },
+    {
+      "from": "BehaviorUsage",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "MyMethod",
+      "confidence": 0.95
+    },
+    {
+      "from": "Get",
+      "to": "Get",
+      "confidence": 0.95
+    },
+    {
+      "from": "RestSharpExample",
+      "to": "GetRetryOptions",
+      "confidence": 0.95
+    },
+    {
+      "from": "DisposeDiscardedComponentSafeAsync",
+      "to": "ResilienceContext",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteOutcomeAsync",
+      "to": "GetMemberAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "GetRetryOptions",
+      "to": "HandleTransientHttpError",
+      "confidence": 0.95
+    },
+    {
+      "from": "Strategies",
+      "to": "GetResponse",
+      "confidence": 0.95
+    },
+    {
+      "from": "ConfigureTelemetry",
+      "to": "Create",
+      "confidence": 0.5
+    },
+    {
+      "from": "DelegateUsage",
+      "to": "False",
+      "confidence": 0.5
+    },
+    {
+      "from": "CircuitBreaker_V8",
+      "to": "CircuitBreakerManualControl",
+      "confidence": 0.5
+    },
+    {
+      "from": "EnableReloads",
+      "to": "EnableReloadsWithMonitor",
+      "confidence": 0.95
+    },
+    {
+      "from": "DisposeAsync",
+      "to": "DisposeAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "ExecuteCore",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnHandledOutcomeAsync",
+      "to": "OnActionFailure",
+      "confidence": 0.5
+    },
+    {
+      "from": "OnActionSuccess",
+      "to": "IncrementSuccess_NeedsLock",
+      "confidence": 0.5
+    },
+    {
+      "from": "AddStrategy",
+      "to": "AddPipelineComponent",
+      "confidence": 0.5
+    },
+    {
+      "from": "CircuitStateController.cs",
+      "to": "Lock",
+      "confidence": 0.5
+    },
+    {
+      "from": "Execution",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "CreateBuilder",
+      "to": "ResilienceStrategyTelemetry",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "GetHedgingDelayAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "Retry_V8",
+      "to": "True",
+      "confidence": 0.5
+    },
+    {
+      "from": "RefitExample",
+      "to": "GetRequestTimeoutEndpointAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "AddPipelineComponent",
+      "to": "ResilienceValidationContext",
+      "confidence": 0.5
+    },
+    {
+      "from": "TryAddBuilder",
+      "to": "EnsureNotDisposed",
+      "confidence": 0.95
+    },
+    {
+      "from": "Retry_V8",
+      "to": "False",
+      "confidence": 0.5
+    },
+    {
+      "from": "CreateExecutionInfoWhenNoExecution",
+      "to": "AcceptOutcome",
+      "confidence": 0.5
+    },
+    {
+      "from": "WithPolicyKey",
+      "to": "PolicyKeyMustBeImmutableException",
+      "confidence": 0.5
+    },
+    {
+      "from": "ActionGenerator",
+      "to": "MyRemoteCallAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "CentralPipeline",
+      "to": "ChaosFaultStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "Return",
+      "to": "Return",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "TimeoutRejectedException",
+      "confidence": 0.5
+    },
+    {
+      "from": "Retry",
+      "to": "Retry",
+      "confidence": 0.95
+    },
+    {
+      "from": "AddException",
+      "to": "AddOutcome",
+      "confidence": 0.5
+    },
+    {
+      "from": "Chaos.Index.cs",
+      "to": "FaultGenerator",
+      "confidence": 0.5
+    },
+    {
+      "from": "OnActionPreExecuteAsync",
+      "to": "OnCircuitHalfOpenedArguments",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "RetryForever",
+      "to": "RetryForever",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnActionFailure",
+      "to": "IncrementFailure_NeedsLock",
+      "confidence": 0.5
+    },
+    {
+      "from": "SwitchExpressions",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "RateLimiterRejectedException",
+      "confidence": 0.5
+    },
+    {
+      "from": "MeteringEnricherRegistration",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "Pattern_CircuitAwareRetry",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteAndCaptureAsync",
+      "to": "ExecuteAndCaptureInternalAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "Pattern_GeneratorDelegateInjectFaultAndOutcome",
+      "to": "CreateResultFromContext",
+      "confidence": 0.95
+    },
+    {
+      "from": "DynamicReloads",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "Pattern_InjectDelay",
+      "to": "ChaosLatencyStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "OnActionSuccess",
+      "to": "OnCircuitReset",
+      "confidence": 0.95
+    },
+    {
+      "from": "GetPipelineDescriptor",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "Isolate",
+      "to": "IsolatedCircuitException",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteAsync",
+      "to": "GetResultOrRethrow",
+      "confidence": 0.5
+    },
+    {
+      "from": "Policies",
+      "to": "GetResponseAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExtensionIntegration",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "DisposeAsync",
+      "to": "UpdateOriginalContext",
+      "confidence": 0.95
+    },
+    {
+      "from": "FromPipeline",
+      "to": "ExternalComponent",
+      "confidence": 0.5
+    },
+    {
+      "from": "ResetAsync",
+      "to": "Reset",
+      "confidence": 0.5
+    },
+    {
+      "from": "ApplyChaosSelectivelyWithChaosManager",
+      "to": "FaultGenerator",
+      "confidence": 0.5
+    },
+    {
+      "from": "ShouldHandleManual",
+      "to": "False",
+      "confidence": 0.5
+    },
+    {
+      "from": "CreateComponent",
+      "to": "ResilienceTelemetrySource",
+      "confidence": 0.5
+    },
+    {
+      "from": "IsolateCircuitAsync",
+      "to": "ExecuteScheduledTaskAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "AddHedging",
+      "to": "CreateHedgingStrategy",
+      "confidence": 0.95
+    },
+    {
+      "from": "UpdateEnrichmentContext",
+      "to": "AddCommonTags",
+      "confidence": 0.95
+    },
+    {
+      "from": "ResetAsync",
+      "to": "Return",
+      "confidence": 0.5
+    },
+    {
+      "from": "AddCircuitBreaker",
+      "to": "CreateStrategy",
+      "confidence": 0.95
+    },
+    {
+      "from": "Usage",
+      "to": "TryGetDelay",
+      "confidence": 0.95
+    },
+    {
+      "from": "Dispose",
+      "to": "DisposeAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "CloseCircuitAsync",
+      "to": "ExecuteScheduledTaskAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnHandledOutcomeAsync",
+      "to": "OpenCircuitFor_NeedsLock",
+      "confidence": 0.95
+    },
+    {
+      "from": "AntiPattern_ReduceThrownExceptions",
+      "to": "CircuitBreakerStateProvider",
+      "confidence": 0.5
+    },
+    {
+      "from": "IncrementFailure_NeedsLock",
+      "to": "ActualiseCurrentMetric_NeedsLock",
+      "confidence": 0.95
+    },
+    {
+      "from": "Interoperability",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteAndCapture",
+      "to": "Successful",
+      "confidence": 0.5
+    },
+    {
+      "from": "Timeout_V8",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "OnUnhandledOutcomeAsync",
+      "to": "OnActionSuccess",
+      "confidence": 0.5
+    },
+    {
+      "from": "AddChaosLatency",
+      "to": "ChaosLatencyStrategy",
+      "confidence": 0.5
+    },
+    {
+      "from": "TimeoutAsync",
+      "to": "ValidateTimeSpanTimeout",
+      "confidence": 0.5
+    },
+    {
+      "from": "RateLimitAsync",
+      "to": "LockFreeTokenBucketRateLimiter",
+      "confidence": 0.5
+    },
+    {
+      "from": "Create",
+      "to": "SingleHealthMetrics",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "ExecuteCoreWithTelemetry",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "ExecuteCoreWithoutTelemetry",
+      "confidence": 0.95
+    },
+    {
+      "from": "ActionGenerator",
+      "to": "GetValue",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCoreWithTelemetry",
+      "to": "ResilienceEvent",
+      "confidence": 0.5
+    },
+    {
+      "from": "CreateComponent",
+      "to": "ResilienceStrategyTelemetry",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "GetRandomAvatar",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteNext",
+      "to": "ExecuteCore",
+      "confidence": 0.95
+    },
+    {
+      "from": "TryRegisterOnReload",
+      "to": "Reload",
+      "confidence": 0.95
+    },
+    {
+      "from": "OutcomeGenerator",
+      "to": "CreateResultFromContext",
+      "confidence": 0.95
+    },
+    {
+      "from": "Implementation",
+      "to": "PermitExecution",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "ExecuteCore",
+      "confidence": 0.95
+    },
+    {
+      "from": "RateLimiter_V8",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "Initialize",
+      "to": "RegistrationDisposable",
+      "confidence": 0.95
+    },
+    {
+      "from": "cake.cs",
+      "to": "PatchStrykerConfig",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnCircuitReset",
+      "to": "Lock",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "Report",
+      "confidence": 0.5
+    },
+    {
+      "from": "OpenCircuitFor_NeedsLock",
+      "to": "ScheduleTask",
+      "confidence": 0.5
+    },
+    {
+      "from": "TelemetrySource.cs",
+      "to": "TelemetrySource",
+      "confidence": 0.95
+    },
+    {
+      "from": "ApplyChaosSelectively",
+      "to": "ChaosFaultStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "Pattern_ReduceThrownExceptions",
+      "to": "IssueRequest",
+      "confidence": 0.95
+    },
+    {
+      "from": "ImplementationAsync",
+      "to": "TimeoutRejectedException",
+      "confidence": 0.5
+    },
+    {
+      "from": "SeverityOverrides",
+      "to": "TelemetryOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteAndCaptureInternalAsync",
+      "to": "Successful",
+      "confidence": 0.5
+    },
+    {
+      "from": "GetOrAdd",
+      "to": "CreateComponent",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "SetTelemetrySource",
+      "confidence": 0.5
+    },
+    {
+      "from": "CircuitStateController",
+      "to": "Reset",
+      "confidence": 0.95
+    },
+    {
+      "from": "TagsList.cs",
+      "to": "TagsList",
+      "confidence": 0.95
+    },
+    {
+      "from": "OpenCircuitFor_NeedsLock",
+      "to": "IsDateTimeOverflow",
+      "confidence": 0.95
+    },
+    {
+      "from": "Usage",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "RetryAsync",
+      "to": "RetryAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "CircuitBreaker_V8",
+      "to": "CircuitBreakerStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "ImplementationAsync",
+      "to": "FirstMatchOrDefault",
+      "confidence": 0.5
+    },
+    {
+      "from": "AntiPattern_ReduceThrownExceptions",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "MeteringEnricherRegistration",
+      "to": "CustomMeteringEnricher",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteAndCapture",
+      "to": "AnyMatch",
+      "confidence": 0.5
+    },
+    {
+      "from": "OutcomeGenerator.cs",
+      "to": "CreateGenerator",
+      "confidence": 0.5
+    },
+    {
+      "from": "RateLimit",
+      "to": "LockFreeTokenBucketRateLimiter",
+      "confidence": 0.5
+    },
+    {
+      "from": "ScheduleHalfOpenTask",
+      "to": "ScheduleTask",
+      "confidence": 0.5
+    },
+    {
+      "from": "ImplementationAsync",
+      "to": "FirstMatchOrDefault",
+      "confidence": 0.5
+    },
+    {
+      "from": "Reload",
+      "to": "OnReloadArguments",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteComponentAot",
+      "to": "ExecuteNext",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "ExecuteCore",
+      "confidence": 0.95
+    },
+    {
+      "from": "SafeExecute_V8",
+      "to": "ThrowIfException",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "Implementation",
+      "to": "Create",
+      "confidence": 0.5
+    },
+    {
+      "from": "Implementation",
+      "to": "SafeRelease",
+      "confidence": 0.95
+    },
+    {
+      "from": "BulkheadAsync",
+      "to": "BulkheadAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "ReportFinalExecutionAttempt",
+      "confidence": 0.5
+    },
+    {
+      "from": "RateLimitAsync",
+      "to": "RateLimitAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "OrInner",
+      "to": "HandleInner",
+      "confidence": 0.95
+    },
+    {
+      "from": "Create",
+      "to": "HealthInfo",
+      "confidence": 0.95
+    },
+    {
+      "from": "ApplyChaosSelectively",
+      "to": "ResolveInjectionRate",
+      "confidence": 0.95
+    },
+    {
+      "from": "ContextualTtl.cs",
+      "to": "Ttl",
+      "confidence": 0.5
+    },
+    {
+      "from": "CreateComponent",
+      "to": "CreateReloadable",
+      "confidence": 0.5
+    },
+    {
+      "from": "Create",
+      "to": "Get",
+      "confidence": 0.5
+    },
+    {
+      "from": "RateLimit",
+      "to": "RateLimit",
+      "confidence": 0.95
+    },
+    {
+      "from": "Create",
+      "to": "DisposableCancellationTokenSourcePool",
+      "confidence": 0.5
+    },
+    {
+      "from": "FaultUsage",
+      "to": "AddChaosFault",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteAsync",
+      "to": "InitializeAsyncContext",
+      "confidence": 0.95
+    },
+    {
+      "from": "Break_NeedsLock",
+      "to": "BreakFor_NeedsLock",
+      "confidence": 0.95
+    },
+    {
+      "from": "GetOrCreateResiliencePipeline",
+      "to": "CreateFixedWindowLimiter",
+      "confidence": 0.95
+    },
+    {
+      "from": "RateLimit",
+      "to": "RateLimit",
+      "confidence": 0.95
+    },
+    {
+      "from": "IsolateCircuitAsync",
+      "to": "SetLastHandledOutcome_NeedsLock",
+      "confidence": 0.95
+    },
+    {
+      "from": "Usage",
+      "to": "RateLimiterStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "Create",
+      "to": "CompositeComponent",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnActionFailure",
+      "to": "Lock",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCoreWithTelemetry",
+      "to": "PipelineExecutedArguments",
+      "confidence": 0.5
+    },
+    {
+      "from": "HandleInnerNested",
+      "to": "HandleInnerNested",
+      "confidence": 0.95
+    },
+    {
+      "from": "AdvancedCircuitBehavior.cs",
+      "to": "GetHealthInfo",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteAndCapture",
+      "to": "Failure",
+      "confidence": 0.5
+    },
+    {
+      "from": "PipelineComponent.cs",
+      "to": "NullComponent",
+      "confidence": 0.95
+    },
+    {
+      "from": "ConfigureTelemetry",
+      "to": "ValidateObject",
+      "confidence": 0.5
+    },
+    {
+      "from": "AddResiliencePipelineWithTelemetry",
+      "to": "MyMeteringEnricher",
+      "confidence": 0.95
+    },
+    {
+      "from": "CloseCircuitAsync",
+      "to": "CloseCircuit_NeedsLock",
+      "confidence": 0.95
+    },
+    {
+      "from": "AntiPattern_RetryForFallback",
+      "to": "GetValue",
+      "confidence": 0.5
+    },
+    {
+      "from": "Pattern_ReduceThrownExceptions",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "Cancel",
+      "to": "Cancel",
+      "confidence": 0.95
+    },
+    {
+      "from": "AdvancedCircuitController",
+      "to": "RollingHealthMetrics",
+      "confidence": 0.5
+    },
+    {
+      "from": "GetOrCreateResiliencePipeline",
+      "to": "RateLimiterStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "Cache",
+      "to": "RelativeTtl",
+      "confidence": 0.5
+    },
+    {
+      "from": "HandleInner",
+      "to": "HandleInner",
+      "confidence": 0.95
+    },
+    {
+      "from": "Implementation",
+      "to": "AnyMatch",
+      "confidence": 0.5
+    },
+    {
+      "from": "ParametrizedCallback",
+      "to": "PrepareRequest",
+      "confidence": 0.95
+    },
+    {
+      "from": "ResiliencePipelinesDiagramTimeoutRetryTimeout",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "RateLimitAsync",
+      "to": "RateLimitAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteAndCapture",
+      "to": "GetExceptionType",
+      "confidence": 0.5
+    },
+    {
+      "from": "Pattern_MaxDelay",
+      "to": "SynchronizeDataAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCoreWithoutTelemetry",
+      "to": "ExecuteCore",
+      "confidence": 0.95
+    },
+    {
+      "from": "HandleRejection",
+      "to": "TextSearchAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteComponent",
+      "to": "ExecuteNext",
+      "confidence": 0.95
+    },
+    {
+      "from": "InitializeAsync",
+      "to": "ExecuteSecondaryActionAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "Usage",
+      "to": "GetValue",
+      "confidence": 0.5
+    },
+    {
+      "from": "AntiPattern_CircuitAwareRetry",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "Reload",
+      "to": "Report",
+      "confidence": 0.5
+    },
+    {
+      "from": "ReportAttempt",
+      "to": "Report",
+      "confidence": 0.5
+    },
+    {
+      "from": "ConfigureRegistry",
+      "to": "MyPipelineKey",
+      "confidence": 0.95
+    },
+    {
+      "from": "DisposeDiscardedComponentSafeAsync",
+      "to": "DisposedFailedArguments",
+      "confidence": 0.95
+    },
+    {
+      "from": "DisposeAsync",
+      "to": "DisposeAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "ExecuteCore",
+      "confidence": 0.95
+    },
+    {
+      "from": "CircuitStateController.cs",
+      "to": "ScheduledTaskExecutor",
+      "confidence": 0.5
+    },
+    {
+      "from": "AddResiliencePipelineWithComplexKey",
+      "to": "CircuitBreakerStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "QuickStart",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "Context_V7",
+      "to": "Context",
+      "confidence": 0.5
+    },
+    {
+      "from": "TelemetryCoordinates",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "PolicyBase.ContextAndKeys.cs",
+      "to": "GuidPart",
+      "confidence": 0.5
+    },
+    {
+      "from": "AntiPattern_MultipleFailures",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "RetryHelper.cs",
+      "to": "ApplyJitter",
+      "confidence": 0.95
+    },
+    {
+      "from": "SafeExecute_V8",
+      "to": "MethodAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "AddMyApi",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "TimedLock",
+      "to": "Sentinel",
+      "confidence": 0.95
+    },
+    {
+      "from": "TryGet",
+      "to": "GetOrAdd",
+      "confidence": 0.95
+    },
+    {
+      "from": "Reset",
+      "to": "OnCircuitReset",
+      "confidence": 0.95
+    },
+    {
+      "from": "IncrementFailure",
+      "to": "UpdateCurrentWindow",
+      "confidence": 0.95
+    },
+    {
+      "from": "VoidResult.cs",
+      "to": "VoidResult",
+      "confidence": 0.95
+    },
+    {
+      "from": "GetOrCreateResiliencePipeline",
+      "to": "CreateConcurrencyLimiter",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "Return",
+      "confidence": 0.5
+    },
+    {
+      "from": "ApplyChaosSelectively",
+      "to": "ShouldEnableChaos",
+      "confidence": 0.95
+    },
+    {
+      "from": "TelemetrySource",
+      "to": "GetVersion",
+      "confidence": 0.95
+    },
+    {
+      "from": "MeteringEnricherRegistration",
+      "to": "TelemetryOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "OnHandledOutcomeAsync",
+      "confidence": 0.5
+    },
+    {
+      "from": "Pattern_OverusingBuilder",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "DisposeAsync",
+      "to": "ExecuteCallbacks",
+      "confidence": 0.95
+    },
+    {
+      "from": "PipelineProviderProviderMocking",
+      "to": "MyApi",
+      "confidence": 0.95
+    },
+    {
+      "from": "Create",
+      "to": "DelegatingComponent",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "CircuitBreakerManualControl",
+      "confidence": 0.5
+    },
+    {
+      "from": "DisposeAsync",
+      "to": "ResetAsync",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "Report",
+      "confidence": 0.5
+    },
+    {
+      "from": "Bulkhead_V8",
+      "to": "AddConcurrencyLimiter",
+      "confidence": 0.5
+    },
+    {
+      "from": "SafeExecute_V7",
+      "to": "Context",
+      "confidence": 0.5
+    },
+    {
+      "from": "AddResiliencePipelineWithComplexKey",
+      "to": "MyPipelineKey",
+      "confidence": 0.95
+    },
+    {
+      "from": "ResilienceContextPool.Shared.cs",
+      "to": "ResilienceContext",
+      "confidence": 0.5
+    },
+    {
+      "from": "RetryForeverAsync",
+      "to": "RetryForeverAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "AntiPattern_CallingMethodBefore",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "CentralPipelineIntegration",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "ImplementationAsync",
+      "to": "Cleanup",
+      "confidence": 0.5
+    },
+    {
+      "from": "IsolateCircuitAsync",
+      "to": "IsolatedCircuitException",
+      "confidence": 0.5
+    },
+    {
+      "from": "GetTtl",
+      "to": "GetTtl",
+      "confidence": 0.95
+    },
+    {
+      "from": "DelegateUsage",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "Context_V7",
+      "to": "Context",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "CreateComponent",
+      "to": "StrategyBuilderContext",
+      "confidence": 0.5
+    },
+    {
+      "from": "AdvancedCircuitController",
+      "to": "SingleHealthMetrics",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "AddChaosOutcome",
+      "confidence": 0.5
+    },
+    {
+      "from": "AddMyChaos",
+      "to": "MyChaosOptions",
+      "confidence": 0.95
+    },
+    {
+      "from": "GetObjectData",
+      "to": "GetObjectData",
+      "confidence": 0.95
+    },
+    {
+      "from": "Execute",
+      "to": "RestorePolicyContext",
+      "confidence": 0.5
+    },
+    {
+      "from": "Timeout",
+      "to": "ValidateTimeSpanTimeout",
+      "confidence": 0.5
+    },
+    {
+      "from": "LatencyUsage",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "RateLimit",
+      "to": "RateLimitPolicy",
+      "confidence": 0.5
+    },
+    {
+      "from": "OnActionPreExecute",
+      "to": "IsolatedCircuitException",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "AddConcurrencyLimiter",
+      "confidence": 0.5
+    },
+    {
+      "from": "Create",
+      "to": "RollingHealthMetrics",
+      "confidence": 0.5
+    },
+    {
+      "from": "LoadExecutionAsync",
+      "to": "CreateExecutionInfoWhenNoExecution",
+      "confidence": 0.95
+    },
+    {
+      "from": "DynamicReloads",
+      "to": "AddReloadToken",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExceptionPredicates.cs",
+      "to": "ExceptionPredicates",
+      "confidence": 0.95
+    },
+    {
+      "from": "FaultUsage",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "ShouldApplyTimeout",
+      "confidence": 0.5
+    },
+    {
+      "from": "GetPolicies",
+      "to": "GetPoliciesIterator",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnActionPreExecuteAsync",
+      "to": "IsolatedCircuitException",
+      "confidence": 0.5
+    },
+    {
+      "from": "AddTimeout",
+      "to": "TimeoutStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "TimeoutAsync",
+      "to": "ValidateSecondsTimeout",
+      "confidence": 0.5
+    },
+    {
+      "from": "FaultUsage",
+      "to": "ChaosFaultStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "CloseCircuit_NeedsLock",
+      "to": "OnCircuitClosed",
+      "confidence": 0.5
+    },
+    {
+      "from": "ResilienceContextPool.cs",
+      "to": "SharedPool",
+      "confidence": 0.5
+    },
+    {
+      "from": "GetPipelineDescriptorCore",
+      "to": "ResiliencePipelineDescriptor",
+      "confidence": 0.5
+    },
+    {
+      "from": "Reload",
+      "to": "TryRegisterOnReload",
+      "confidence": 0.95
+    },
+    {
+      "from": "FaultGeneratorDelegates",
+      "to": "ChaosFaultStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "Registry_V7",
+      "to": "PolicyRegistry",
+      "confidence": 0.5
+    },
+    {
+      "from": "FaultGenerator",
+      "to": "ChaosFaultStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "Pattern_CancellationToken",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "ConfigureTelemetry",
+      "to": "MyMeteringEnricher",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnActionFailure",
+      "to": "GetHealthInfo",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteAndCaptureInternalAsync",
+      "to": "Failure",
+      "confidence": 0.5
+    },
+    {
+      "from": "Fallback.cs",
+      "to": "UserAvatar",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnActionFailure",
+      "to": "Break_NeedsLock",
+      "confidence": 0.5
+    },
+    {
+      "from": "RetryHelper.cs",
+      "to": "DecorrelatedJitterBackoffV2",
+      "confidence": 0.95
+    },
+    {
+      "from": "RateLimitRejectedException",
+      "to": "SetRetryAfter",
+      "confidence": 0.95
+    },
+    {
+      "from": "ResiliencePipeline",
+      "to": "ResiliencePipeline",
+      "confidence": 0.95
+    },
+    {
+      "from": "Build",
+      "to": "CreatePredicate",
+      "confidence": 0.95
+    },
+    {
+      "from": "Write",
+      "to": "LogEvent",
+      "confidence": 0.95
+    },
+    {
+      "from": "Usage",
+      "to": "TimeoutStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "RateLimitAsync",
+      "to": "AsyncRateLimitPolicy",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "IsLastAttempt",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "ReportExecutionAttempt",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "GetPartitionKey",
+      "confidence": 0.95
+    },
+    {
+      "from": "WaitAndRetryAsync",
+      "to": "WaitAndRetryAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "Pattern_FallbackAfterRetries",
+      "to": "FromResultAsValueTask",
+      "confidence": 0.5
+    },
+    {
+      "from": "AddRateLimiter",
+      "to": "RateLimiterResilienceStrategy",
+      "confidence": 0.5
+    },
+    {
+      "from": "Bulkhead",
+      "to": "Bulkhead",
+      "confidence": 0.95
+    },
+    {
+      "from": "AddTimeout",
+      "to": "TimeoutResilienceStrategy",
+      "confidence": 0.5
+    },
+    {
+      "from": "FlurlExample",
+      "to": "GetRetryOptions",
+      "confidence": 0.95
+    },
+    {
+      "from": "DisposeAsync",
+      "to": "DisposeAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnActionSuccess",
+      "to": "IncrementSuccess",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "ExecuteComponent",
+      "confidence": 0.95
+    },
+    {
+      "from": "ShouldHandleManualAsync",
+      "to": "ShouldRetryAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "BuildPipelineComponent",
+      "to": "CreateComposite",
+      "confidence": 0.5
+    },
+    {
+      "from": "Main",
+      "to": "PipelineRegistryAdapter",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "ConvertValueTaskAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "ApplyChaosSelectivelyWithChaosManager",
+      "to": "IsChaosEnabled",
+      "confidence": 0.95
+    },
+    {
+      "from": "Implementation",
+      "to": "BulkheadRejectedException",
+      "confidence": 0.5
+    },
+    {
+      "from": "UpdateOriginalContext",
+      "to": "AddOrReplaceProperties",
+      "confidence": 0.5
+    },
+    {
+      "from": "CreateBrokenCircuitException",
+      "to": "SetTelemetrySource",
+      "confidence": 0.5
+    },
+    {
+      "from": "Pattern_ReplaceException",
+      "to": "CustomNetworkException",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnHandledOutcomeAsync",
+      "to": "SetLastHandledOutcome_NeedsLock",
+      "confidence": 0.95
+    },
+    {
+      "from": "ResiliencePipeline.cs",
+      "to": "ResiliencePipeline",
+      "confidence": 0.95
+    },
+    {
+      "from": "WithDisposableCallbacks",
+      "to": "ComponentWithDisposeCallbacks",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "SomeExceptionType",
+      "confidence": 0.5
+    },
+    {
+      "from": "CreateRegistration",
+      "to": "Cancel",
+      "confidence": 0.5
+    },
+    {
+      "from": "GetHealthInfo",
+      "to": "UpdateCurrentWindow",
+      "confidence": 0.95
+    },
+    {
+      "from": "InitializeAsync",
+      "to": "ResetAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "TryGet",
+      "to": "Deserialize",
+      "confidence": 0.5
+    },
+    {
+      "from": "CreateBuilder",
+      "to": "ResilienceTelemetrySource",
+      "confidence": 0.5
+    },
+    {
+      "from": "QuickStart",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "AddChaosBehavior",
+      "to": "ChaosBehaviorStrategy",
+      "confidence": 0.5
+    },
+    {
+      "from": "OutcomeUsage",
+      "to": "AddChaosOutcome",
+      "confidence": 0.5
+    },
+    {
+      "from": "AddException",
+      "to": "AddOutcome",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "AddConcurrencyLimiter",
+      "to": "RateLimiterStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "WaitAndRetry",
+      "to": "WaitAndRetry",
+      "confidence": 0.95
+    },
+    {
+      "from": "WithExecutionTracking",
+      "to": "ExecutionTrackingComponent",
+      "confidence": 0.5
+    },
+    {
+      "from": "GetPipelineDescriptorGeneric",
+      "to": "GetPipelineDescriptor",
+      "confidence": 0.95
+    },
+    {
+      "from": "HandleTimeout",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "ApplyChaosSelectivelyWithChaosManager",
+      "to": "ChaosFaultStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "Get",
+      "to": "ResilienceContextCreationArguments",
+      "confidence": 0.5
+    },
+    {
+      "from": "AddPipeline",
+      "to": "AddPipelineComponent",
+      "confidence": 0.5
+    },
+    {
+      "from": "OnActionPreExecuteAsync",
+      "to": "PermitHalfOpenCircuitTest_NeedsLock",
+      "confidence": 0.95
+    },
+    {
+      "from": "Retry_V8",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "CreateBuilder",
+      "to": "BuildPipelineComponent",
+      "confidence": 0.5
+    },
+    {
+      "from": "Pattern_OnlyInjectFault",
+      "to": "FaultGenerator",
+      "confidence": 0.5
+    },
+    {
+      "from": "Pattern_GeneratorDelegateInjectFaultAndOutcome",
+      "to": "ShouldEnableFaults",
+      "confidence": 0.95
+    },
+    {
+      "from": "DisposeAsync",
+      "to": "EnsureDisposable",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCoreWithTelemetry",
+      "to": "Report",
+      "confidence": 0.5
+    },
+    {
+      "from": "DisposeAsync",
+      "to": "ForceDisposeAsync",
+      "confidence": 0.5
+    },
+    {
+      "from": "GetHealthInfo",
+      "to": "TryReset",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "TryWaitForCompletedExecutionAsync",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "ExecuteCore",
+      "confidence": 0.95
+    },
+    {
+      "from": "PutAsync",
+      "to": "Serialize",
+      "confidence": 0.5
+    },
+    {
+      "from": "Implementation",
+      "to": "Create",
+      "confidence": 0.5
+    },
+    {
+      "from": "IncrementFailure_NeedsLock",
+      "to": "ActualiseCurrentMetric_NeedsLock",
+      "confidence": 0.95
+    },
+    {
+      "from": "SendAsync",
+      "to": "GetValue",
+      "confidence": 0.5
+    },
+    {
+      "from": "OnUnhandledOutcomeAsync",
+      "to": "CloseCircuit_NeedsLock",
+      "confidence": 0.95
+    },
+    {
+      "from": "Build",
+      "to": "BuildPipelineComponent",
+      "confidence": 0.5
+    },
+    {
+      "from": "AntiPattern_OverusingBuilder",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "Timeout",
+      "to": "ValidateSecondsTimeout",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "RateLimiterArguments",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "ConfigureTelemetry",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "ForceDisposeAsync",
+      "to": "DisposeAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "AntiPattern_ReduceThrownExceptions",
+      "to": "IssueRequest",
+      "confidence": 0.95
+    },
+    {
+      "from": "BehaviorUsage",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "Pattern_MultipleFailures",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "HandleRejection",
+      "to": "RateLimiterStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "HandleTransientHttpError",
+      "to": "True",
+      "confidence": 0.5
+    },
+    {
+      "from": "SeverityOverrides",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteAndCapture",
+      "to": "GetExceptionType",
+      "confidence": 0.5
+    },
+    {
+      "from": "AddChaosBehavior",
+      "to": "ChaosBehaviorStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "Pattern_CallingMethodBefore",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "Build",
+      "to": "BuildPipelineComponent",
+      "confidence": 0.5
+    },
+    {
+      "from": "AntiPattern_RetryForFallback",
+      "to": "CallSecondary",
+      "confidence": 0.95
+    },
+    {
+      "from": "Usage",
+      "to": "CircuitBreakerStateProvider",
+      "confidence": 0.5
+    },
+    {
+      "from": "AddResiliencePipelineBuilder",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "OnActionSuccess",
+      "to": "Lock",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteComponentAot",
+      "to": "ExecuteCore",
+      "confidence": 0.95
+    },
+    {
+      "from": "CreateComponent",
+      "to": "CreateBuilder",
+      "confidence": 0.95
+    },
+    {
+      "from": "GetPipelineDescriptorCore",
+      "to": "ResilienceStrategyDescriptor",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "AddConcurrencyLimiter",
+      "confidence": 0.5
+    },
+    {
+      "from": "AntiPattern_PeriodicExecution",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "ImplementationAsync",
+      "to": "AnyMatch",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "OnLatencyInjectedArguments",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "AddChaosLatency",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "AddChaosBehavior",
+      "confidence": 0.5
+    },
+    {
+      "from": "BulkheadPolicy",
+      "to": "CreateBulkheadSemaphores",
+      "confidence": 0.5
+    },
+    {
+      "from": "CreateBuilder",
+      "to": "WithExecutionTracking",
+      "confidence": 0.5
+    },
+    {
+      "from": "ResetAsync",
+      "to": "TryDisposeSafeAsync",
+      "confidence": 0.5
+    },
+    {
+      "from": "GetObjectData",
+      "to": "GetObjectData",
+      "confidence": 0.95
+    },
+    {
+      "from": "Usage",
+      "to": "AddChaosFault",
+      "confidence": 0.5
+    },
+    {
+      "from": "BuildPipelineComponent",
+      "to": "ResilienceTelemetrySource",
+      "confidence": 0.5
+    },
+    {
+      "from": "Reload",
+      "to": "DisposeDiscardedComponentSafeAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "RetryForeverAsync",
+      "to": "RetryForeverAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnActionFailure",
+      "to": "Break_NeedsLock",
+      "confidence": 0.5
+    },
+    {
+      "from": "SwitchExpressions",
+      "to": "True",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExpandComponents",
+      "to": "ExpandComponents",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnActionSuccess",
+      "to": "OnCircuitReset",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "GetRetryDelay",
+      "confidence": 0.5
+    },
+    {
+      "from": "TryWaitForCompletedExecutionAsync",
+      "to": "Cancel",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "TimeoutStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "BehaviorUsage",
+      "to": "ChaosBehaviorStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "Execute",
+      "to": "GetSyncContext",
+      "confidence": 0.95
+    },
+    {
+      "from": "Return",
+      "to": "TryReset",
+      "confidence": 0.5
+    },
+    {
+      "from": "ImplementationAsync",
+      "to": "FirstMatchOrDefault",
+      "confidence": 0.5
+    },
+    {
+      "from": "Write",
+      "to": "MeterEvent",
+      "confidence": 0.95
+    },
+    {
+      "from": "GetOrAddPipeline",
+      "to": "CreateComponent",
+      "confidence": 0.5
+    },
+    {
+      "from": "Create",
+      "to": "PooledCancellationTokenSourcePool",
+      "confidence": 0.5
+    },
+    {
+      "from": "Strategies",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "ImplementationAsync",
+      "to": "AnyMatch",
+      "confidence": 0.5
+    },
+    {
+      "from": "Implementation",
+      "to": "Cleanup",
+      "confidence": 0.5
+    },
+    {
+      "from": "AdvancedCircuitBreaker_V7",
+      "to": "Isolate",
+      "confidence": 0.5
+    },
+    {
+      "from": "OnActionPreExecuteAsync",
+      "to": "ExecuteScheduledTaskAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "Pattern_FallbackAfterRetries",
+      "to": "ResolveFallbackResponse",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteAsync",
+      "to": "GetResultOrRethrow",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "AcceptOutcome",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "Report",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "ExecuteComponentAot",
+      "confidence": 0.95
+    },
+    {
+      "from": "RateLimit",
+      "to": "LockFreeTokenBucketRateLimiter",
+      "confidence": 0.5
+    },
+    {
+      "from": "TryGetAsync",
+      "to": "Deserialize",
+      "confidence": 0.5
+    },
+    {
+      "from": "AntiPattern_RetryForFallback",
+      "to": "CallPrimary",
+      "confidence": 0.95
+    },
+    {
+      "from": "CacheAsync",
+      "to": "RelativeTtl",
+      "confidence": 0.5
+    },
+    {
+      "from": "Pooling",
+      "to": "Get",
+      "confidence": 0.5
+    },
+    {
+      "from": "Pattern_CancellingRetry",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "TimeoutAsync",
+      "to": "ValidateSecondsTimeout",
+      "confidence": 0.5
+    },
+    {
+      "from": "ReportFinalExecutionAttempt",
+      "to": "ExecutionAttemptArguments",
+      "confidence": 0.5
+    },
+    {
+      "from": "LatencyUsage",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "InitializeAsync",
+      "to": "ExecutePrimaryActionAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "ReportFinalExecutionAttempt",
+      "to": "ReportAttempt",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnPipelineDisposed",
+      "to": "OnPipelineDisposed",
+      "confidence": 0.95
+    },
+    {
+      "from": "FaultUsage",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "FaultUsage",
+      "to": "FaultGenerator",
+      "confidence": 0.95
+    },
+    {
+      "from": "LatencyUsage",
+      "to": "ChaosLatencyStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "DisposeAsync",
+      "to": "DisposeAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "OnActionPreExecuteAsync",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "LoadExecutionAsync",
+      "confidence": 0.5
+    },
+    {
+      "from": "CreateStrategy",
+      "to": "AdvancedCircuitBehavior",
+      "confidence": 0.5
+    },
+    {
+      "from": "ResiliencePipelinesDiagramRetryTimeout",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "DisposeAsync",
+      "to": "ForceDisposeAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "PolicyWrap_V8",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "OnActionPreExecuteAsync",
+      "to": "WaitHalfOpenTask",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteComponentAot",
+      "to": "StateWrapper",
+      "confidence": 0.95
+    },
+    {
+      "from": "IncrementSuccess_NeedsLock",
+      "to": "ActualiseCurrentMetric_NeedsLock",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteInternalAsync",
+      "to": "RestorePolicyContext",
+      "confidence": 0.5
+    },
+    {
+      "from": "AddChaosLatency",
+      "to": "ChaosLatencyStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteOutcomeAsync",
+      "to": "ExecuteOutcomeAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "Lock",
+      "to": "LockTimeoutException",
+      "confidence": 0.95
+    },
+    {
+      "from": "Put",
+      "to": "Serialize",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteOutcomeAsync",
+      "to": "MyMethodAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnActionPreExecute",
+      "to": "PermitHalfOpenCircuitTest",
+      "confidence": 0.95
+    },
+    {
+      "from": "ShouldInjectAsync",
+      "to": "CoerceInjectionThreshold",
+      "confidence": 0.95
+    },
+    {
+      "from": "DefaultCacheKeyStrategy.cs",
+      "to": "DefaultCacheKeyStrategy",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteAndCaptureInternalAsync",
+      "to": "GetExceptionType",
+      "confidence": 0.5
+    },
+    {
+      "from": "RetryForever",
+      "to": "RetryForever",
+      "confidence": 0.95
+    },
+    {
+      "from": "DisposeAsync",
+      "to": "ForceDisposeAsync",
+      "confidence": 0.5
+    },
+    {
+      "from": "ResiliencePipeline",
+      "to": "ComponentDisposeHelper",
+      "confidence": 0.5
+    },
+    {
+      "from": "DynamicReloadsWithDispose",
+      "to": "RegisterCancellationSource",
+      "confidence": 0.95
+    },
+    {
+      "from": "CancellationTokenSourcePool.Pooled.cs",
+      "to": "PooledCancellationTokenSourcePool",
+      "confidence": 0.95
+    },
+    {
+      "from": "Context_V8",
+      "to": "GetValue",
+      "confidence": 0.5
+    },
+    {
+      "from": "FaultGenerator.cs",
+      "to": "CreateGenerator",
+      "confidence": 0.5
+    },
+    {
+      "from": "GetCore",
+      "to": "IsCancellable",
+      "confidence": 0.5
+    },
+    {
+      "from": "Execution",
+      "to": "TextSearchAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "Cache",
+      "to": "RelativeTtl",
+      "confidence": 0.5
+    },
+    {
+      "from": "AntiPattern_NestingExecute",
+      "to": "CallExternalSystem",
+      "confidence": 0.95
+    },
+    {
+      "from": "Reload",
+      "to": "ReloadFailedArguments",
+      "confidence": 0.95
+    },
+    {
+      "from": "Action",
+      "to": "CustomNetworkException",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteAndCapture",
+      "to": "Successful",
+      "confidence": 0.5
+    },
+    {
+      "from": "Implementation",
+      "to": "FirstMatchOrDefault",
+      "confidence": 0.5
+    },
+    {
+      "from": "ImplementationAsync",
+      "to": "Create",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteAndCaptureInternalAsync",
+      "to": "AnyMatch",
+      "confidence": 0.5
+    },
+    {
+      "from": "ImplementationAsync",
+      "to": "AnyMatch",
+      "confidence": 0.5
+    },
+    {
+      "from": "UpdateOutcomeAsync",
+      "to": "ReportExecutionAttempt",
+      "confidence": 0.5
+    },
+    {
+      "from": "CloseCircuit_NeedsLock",
+      "to": "ScheduleTask",
+      "confidence": 0.5
+    },
+    {
+      "from": "GetObjectData",
+      "to": "GetObjectData",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecutePrimaryActionAsync",
+      "to": "UpdateOutcomeAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "GetHealthCount_NeedsLock",
+      "to": "ActualiseCurrentMetric_NeedsLock",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "ExecuteCore",
+      "confidence": 0.95
+    },
+    {
+      "from": "InitializeAsync",
+      "to": "Get",
+      "confidence": 0.5
+    },
+    {
+      "from": "DelegateUsage",
+      "to": "True",
+      "confidence": 0.5
+    },
+    {
+      "from": "GetOrAddPipeline",
+      "to": "EnsureNotDisposed",
+      "confidence": 0.95
+    },
+    {
+      "from": "SafeExecute_V8",
+      "to": "TimeoutStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "TimeoutAsync",
+      "to": "ValidateTimeSpanTimeout",
+      "confidence": 0.5
+    },
+    {
+      "from": "Return",
+      "to": "Return",
+      "confidence": 0.95
+    },
+    {
+      "from": "ApplyChaosSelectively",
+      "to": "FaultGenerator",
+      "confidence": 0.5
+    },
+    {
+      "from": "RateLimitAsync",
+      "to": "LockFreeTokenBucketRateLimiter",
+      "confidence": 0.5
+    },
+    {
+      "from": "CacheAsync",
+      "to": "RelativeTtl",
+      "confidence": 0.5
+    },
+    {
+      "from": "IsolateCircuitAsync",
+      "to": "SetTelemetrySource",
+      "confidence": 0.5
+    },
+    {
+      "from": "CircuitBreaker_V8",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "ReportExecutionAttempt",
+      "to": "ReportAttempt",
+      "confidence": 0.95
+    },
+    {
+      "from": "RefitExample",
+      "to": "GetRetryOptions",
+      "confidence": 0.95
+    },
+    {
+      "from": "ResiliencePipelineRegistryOptions.cs",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "ApplyChaosSelectivelyWithChaosManager",
+      "to": "GetInjectionRate",
+      "confidence": 0.95
+    },
+    {
+      "from": "FaultGeneratorDelegates",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "EnableReloads",
+      "to": "Cancel",
+      "confidence": 0.5
+    },
+    {
+      "from": "cake.cs",
+      "to": "RunMutationTests",
+      "confidence": 0.95
+    },
+    {
+      "from": "BuildPipelineComponent",
+      "to": "ResilienceStrategyTelemetry",
+      "confidence": 0.5
+    },
+    {
+      "from": "Get",
+      "to": "Get",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteSecondaryActionAsync",
+      "to": "UpdateOutcomeAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "ConfigureTelemetry",
+      "to": "TelemetryListenerImpl",
+      "confidence": 0.5
+    },
+    {
+      "from": "InitializeAsync",
+      "to": "Report",
+      "confidence": 0.5
+    },
+    {
+      "from": "OnCircuitReset",
+      "to": "ResetInternal_NeedsLock",
+      "confidence": 0.5
+    },
+    {
+      "from": "OnActionPreExecute",
+      "to": "GetBreakingException",
+      "confidence": 0.95
+    },
+    {
+      "from": "OutcomeUsage",
+      "to": "True",
+      "confidence": 0.5
+    },
+    {
+      "from": "Retry",
+      "to": "Retry",
+      "confidence": 0.95
+    },
+    {
+      "from": "CreateComposite",
+      "to": "Create",
+      "confidence": 0.5
+    },
+    {
+      "from": "MeterEvent",
+      "to": "UpdateEnrichmentContext",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "GetContext",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "OnBehaviorInjectedArguments",
+      "confidence": 0.5
+    },
+    {
+      "from": "AddChaosFault",
+      "to": "ChaosFaultStrategy",
+      "confidence": 0.5
+    },
+    {
+      "from": "Pattern_OnlyInjectFault",
+      "to": "ChaosFaultStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "InitializeFrom",
+      "to": "AddOrReplaceProperties",
+      "confidence": 0.5
+    },
+    {
+      "from": "QuickStartDi",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "AsyncBulkheadPolicy",
+      "to": "CreateBulkheadSemaphores",
+      "confidence": 0.5
+    },
+    {
+      "from": "Execute",
+      "to": "ExecuteCoreSync",
+      "confidence": 0.5
+    },
+    {
+      "from": "OutcomeGeneratorDelegates",
+      "to": "CreateResultFromContext",
+      "confidence": 0.95
+    },
+    {
+      "from": "DisposeAsync",
+      "to": "DisposeAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "Implementation",
+      "to": "Cleanup",
+      "confidence": 0.5
+    },
+    {
+      "from": "InitializeAsync",
+      "to": "Cancel",
+      "confidence": 0.95
+    },
+    {
+      "from": "AdvancedCircuitBreaker_V7",
+      "to": "Reset",
+      "confidence": 0.5
+    },
+    {
+      "from": "TryRemove",
+      "to": "TryRemove",
+      "confidence": 0.95
+    },
+    {
+      "from": "ImplementationAsync",
+      "to": "Cancel",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "Report",
+      "confidence": 0.5
+    },
+    {
+      "from": "DisposeAsync",
+      "to": "DisposeAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "ConfigureRegistry",
+      "to": "PipelineNameComparer",
+      "confidence": 0.95
+    },
+    {
+      "from": "EnableReloads",
+      "to": "AddReloadToken",
+      "confidence": 0.5
+    },
+    {
+      "from": "RateLimitRejectedException",
+      "to": "DefaultMessage",
+      "confidence": 0.95
+    },
+    {
+      "from": "Return",
+      "to": "Return",
+      "confidence": 0.95
+    },
+    {
+      "from": "Usage",
+      "to": "CircuitBreakerStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "ScheduleTask",
+      "to": "Entry",
+      "confidence": 0.95
+    },
+    {
+      "from": "Implementation",
+      "to": "AnyMatch",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "Report",
+      "confidence": 0.5
+    },
+    {
+      "from": "ApplyChaosSelectivelyWithChaosManager",
+      "to": "ChaosLatencyStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "CreateBuilder",
+      "to": "WithDisposableCallbacks",
+      "confidence": 0.5
+    },
+    {
+      "from": "Isolate",
+      "to": "Lock",
+      "confidence": 0.5
+    },
+    {
+      "from": "GetTtl",
+      "to": "Ttl",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteInternalAsync",
+      "to": "RestorePolicyContext",
+      "confidence": 0.5
+    },
+    {
+      "from": "FaultGenerator",
+      "to": "CreateExceptionFromContext",
+      "confidence": 0.95
+    },
+    {
+      "from": "Pattern_InjectDelay",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "Action",
+      "to": "FromResultAsValueTask",
+      "confidence": 0.5
+    },
+    {
+      "from": "AddFallback",
+      "to": "CreateFallback",
+      "confidence": 0.95
+    },
+    {
+      "from": "ResiliencePipelineBuilderExtensions.cs",
+      "to": "EmptyOptions",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnHandledOutcomeAsync",
+      "to": "ExecuteScheduledTaskAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "DynamicReloadsWithDispose",
+      "to": "AddReloadToken",
+      "confidence": 0.5
+    },
+    {
+      "from": "DisposeAsync",
+      "to": "DisposeAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "ConfigureTelemetry",
+      "to": "MyTelemetryListener",
+      "confidence": 0.95
+    },
+    {
+      "from": "AntiPattern_SleepingStrategies",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "ImplementationAsync",
+      "to": "PermitExecution",
+      "confidence": 0.5
+    },
+    {
+      "from": "ImplementationAsync",
+      "to": "BulkheadRejectedException",
+      "confidence": 0.5
+    },
+    {
+      "from": "Pattern_GeneratorDelegateInjectFaultAndOutcome",
+      "to": "ChaosFaultStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "RestartRedisAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "ImplementationAsync",
+      "to": "Cleanup",
+      "confidence": 0.5
+    },
+    {
+      "from": "Pattern_RetryForFallback",
+      "to": "CallSecondary",
+      "confidence": 0.95
+    },
+    {
+      "from": "Action",
+      "to": "ActionCore",
+      "confidence": 0.95
+    },
+    {
+      "from": "WithPolicyKey",
+      "to": "PolicyKeyMustBeImmutableException",
+      "confidence": 0.5
+    },
+    {
+      "from": "FaultGenerator",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "DisposeDiscardedComponentSafeAsync",
+      "to": "Report",
+      "confidence": 0.5
+    },
+    {
+      "from": "Pattern_GeneratorDelegateInjectFaultAndOutcome",
+      "to": "ShouldEnableOutcome",
+      "confidence": 0.95
+    },
+    {
+      "from": "Pattern_SleepingStrategies",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "Execute",
+      "to": "ExecuteCoreSync",
+      "confidence": 0.5
+    },
+    {
+      "from": "Write",
+      "to": "SeverityProviderArguments",
+      "confidence": 0.5
+    },
+    {
+      "from": "IncrementSuccess",
+      "to": "UpdateCurrentWindow",
+      "confidence": 0.95
+    },
+    {
+      "from": "CreateReloadable",
+      "to": "ReloadableComponent",
+      "confidence": 0.5
+    },
+    {
+      "from": "OnActionPreExecuteAsync",
+      "to": "Report",
+      "confidence": 0.5
+    },
+    {
+      "from": "AntiPattern_InjectDelay",
+      "to": "ChaosBehaviorStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "TryGet",
+      "to": "TryGet",
+      "confidence": 0.95
+    },
+    {
+      "from": "Pattern_SleepingStrategies",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "OnFaultInjectedArguments",
+      "confidence": 0.5
+    },
+    {
+      "from": "LoadExecutionAsync",
+      "to": "InitializeAsync",
+      "confidence": 0.5
+    },
+    {
+      "from": "ImplementationAsync",
+      "to": "Create",
+      "confidence": 0.5
+    },
+    {
+      "from": "GetPipelineDescriptor",
+      "to": "GetPipelineDescriptor",
+      "confidence": 0.95
+    },
+    {
+      "from": "BehaviorUsage",
+      "to": "AddChaosBehavior",
+      "confidence": 0.5
+    },
+    {
+      "from": "Implementation",
+      "to": "FirstMatchOrDefault",
+      "confidence": 0.5
+    },
+    {
+      "from": "WaitAndRetryAsync",
+      "to": "WaitAndRetryAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "HandleInner",
+      "to": "HandleNested",
+      "confidence": 0.95
+    },
+    {
+      "from": "InitializeAsync",
+      "to": "InitializeFrom",
+      "confidence": 0.5
+    },
+    {
+      "from": "DynamicReloadsWithDispose",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "AntiPattern_ReplaceException",
+      "to": "FromResultAsValueTask",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "MyMethodAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "IsolateCircuitAsync",
+      "to": "OpenCircuitFor_NeedsLock",
+      "confidence": 0.95
+    },
+    {
+      "from": "FaultGeneratorDelegates",
+      "to": "CreateExceptionFromContext",
+      "confidence": 0.95
+    },
+    {
+      "from": "ReportExecutionAttempt",
+      "to": "ExecutionAttemptArguments",
+      "confidence": 0.5
+    },
+    {
+      "from": "MeteringEnricherRegistration",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "TryGetAsync",
+      "to": "TryGetAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "AntiPattern_CancellingRetry",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "Implementation",
+      "to": "FirstMatchOrDefault",
+      "confidence": 0.5
+    },
+    {
+      "from": "GetHealthCount_NeedsLock",
+      "to": "ActualiseCurrentMetric_NeedsLock",
+      "confidence": 0.95
+    },
+    {
+      "from": "ResiliencePipelinesDiagramTimeoutRetry",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "Report",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteAndCaptureInternalAsync",
+      "to": "Successful",
+      "confidence": 0.5
+    },
+    {
+      "from": "LatencyUsage",
+      "to": "AddChaosLatency",
+      "confidence": 0.5
+    },
+    {
+      "from": "Timeout",
+      "to": "ValidateTimeSpanTimeout",
+      "confidence": 0.5
+    },
+    {
+      "from": "IncrementSuccess",
+      "to": "TryReset",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteComponent",
+      "to": "ExecuteCore",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "Get",
+      "confidence": 0.5
+    },
+    {
+      "from": "Put",
+      "to": "Put",
+      "confidence": 0.95
+    },
+    {
+      "from": "HedgingController",
+      "to": "Create",
+      "confidence": 0.5
+    },
+    {
+      "from": "OnActionPreExecuteAsync",
+      "to": "CreateBrokenCircuitException",
+      "confidence": 0.95
+    },
+    {
+      "from": "Retry_V8",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "InitializeAsync",
+      "to": "CreateArguments",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnActionFailure",
+      "to": "Lock",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "TryDisposeSafeAsync",
+      "confidence": 0.5
+    },
+    {
+      "from": "DisposeAsync",
+      "to": "Cancel",
+      "confidence": 0.5
+    },
+    {
+      "from": "Usage",
+      "to": "FromResultAsValueTask",
+      "confidence": 0.5
+    },
+    {
+      "from": "HandleResult",
+      "to": "TryGetResult",
+      "confidence": 0.5
+    },
+    {
+      "from": "InitializeAsync",
+      "to": "UpdateOutcomeAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "Lock",
+      "to": "Lock",
+      "confidence": 0.95
+    },
+    {
+      "from": "OnActionFailure",
+      "to": "IncrementFailure",
+      "confidence": 0.5
+    },
+    {
+      "from": "HandleRejection",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "Main",
+      "to": "GetOrCreateResiliencePipeline",
+      "confidence": 0.95
+    },
+    {
+      "from": "PutAsync",
+      "to": "PutAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "Implementation",
+      "to": "TimeoutRejectedException",
+      "confidence": 0.5
+    },
+    {
+      "from": "OnCircuitReset",
+      "to": "Lock",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCore",
+      "to": "OnUnhandledOutcomeAsync",
+      "confidence": 0.5
+    },
+    {
+      "from": "SafeExecute_V7",
+      "to": "MethodAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "ExecuteCoreSync",
+      "to": "GetResultOrRethrow",
+      "confidence": 0.5
+    },
+    {
+      "from": "Policies",
+      "to": "GetResponse",
+      "confidence": 0.95
+    },
+    {
+      "from": "RetryAsync",
+      "to": "RetryAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "GetExceptionType",
+      "to": "FirstMatchOrDefault",
+      "confidence": 0.5
+    },
+    {
+      "from": "DisposeDiscardedComponentSafeAsync",
+      "to": "DisposeAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "Get",
+      "to": "GetCore",
+      "confidence": 0.95
+    },
+    {
+      "from": "Bulkhead_V8",
+      "to": "ResiliencePipelineBuilder",
+      "confidence": 0.5
+    },
+    {
+      "from": "SendAsync",
+      "to": "SendAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "Execution",
+      "to": "AddConcurrencyLimiter",
+      "confidence": 0.5
+    },
+    {
+      "from": "Strategies",
+      "to": "GetResponseAsync",
+      "confidence": 0.95
+    },
+    {
+      "from": "Timeout",
+      "to": "ValidateSecondsTimeout",
+      "confidence": 0.5
+    },
+    {
+      "from": "ScheduleHalfOpenTask",
+      "to": "OnCircuitHalfOpenedArguments",
+      "confidence": 0.5
+    },
+    {
+      "from": "TryUpdate",
+      "to": "TryUpdate",
+      "confidence": 0.95
+    },
+    {
+      "from": "TryReset",
+      "to": "Reset",
+      "confidence": 0.95
+    },
+    {
+      "from": "OutcomeUsage",
+      "to": "False",
+      "confidence": 0.5
+    },
+    {
+      "from": "AntiPattern_GeneratorDelegateInjectFault",
+      "to": "CreateResultFromContext",
+      "confidence": 0.95
+    },
+    {
+      "from": "UsageWithoutBuilders",
+      "to": "RetryStrategyOptions",
+      "confidence": 0.5
+    },
+    {
+      "from": "ExecuteCoreWithTelemetry",
+      "to": "ExecuteCoreWithoutTelemetry",
+      "confidence": 0.95
+    },
+    {
+      "from": "TryAdd",
+      "to": "TryAdd",
+      "confidence": 0.95
+    }
+  ]
+}

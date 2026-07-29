@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "peer": "deepwiki",
+  "repo": "App-vNext/Polly",
+  "base_url": "https://deepwiki.com/App-vNext/Polly",
+  "scored_at": "2026-07-29",
+  "pages": [
+    {
+      "slug": "build-system",
+      "title": "Build System",
+      "url": "https://deepwiki.com/App-vNext/Polly/5.1-build-system",
+      "sha256": "db362b3b2f096203612f6cc86962b4b2b6b1874527eea1cec4652f50b25462d8"
+    },
+    {
+      "slug": "building-and-contributing",
+      "title": "Building and Contributing",
+      "url": "https://deepwiki.com/App-vNext/Polly/5-building-and-contributing",
+      "sha256": "3f3ecb7ae3885737e836357d0795fa045de2701e4ccd0b958ecd267221d7db71"
+    },
+    {
+      "slug": "chaos-engineering-with-simmy",
+      "title": "Chaos Engineering with Simmy",
+      "url": "https://deepwiki.com/App-vNext/Polly/3.7-chaos-engineering-with-simmy",
+      "sha256": "38eb52353269ed66a4647b4a24f5c6e6515b0c056df398bd8bd0d2f2f06976e0"
+    },
+    {
+      "slug": "ci-cd-pipeline",
+      "title": "CI/CD Pipeline",
+      "url": "https://deepwiki.com/App-vNext/Polly/5.2-ci-cd-pipeline",
+      "sha256": "df01b4ebdd14704057430bd53139af1b6f02d1581d08241289d92aaa206135a1"
+    },
+    {
+      "slug": "circuit-breaker-strategy",
+      "title": "Circuit Breaker Strategy",
+      "url": "https://deepwiki.com/App-vNext/Polly/3.2-circuit-breaker-strategy",
+      "sha256": "e96141f226eafbfeacdbf76a6f861180582f594aabc282bdeb082af168899001"
+    },
+    {
+      "slug": "core-architecture",
+      "title": "Core Architecture",
+      "url": "https://deepwiki.com/App-vNext/Polly/2-core-architecture",
+      "sha256": "77b79cea82a0de04d0c8ad95295d30c1ab34cec064b9a8399baaae0c4c26ab30"
+    },
+    {
+      "slug": "dependency-injection-integration",
+      "title": "Dependency Injection Integration",
+      "url": "https://deepwiki.com/App-vNext/Polly/4.1-dependency-injection-integration",
+      "sha256": "374f9ef8e8d3e0e90fe76f133f601c679147e5d649b6e3a369f928ee497bafd7"
+    },
+    {
+      "slug": "fallback-strategy",
+      "title": "Fallback Strategy",
+      "url": "https://deepwiki.com/App-vNext/Polly/3.4-fallback-strategy",
+      "sha256": "6901276ce9e1503bb20abceea9883882d144efd25b7958ba0e3bff05ff3c48f2"
+    },
+    {
+      "slug": "hedging-strategy",
+      "title": "Hedging Strategy",
+      "url": "https://deepwiki.com/App-vNext/Polly/3.6-hedging-strategy",
+      "sha256": "a1c5fba2df020792efa4b90b1b11b0f1b7299d254f493b501cbfb14295a67c2a"
+    },
+    {
+      "slug": "http-client-integration",
+      "title": "HTTP Client Integration",
+      "url": "https://deepwiki.com/App-vNext/Polly/4.2-http-client-integration",
+      "sha256": "5ab41ee58e6f6cea4016a58d8d09fbdd4cd95cb46ce1913a13de9ea5bdbb6494"
+    },
+    {
+      "slug": "integration-and-extensions",
+      "title": "Integration and Extensions",
+      "url": "https://deepwiki.com/App-vNext/Polly/4-integration-and-extensions",
+      "sha256": "18da2e881c2fb144a3fad0e3a6a764fdefc8a9449a0d222aaa91863379a17bf3"
+    },
+    {
+      "slug": "migration-from-v7-to-v8",
+      "title": "Migration from v7 to v8",
+      "url": "https://deepwiki.com/App-vNext/Polly/1.2-migration-from-v7-to-v8",
+      "sha256": "78d943182eaa8e82749cf8f4c9f5eccf436a3c41c61256a5db63c15a6e3b8f70"
+    },
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "url": "https://deepwiki.com/App-vNext/Polly/1-overview",
+      "sha256": "ed2ef314b98a83f6b26392bf128ab19106fb649e38c87d5fec721962114e93be"
+    },
+    {
+      "slug": "package-structure",
+      "title": "Package Structure",
+      "url": "https://deepwiki.com/App-vNext/Polly/1.1-package-structure",
+      "sha256": "b54c6cfdb4634515602dea1931e4a30ee7b99f1899c407f675971b5a3ef88905"
+    },
+    {
+      "slug": "performance-and-benchmarking",
+      "title": "Performance and Benchmarking",
+      "url": "https://deepwiki.com/App-vNext/Polly/5.4-performance-and-benchmarking",
+      "sha256": "c981e7a5e283c7f5f27d0a861de03cc2071d09fda27a65bb76bea6948d80fe81"
+    },
+    {
+      "slug": "rate-limiter-strategy",
+      "title": "Rate Limiter Strategy",
+      "url": "https://deepwiki.com/App-vNext/Polly/3.5-rate-limiter-strategy",
+      "sha256": "d213f1f6fc65de06b8f0621c16bd1dd76781a5bad59f7431e855b782c221faff"
+    },
+    {
+      "slug": "resilience-strategies",
+      "title": "Resilience Strategies",
+      "url": "https://deepwiki.com/App-vNext/Polly/3-resilience-strategies",
+      "sha256": "91d097ca11ff64ef518a1e1ce1bf26fef18324dc1a693f6a985d27bf5b526fa8"
+    },
+    {
+      "slug": "resiliencepipeline-and-resiliencecontext",
+      "title": "ResiliencePipeline and ResilienceContext",
+      "url": "https://deepwiki.com/App-vNext/Polly/2.1-resiliencepipeline-and-resiliencecontext",
+      "sha256": "1e18510064367d78038db71f35549c8c58653c35c196f1170e96252d4a07fa24"
+    },
+    {
+      "slug": "retry-strategy",
+      "title": "Retry Strategy",
+      "url": "https://deepwiki.com/App-vNext/Polly/3.1-retry-strategy",
+      "sha256": "3c232443c2f942ec48941f269eaceb4850b002b89681902b6378209512c2479f"
+    },
+    {
+      "slug": "strategy-options-configuration",
+      "title": "Strategy Options Configuration",
+      "url": "https://deepwiki.com/App-vNext/Polly/2.2-strategy-options-configuration",
+      "sha256": "62c7537ac975b4c26abe4dbfa5631d4fc309f98d6bebc1e17f218842744b1a5b"
+    },
+    {
+      "slug": "telemetry-and-monitoring",
+      "title": "Telemetry and Monitoring",
+      "url": "https://deepwiki.com/App-vNext/Polly/4.3-telemetry-and-monitoring",
+      "sha256": "10896f30779f004dc11f980c6335fa5982222571858d4e0dba929396cbc8c57a"
+    },
+    {
+      "slug": "testing-framework",
+      "title": "Testing Framework",
+      "url": "https://deepwiki.com/App-vNext/Polly/5.3-testing-framework",
+      "sha256": "cd61ed8e7e7a60d7d5a75f8e0e3ec5e930a66420d6b323e1fff8383e9cfee64f"
+    },
+    {
+      "slug": "timeout-strategy",
+      "title": "Timeout Strategy",
+      "url": "https://deepwiki.com/App-vNext/Polly/3.3-timeout-strategy",
+      "sha256": "1692a399b0ee7cff2014a4681ff8a93578f8dc97f6f3cfb897ced7fbb48b41cc"
+    }
+  ],
+  "_description": "DeepWiki reference wiki for App-vNext/Polly, fetched 2026-07-27 via the DeepWiki MCP (read_wiki_contents), split on '# Page:' delimiters. DeepWiki publishes no generation commit; claims judged against a clone from the same capture window."
+}

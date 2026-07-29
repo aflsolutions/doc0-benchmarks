@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "peer": "codewiki",
+  "repo": "sharkdp/fd",
+  "base_url": "https://codewiki.google/github.com/sharkdp/fd",
+  "scored_at": "2026-07-28",
+  "pages": [
+    {
+      "slug": "external-command-execution",
+      "title": "External Command Execution",
+      "url": "https://codewiki.google/github.com/sharkdp/fd#external-command-execution",
+      "sha256": "f739bf1f88341d37c514cce1499d1f9a3da0160ee6bd16822e732b78648c1aff"
+    },
+    {
+      "slug": "fd-utility-core-logic",
+      "title": "`fd` Utility Core Logic",
+      "url": "https://codewiki.google/github.com/sharkdp/fd#fd-utility-core-logic",
+      "sha256": "4d0b8268f3082be5d0eb5e116431e99ac811b249a7779c2155509ce422ce0cf9"
+    },
+    {
+      "slug": "filtering-mechanisms",
+      "title": "Filtering Mechanisms",
+      "url": "https://codewiki.google/github.com/sharkdp/fd#filtering-mechanisms",
+      "sha256": "ba82442963c500025080f2130be7efa5e16127529659455a522b217639f925f1"
+    },
+    {
+      "slug": "output-formatting",
+      "title": "Output Formatting",
+      "url": "https://codewiki.google/github.com/sharkdp/fd#output-formatting",
+      "sha256": "abd5c99ebf21d46795461d341a08309bd38296dfa633fb01a667f69d98e93f4c"
+    },
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "url": "https://codewiki.google/github.com/sharkdp/fd",
+      "sha256": "1bfff0ef78fbf42c6580b0cf86cb79abcbbd6a5e93bd890591ae61ce3721cbd1"
+    },
+    {
+      "slug": "project-automation-and-release-management",
+      "title": "Project Automation and Release Management",
+      "url": "https://codewiki.google/github.com/sharkdp/fd#project-automation-and-release-management",
+      "sha256": "4903120f8f83fbc58fe15f3236ab4ff6bdafeeded36ab3af7a2f77e8a2db5177"
+    }
+  ],
+  "_description": "CodeWiki (codewiki.google) reference wiki for sharkdp/fd, extracted 2026-07-27/28; page shows generation commit 5a5852e15b44d4917a6098b1c01d3bb535b7717f. Sections of the single CodeWiki page split at h2 boundaries; citation labels adapter-normalized to path:line form (see fetch-codewiki/). Judged against a clone at the pinned commit."
+}

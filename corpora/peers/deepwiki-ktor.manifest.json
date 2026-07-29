@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "peer": "deepwiki",
+  "repo": "ktorio/ktor",
+  "base_url": "https://deepwiki.com/ktorio/ktor",
+  "scored_at": "2026-07-29",
+  "pages": [
+    {
+      "slug": "advanced-topics",
+      "title": "Advanced Topics",
+      "url": "https://deepwiki.com/ktorio/ktor/6-advanced-topics",
+      "sha256": "fb911686696f05998380c2954110d002285f989a00007f22d5603cc0db9a5ea5"
+    },
+    {
+      "slug": "application-engines",
+      "title": "Application Engines",
+      "url": "https://deepwiki.com/ktorio/ktor/3.3-application-engines",
+      "sha256": "ad8cd10bd861c5191c68e3aaa24094b86c84c48d99903118394748761bfdc682"
+    },
+    {
+      "slug": "build-system-and-multiplatform",
+      "title": "Build System and Multiplatform",
+      "url": "https://deepwiki.com/ktorio/ktor/1.2-build-system-and-multiplatform",
+      "sha256": "f412225ad88b575d0662bbe61b89a18cd213b2287d5bfdb5a890f57b21e3d77f"
+    },
+    {
+      "slug": "client-core-architecture",
+      "title": "Client Core Architecture",
+      "url": "https://deepwiki.com/ktorio/ktor/4.1-client-core-architecture",
+      "sha256": "2ab3c5f058f2e3cb9fdaac932ddb58b762732509ca840ab4055e8a4ec609a5fb"
+    },
+    {
+      "slug": "client-engines",
+      "title": "Client Engines",
+      "url": "https://deepwiki.com/ktorio/ktor/4.3-client-engines",
+      "sha256": "e4aac324742f9c4f8b0070b36481d1774aca04a24a816ca41ff611a0142aba3d"
+    },
+    {
+      "slug": "client-plugins-overview",
+      "title": "Client Plugins Overview",
+      "url": "https://deepwiki.com/ktorio/ktor/4.4-client-plugins-overview",
+      "sha256": "9c6afee2c74e1666aa0ef36844778b5811bcf8cd337e84f215b4f360fe8f08b7"
+    },
+    {
+      "slug": "content-negotiation-and-forms",
+      "title": "Content Negotiation and Forms",
+      "url": "https://deepwiki.com/ktorio/ktor/4.4.3-content-negotiation-and-forms",
+      "sha256": "8c88520647f518e6fc6bd2725e255ab21025bd44b619e54a6bff46f12248f1be"
+    },
+    {
+      "slug": "development-environment-and-contribution",
+      "title": "Development Environment and Contribution",
+      "url": "https://deepwiki.com/ktorio/ktor/6.3-development-environment-and-contribution",
+      "sha256": "fae2173115d3205ad74553a122a9479e61a2872ca30ad6cbac89c69b02b42b7d"
+    },
+    {
+      "slug": "foundation-systems",
+      "title": "Foundation Systems",
+      "url": "https://deepwiki.com/ktorio/ktor/2-foundation-systems",
+      "sha256": "58947f99d2493430745c682d58158155e28abf38e15c385907bd6e976de70fd1"
+    },
+    {
+      "slug": "glossary",
+      "title": "Glossary",
+      "url": "https://deepwiki.com/ktorio/ktor/7-glossary",
+      "sha256": "0141a8053081db3d6142bba2aa27397f78c368013adfa9c361c422916999bc6c"
+    },
+    {
+      "slug": "htmx-sse-and-other-shared-utilities",
+      "title": "HTMX, SSE, and Other Shared Utilities",
+      "url": "https://deepwiki.com/ktorio/ktor/5.3-htmx-sse-and-other-shared-utilities",
+      "sha256": "c09a0cfa2b28b83597d0657f83189bcec665e41ab42d44c5bf00bc8fcacbdee9"
+    },
+    {
+      "slug": "http-primitives",
+      "title": "HTTP Primitives",
+      "url": "https://deepwiki.com/ktorio/ktor/2.1-http-primitives",
+      "sha256": "1bee40c91564867ccd39105c5e1f572536248a9f8bb055b2d246fc7a88d10a65"
+    },
+    {
+      "slug": "httpclient-and-request-building",
+      "title": "HttpClient and Request Building",
+      "url": "https://deepwiki.com/ktorio/ktor/4.2-httpclient-and-request-building",
+      "sha256": "f2491f96fa2c876e48ac757dd022b01c1f8a8b84a5196ca39dff8bc216c45e0d"
+    },
+    {
+      "slug": "i-o-system",
+      "title": "I/O System",
+      "url": "https://deepwiki.com/ktorio/ktor/2.2-i-o-system",
+      "sha256": "8ad172277a53f1721795539302b056fb9d47791b839d9ead19c43fe645acd248"
+    },
+    {
+      "slug": "ktor-client",
+      "title": "Ktor Client",
+      "url": "https://deepwiki.com/ktorio/ktor/4-ktor-client",
+      "sha256": "8a047d14de2f421671460e7a7cc5406a53f574f8a1c0be28836cac18955f2530"
+    },
+    {
+      "slug": "ktor-server",
+      "title": "Ktor Server",
+      "url": "https://deepwiki.com/ktorio/ktor/3-ktor-server",
+      "sha256": "68e73aa02963a60d37e9165c09e03fb1e99b1745c31f89caff7e4ce66e43f6fa"
+    },
+    {
+      "slug": "logging-and-authentication",
+      "title": "Logging and Authentication",
+      "url": "https://deepwiki.com/ktorio/ktor/4.4.2-logging-and-authentication",
+      "sha256": "df44b32acc9a946faf4adeec75624790b1c964fa562b7033e69a4008ab6dd324"
+    },
+    {
+      "slug": "multiplatform-targets-and-configuration",
+      "title": "Multiplatform Targets and Configuration",
+      "url": "https://deepwiki.com/ktorio/ktor/6.1-multiplatform-targets-and-configuration",
+      "sha256": "3b2e9b86ef9930bab99b2ada27dba84959759923ea29efd4913d9c0bacc00ea4"
+    },
+    {
+      "slug": "netty-engine",
+      "title": "Netty Engine",
+      "url": "https://deepwiki.com/ktorio/ktor/3.3.1-netty-engine",
+      "sha256": "b8a28ef3a66c6f6785d048534b455b36c2357b411cb872da6068c1c6bcf33fb1"
+    },
+    {
+      "slug": "network-layer",
+      "title": "Network Layer",
+      "url": "https://deepwiki.com/ktorio/ktor/2.4-network-layer",
+      "sha256": "63033b3340ba96fe653e8c8f0d28938c02db5c1c0ed3eb7115eb5db67381e7fa"
+    },
+    {
+      "slug": "openapi-compiler-plugin",
+      "title": "OpenAPI Compiler Plugin",
+      "url": "https://deepwiki.com/ktorio/ktor/6.2-openapi-compiler-plugin",
+      "sha256": "7abcb05ab9813b303888eec89b4bfec105a7e8b025a9a3c9d5d384eafaf7a546"
+    },
+    {
+      "slug": "openapi-swagger-and-templating",
+      "title": "OpenAPI, Swagger, and Templating",
+      "url": "https://deepwiki.com/ktorio/ktor/3.7-openapi-swagger-and-templating",
+      "sha256": "c08410d43b55e84491daf9a4929bece01cde75c1ee235a959dab300806e6230c"
+    },
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "url": "https://deepwiki.com/ktorio/ktor/1-overview",
+      "sha256": "8024095fb6d7d0ef6df16310b775c22ffac74a4395017d902916579fe5905d5e"
+    },
+    {
+      "slug": "project-structure",
+      "title": "Project Structure",
+      "url": "https://deepwiki.com/ktorio/ktor/1.1-project-structure",
+      "sha256": "d07260ac1866ef89abec6d62e56e466f1944beee274d572b0af48261c0bb8f2a"
+    },
+    {
+      "slug": "request-retry-and-error-handling",
+      "title": "Request Retry and Error Handling",
+      "url": "https://deepwiki.com/ktorio/ktor/4.4.1-request-retry-and-error-handling",
+      "sha256": "501be8132c1174744d6874c89bb90f6d123c7a327125a827398e1c8834f96c53"
+    },
+    {
+      "slug": "resources-and-type-safe-routing",
+      "title": "Resources and Type-Safe Routing",
+      "url": "https://deepwiki.com/ktorio/ktor/5.2-resources-and-type-safe-routing",
+      "sha256": "0bce8525aeff9f0ab4b5bb0f6c87b2495cd19e096664e699907a30673b917407"
+    },
+    {
+      "slug": "routing-and-resources",
+      "title": "Routing and Resources",
+      "url": "https://deepwiki.com/ktorio/ktor/3.2-routing-and-resources",
+      "sha256": "a3d003da855914ca815246eab89f0300328fb7d2cd613ccefdcd9b2d73e0432c"
+    },
+    {
+      "slug": "serialization-converters",
+      "title": "Serialization Converters",
+      "url": "https://deepwiki.com/ktorio/ktor/5.1-serialization-converters",
+      "sha256": "9db2cbaf4b52b5f00272ffa19aa07edd47beaf59c8fcfcfe6ddb531a37302a6e"
+    },
+    {
+      "slug": "server-core-architecture",
+      "title": "Server Core Architecture",
+      "url": "https://deepwiki.com/ktorio/ktor/3.1-server-core-architecture",
+      "sha256": "18059e4ad52aab8cb8d0191070cc8ce4a3eebaeb4dbbec9f535da818bc7b9c05"
+    },
+    {
+      "slug": "server-plugins",
+      "title": "Server Plugins",
+      "url": "https://deepwiki.com/ktorio/ktor/3.4-server-plugins",
+      "sha256": "76dd4af7509db2b5e53a9e5ec15388b305479c347cc45e14049c682afbe42d08"
+    },
+    {
+      "slug": "server-websockets-and-sse",
+      "title": "Server WebSockets and SSE",
+      "url": "https://deepwiki.com/ktorio/ktor/3.6-server-websockets-and-sse",
+      "sha256": "a3679da09b4050419f08c508d85949dbeb5b7b89048231655ecfb97aba8a2c54"
+    },
+    {
+      "slug": "shared-modules-and-serialization",
+      "title": "Shared Modules and Serialization",
+      "url": "https://deepwiki.com/ktorio/ktor/5-shared-modules-and-serialization",
+      "sha256": "cc45b22ed2311b411162ca0239dbd1056e96a50ee066030fe5bffdda1f4265b8"
+    },
+    {
+      "slug": "static-content-and-single-page-applications",
+      "title": "Static Content and Single-Page Applications",
+      "url": "https://deepwiki.com/ktorio/ktor/3.5-static-content-and-single-page-applications",
+      "sha256": "7843bea698d43df25495be168e8dc4e34da8eb04c9069577b418ad6f9ae6de2f"
+    },
+    {
+      "slug": "testing-server-applications",
+      "title": "Testing Server Applications",
+      "url": "https://deepwiki.com/ktorio/ktor/3.8-testing-server-applications",
+      "sha256": "66f468bda1fb358d1e22b1d031430993f6b2e30850fd08c0b3a786d08fd778c1"
+    },
+    {
+      "slug": "utilities-and-common-types",
+      "title": "Utilities and Common Types",
+      "url": "https://deepwiki.com/ktorio/ktor/2.3-utilities-and-common-types",
+      "sha256": "fe7b239d119fe2e70ed5c92ae93c54ccee13a5e5319732490376acfc03938f2c"
+    },
+    {
+      "slug": "webrtc-client",
+      "title": "WebRTC Client",
+      "url": "https://deepwiki.com/ktorio/ktor/4.6-webrtc-client",
+      "sha256": "cabbe830dc3ac92012bcafeb9a67eb0b72f07a79aa177d426e3149a90478927b"
+    },
+    {
+      "slug": "websockets-and-sse",
+      "title": "WebSockets and SSE",
+      "url": "https://deepwiki.com/ktorio/ktor/4.5-websockets-and-sse",
+      "sha256": "0cf00490d49e344ce5abe605a4331dc91dd4ec5e013786b4ff0b73ab9e0e267e"
+    }
+  ],
+  "_description": "DeepWiki reference wiki for ktorio/ktor, fetched 2026-07-27 via the DeepWiki MCP (read_wiki_contents), split on '# Page:' delimiters. DeepWiki publishes no generation commit; claims judged against a clone from the same capture window."
+}

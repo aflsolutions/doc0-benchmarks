@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "peer": "codewiki",
+  "repo": "ktorio/ktor",
+  "base_url": "https://codewiki.google/github.com/ktorio/ktor",
+  "scored_at": "2026-07-28",
+  "pages": [
+    {
+      "slug": "build-system-and-dependency-management",
+      "title": "Build System and Dependency Management",
+      "url": "https://codewiki.google/github.com/ktorio/ktor#build-system-and-dependency-management",
+      "sha256": "7532a9139b0714e9e4b5c560ef6d29b6eb0dd5255635c32d336a872c78ad5873"
+    },
+    {
+      "slug": "core-multiplatform-http-client",
+      "title": "Core Multiplatform HTTP Client",
+      "url": "https://codewiki.google/github.com/ktorio/ktor#core-multiplatform-http-client",
+      "sha256": "dedb09f08f11ad6d6db48969d33348a34168d8de2c3d02912bf4faaad3a53ae1"
+    },
+    {
+      "slug": "development-environment-and-workflow-automation",
+      "title": "Development Environment and Workflow Automation",
+      "url": "https://codewiki.google/github.com/ktorio/ktor#development-environment-and-workflow-automation",
+      "sha256": "0eec21c884cfccc31bc62730f4149a08beb45d710704352cf22d817b10d7c6f6"
+    },
+    {
+      "slug": "http-utilities-and-standards",
+      "title": "HTTP Utilities and Standards",
+      "url": "https://codewiki.google/github.com/ktorio/ktor#http-utilities-and-standards",
+      "sha256": "3095a8a05397ca787a7fc68f1f7b8323cd9a0b4dfddffc2f56bc28b8a68119a5"
+    },
+    {
+      "slug": "kotlin-compiler-plugin-for-openapi",
+      "title": "Kotlin Compiler Plugin for OpenAPI",
+      "url": "https://codewiki.google/github.com/ktorio/ktor#kotlin-compiler-plugin-for-openapi",
+      "sha256": "d4815b51688b7e7a427bf8dcf7ff994139b4f277782446ee561af6543ba4d8da"
+    },
+    {
+      "slug": "ktor-server-framework",
+      "title": "Ktor Server Framework",
+      "url": "https://codewiki.google/github.com/ktorio/ktor#ktor-server-framework",
+      "sha256": "12aea255832fb1e3abb917a5ce262039ad997aa240351ec3270a718fb7bdaa89"
+    },
+    {
+      "slug": "multiplatform-networking-and-i-o",
+      "title": "Multiplatform Networking and I/O",
+      "url": "https://codewiki.google/github.com/ktorio/ktor#multiplatform-networking-and-i-o",
+      "sha256": "a2853054e29f61f3c4e817533b208c2b668dadc8b63221524ef599a07d30ba84"
+    },
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "url": "https://codewiki.google/github.com/ktorio/ktor",
+      "sha256": "2402cb365481363113568893b20ee32fcc98b9d4a3307ff7715e227904ce658a"
+    },
+    {
+      "slug": "shared-utilities-and-extensions",
+      "title": "Shared Utilities and Extensions",
+      "url": "https://codewiki.google/github.com/ktorio/ktor#shared-utilities-and-extensions",
+      "sha256": "8971bec93b110a697bc0656b2c317343b8663cea7805528c4d16fd9bd71eb3ba"
+    },
+    {
+      "slug": "testing-infrastructure",
+      "title": "Testing Infrastructure",
+      "url": "https://codewiki.google/github.com/ktorio/ktor#testing-infrastructure",
+      "sha256": "076868e2b548bb4c577184980ac35f213048c36bc876d944058a80433392f091"
+    }
+  ],
+  "_description": "CodeWiki (codewiki.google) reference wiki for ktorio/ktor, extracted 2026-07-27/28; page shows generation commit e3850874c1be95ffabfc98e2f0fec9f21c0860a4. Sections of the single CodeWiki page split at h2 boundaries; citation labels adapter-normalized to path:line form (see fetch-codewiki/). Judged against a clone at the pinned commit."
+}

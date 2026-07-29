@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "peer": "codewiki",
+  "repo": "Alamofire/Alamofire",
+  "base_url": "https://codewiki.google/github.com/Alamofire/Alamofire",
+  "scored_at": "2026-07-28",
+  "pages": [
+    {
+      "slug": "advanced-networking-features",
+      "title": "Advanced Networking Features",
+      "url": "https://codewiki.google/github.com/Alamofire/Alamofire#advanced-networking-features",
+      "sha256": "80e4f7cf3f7855ae626acc25a8a4ee600f9327fed53096adddb49535ee1e6de9"
+    },
+    {
+      "slug": "example-applications",
+      "title": "Example Applications",
+      "url": "https://codewiki.google/github.com/Alamofire/Alamofire#example-applications",
+      "sha256": "5d13213b27908e9dfbcf85eacb980d9f9cfd80fdcfcd9049bccd6d503a837eaf"
+    },
+    {
+      "slug": "http-networking-core",
+      "title": "HTTP Networking Core",
+      "url": "https://codewiki.google/github.com/Alamofire/Alamofire#http-networking-core",
+      "sha256": "e8f48915f188cd0b958c9989dadec4af4f4ba2342019746f88ec67e850826662"
+    },
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "url": "https://codewiki.google/github.com/Alamofire/Alamofire",
+      "sha256": "00b071d1d03c838158a26b54c9860eb66713918ebc91f7dda422245b385bb7b8"
+    }
+  ],
+  "_description": "CodeWiki (codewiki.google) reference wiki for Alamofire/Alamofire, extracted 2026-07-27/28; page shows generation commit 903c53c710d1cbbac0b4b9c2527aefb791e1fee3. Sections of the single CodeWiki page split at h2 boundaries; citation labels adapter-normalized to path:line form (see fetch-codewiki/). Judged against a clone at the pinned commit."
+}

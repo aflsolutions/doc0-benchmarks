@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "peer": "deepwiki",
+  "repo": "Alamofire/Alamofire",
+  "base_url": "https://deepwiki.com/Alamofire/Alamofire",
+  "scored_at": "2026-07-29",
+  "pages": [
+    {
+      "slug": "advanced-features",
+      "title": "Advanced Features",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/5-advanced-features",
+      "sha256": "04ae8c4a871c4730dd731948484c84fc949fc87d7dbc7766e86ff4d2e77066fb"
+    },
+    {
+      "slug": "authentication",
+      "title": "Authentication",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/5.3-authentication",
+      "sha256": "9602042ea7253adece6233b06becfb4c91dcc60e72a340e5a2f4c974e530a146"
+    },
+    {
+      "slug": "basic-usage",
+      "title": "Basic Usage",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/1.2-basic-usage",
+      "sha256": "784cd92fbb4d000ab38f7aca76d70b2ec7e84d7100dbab653da78fe8e84896c4"
+    },
+    {
+      "slug": "caching",
+      "title": "Caching",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/5.5-caching",
+      "sha256": "ae7d532e47e8fe1b9c2b08fbb2ff86f7b1604357a87259ce75b2427917429d3c"
+    },
+    {
+      "slug": "combine",
+      "title": "Combine",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/6.3-combine",
+      "sha256": "010815136116bb1e02d2995702e427328fe094d5d370cedd2aa47c75e1481fd6"
+    },
+    {
+      "slug": "core-architecture",
+      "title": "Core Architecture",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/2-core-architecture",
+      "sha256": "982bcb111826e5e5fcd877d7dfd0d7a40bef2ad97d152709f62b19dfd72553d8"
+    },
+    {
+      "slug": "datarequest",
+      "title": "DataRequest",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/3.1-datarequest",
+      "sha256": "6735251c248e998c72f79fd3b66f152fd834cf5dee3a8ca149874b7b5d047549"
+    },
+    {
+      "slug": "datastreamrequest",
+      "title": "DataStreamRequest",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/3.4-datastreamrequest",
+      "sha256": "5f49bf3bc713830aafda7f647f01380529ec87194666fd51c4539158d4529b54"
+    },
+    {
+      "slug": "downloadrequest",
+      "title": "DownloadRequest",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/3.3-downloadrequest",
+      "sha256": "da9fee9b7c923ec61dfff321d7f79a6bb875b676985c19dd8d94511abad45fa2"
+    },
+    {
+      "slug": "event-monitoring",
+      "title": "Event Monitoring",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/2.3-event-monitoring",
+      "sha256": "3af6d495cf3d23f6395d6103ce238ec99ab80ec3dbad1cf107eb39cf681fee61"
+    },
+    {
+      "slug": "installation-setup",
+      "title": "Installation & Setup",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/1.1-installation-setup",
+      "sha256": "de187d386d9aecd7b7821c6496d383b7b31d4b126eb7e3d0fe91fdd266eb841d"
+    },
+    {
+      "slug": "multipart-form-data",
+      "title": "Multipart Form Data",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/5.6-multipart-form-data",
+      "sha256": "0b80ef9b546818568a3195e4fa93fc5b062c77985340680a5437d755b1a22881"
+    },
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/1-overview",
+      "sha256": "5065789a31bcf89d136c5c1c004f5ed82c584a0ca282fcd0ed0f0d2988861fe8"
+    },
+    {
+      "slug": "parameter-encoding",
+      "title": "Parameter Encoding",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/5.1-parameter-encoding",
+      "sha256": "98708f92299278b9c3dad6961cbdcd239ad9cdc43441b2d982571d4ca57bd8b8"
+    },
+    {
+      "slug": "platform-support-integration",
+      "title": "Platform Support & Integration",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/6-platform-support-integration",
+      "sha256": "adb4c4a1eb54e924441ff3366c3b33621ebb49f98050a63afd80ea791dfbf50c"
+    },
+    {
+      "slug": "platform-support",
+      "title": "Platform Support",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/6.1-platform-support",
+      "sha256": "3d8df9e2b029b6e6bf48d55027346ddf914b5ada00872c68a1572442af6a778c"
+    },
+    {
+      "slug": "request-interception-adaptation",
+      "title": "Request Interception & Adaptation",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/5.4-request-interception-adaptation",
+      "sha256": "5be5f37ff2fc9cb43d0bd60a43e87eab675e1ff19b559796c1b420f3e9c6b484"
+    },
+    {
+      "slug": "request-types",
+      "title": "Request Types",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/3-request-types",
+      "sha256": "2c3f02e2b48d7ad2f51a701ee3d401d17468e1939b460eb0e95f1b4999cfde8e"
+    },
+    {
+      "slug": "request",
+      "title": "Request",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/2.2-request",
+      "sha256": "41a4e3c16241a7d2c9ca2f76e1db21ec88e7c158037fb0d65eaf03754d9db68d"
+    },
+    {
+      "slug": "response-handling",
+      "title": "Response Handling",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/4-response-handling",
+      "sha256": "aeb6d5fdf0ba03349dcd2b58a0d3ae6795b6b44d32e390bd4d9f8152caa013a0"
+    },
+    {
+      "slug": "response-serialization",
+      "title": "Response Serialization",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/4.1-response-serialization",
+      "sha256": "f74e265ca9bbf8c1a4f9217d4ef7b77268c1794972d645ea7f66766f9dea59a7"
+    },
+    {
+      "slug": "response-validation",
+      "title": "Response Validation",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/4.2-response-validation",
+      "sha256": "2fb30f699106d333c5f1fc0fbc475a27cb261b0d62ccdf96420f353f253e40aa"
+    },
+    {
+      "slug": "server-trust-evaluation",
+      "title": "Server Trust Evaluation",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/5.2-server-trust-evaluation",
+      "sha256": "2dc6bcdecf8995e726a9b5080acdfece48c764a48120d98468aa6c77b673b77b"
+    },
+    {
+      "slug": "session",
+      "title": "Session",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/2.1-session",
+      "sha256": "e78e9befdcaad3b9c438b55a624925a037823605dbb7c4d5ffe63e435d7cb21a"
+    },
+    {
+      "slug": "swift-concurrency",
+      "title": "Swift Concurrency",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/6.2-swift-concurrency",
+      "sha256": "1e5bb624c4435edc41db4fb8678e6a45c62e26c0e1c234017d12d9c1545817c3"
+    },
+    {
+      "slug": "uploadrequest",
+      "title": "UploadRequest",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/3.2-uploadrequest",
+      "sha256": "abcf797db846abe46ff6c3750375a65fcc3be760d3dba4b19608e41e92a4b723"
+    },
+    {
+      "slug": "websocketrequest",
+      "title": "WebSocketRequest",
+      "url": "https://deepwiki.com/Alamofire/Alamofire/3.5-websocketrequest",
+      "sha256": "52bd44d2b11c05b8a9e2cc912d0cf5da54b2da62cf74bdd79948562a29d40424"
+    }
+  ],
+  "_description": "DeepWiki reference wiki for Alamofire/Alamofire, fetched 2026-07-27 via the DeepWiki MCP (read_wiki_contents), split on '# Page:' delimiters. DeepWiki publishes no generation commit; claims judged against a clone from the same capture window."
+}

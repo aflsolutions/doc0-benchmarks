@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "peer": "deepwiki",
+  "repo": "sidekiq/sidekiq",
+  "base_url": "https://deepwiki.com/sidekiq/sidekiq",
+  "scored_at": "2026-07-29",
+  "pages": [
+    {
+      "slug": "advanced-features",
+      "title": "Advanced Features",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/8-advanced-features",
+      "sha256": "50bcf2c295c8d220b62e532523ca4e42840eef090f30f6f7ab966b40c6dc6a64"
+    },
+    {
+      "slug": "batches",
+      "title": "Batches",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/7.1-batches",
+      "sha256": "50d4d4b06361f43f311c3d3631ff5d8778813f797c5c5d990a58f0036a86c826"
+    },
+    {
+      "slug": "client-api",
+      "title": "Client API",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/2.1-client-api",
+      "sha256": "5cfa3e960734663e3c18a22a5d9bf6b26b35903101b369825833c5e2418e7481"
+    },
+    {
+      "slug": "command-line-tools",
+      "title": "Command Line Tools",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/9-command-line-tools",
+      "sha256": "97d35d157f18804e2ce53fdc71a11ff5e4269c7fb41b24088c57c2f5098f9f2f"
+    },
+    {
+      "slug": "configuration-system",
+      "title": "Configuration System",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/2.4-configuration-system",
+      "sha256": "ce57ed30486fde5ed1a51ab00a23b48d7b455d44ee5b557ef77259f34c4ba33a"
+    },
+    {
+      "slug": "core-architecture",
+      "title": "Core Architecture",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/2-core-architecture",
+      "sha256": "97430b322461580097cd33ae0b5006a6d28332ec2be8018a9dca115796bb2a0f"
+    },
+    {
+      "slug": "dashboard-real-time-monitoring",
+      "title": "Dashboard & Real-time Monitoring",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/4.1-dashboard-real-time-monitoring",
+      "sha256": "3b3e537491a2ca74f5a29542b4a7285b45d97ac320529ca09e5e69d83da69904"
+    },
+    {
+      "slug": "development-contributing",
+      "title": "Development & Contributing",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/10-development-contributing",
+      "sha256": "0defbb4feabcf1993bf5b6a361b5d3b002e04447e183ab2277fbb38857e66f3d"
+    },
+    {
+      "slug": "installation-dependencies",
+      "title": "Installation & Dependencies",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/1.2-installation-dependencies",
+      "sha256": "65b82637f6fd722ed32bdfed8f5be33e77ea05eb8ed15a338e4211d8e8074c75"
+    },
+    {
+      "slug": "internationalization",
+      "title": "Internationalization",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/4.4-internationalization",
+      "sha256": "5794c51b80d82d0ea0b938d4a165119d9e20eb3cbab8f6b439e26d99762997a3"
+    },
+    {
+      "slug": "job-processing-pipeline",
+      "title": "Job Processing Pipeline",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/2.3-job-processing-pipeline",
+      "sha256": "ea00bfc98f4074847d958bcec87547ba4b519da08ad2b1d4820815f3188e624b"
+    },
+    {
+      "slug": "job-queue-management",
+      "title": "Job & Queue Management",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/4.2-job-queue-management",
+      "sha256": "9dc379f1c9fa59b1ac9a9baf5785a6c5a861f965ae34d179a2f8014dc0b93a88"
+    },
+    {
+      "slug": "logging-observability",
+      "title": "Logging & Observability",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/8.4-logging-observability",
+      "sha256": "e2202cebc3fa7c49e1dc3744f560c79b842b059fdada1c31544995e038cb8a7b"
+    },
+    {
+      "slug": "metrics-monitoring",
+      "title": "Metrics & Monitoring",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/7.7-metrics-monitoring",
+      "sha256": "6645f4c9adc56e1490f56cc0308dbdaf4aab5f665dde860b242fc2b7fb7069da"
+    },
+    {
+      "slug": "middleware-system",
+      "title": "Middleware System",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/8.1-middleware-system",
+      "sha256": "17fc67c6b363d2a5242c66699feec85b7cb7eddba6073e3ba9a879263a653b5b"
+    },
+    {
+      "slug": "multi-process-sidekiqswarm",
+      "title": "Multi-Process (sidekiqswarm)",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/7.6-multi-process-sidekiqswarm",
+      "sha256": "b9ba974698e8e00abb400fbff0d0127c47279b2af40e0e41f4e00b63ad61137a"
+    },
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/1-overview",
+      "sha256": "ddf3624c86d5823591859b10e2b742b10a8e8ff562787bc6a604b1ff92eb3313"
+    },
+    {
+      "slug": "periodic-jobs",
+      "title": "Periodic Jobs",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/7.5-periodic-jobs",
+      "sha256": "764db71c342040a433a2abfaa56ee38e3573f6f51607534b1b50ae06dbd3fea3"
+    },
+    {
+      "slug": "pro-enterprise-features",
+      "title": "Pro & Enterprise Features",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/7-pro-enterprise-features",
+      "sha256": "9ccb83cb6476ea995911649221eb562c2255c9c97cf68b8269727b6754be4527"
+    },
+    {
+      "slug": "product-ecosystem",
+      "title": "Product Ecosystem",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/1.1-product-ecosystem",
+      "sha256": "01ded9b0d8f061cc34f788532f2a4b143ad0ad814d943e54ee61a7c11364e1d3"
+    },
+    {
+      "slug": "programmatic-api-access",
+      "title": "Programmatic API Access",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/4.3-programmatic-api-access",
+      "sha256": "4c58c9bdab7df97a404d19597baa716280bb2ca4cf6c0d84364792be07aa47ae"
+    },
+    {
+      "slug": "rails-integration",
+      "title": "Rails Integration",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/5-rails-integration",
+      "sha256": "cc84ae444fca4599d0d26f2efab10090a6a19d2e7388f4df375501a1e61c9300"
+    },
+    {
+      "slug": "rate-limiting",
+      "title": "Rate Limiting",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/7.4-rate-limiting",
+      "sha256": "57e36ef968d5f47cec71ff299d6da4f4fd0f1a4cfe813d3ba3cad42cc3ff900c"
+    },
+    {
+      "slug": "redis-integration",
+      "title": "Redis Integration",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/3-redis-integration",
+      "sha256": "bb8ae43a77449e67e71adfa11373e3e570d4a84f0fe4a29576d921b9c3ea572f"
+    },
+    {
+      "slug": "reliable-fetch-super-fetch",
+      "title": "Reliable Fetch (super_fetch)",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/7.2-reliable-fetch-super-fetch",
+      "sha256": "005517fe75e3b406ac66020db641b71621cf446d54d376f8124060b0e6aff954"
+    },
+    {
+      "slug": "retry-error-handling",
+      "title": "Retry & Error Handling",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/8.3-retry-error-handling",
+      "sha256": "b28fa838888445319c408c7ba7a8832463b3180e0d12b800bd23f8cf7d8d57db"
+    },
+    {
+      "slug": "scheduled-jobs",
+      "title": "Scheduled Jobs",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/8.2-scheduled-jobs",
+      "sha256": "f6f09ab776245516819cba281bbd839e3b544957abbe0eb7c70729b4d5fbffcd"
+    },
+    {
+      "slug": "server-components",
+      "title": "Server Components",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/2.2-server-components",
+      "sha256": "5c3bfec78bda4a96038fcadeaa19376a2efd0e208ea49082a3ad84caed677e80"
+    },
+    {
+      "slug": "testing-framework",
+      "title": "Testing Framework",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/6-testing-framework",
+      "sha256": "062debe22093d975375a681c8607d72fed06eb0e39fe4e50f7d12a5e927e378a"
+    },
+    {
+      "slug": "unique-jobs",
+      "title": "Unique Jobs",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/7.3-unique-jobs",
+      "sha256": "160a5d9602b6a3f846a521f5de5cbba71f8b858ba3f965fd3dadcc9fa2ef6b0c"
+    },
+    {
+      "slug": "web-interface",
+      "title": "Web Interface",
+      "url": "https://deepwiki.com/sidekiq/sidekiq/4-web-interface",
+      "sha256": "00834f78c6b7bd6d456efe15b647b4e9ef8ab9f437d0122321f1c5612dd5cd2f"
+    }
+  ],
+  "_description": "DeepWiki reference wiki for sidekiq/sidekiq, fetched 2026-07-27 via the DeepWiki MCP (read_wiki_contents), split on '# Page:' delimiters. DeepWiki publishes no generation commit; claims judged against a clone from the same capture window."
+}

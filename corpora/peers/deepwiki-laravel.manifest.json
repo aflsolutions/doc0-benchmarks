@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "peer": "deepwiki",
+  "repo": "laravel/framework",
+  "base_url": "https://deepwiki.com/laravel/framework",
+  "scored_at": "2026-07-29",
+  "pages": [
+    {
+      "slug": "additional-support-utilities",
+      "title": "Additional Support Utilities",
+      "url": "https://deepwiki.com/laravel/framework/3.5-additional-support-utilities",
+      "sha256": "50e86d0962ef9b2203643f386c4b31b38fc171661137f31d1a89a2bc4c55a6c0"
+    },
+    {
+      "slug": "api-resources",
+      "title": "API Resources",
+      "url": "https://deepwiki.com/laravel/framework/5.3-api-resources",
+      "sha256": "fa8121fee73eea3aaec5d53080e0db5376d2ecf2174f5ab4cd87aac9a008a718"
+    },
+    {
+      "slug": "application-lifecycle-and-bootstrapping",
+      "title": "Application Lifecycle and Bootstrapping",
+      "url": "https://deepwiki.com/laravel/framework/2.1-application-lifecycle-and-bootstrapping",
+      "sha256": "f22eca5d32b3f7d15dba73ff9ffb1608e0b49185d521d2a2d5e268f18d0ee4d5"
+    },
+    {
+      "slug": "architecture-and-organization",
+      "title": "Architecture and Organization",
+      "url": "https://deepwiki.com/laravel/framework/1.1-architecture-and-organization",
+      "sha256": "df37350673c0ae8ef6179ee8458543fe6b25fc30e726d9ee2e8b68410857af46"
+    },
+    {
+      "slug": "array-utilities",
+      "title": "Array Utilities",
+      "url": "https://deepwiki.com/laravel/framework/3.3-array-utilities",
+      "sha256": "c6a014d1cb212961107543a3ca8a666e44e6799100dc96bf8fce5a5b5cdd2d1e"
+    },
+    {
+      "slug": "artisan-commands",
+      "title": "Artisan Commands",
+      "url": "https://deepwiki.com/laravel/framework/10.1-artisan-commands",
+      "sha256": "ea5f66a31d1bda9f480098ed07039eb990cf63f532759e240258e2d2b7005e09"
+    },
+    {
+      "slug": "authentication-and-authorization",
+      "title": "Authentication and Authorization",
+      "url": "https://deepwiki.com/laravel/framework/8-authentication-and-authorization",
+      "sha256": "19354b1c1faa3ed1b37c6a7bd64bffd1c84e6367ec248256a13102039be20929"
+    },
+    {
+      "slug": "authentication-guards-and-providers",
+      "title": "Authentication Guards and Providers",
+      "url": "https://deepwiki.com/laravel/framework/8.1-authentication-guards-and-providers",
+      "sha256": "ca7c6cfea368dc97f30e752fbc74a5e9998dc9df0446b9fe05e6500650eeaa2c"
+    },
+    {
+      "slug": "authorization-gates-and-policies",
+      "title": "Authorization Gates and Policies",
+      "url": "https://deepwiki.com/laravel/framework/8.2-authorization-gates-and-policies",
+      "sha256": "903cba9e71a3a95860be572458f08cc5fbb16a559f20e297b759c7def404d349"
+    },
+    {
+      "slug": "blade-compiler-and-view-factory",
+      "title": "Blade Compiler and View Factory",
+      "url": "https://deepwiki.com/laravel/framework/9.1-blade-compiler-and-view-factory",
+      "sha256": "9aa8161d9d3d8c96398e847495dc7c611c326be9b31a1527fb888aff6828a91b"
+    },
+    {
+      "slug": "blade-components-and-anonymous-components",
+      "title": "Blade Components and Anonymous Components",
+      "url": "https://deepwiki.com/laravel/framework/9.2-blade-components-and-anonymous-components",
+      "sha256": "7da9a7cfd612fa0fb92d684ff631696b9d6b45e21b8964f4eb954620c910dc8b"
+    },
+    {
+      "slug": "cache-and-session",
+      "title": "Cache and Session",
+      "url": "https://deepwiki.com/laravel/framework/7-cache-and-session",
+      "sha256": "7dac75f907c8437ad50bb73b524a9fe5ebb3cb5a2d4c136161e52b43081841e5"
+    },
+    {
+      "slug": "cache-system",
+      "title": "Cache System",
+      "url": "https://deepwiki.com/laravel/framework/7.1-cache-system",
+      "sha256": "28b40adb502e783cfe160138b2a1891e9a47581eee218bef26d35cc3a533ab17"
+    },
+    {
+      "slug": "collections",
+      "title": "Collections",
+      "url": "https://deepwiki.com/laravel/framework/3.1-collections",
+      "sha256": "2da6995c572945556fbe08be3a3aeb7d9c6a6af5971251dc838862aa7b4eaf30"
+    },
+    {
+      "slug": "console-and-artisan",
+      "title": "Console and Artisan",
+      "url": "https://deepwiki.com/laravel/framework/10-console-and-artisan",
+      "sha256": "d64d15c1326d9791e68f7083b14e52f150f227e6af5cb31b48b7f53b8233e845"
+    },
+    {
+      "slug": "core-systems",
+      "title": "Core Systems",
+      "url": "https://deepwiki.com/laravel/framework/2-core-systems",
+      "sha256": "0264b2991dc3f737afcd4a524de0eea3169a0b2fae49fb591eff07683f0ebc2b"
+    },
+    {
+      "slug": "database-and-eloquent-orm",
+      "title": "Database and Eloquent ORM",
+      "url": "https://deepwiki.com/laravel/framework/2.3-database-and-eloquent-orm",
+      "sha256": "89b7a2f3610cba99ec4dd401b24209a545ff9b23656d86f6d64234875ac266b6"
+    },
+    {
+      "slug": "eloquent-model-system",
+      "title": "Eloquent Model System",
+      "url": "https://deepwiki.com/laravel/framework/2.3.1-eloquent-model-system",
+      "sha256": "cea8521b01b1a2d13b93a33fff6ab0d6e07f6d5a7ba3cb43a571da995365ced2"
+    },
+    {
+      "slug": "eloquent-relationships",
+      "title": "Eloquent Relationships",
+      "url": "https://deepwiki.com/laravel/framework/2.3.3-eloquent-relationships",
+      "sha256": "c23d91732e3e2dd36bb610927521887669afd8781847f43f160741c09ed472c8"
+    },
+    {
+      "slug": "events-and-broadcasting",
+      "title": "Events and Broadcasting",
+      "url": "https://deepwiki.com/laravel/framework/11.3-events-and-broadcasting",
+      "sha256": "14f541a9fc6f485a5e3c0d44b69e75694290d8bba10d93a2d00c42724a511ddc"
+    },
+    {
+      "slug": "facades-and-service-aliases",
+      "title": "Facades and Service Aliases",
+      "url": "https://deepwiki.com/laravel/framework/3.4-facades-and-service-aliases",
+      "sha256": "de49adb07947e2003a2011965c3c4f9ec9e4cff6e27ff17586e14623c5afbaa5"
+    },
+    {
+      "slug": "filesystem-and-storage",
+      "title": "Filesystem and Storage",
+      "url": "https://deepwiki.com/laravel/framework/12.1-filesystem-and-storage",
+      "sha256": "962140fdf62d8d9a7173e3754ee3b78b104f5fc83d4bfe03f8ce84f8707d6374"
+    },
+    {
+      "slug": "framework-infrastructure",
+      "title": "Framework Infrastructure",
+      "url": "https://deepwiki.com/laravel/framework/4-framework-infrastructure",
+      "sha256": "e43556df4d4d357837fb7ff29440ef01339aed05a3696ae22778720103670959"
+    },
+    {
+      "slug": "glossary",
+      "title": "Glossary",
+      "url": "https://deepwiki.com/laravel/framework/14-glossary",
+      "sha256": "235b5887256f2f7293239cfdd18bc45970fbcca554bb3077ad82271cffc85dd0"
+    },
+    {
+      "slug": "http-client",
+      "title": "HTTP Client",
+      "url": "https://deepwiki.com/laravel/framework/5.1-http-client",
+      "sha256": "062e9cb2fc4e582e469c157a8b2bc33c31703cfd3f4cd5b788ee5b69daa33440"
+    },
+    {
+      "slug": "http-layer",
+      "title": "HTTP Layer",
+      "url": "https://deepwiki.com/laravel/framework/5-http-layer",
+      "sha256": "ffa801045df0bbe569427acfb783b349628d525cee4edc921c6525ad9dbc3c08"
+    },
+    {
+      "slug": "http-request-processing",
+      "title": "HTTP Request Processing",
+      "url": "https://deepwiki.com/laravel/framework/2.2.2-http-request-processing",
+      "sha256": "cbd88304dd6333eb8b57598ba17d48f8a136162f136f5e51dba6873fbdf6f42d"
+    },
+    {
+      "slug": "http-responses-and-middleware",
+      "title": "HTTP Responses and Middleware",
+      "url": "https://deepwiki.com/laravel/framework/5.2-http-responses-and-middleware",
+      "sha256": "3b8da2e3de7a7eb64cb003c76e4120335c40f251d9bc875ed714fb94ca5cbb89"
+    },
+    {
+      "slug": "job-dispatching-and-batching",
+      "title": "Job Dispatching and Batching",
+      "url": "https://deepwiki.com/laravel/framework/6.2-job-dispatching-and-batching",
+      "sha256": "6000ce485c738bd4dd359f7bc94fe09d6d6bf7792e36b0f993148478dfb6572b"
+    },
+    {
+      "slug": "json-schema",
+      "title": "JSON Schema",
+      "url": "https://deepwiki.com/laravel/framework/3.6-json-schema",
+      "sha256": "080816da9e031b2b4d38527093d9a53dc081f4316e40fbcf70ce0f9b6b37e261"
+    },
+    {
+      "slug": "laravel-cloud-integration",
+      "title": "Laravel Cloud Integration",
+      "url": "https://deepwiki.com/laravel/framework/4.3-laravel-cloud-integration",
+      "sha256": "bd54d3008ec88a44bb019313e00e896f5a32cd93b836b85ced20a300942d926d"
+    },
+    {
+      "slug": "laravel-framework-overview",
+      "title": "Laravel Framework Overview",
+      "url": "https://deepwiki.com/laravel/framework/1-laravel-framework-overview",
+      "sha256": "dd4dbdf35c536436919b98d5eefa87b54179470f9b7945a3646f23d34000845d"
+    },
+    {
+      "slug": "logging-hashing-and-encryption",
+      "title": "Logging, Hashing, and Encryption",
+      "url": "https://deepwiki.com/laravel/framework/13.2-logging-hashing-and-encryption",
+      "sha256": "152b72df8065c918033b63a5be51eb0c683a0c86fc2b6390a254477c8c57710a"
+    },
+    {
+      "slug": "mail-notifications-and-events",
+      "title": "Mail, Notifications, and Events",
+      "url": "https://deepwiki.com/laravel/framework/11-mail-notifications-and-events",
+      "sha256": "ce37ffa2a70413ac4a4c006b65c4e1ed89cfb252da63d9a33a3b807be6e56f91"
+    },
+    {
+      "slug": "mail-system",
+      "title": "Mail System",
+      "url": "https://deepwiki.com/laravel/framework/11.1-mail-system",
+      "sha256": "5943416db0586c6ce5bb7c3ad799d2b51c4bd5f023b0d969a9766570355d6845"
+    },
+    {
+      "slug": "notifications",
+      "title": "Notifications",
+      "url": "https://deepwiki.com/laravel/framework/11.2-notifications",
+      "sha256": "9340a5339195f76609cddee37da75d498c71b2cc7c205a9593d5d429941b5d39"
+    },
+    {
+      "slug": "package-structure-and-dependencies",
+      "title": "Package Structure and Dependencies",
+      "url": "https://deepwiki.com/laravel/framework/1.3-package-structure-and-dependencies",
+      "sha256": "0bc75f6ac636db212743b097aa162355bcb2a7cc2c6250de83a1b7fce7c35c7a"
+    },
+    {
+      "slug": "pagination-logging-and-encryption",
+      "title": "Pagination, Logging, and Encryption",
+      "url": "https://deepwiki.com/laravel/framework/13-pagination-logging-and-encryption",
+      "sha256": "44e2aeee706053d6b9fddbdb48c1e7f74cd2796d42a72558cbe6e33727fd285c"
+    },
+    {
+      "slug": "pagination",
+      "title": "Pagination",
+      "url": "https://deepwiki.com/laravel/framework/13.1-pagination",
+      "sha256": "3abc13ef98136bdf8731817e4148848e29416b0ea30209cd6fc125e28672eb0e"
+    },
+    {
+      "slug": "process-management-and-concurrency",
+      "title": "Process Management and Concurrency",
+      "url": "https://deepwiki.com/laravel/framework/12.3-process-management-and-concurrency",
+      "sha256": "8d332ee4cba8afae3e9a6521e35d6fb26123af21de64b92d21c7c1e455579e70"
+    },
+    {
+      "slug": "query-builder",
+      "title": "Query Builder",
+      "url": "https://deepwiki.com/laravel/framework/2.3.2-query-builder",
+      "sha256": "93f1922351bbb4428b67055ad7402e4ce07244a03f75afbd0bc73c8a86f9ec95"
+    },
+    {
+      "slug": "queue-and-job-processing",
+      "title": "Queue and Job Processing",
+      "url": "https://deepwiki.com/laravel/framework/6-queue-and-job-processing",
+      "sha256": "32a94d15641fcedb5e15c2d81aac9e646da7339a0d8e3f3f956c6ffb00afe0ec"
+    },
+    {
+      "slug": "queue-workers-and-job-lifecycle",
+      "title": "Queue Workers and Job Lifecycle",
+      "url": "https://deepwiki.com/laravel/framework/6.1-queue-workers-and-job-lifecycle",
+      "sha256": "dbfe5f3ad27b911790d25168a128390f935eb6918708dfd2ee04acc21cb6f929"
+    },
+    {
+      "slug": "redis-integration",
+      "title": "Redis Integration",
+      "url": "https://deepwiki.com/laravel/framework/12.2-redis-integration",
+      "sha256": "a5bea0a5064e7c1297beff3fd2393365eeff891530fbd158ea541d90052441e4"
+    },
+    {
+      "slug": "router-and-route-definition",
+      "title": "Router and Route Definition",
+      "url": "https://deepwiki.com/laravel/framework/2.2.1-router-and-route-definition",
+      "sha256": "69247c91329677a75eb7ae7ed9751fd7e7b1b62edf8b463f8c97291869dc8db0"
+    },
+    {
+      "slug": "routing-system",
+      "title": "Routing System",
+      "url": "https://deepwiki.com/laravel/framework/2.2-routing-system",
+      "sha256": "b80ad1e90128d810f0be2f44dfb224c973b02fb4e2180c1f6eac14514a4a69e3"
+    },
+    {
+      "slug": "schema-builder-and-migrations",
+      "title": "Schema Builder and Migrations",
+      "url": "https://deepwiki.com/laravel/framework/2.3.4-schema-builder-and-migrations",
+      "sha256": "d0488d6d2acb945fd581880449ab859dfaf14d806d0a094ad9c36ade6f555abe"
+    },
+    {
+      "slug": "service-container-and-dependency-injection",
+      "title": "Service Container and Dependency Injection",
+      "url": "https://deepwiki.com/laravel/framework/1.2-service-container-and-dependency-injection",
+      "sha256": "32faff3accf4f7b62056e98eb15f489d4ffe8aae3450d4ac91b606d5a3f63d91"
+    },
+    {
+      "slug": "service-providers-and-configuration",
+      "title": "Service Providers and Configuration",
+      "url": "https://deepwiki.com/laravel/framework/4.1-service-providers-and-configuration",
+      "sha256": "e6150ad14ff12f617770b2e8a7fbb04a97ba2a8a9ef4e2fe8dfc63f3f6ecfd94"
+    },
+    {
+      "slug": "session-management",
+      "title": "Session Management",
+      "url": "https://deepwiki.com/laravel/framework/7.2-session-management",
+      "sha256": "d0d57629cf59a7eeeb248ed5504805af0afd12e0a3dba2c16e500f91dd059617"
+    },
+    {
+      "slug": "storage-filesystem-and-process",
+      "title": "Storage, Filesystem, and Process",
+      "url": "https://deepwiki.com/laravel/framework/12-storage-filesystem-and-process",
+      "sha256": "d471da03a50e13bc52b00e147cb61b0a9c92f30e45ae657bddc102f2c636857c"
+    },
+    {
+      "slug": "string-manipulation",
+      "title": "String Manipulation",
+      "url": "https://deepwiki.com/laravel/framework/3.2-string-manipulation",
+      "sha256": "af06296935e7505e5b4d729fece69b1622c053874a935bfe91593dedbdb9d8e1"
+    },
+    {
+      "slug": "task-scheduling",
+      "title": "Task Scheduling",
+      "url": "https://deepwiki.com/laravel/framework/10.2-task-scheduling",
+      "sha256": "a5ec73adbf286fd1ceb73400b4e25137443583b61e7cd53f599499b689d6e2df"
+    },
+    {
+      "slug": "testing-infrastructure",
+      "title": "Testing Infrastructure",
+      "url": "https://deepwiki.com/laravel/framework/4.2-testing-infrastructure",
+      "sha256": "bf112ed8ccb62df7fd291d500919189e0a23b80199e6fe1edcb4532b3e3dc13f"
+    },
+    {
+      "slug": "url-generation-and-signing",
+      "title": "URL Generation and Signing",
+      "url": "https://deepwiki.com/laravel/framework/2.2.3-url-generation-and-signing",
+      "sha256": "5043c96b6243071b17ecc69fc114f8b4085840cbc5baf40b1370f2384212a5d2"
+    },
+    {
+      "slug": "utilities-and-support",
+      "title": "Utilities and Support",
+      "url": "https://deepwiki.com/laravel/framework/3-utilities-and-support",
+      "sha256": "d73dd7a6bb6d50a64def4479348160cdeadeb7ac515e312b2c07455ba27758b0"
+    },
+    {
+      "slug": "validation-system",
+      "title": "Validation System",
+      "url": "https://deepwiki.com/laravel/framework/2.4-validation-system",
+      "sha256": "af3bdcb5261da22ac21a76d1fe8894b37d3445ce76ab0eafa246d9a4af985046"
+    },
+    {
+      "slug": "view-layer-and-blade",
+      "title": "View Layer and Blade",
+      "url": "https://deepwiki.com/laravel/framework/9-view-layer-and-blade",
+      "sha256": "2b0ec074620e1d298da630095b85b953b8a106da37ad54ae271f70c351281b3f"
+    }
+  ],
+  "_description": "DeepWiki reference wiki for laravel/framework, fetched 2026-07-27 via the DeepWiki MCP (read_wiki_contents), split on '# Page:' delimiters. DeepWiki publishes no generation commit; claims judged against a clone from the same capture window."
+}
