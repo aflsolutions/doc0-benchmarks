@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "peer": "codewiki",
+  "repo": "argoproj/argo-cd",
+  "base_url": "https://codewiki.google/github.com/argoproj/argo-cd",
+  "scored_at": "2026-07-28",
+  "pinned_source_sha": "73661b801935213221948c167acd943e1eb20f6e",
+  "pages": [
+    {
+      "slug": "api-and-cli-services",
+      "title": "API and CLI Services",
+      "url": "https://codewiki.google/github.com/argoproj/argo-cd#api-and-cli-services",
+      "sha256": "e41d421d4948a08d9bfac96cd984b98dc262b39c877d183bf9360397af27f7c9"
+    },
+    {
+      "slug": "applicationset-controller",
+      "title": "ApplicationSet Controller",
+      "url": "https://codewiki.google/github.com/argoproj/argo-cd#applicationset-controller",
+      "sha256": "11b70623c104b03fe4d6afdae1241b1abb00353b48aceaad735ce428c7433bf8"
+    },
+    {
+      "slug": "configuration-management-plugin-cmp-integration",
+      "title": "Configuration Management Plugin (CMP) Integration",
+      "url": "https://codewiki.google/github.com/argoproj/argo-cd#configuration-management-plugin-cmp-integration",
+      "sha256": "9f4b08f2a10c9209d5a5258e7a8a2689f15ea0aa89f6e65a446117616678f189"
+    },
+    {
+      "slug": "core-application-management-and-reconciliation",
+      "title": "Core Application Management and Reconciliation",
+      "url": "https://codewiki.google/github.com/argoproj/argo-cd#core-application-management-and-reconciliation",
+      "sha256": "b30a3d381e45a4065b134a0ddc2471387bbbac0426c76d5c517e1ce63f97d4a7"
+    },
+    {
+      "slug": "notification-system",
+      "title": "Notification System",
+      "url": "https://codewiki.google/github.com/argoproj/argo-cd#notification-system",
+      "sha256": "87ea5bfd331ee813f39d3b10b9d1db84a27b63c5be93e0282136441e03ef6852"
+    },
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "url": "https://codewiki.google/github.com/argoproj/argo-cd",
+      "sha256": "26b1c3a45677e440a1a40f5bc963cb4dc292b97372692262892cbfc5a353cb1c"
+    },
+    {
+      "slug": "repository-and-manifest-management",
+      "title": "Repository and Manifest Management",
+      "url": "https://codewiki.google/github.com/argoproj/argo-cd#repository-and-manifest-management",
+      "sha256": "a8e97decb0b9bbb0a9e1cae730379f81be51cbd26fbc648affb27156ccf2752d"
+    },
+    {
+      "slug": "resource-customization-and-health-assessment",
+      "title": "Resource Customization and Health Assessment",
+      "url": "https://codewiki.google/github.com/argoproj/argo-cd#resource-customization-and-health-assessment",
+      "sha256": "0484b061c42b0b43866c1e96e047ee1974188bc12ba02975d33057deb353a0b1"
+    },
+    {
+      "slug": "user-interface",
+      "title": "User Interface",
+      "url": "https://codewiki.google/github.com/argoproj/argo-cd#user-interface",
+      "sha256": "d20efee1189b9dd2227daebc08137676ca4c401b19c8a6ccd1b5c3403b13d72d"
+    },
+    {
+      "slug": "utilities-and-shared-functionality",
+      "title": "Utilities and Shared Functionality",
+      "url": "https://codewiki.google/github.com/argoproj/argo-cd#utilities-and-shared-functionality",
+      "sha256": "7fd9a16be6c138594a2232f62949b0904a8bb7ac99a6296ea0fe3a73d9150d60"
+    }
+  ],
+  "_description": "CodeWiki (codewiki.google) reference wiki for argoproj/argo-cd, extracted 2026-07-27/28; page shows generation commit 73661b801935213221948c167acd943e1eb20f6e. Sections of the single CodeWiki page split at h2 boundaries; citation labels adapter-normalized to path:line form (see fetch-codewiki/). Judged against a clone at the pinned commit."
+}

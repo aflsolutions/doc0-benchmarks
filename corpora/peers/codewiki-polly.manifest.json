@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "peer": "codewiki",
+  "repo": "App-vNext/Polly",
+  "base_url": "https://codewiki.google/github.com/App-vNext/Polly",
+  "scored_at": "2026-07-28",
+  "pinned_source_sha": "9fd716c1e84288a6a8a1c7ad9426fb8a8e66942d",
+  "pages": [
+    {
+      "slug": "engineering-and-repository-management",
+      "title": "Engineering and Repository Management",
+      "url": "https://codewiki.google/github.com/App-vNext/Polly#engineering-and-repository-management",
+      "sha256": "a444ae656446282cff8dcd09303627716c6266ed482129434d0ca7fd977edbb0"
+    },
+    {
+      "slug": "implementing-polly-resilience-strategies",
+      "title": "Implementing Polly Resilience Strategies",
+      "url": "https://codewiki.google/github.com/App-vNext/Polly#implementing-polly-resilience-strategies",
+      "sha256": "f99ca75a8ef06ec4765fc48966f5916ddb547db7feeb9d4d7c7f0aaa57d08ea4"
+    },
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "url": "https://codewiki.google/github.com/App-vNext/Polly",
+      "sha256": "24b74cb64b6fb8d2bc95a08392e25d8cb03b44729239a113e21bdf4b7fe5732b"
+    },
+    {
+      "slug": "performance-analysis-of-polly-policies",
+      "title": "Performance Analysis of Polly Policies",
+      "url": "https://codewiki.google/github.com/App-vNext/Polly#performance-analysis-of-polly-policies",
+      "sha256": "77378387cf5ae64436d5098e7fa822c8e0d12e0e3ae7c8f94e323af6f053bf80"
+    },
+    {
+      "slug": "understanding-polly-resilience-strategies",
+      "title": "Understanding Polly Resilience Strategies",
+      "url": "https://codewiki.google/github.com/App-vNext/Polly#understanding-polly-resilience-strategies",
+      "sha256": "083c438c95f367e2f312a2ff4375a196a0817021deae735ce0fea8596e185619"
+    }
+  ],
+  "_description": "CodeWiki (codewiki.google) reference wiki for App-vNext/Polly, extracted 2026-07-27/28; page shows generation commit 9fd716c1e84288a6a8a1c7ad9426fb8a8e66942d. Sections of the single CodeWiki page split at h2 boundaries; citation labels adapter-normalized to path:line form (see fetch-codewiki/). Judged against a clone at the pinned commit."
+}

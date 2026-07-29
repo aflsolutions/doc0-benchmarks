@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "repo": "laravel/framework",
+  "generated_at": "2026-07-27",
+  "doc0_commit": "f0638375",
+  "source_repo_sha": "9f27fa054af628015e7ada84b0571e7b86cea03e",
+  "models": {
+    "small": "gemini-3.5-flash-lite",
+    "big": "gemini-3.6-flash"
+  },
+  "doc_mode": "technical",
+  "page_count": 50,
+  "source_baseline": "eval/wiki-scorecard/baselines/wave1-laravel-framework-2026-07-27"
+}

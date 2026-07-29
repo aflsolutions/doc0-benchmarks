@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "peer": "deepwiki",
+  "repo": "FluentValidation/FluentValidation",
+  "base_url": "https://deepwiki.com/FluentValidation/FluentValidation",
+  "scored_at": "2026-07-29",
+  "pages": [
+    {
+      "slug": "abstractvalidator-and-validationresult",
+      "title": "AbstractValidator and ValidationResult",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/2.1-abstractvalidator-and-validationresult",
+      "sha256": "47b67080caf2a65a656f1b7b2cecd7cac21337a865f72874318f11998693ba62"
+    },
+    {
+      "slug": "advanced-features",
+      "title": "Advanced Features",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/4-advanced-features",
+      "sha256": "b620757229a0e0d9fc7b94ea2597d2198679c1612ba3f5c3bda7b286ad75f442"
+    },
+    {
+      "slug": "asp-net-core-integration",
+      "title": "ASP.NET Core Integration",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/5.1-asp-net-core-integration",
+      "sha256": "8927cd39e87b0c64e30b0bf86656779ee118fdcdedb9a39877144ade2d599fb4"
+    },
+    {
+      "slug": "built-in-validators",
+      "title": "Built-in Validators",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/3.2-built-in-validators",
+      "sha256": "2cee18dc42835e132460e6678759148968563699f0fb8159ee5055eaa9778e86"
+    },
+    {
+      "slug": "child-validators-and-complex-objects",
+      "title": "Child Validators and Complex Objects",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/4.3-child-validators-and-complex-objects",
+      "sha256": "5a9fda0bad1044ab56fe83c38861859b926bdb6deb93b8fb97690550e63259c6"
+    },
+    {
+      "slug": "collection-validation",
+      "title": "Collection Validation",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/4.2-collection-validation",
+      "sha256": "10ca375c6a7fb0d38a17c8f1cfe48ad5ab0252e6587eb72764ee875649b0a1a4"
+    },
+    {
+      "slug": "conditional-validation",
+      "title": "Conditional Validation",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/4.1-conditional-validation",
+      "sha256": "0471f74188e7ada7cb629c6e2de29050e64bb7c915dd80a723ec8a2f0994fe6c"
+    },
+    {
+      "slug": "core-architecture",
+      "title": "Core Architecture",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/2-core-architecture",
+      "sha256": "7cef60811285d228934852d80bdb575412e982d518da376bc1cd9f68fd634acc"
+    },
+    {
+      "slug": "custom-validators",
+      "title": "Custom Validators",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/3.4-custom-validators",
+      "sha256": "15cfe577b31043d9a17a90335f2311bba0f78cbf6dfd93b047fefd2789fd54ed"
+    },
+    {
+      "slug": "defining-validation-rules",
+      "title": "Defining Validation Rules",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/3-defining-validation-rules",
+      "sha256": "60e9f5e128ab74563a7ba38fc4ba1152db47335fd5d3889088439c720292a714"
+    },
+    {
+      "slug": "dependency-injection",
+      "title": "Dependency Injection",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/5.2-dependency-injection",
+      "sha256": "7f0b1ab3a4ae797251355b8fb9d36904bd7aeac12e579a65e777dcb067485182"
+    },
+    {
+      "slug": "error-message-customization",
+      "title": "Error Message Customization",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/4.6-error-message-customization",
+      "sha256": "eb392214267ab2f0404e4fb6a96b254b7c8ddd1207d07057cc60b1630ba3452a"
+    },
+    {
+      "slug": "exception-handling",
+      "title": "Exception Handling",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/5.3-exception-handling",
+      "sha256": "4da6c12f6f00521cd4259d0eb3a72cdefcaf35499dfdc948b25f94caa43be102"
+    },
+    {
+      "slug": "fluentvalidation-overview",
+      "title": "FluentValidation Overview",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/1-fluentvalidation-overview",
+      "sha256": "3864f6c69be2708380ac1cb07601a76c0d3ed7aa5a50b2167a30f0637e409878"
+    },
+    {
+      "slug": "getting-started",
+      "title": "Getting Started",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/1.1-getting-started",
+      "sha256": "eadd1fbaff1aca86a6a085cb599daaba2f9abdbfe990635f6900811f908fb0c7"
+    },
+    {
+      "slug": "glossary",
+      "title": "Glossary",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/9-glossary",
+      "sha256": "067f7e15ed70074642d71ec49d95b4c862f7d2002fc4789d452bd36773c2e3cc"
+    },
+    {
+      "slug": "integration",
+      "title": "Integration",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/5-integration",
+      "sha256": "62eb814952c7a5089689cffe6fd5f205f12f37ee0e2b9040e2e5e922e12e95da"
+    },
+    {
+      "slug": "localization",
+      "title": "Localization",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/7-localization",
+      "sha256": "8538607a4094d55f6131626b27dfc7f9509a64966d486db671be187832847e58"
+    },
+    {
+      "slug": "performance-and-best-practices",
+      "title": "Performance and Best Practices",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/8-performance-and-best-practices",
+      "sha256": "904914b571ffd42e61a83b754cf7355043df8dd5ad3f18cdf2f4b5bf28fc4493"
+    },
+    {
+      "slug": "project-structure-and-build-system",
+      "title": "Project Structure and Build System",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/1.2-project-structure-and-build-system",
+      "sha256": "823702c40473003a23de8775872b4b3f53136d10b5f7bcafac59149cadf35e60"
+    },
+    {
+      "slug": "property-rules",
+      "title": "Property Rules",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/2.2-property-rules",
+      "sha256": "8d5de6175dc46c614b9010bdc541f42381fec7f8d14c404d6f44ced2469dd4d7"
+    },
+    {
+      "slug": "property-transformations",
+      "title": "Property Transformations",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/4.5-property-transformations",
+      "sha256": "2edfa137cfc7054c17d37b7253d0527830738ede49f06bd37565e3a82786c01b"
+    },
+    {
+      "slug": "property-validators",
+      "title": "Property Validators",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/3.3-property-validators",
+      "sha256": "0ebc4ff1a13d71e7b78d1827d66e5737d018d954dc24bb7fca4d2daac40233ac"
+    },
+    {
+      "slug": "rule-building-api",
+      "title": "Rule Building API",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/3.1-rule-building-api",
+      "sha256": "31c9c219d8f36473dfb06df3e0bd6588cbecd449add1ebf61b0328a5fba156fb"
+    },
+    {
+      "slug": "rule-execution-and-selection",
+      "title": "Rule Execution and Selection",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/2.3-rule-execution-and-selection",
+      "sha256": "80f5f386b7697bc3675cdcb519f94fc3d1bbc172f7475afa5cfbf4ef4cb2d3d2"
+    },
+    {
+      "slug": "rule-sets",
+      "title": "Rule Sets",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/4.4-rule-sets",
+      "sha256": "bd8c1b46f0f1166272a1215fddb5c05cde35260a7c6070f6378347dffe1ff3ab"
+    },
+    {
+      "slug": "testing",
+      "title": "Testing",
+      "url": "https://deepwiki.com/FluentValidation/FluentValidation/6-testing",
+      "sha256": "fa51a2574bb56c04393c902c9df0571de934f0fff2aa2125883b16f032b6dcae"
+    }
+  ],
+  "_description": "DeepWiki reference wiki for FluentValidation/FluentValidation, fetched 2026-07-27 via the DeepWiki MCP (read_wiki_contents), split on '# Page:' delimiters. DeepWiki publishes no generation commit; claims judged against a clone from the same capture window."
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "peer": "codewiki",
+  "repo": "FluentValidation/FluentValidation",
+  "base_url": "https://codewiki.google/github.com/FluentValidation/FluentValidation",
+  "scored_at": "2026-07-28",
+  "pinned_source_sha": "0f02e0aaabbf1812c87d23865c723e952d39c927",
+  "pages": [
+    {
+      "slug": "dependency-injection-integration",
+      "title": "Dependency Injection Integration",
+      "url": "https://codewiki.google/github.com/FluentValidation/FluentValidation#dependency-injection-integration",
+      "sha256": "6e3a6d5f6f1de4c298fb99464421e1acb5810fc08b390c5940e2c0d20e044992"
+    },
+    {
+      "slug": "fluentvalidation-core-library",
+      "title": "FluentValidation Core Library",
+      "url": "https://codewiki.google/github.com/FluentValidation/FluentValidation#fluentvalidation-core-library",
+      "sha256": "a0ccb912f656f36c14c3ec52f12806b84c73d0d360307b70e548974f33edc8a3"
+    },
+    {
+      "slug": "fluentvalidation-test-helpers",
+      "title": "FluentValidation Test Helpers",
+      "url": "https://codewiki.google/github.com/FluentValidation/FluentValidation#fluentvalidation-test-helpers",
+      "sha256": "ccfcfa8a7e718af8de0ce1acf93f6de5a56b614b7a44df0c8032c8c4cf2b1263"
+    },
+    {
+      "slug": "localization-of-validation-messages",
+      "title": "Localization of Validation Messages",
+      "url": "https://codewiki.google/github.com/FluentValidation/FluentValidation#localization-of-validation-messages",
+      "sha256": "be122250e97a6cccb24f51485a0baea3ac9d5005b32cefcbca039f576419f79b"
+    },
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "url": "https://codewiki.google/github.com/FluentValidation/FluentValidation",
+      "sha256": "27a8c4803b95a3d3dbefae0667305ec57c8f7c2aa604bf9543a0dd90294c9a4a"
+    },
+    {
+      "slug": "project-setup-and-contribution-guidelines",
+      "title": "Project Setup and Contribution Guidelines",
+      "url": "https://codewiki.google/github.com/FluentValidation/FluentValidation#project-setup-and-contribution-guidelines",
+      "sha256": "446f785e8a64c20b40567659601743e9a2b375e599dd37edda01d67c6d9da705"
+    }
+  ],
+  "_description": "CodeWiki (codewiki.google) reference wiki for FluentValidation/FluentValidation, extracted 2026-07-27/28; page shows generation commit 0f02e0aaabbf1812c87d23865c723e952d39c927. Sections of the single CodeWiki page split at h2 boundaries; citation labels adapter-normalized to path:line form (see fetch-codewiki/). Judged against a clone at the pinned commit."
+}

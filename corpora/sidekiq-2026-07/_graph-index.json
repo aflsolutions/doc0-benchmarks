@@ -1,0 +1,5113 @@
+{
+  "schema_version": 1,
+  "wiki_id": "b67125e6-15d9-559f-b7dd-63311cb0c262",
+  "node_names": [
+    "quiet",
+    "chart_y_axis",
+    "add_hist",
+    "RingBuffer",
+    "ApplicationController",
+    "o",
+    "bkt_time_s",
+    "stopping?",
+    "now_in_millis",
+    "SpamUserJob",
+    "locales",
+    "parent",
+    "error?",
+    "profiler.rb",
+    "render_status_section",
+    "wait_for",
+    "hard_job.rb",
+    "process_one",
+    "stopping?",
+    "warn",
+    "current_filter",
+    "loader.rb",
+    "clear",
+    "Pro-4.0-Upgrade.md",
+    "paginator.rb",
+    "tag",
+    "signal",
+    "route_params",
+    "jid",
+    "myapp",
+    "validate!",
+    "initialize",
+    "included",
+    "initialize",
+    "testing.rb",
+    "runtime",
+    "perform_inline",
+    "Launcher",
+    "render",
+    "Ent-8.0-Upgrade.md",
+    "sidekiq.rb",
+    "dump_threads",
+    "display_tags",
+    "push",
+    "WorkSet",
+    "testing!",
+    "rails_app?",
+    "tabs",
+    "boot_application",
+    "total_avg",
+    "workers_size",
+    "application_controller.rb",
+    "perform_one",
+    "home.rb",
+    "initialize",
+    "code_of_conduct.md",
+    "each",
+    "Entry",
+    "leader",
+    "configure",
+    "initialize",
+    "application_job.rb",
+    "run",
+    "refresh_data",
+    "navigate_row",
+    "insert_before",
+    "append_to_filter",
+    "prepare",
+    "nl.yml",
+    "clear_heartbeat",
+    "middleware",
+    "freeze!",
+    "Logger",
+    "test_api.rb",
+    "session_store.rb",
+    "cleanup",
+    "initialize",
+    "handle_exception",
+    "enqueue_all",
+    "redis",
+    "track",
+    "rnd",
+    "processes",
+    "csv_batches_enumerator",
+    "boot.rb",
+    "ent?",
+    "delay_until",
+    "push_bulk",
+    "add_metric",
+    "clear",
+    "route_cache",
+    "enqueue_in",
+    "default_generator_root",
+    "safe_request?",
+    "sd_notify.rb",
+    "BarJob",
+    "LazyJob",
+    "post.rb",
+    "views",
+    "poll",
+    "head",
+    "each_iteration",
+    "to_json",
+    "JobController",
+    "job",
+    "testing",
+    "es.yml",
+    "TUI",
+    "perform",
+    "print_banner",
+    "flash?",
+    "trim",
+    "chartOptions",
+    "redirect_with_query",
+    "logger",
+    "get_sidekiq_options",
+    "stat",
+    "style.css",
+    "start",
+    "reset",
+    "json",
+    "concurrency",
+    "ProcessSet",
+    "call",
+    "ta.yml",
+    "page",
+    "memory_usage",
+    "sidekiq",
+    "stats",
+    "call",
+    "find_locale_files",
+    "at",
+    "worker_compatibility_alias.rb",
+    "initialize",
+    "reloading",
+    "queue",
+    "jid",
+    "watchdog",
+    "verify_iteration_time",
+    "persist",
+    "key",
+    "active_record_batches_enumerator",
+    "NotifyError",
+    "web",
+    "config.rb",
+    "custom_job_info_rows",
+    "file_name",
+    "application.js",
+    "beat",
+    "on_resume",
+    "buildDataset",
+    "toggleKls",
+    "custom_job_info_rows",
+    "all",
+    "initialize",
+    "web",
+    "rtl?",
+    "find_locale_files",
+    "TUI",
+    "debounce",
+    "gem_version",
+    "job",
+    "application_helper.rb",
+    "track_fps",
+    "on_complete",
+    "call",
+    "enqueue",
+    "identity",
+    "scan",
+    "dashboard.js",
+    "Web",
+    "Deploy",
+    "remove_job",
+    "base-charts.js",
+    "locale_files",
+    "assert_enumerator!",
+    "delay_for",
+    "5.0-Upgrade.md",
+    "delete_for",
+    "transaction_aware_client.rb",
+    "web.rb",
+    "load_locale",
+    "updateLocale",
+    "load_json",
+    "stopping?",
+    "fetch.rb",
+    "local_redis_pool",
+    "ur.yml",
+    "Pro-Changes.md",
+    "app",
+    "enqueued_at",
+    "handleConfirmDialog",
+    "labels",
+    "retry_size",
+    "EmptyJob",
+    "RedisClientAdapter",
+    "init",
+    "enqueue_jobs",
+    "PostCreator",
+    "serialized_global_id?",
+    "Route",
+    "livePollCallback",
+    "value",
+    "deserialize_argument",
+    "delete_queue!",
+    "display_class",
+    "global",
+    "config",
+    "n",
+    "id",
+    "tr.yml",
+    "queue",
+    "w",
+    "mainpid",
+    "relations",
+    "handle_fetch_exception",
+    "render_content_area",
+    "flush_state",
+    "i18n.rb",
+    "Processor",
+    "Pro-7.0-Upgrade.md",
+    "checkResponse",
+    "queues",
+    "register",
+    "client_middleware",
+    "dup",
+    "e",
+    "number_with_delimiter",
+    "inspect",
+    "locales",
+    "boot.rb",
+    "generators",
+    "ar.yml",
+    "toggleBulkButtons",
+    "process_set",
+    "systemd.rb",
+    "lib",
+    "striped_rows",
+    "display_args",
+    "metrics.js",
+    "cancel!",
+    "stop",
+    "death_handlers",
+    "capsules",
+    "format_memory",
+    "drain_all",
+    "reenqueue_iteration_job",
+    "migrate",
+    "mono_ms",
+    "stop",
+    "lang",
+    "tui.rb",
+    "InterruptHandler",
+    "chain.rb",
+    "user_preferred_languages",
+    "key_at",
+    "on_stop",
+    "retry_or_delete_or_kill",
+    "Queues",
+    "process_id",
+    "middleware",
+    "capsule.md",
+    "clear_caches",
+    "respond_to_missing?",
+    "jobs_by_queue",
+    "initialize",
+    "clear_all",
+    "sidekiq",
+    "fetch",
+    "stop_filtering",
+    "json_unsafe?",
+    "reset",
+    "parse",
+    "features",
+    "delayed_post",
+    "Pro-8.0-Upgrade.md",
+    "workers",
+    "long_method",
+    "notify",
+    "component.rb",
+    "Testing",
+    "bare",
+    "use",
+    "models",
+    "status",
+    "display_custom_head",
+    "stats",
+    "add_to_queue",
+    "default_queue_latency",
+    "interrupted?",
+    "r",
+    "refresh_data",
+    "selected?",
+    "ActiveRecordEnumerator",
+    "size",
+    "exit_job.rb",
+    "exists?",
+    "config",
+    "product_version",
+    "client_middleware",
+    "call",
+    "Base",
+    "perform",
+    "prev_page",
+    "all",
+    "included",
+    "sidekiq_adapter.rb",
+    "Pro-2.0-Upgrade.md",
+    "config",
+    "JobResult",
+    "redirect",
+    "retry_attempts_from",
+    "safe_methods?",
+    "queue_data",
+    "insert_after",
+    "retried_at",
+    "number_with_delimiter",
+    "token",
+    "block",
+    "clear_for",
+    "run_at",
+    "a",
+    "test.rb",
+    "ExitJob",
+    "DashboardChart",
+    "Busy",
+    "iterable.rb",
+    "20120123214055_create_posts.rb",
+    "dataFromSeries",
+    "Capsule",
+    "puma.rb",
+    "get_locale",
+    "call",
+    "active_record_relations_enumerator",
+    "load_strings",
+    "random_poll_interval",
+    "terminate",
+    "total_rss_in_kb",
+    "config.rb",
+    "reset_instance_variables",
+    "Stats",
+    "latency",
+    "sort_direction_label",
+    "uk.yml",
+    "label",
+    "❨╯°□°❩╯︵┻━┻",
+    "on_start",
+    "terminate!",
+    "replacePage",
+    "capsules",
+    "delete",
+    "delete_by_jid",
+    "day",
+    "initializers",
+    "controls.rb",
+    "inline!",
+    "refresh_data",
+    "initialize_logger",
+    "JobRecord",
+    "queue_as",
+    "assets_path",
+    "locale",
+    "render",
+    "traverse",
+    "menu.md",
+    "FastJob",
+    "logger",
+    "patch",
+    "6.0-Upgrade.md",
+    "data",
+    "crash",
+    "block",
+    "bulk",
+    "kill",
+    "job_retry.rb",
+    "nb.yml",
+    "jobs_by_class",
+    "IterableJobQuery",
+    "wrap",
+    "content_security_policy.rb",
+    "process_csp",
+    "application_record.rb",
+    "truncate",
+    "initialize",
+    "docs",
+    "scrub",
+    "match",
+    "cs.yml",
+    "fr.yml",
+    "stop!",
+    "app",
+    "DeadSet",
+    "seeds.rb",
+    "i",
+    "initialize",
+    "datasets",
+    "t",
+    "each_selection",
+    "middleware.md",
+    "on_complete",
+    "jobs_directory",
+    "features",
+    "render",
+    "LICENSE.txt",
+    "filtering?",
+    "myapp",
+    "each_iteration",
+    "Changes.md",
+    "started_at",
+    "Current",
+    "stats_content_split",
+    "wrap_parameters.rb",
+    "Embedded",
+    "clear",
+    "Home",
+    "initialize",
+    "render_chart_section",
+    "metrics.rb",
+    "renderCursor",
+    "Interrupted",
+    "launch",
+    "controllers",
+    "features",
+    "TUI",
+    "job_generator.rb",
+    "around_iteration",
+    "start_watchdog",
+    "it.yml",
+    "controls",
+    "lookup",
+    "monitor.rb",
+    "fetch_stats!",
+    "pt-BR.yml",
+    "config",
+    "Counter",
+    "Skip",
+    "embedded.rb",
+    "parse",
+    "redis",
+    "poll_interval_average",
+    "Singler",
+    "failed_at",
+    "cli.rb",
+    "concurrency",
+    "atomic_push",
+    "default_job_options",
+    "8.0-Upgrade.md",
+    "error_handlers",
+    "retrieve_work",
+    "Result",
+    "da.yml",
+    "server_middleware",
+    "format_context",
+    "transactional_push!",
+    "initial_wait",
+    "SomeJob",
+    "ApplicationRecord",
+    "search",
+    "Action",
+    "dashboard-charts.js",
+    "stopped?",
+    "determine_redis_provider",
+    "stop_and_clear_filtering",
+    "default_tag",
+    "SlowJob",
+    "requeue",
+    "setup_options",
+    "normalized_hash",
+    "scheduleLivePoll",
+    "test_framework",
+    "startPolling",
+    "create_test_file",
+    "get_flash",
+    "sidekiq_retry_in",
+    "CompatClient",
+    "exiter.rb",
+    "constructor",
+    "use",
+    "current_attributes.rb",
+    "data",
+    "delete_or_add_queue",
+    "refresh_data_for_stats",
+    "paused?",
+    "renderLegend",
+    "iterate_with_enumerator",
+    "csv_enumerator",
+    "datasets",
+    "legendEntry",
+    "start_heartbeat",
+    "process_job",
+    "environment_title_prefix",
+    "routes.rb",
+    "Post",
+    "launcher",
+    "fetch",
+    "Profiler",
+    "current_object",
+    "ScheduledSet",
+    "kill_all",
+    "TransactionAwareClient",
+    "Work",
+    "client.rb",
+    "batches",
+    "exception_message",
+    "via",
+    "webui.md",
+    "BaseTab",
+    "job_util.rb",
+    "job",
+    "Pro-5.0-Upgrade.md",
+    "config",
+    "locale_files",
+    "iterable_state",
+    "capsule.rb",
+    "redis_pool",
+    "on_filter_change",
+    "mono_now",
+    "find_work",
+    "perform",
+    "get_one",
+    "ApplicationJob",
+    "halt",
+    "new_client",
+    "run",
+    "enqueue_to_in",
+    "strings",
+    "refresh_data",
+    "to_json",
+    "job_params",
+    "instance",
+    "manager.rb",
+    "Counter",
+    "tabs.rb",
+    "name",
+    "safe_thread",
+    "run",
+    "find_job",
+    "disable!",
+    "perform",
+    "locales",
+    "initialize",
+    "reschedule",
+    "size",
+    "reload_page",
+    "javascripts",
+    "time_for",
+    "server_middleware",
+    "hi.yml",
+    "acknowledge",
+    "scaled_poll_interval",
+    "vi.yml",
+    "Setter",
+    "SECURITY.md",
+    "features",
+    "app_url",
+    "JSON",
+    "watchdog?",
+    "initialize",
+    "on_stop",
+    "cancelled?",
+    "retry_all",
+    "redis_pool",
+    "url_params",
+    "score",
+    "Colors",
+    "redis_connection.rb",
+    "Rails",
+    "Config",
+    "execute_job",
+    "retry",
+    "stop",
+    "chartOptions",
+    "JobSet",
+    "render",
+    "created_at",
+    "initialize",
+    "pt.yml",
+    "add",
+    "lazy_job.rb",
+    "real_ms",
+    "ru.yml",
+    "showError",
+    "rails.rb",
+    "copy_for",
+    "render_redis_info_section",
+    "redis_client_adapter.rb",
+    "constructor",
+    "build_cattrs_hash",
+    "__local_test_mode",
+    "buffer",
+    "schema.rb",
+    "Poller",
+    "version.rb",
+    "cancelled",
+    "inline?",
+    "each",
+    "enabled?",
+    "to_data",
+    "lookup",
+    "on_cancel",
+    "active_record_enumerator.rb",
+    "setLivePollFromUrl",
+    "previous_fps",
+    "available_locales",
+    "environments",
+    "mark!",
+    "split_multiline",
+    "create_job_file",
+    "set",
+    "Ent-2.0-Upgrade.md",
+    "klass",
+    "dead_size",
+    "set_class",
+    "filtering",
+    "each",
+    "drain",
+    "addPollingListeners",
+    "busy.rb",
+    "start_filtering",
+    "logger",
+    "time_from_timestamp",
+    "option_parser",
+    "queue",
+    "flash",
+    "jid",
+    "cleanup",
+    "TestModeAlreadySetError",
+    "hotkey_line",
+    "Reloader",
+    "array_enumerator",
+    "views",
+    "scheduled_size",
+    "initialize",
+    "COMM-LICENSE.txt",
+    "some_job.rb",
+    "clear",
+    "delete",
+    "to_json",
+    "TUI",
+    "retries_exhausted",
+    "iterable",
+    "matcher",
+    "initialize",
+    "ring_buffer.rb",
+    "perform",
+    "active_record_records_enumerator",
+    "Wrapper",
+    "jobs",
+    "pollable?",
+    "refresh_data_for_set",
+    "enqueue_to",
+    "quiet",
+    "FooJob",
+    "JobLogger",
+    "application.rb",
+    "increment",
+    "error_backtrace",
+    "en.yml",
+    "text_direction",
+    "params",
+    "capsule",
+    "schedule",
+    "cursor",
+    "csp_nonce",
+    "Application",
+    "application.rb",
+    "watchdog",
+    "TUI",
+    "controls",
+    "perform",
+    "filter_link",
+    "thread_priority",
+    "fake!",
+    "handle_input",
+    "__set_test_mode",
+    "process_nonce",
+    "tid",
+    "refresh_data",
+    "Web",
+    "assets",
+    "redirect_to",
+    "7.0-Upgrade.md",
+    "version",
+    "for_job",
+    "series_avg",
+    "buckets",
+    "call",
+    "updateProgressBars",
+    "dead.rb",
+    "ProfileRecord",
+    "mailers",
+    "de.yml",
+    "Plain",
+    "registerLegend",
+    "tid",
+    "logger",
+    "run_load_hooks",
+    "push",
+    "handle_exception",
+    "gd.yml",
+    "client_push",
+    "profiler_options",
+    "call",
+    "fake?",
+    "modules.rb",
+    "current_tab",
+    "change",
+    "initialize",
+    "router.rb",
+    "processor_result",
+    "loader",
+    "set_class",
+    "scheduled.rb",
+    "capsule",
+    "updateSwatch",
+    "included",
+    "TUI",
+    "normalize_item",
+    "add",
+    "redis_pool",
+    "Chain",
+    "queues",
+    "perform_bulk",
+    "create",
+    "base_tab.rb",
+    "format_memory",
+    "sorted_processes",
+    "render_stats_section",
+    "controls",
+    "fetch_previous_iteration_state",
+    "redis",
+    "perform_async",
+    "name",
+    "unfiltered?",
+    "redis_info",
+    "chartOptions",
+    "elapsed",
+    "redis_info",
+    "build_enumerator",
+    "features",
+    "Enq",
+    "EmptyQueueError",
+    "flush",
+    "rows",
+    "push_bulk",
+    "processes_size",
+    "Web",
+    "set_class",
+    "initialize",
+    "stopping?",
+    "redis_pool",
+    "relative_time",
+    "raw_push",
+    "controls_line",
+    "bid",
+    "enqueue",
+    "checkIn",
+    "start",
+    "fire_event",
+    "workset",
+    "show_help",
+    "redis",
+    "shared.rb",
+    "exit_job.rb",
+    "with",
+    "perform",
+    "tui",
+    "render",
+    "initializeBulkToggle",
+    "fetch",
+    "thread_id",
+    "handle_signal",
+    "singularize",
+    "h",
+    "reset",
+    "Query",
+    "long",
+    "delay",
+    "errno",
+    "weights",
+    "pattern",
+    "SortedSet",
+    "incr",
+    "SharedWorkState",
+    "run_death_handlers",
+    "build",
+    "data",
+    "filter_parameter_logging.rb",
+    "mode",
+    "identity",
+    "record_time",
+    "inline.rb",
+    "on_resume",
+    "delay_for",
+    "build_enumerator",
+    "initialize",
+    "regexp",
+    "Queue",
+    "html_tag",
+    "reset",
+    "heartbeat",
+    "initialize",
+    "compress_backtrace",
+    "❤",
+    "redis_url",
+    "initialize",
+    "database.yml",
+    "render_error",
+    "configure_server",
+    "client_opts",
+    "handle_completed",
+    "should_interrupt?",
+    "queues.rb",
+    "jruby?",
+    "sidekiq.rb",
+    "render",
+    "parse_config",
+    "set_tab.rb",
+    "__test_mode",
+    "is_cancelled?",
+    "internals.md",
+    "evalsha",
+    "JobMetricsOverviewChart",
+    "deploy.rb",
+    "u",
+    "production.rb",
+    "push",
+    "dump_json",
+    "query.rb",
+    "config",
+    "prepare",
+    "updateFuzzyTimes",
+    "metric",
+    "BasicFetch",
+    "Application",
+    "banner",
+    "build_enumerator",
+    "initialize",
+    "thread",
+    "weights",
+    "batches",
+    "UserMailer",
+    "session",
+    "dispatch",
+    "logger",
+    "initialize",
+    "reset!",
+    "Loader",
+    "leader?",
+    "server_utc_time",
+    "entries",
+    "call",
+    "SidekiqAdapter",
+    "on_load",
+    "sdlc.md",
+    "sidekiq_options",
+    "zpopbyscore",
+    "sidekiq.yml",
+    "alter_rows!",
+    "set_environment",
+    "retrieve",
+    "assets_path",
+    "relations_size",
+    "next_page",
+    "greetings",
+    "cookies_serializer.rb",
+    "initialize",
+    "locales",
+    "env",
+    "erb",
+    "at",
+    "queues",
+    "TUI",
+    "current_status",
+    "db",
+    "exception_caused_by_shutdown?",
+    "fa.yml",
+    "enumerators.rb",
+    "redis_pool",
+    "4.0-Upgrade.md",
+    "Web",
+    "register_extension",
+    "set",
+    "reap_idle_redis_connections",
+    "addShiftClickListeners",
+    "render_metrics_chart",
+    "reset",
+    "Web",
+    "_erb",
+    "method_added",
+    "filtering?",
+    "route",
+    "tags",
+    "elapsed",
+    "7.0-API-Migration.md",
+    "execute_job",
+    "validate",
+    "middlewares",
+    "zh-CN.yml",
+    "quiet!",
+    "each_iteration",
+    "_context",
+    "atomic_push",
+    "on",
+    "metrics",
+    "tracking.rb",
+    "initialize",
+    "environment.rb",
+    "en.yml",
+    "get",
+    "backtrace_silencers.rb",
+    "item",
+    "lib",
+    "TimedJob",
+    "failed",
+    "retries.rb",
+    "logger.rb",
+    "environment",
+    "name",
+    "iterable_job.rb",
+    "parse_key",
+    "start",
+    "ExecutionTracker",
+    "make_new",
+    "CLI",
+    "Ent-Changes.md",
+    "quiet!",
+    "t",
+    "freeze!",
+    "value",
+    "job.rb",
+    "Pro-3.0-Upgrade.md",
+    "helpers.rb",
+    "hostname",
+    "TUI",
+    "method_missing",
+    "track_time",
+    "middlewares",
+    "filtering.rb",
+    "remove",
+    "invoke",
+    "to_hash",
+    "History",
+    "addDataToggleListeners",
+    "3.0-Upgrade.md",
+    "debugging?",
+    "inspect",
+    "Manager",
+    "to_display",
+    "embedded?",
+    "call",
+    "render",
+    "add_to_head",
+    "development.rb",
+    "parse_yaml",
+    "all",
+    "verify_json",
+    "perform",
+    "register",
+    "Histogram",
+    "request",
+    "zh-TW.yml",
+    "lt.yml",
+    "inspect",
+    "jobs_for",
+    "Retries",
+    "logger",
+    "display_args",
+    "fetch_marks",
+    "request_method",
+    "index",
+    "configure_client",
+    "root_path",
+    "testing",
+    "header",
+    "queue_adapters",
+    "RetrySet",
+    "processor.rb",
+    "quiet",
+    "HardJob",
+    "initialize",
+    "perform_in",
+    "local_redis_pool",
+    ".standard.yml",
+    "HistTotalsChart",
+    "current",
+    "queue_summaries",
+    "TUI",
+    "run_loop",
+    "enqueue",
+    "WithoutTimestamp",
+    "current.rb",
+    "JobGenerator",
+    "new_redis_pool",
+    "profile",
+    "JobRetry",
+    "Dead",
+    "wait",
+    "ja.yml",
+    "tags_for",
+    "ExitJob",
+    "Pretty",
+    "fetchStats",
+    "overview",
+    "parse_options",
+    "pro?",
+    "payload",
+    "uncompress_backtrace",
+    "HistBubbleChart",
+    "strict_args!",
+    "top_jobs",
+    "error",
+    "handleUpdate",
+    "redis_url",
+    "helpers",
+    "kill",
+    "constructor",
+    "configure_embed",
+    "update",
+    "Client",
+    "now_ms",
+    "persist",
+    "klass",
+    "updateNumbers",
+    "store_version",
+    "launcher.rb",
+    "language_name",
+    "on_filter_change",
+    "fetch_stats_slow!",
+    "total_concurrency",
+    "compile",
+    "helpers",
+    "deny",
+    "default_capsule",
+    "initialize",
+    "Exiter",
+    "batching?",
+    "OrderJunkJob",
+    "initialize",
+    "csv_enumerator.rb",
+    "queues",
+    "info",
+    "cleanup",
+    "logger",
+    "date_stat_hash",
+    "enqueue_at",
+    "Scheduled",
+    "housekeeping",
+    "initialize",
+    "sidekiq",
+    "interrupt_handler.rb",
+    "Server",
+    "PostUpdater",
+    "post",
+    "job_controller.rb",
+    "calculate_latency",
+    "initialize",
+    "retry_extra_items",
+    "checkOut",
+    "put",
+    "email",
+    "fetch_stats_fast!",
+    "display",
+    "TUI",
+    "create_job_test",
+    "version",
+    "addListeners",
+    "TUI",
+    "initialize",
+    "managers",
+    "el.yml",
+    "cancel!",
+    "process_count",
+    "fetch",
+    "flush_stats",
+    "disabled?",
+    "Process",
+    "processes",
+    "Handled",
+    "processed",
+    "job_logger.rb",
+    "BaseChart",
+    "check_rtt",
+    "redis",
+    "empty?",
+    "bulk_fetch",
+    "CreatePosts",
+    "args",
+    "process_retry",
+    "controls",
+    "process",
+    "records",
+    "time_ago",
+    "__global_test_mode",
+    "enqueued",
+    "enqueue_after_transaction_commit?",
+    "type",
+    "symbolize_keys_deep!",
+    "toggle_select",
+    "page_items",
+    "remove_last_char_from_filter",
+    "prepend",
+    "sv.yml",
+    "render_controls",
+    "RealtimeChart",
+    "queue_names_by_capsule",
+    "navigate",
+    "capsule",
+    "ProfileSet",
+    "StoreCardJob",
+    "cursor",
+    "executions",
+    "stats",
+    "initialize",
+    "run",
+    "queues_cmd",
+    "redis_pool",
+    "deep_symbolize_keys",
+    "tabs",
+    "server_middleware",
+    "as_json",
+    "redis",
+    "t",
+    "queue_name",
+    "to_query_string",
+    "r",
+    "store_name",
+    "csrf_tag",
+    "available_locales",
+    "server?",
+    "stop",
+    "README.md",
+    "style_tag",
+    "reset_data",
+    "render_kv_section",
+    "call",
+    "SortedEntry",
+    "hard_shutdown",
+    "pop_each",
+    "arguments",
+    "initialize",
+    "tabs",
+    "TUI",
+    "api.rb",
+    "initialize",
+    "pl.yml",
+    "Ent-7.0-Upgrade.md",
+    "b",
+    "poller",
+    "sidekiq_retries_exhausted",
+    "sidekiq_class_attribute",
+    "terminate",
+    "TUI",
+    "Config",
+    "send_to_morgue",
+    "wrap",
+    "ko.yml",
+    "active_job",
+    "fetcher",
+    "stopping",
+    "secret_token.rb",
+    "bulk_requeue",
+    "user_mailer.rb",
+    "action.rb",
+    "current_path",
+    "delete",
+    "toggle_pause_queue!",
+    "call",
+    "total_concurrency",
+    "registerSwatch",
+    "create_job_spec",
+    "default_configuration",
+    "name",
+    "Load",
+    "iteration_key",
+    "qparams",
+    "render_table",
+    "post_updater.rb",
+    "Shutdown",
+    "post_creator.rb",
+    "script_tag",
+    "Metrics",
+    "size",
+    "delimit",
+    "run",
+    "updateLivePollButton",
+    "build_client",
+    "scheduled.rb",
+    "CsvEnumerator",
+    "ready",
+    "t",
+    "he.yml",
+    "Status",
+    "jobs",
+    "delete_by_value",
+    "Client",
+    "to_h",
+    "refresh_data",
+    "should_refresh?",
+    "stylesheets",
+    "fdstore",
+    "count_of_rows_in_file",
+    "Save",
+    "Middleware",
+    "local"
+  ],
+  "edges": [
+    {
+      "from": "render",
+      "to": "erb",
+      "confidence": 0.95
+    },
+    {
+      "from": "fetch_stats!",
+      "to": "fetch_stats_slow!",
+      "confidence": 0.95
+    },
+    {
+      "from": "ready",
+      "to": "notify",
+      "confidence": 0.95
+    },
+    {
+      "from": "render_table",
+      "to": "delete",
+      "confidence": 0.5
+    },
+    {
+      "from": "initialize",
+      "to": "redis_pool",
+      "confidence": 0.9
+    },
+    {
+      "from": "render",
+      "to": "striped_rows",
+      "confidence": 0.9
+    },
+    {
+      "from": "push_bulk",
+      "to": "verify_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "application.rb",
+      "to": "dead_size",
+      "confidence": 0.5
+    },
+    {
+      "from": "application.rb",
+      "to": "url_params",
+      "confidence": 0.5
+    },
+    {
+      "from": "reload_page",
+      "to": "redirect",
+      "confidence": 0.95
+    },
+    {
+      "from": "push",
+      "to": "normalize_item",
+      "confidence": 0.9
+    },
+    {
+      "from": "sidekiq_adapter.rb",
+      "to": "configure_client",
+      "confidence": 0.5
+    },
+    {
+      "from": "find_job",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "with",
+      "to": "current",
+      "confidence": 0.95
+    },
+    {
+      "from": "get_one",
+      "to": "retrieve_work",
+      "confidence": 0.9
+    },
+    {
+      "from": "startPolling",
+      "to": "fetchStats",
+      "confidence": 0.95
+    },
+    {
+      "from": "time_for",
+      "to": "at",
+      "confidence": 0.5
+    },
+    {
+      "from": "sidekiq.rb",
+      "to": "configure_client",
+      "confidence": 0.5
+    },
+    {
+      "from": "to_json",
+      "to": "dump_json",
+      "confidence": 0.5
+    },
+    {
+      "from": "parse",
+      "to": "setup_options",
+      "confidence": 0.95
+    },
+    {
+      "from": "push",
+      "to": "push",
+      "confidence": 0.95
+    },
+    {
+      "from": "redis",
+      "to": "current",
+      "confidence": 0.9
+    },
+    {
+      "from": "render",
+      "to": "render_stats_section",
+      "confidence": 0.5
+    },
+    {
+      "from": "check_rtt",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "sidekiq_adapter.rb",
+      "to": "configure_server",
+      "confidence": 0.5
+    },
+    {
+      "from": "i18n.rb",
+      "to": "configure_client",
+      "confidence": 0.5
+    },
+    {
+      "from": "cleanup",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "queue_summaries",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "tracking.rb",
+      "to": "configure_server",
+      "confidence": 0.9
+    },
+    {
+      "from": "reenqueue_iteration_job",
+      "to": "flush_state",
+      "confidence": 0.95
+    },
+    {
+      "from": "notify",
+      "to": "delete",
+      "confidence": 0.5
+    },
+    {
+      "from": "render",
+      "to": "render_content_area",
+      "confidence": 0.95
+    },
+    {
+      "from": "kill",
+      "to": "value",
+      "confidence": 0.5
+    },
+    {
+      "from": "date_stat_hash",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "day",
+      "to": "day",
+      "confidence": 0.95
+    },
+    {
+      "from": "remove_job",
+      "to": "load_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "perform_async",
+      "to": "client_push",
+      "confidence": 0.95
+    },
+    {
+      "from": "add_hist",
+      "to": "bkt_time_s",
+      "confidence": 0.95
+    },
+    {
+      "from": "cursor",
+      "to": "load_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "top_jobs",
+      "to": "add_metric",
+      "confidence": 0.95
+    },
+    {
+      "from": "enqueue_at",
+      "to": "profile",
+      "confidence": 0.5
+    },
+    {
+      "from": "sidekiq.rb",
+      "to": "reap_idle_redis_connections",
+      "confidence": 0.5
+    },
+    {
+      "from": "queue_names_by_capsule",
+      "to": "capsules",
+      "confidence": 0.5
+    },
+    {
+      "from": "controls",
+      "to": "delete_queue!",
+      "confidence": 0.95
+    },
+    {
+      "from": "render",
+      "to": "selected?",
+      "confidence": 0.5
+    },
+    {
+      "from": "addPollingListeners",
+      "to": "updateLivePollButton",
+      "confidence": 0.95
+    },
+    {
+      "from": "puma.rb",
+      "to": "configure_embed",
+      "confidence": 0.5
+    },
+    {
+      "from": "setup_options",
+      "to": "capsule",
+      "confidence": 0.9
+    },
+    {
+      "from": "queues",
+      "to": "to_h",
+      "confidence": 0.5
+    },
+    {
+      "from": "start_heartbeat",
+      "to": "beat",
+      "confidence": 0.95
+    },
+    {
+      "from": "render",
+      "to": "render_chart_section",
+      "confidence": 0.95
+    },
+    {
+      "from": "iterate_with_enumerator",
+      "to": "should_interrupt?",
+      "confidence": 0.95
+    },
+    {
+      "from": "render_controls",
+      "to": "controls_line",
+      "confidence": 0.95
+    },
+    {
+      "from": "perform",
+      "to": "iterate_with_enumerator",
+      "confidence": 0.95
+    },
+    {
+      "from": "run",
+      "to": "current",
+      "confidence": 0.5
+    },
+    {
+      "from": "application.rb",
+      "to": "redirect_with_query",
+      "confidence": 0.9
+    },
+    {
+      "from": "redis_pool",
+      "to": "redis_pool",
+      "confidence": 0.95
+    },
+    {
+      "from": "each_selection",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "stop",
+      "to": "stop",
+      "confidence": 0.95
+    },
+    {
+      "from": "prepare",
+      "to": "current",
+      "confidence": 0.5
+    },
+    {
+      "from": "for_job",
+      "to": "fetch_marks",
+      "confidence": 0.95
+    },
+    {
+      "from": "queue_summaries",
+      "to": "calculate_latency",
+      "confidence": 0.95
+    },
+    {
+      "from": "dispatch",
+      "to": "local",
+      "confidence": 0.9
+    },
+    {
+      "from": "initialize",
+      "to": "default_configuration",
+      "confidence": 0.9
+    },
+    {
+      "from": "overview",
+      "to": "scheduled_size",
+      "confidence": 0.9
+    },
+    {
+      "from": "stats",
+      "to": "set",
+      "confidence": 0.95
+    },
+    {
+      "from": "all",
+      "to": "version",
+      "confidence": 0.95
+    },
+    {
+      "from": "format_memory",
+      "to": "number_with_delimiter",
+      "confidence": 0.95
+    },
+    {
+      "from": "to_data",
+      "to": "capsules",
+      "confidence": 0.5
+    },
+    {
+      "from": "call",
+      "to": "redis_pool",
+      "confidence": 0.95
+    },
+    {
+      "from": "refresh_data_for_stats",
+      "to": "enqueued",
+      "confidence": 0.5
+    },
+    {
+      "from": "render",
+      "to": "render_table",
+      "confidence": 0.5
+    },
+    {
+      "from": "match",
+      "to": "match",
+      "confidence": 0.95
+    },
+    {
+      "from": "terminate",
+      "to": "value",
+      "confidence": 0.5
+    },
+    {
+      "from": "application.rb",
+      "to": "job",
+      "confidence": 0.5
+    },
+    {
+      "from": "launch",
+      "to": "handle_signal",
+      "confidence": 0.95
+    },
+    {
+      "from": "reset",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "process_job",
+      "to": "execute_job",
+      "confidence": 0.95
+    },
+    {
+      "from": "flush_state",
+      "to": "dump_json",
+      "confidence": 0.5
+    },
+    {
+      "from": "addListeners",
+      "to": "updateProgressBars",
+      "confidence": 0.95
+    },
+    {
+      "from": "call",
+      "to": "current",
+      "confidence": 0.5
+    },
+    {
+      "from": "call",
+      "to": "process_csp",
+      "confidence": 0.95
+    },
+    {
+      "from": "application.rb",
+      "to": "default_queue_latency",
+      "confidence": 0.5
+    },
+    {
+      "from": "application.rb",
+      "to": "fetch",
+      "confidence": 0.5
+    },
+    {
+      "from": "handle_input",
+      "to": "refresh_data",
+      "confidence": 0.95
+    },
+    {
+      "from": "persist",
+      "to": "default_configuration",
+      "confidence": 0.5
+    },
+    {
+      "from": "addListeners",
+      "to": "scheduleLivePoll",
+      "confidence": 0.95
+    },
+    {
+      "from": "application.js",
+      "to": "o",
+      "confidence": 0.95
+    },
+    {
+      "from": "global",
+      "to": "process_retry",
+      "confidence": 0.95
+    },
+    {
+      "from": "application.js",
+      "to": "ready",
+      "confidence": 0.5
+    },
+    {
+      "from": "bulk_requeue",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "application.rb",
+      "to": "route_params",
+      "confidence": 0.5
+    },
+    {
+      "from": "logger",
+      "to": "logger",
+      "confidence": 0.95
+    },
+    {
+      "from": "api.rb",
+      "to": "loader",
+      "confidence": 0.9
+    },
+    {
+      "from": "via",
+      "to": "current",
+      "confidence": 0.5
+    },
+    {
+      "from": "perform_one",
+      "to": "process_job",
+      "confidence": 0.95
+    },
+    {
+      "from": "❤",
+      "to": "memory_usage",
+      "confidence": 0.95
+    },
+    {
+      "from": "perform",
+      "to": "handle_completed",
+      "confidence": 0.95
+    },
+    {
+      "from": "set",
+      "to": "delete",
+      "confidence": 0.5
+    },
+    {
+      "from": "fetch_stats_fast!",
+      "to": "calculate_latency",
+      "confidence": 0.95
+    },
+    {
+      "from": "global",
+      "to": "load_json",
+      "confidence": 0.5
+    },
+    {
+      "from": "build",
+      "to": "middlewares",
+      "confidence": 0.95
+    },
+    {
+      "from": "build_cattrs_hash",
+      "to": "key_at",
+      "confidence": 0.95
+    },
+    {
+      "from": "quiet",
+      "to": "quiet",
+      "confidence": 0.95
+    },
+    {
+      "from": "load_locale",
+      "to": "load_strings",
+      "confidence": 0.95
+    },
+    {
+      "from": "refresh_data",
+      "to": "default_configuration",
+      "confidence": 0.5
+    },
+    {
+      "from": "fetch_stats_slow!",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "long_method",
+      "to": "id",
+      "confidence": 0.5
+    },
+    {
+      "from": "iterate_with_enumerator",
+      "to": "verify_iteration_time",
+      "confidence": 0.95
+    },
+    {
+      "from": "logger",
+      "to": "logger",
+      "confidence": 0.95
+    },
+    {
+      "from": "refresh_data",
+      "to": "refresh_data_for_set",
+      "confidence": 0.95
+    },
+    {
+      "from": "a",
+      "to": "u",
+      "confidence": 0.95
+    },
+    {
+      "from": "processes",
+      "to": "split_multiline",
+      "confidence": 0.95
+    },
+    {
+      "from": "get_flash",
+      "to": "delete",
+      "confidence": 0.5
+    },
+    {
+      "from": "call",
+      "to": "profile",
+      "confidence": 0.5
+    },
+    {
+      "from": "u",
+      "to": "r",
+      "confidence": 0.95
+    },
+    {
+      "from": "local",
+      "to": "get_sidekiq_options",
+      "confidence": 0.5
+    },
+    {
+      "from": "reset!",
+      "to": "reset!",
+      "confidence": 0.95
+    },
+    {
+      "from": "flush",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "toggle_pause_queue!",
+      "to": "pro?",
+      "confidence": 0.5
+    },
+    {
+      "from": "local",
+      "to": "load_json",
+      "confidence": 0.5
+    },
+    {
+      "from": "pop_each",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "api.rb",
+      "to": "run_load_hooks",
+      "confidence": 0.5
+    },
+    {
+      "from": "server_middleware",
+      "to": "copy_for",
+      "confidence": 0.5
+    },
+    {
+      "from": "refresh_data_for_stats",
+      "to": "workers_size",
+      "confidence": 0.5
+    },
+    {
+      "from": "data",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "poll",
+      "to": "updateNumbers",
+      "confidence": 0.5
+    },
+    {
+      "from": "config.rb",
+      "to": "default_configuration",
+      "confidence": 0.5
+    },
+    {
+      "from": "constructor",
+      "to": "Colors",
+      "confidence": 0.95
+    },
+    {
+      "from": "render_redis_info_section",
+      "to": "render_kv_section",
+      "confidence": 0.9
+    },
+    {
+      "from": "format_memory",
+      "to": "number_with_delimiter",
+      "confidence": 0.95
+    },
+    {
+      "from": "warn",
+      "to": "logger",
+      "confidence": 0.95
+    },
+    {
+      "from": "fetch_stats_fast!",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "push",
+      "to": "raw_push",
+      "confidence": 0.95
+    },
+    {
+      "from": "replacePage",
+      "to": "addListeners",
+      "confidence": 0.95
+    },
+    {
+      "from": "redis",
+      "to": "redis",
+      "confidence": 0.95
+    },
+    {
+      "from": "display_args",
+      "to": "deserialize_argument",
+      "confidence": 0.95
+    },
+    {
+      "from": "each",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "overview",
+      "to": "workers_size",
+      "confidence": 0.9
+    },
+    {
+      "from": "enqueue_jobs",
+      "to": "load_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "initialize",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "failed",
+      "to": "date_stat_hash",
+      "confidence": 0.95
+    },
+    {
+      "from": "livePollCallback",
+      "to": "fetch",
+      "confidence": 0.5
+    },
+    {
+      "from": "application.rb",
+      "to": "redirect",
+      "confidence": 0.5
+    },
+    {
+      "from": "toggle_select",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "redis",
+      "to": "current",
+      "confidence": 0.5
+    },
+    {
+      "from": "perform_in",
+      "to": "client_push",
+      "confidence": 0.95
+    },
+    {
+      "from": "remove_job",
+      "to": "jid",
+      "confidence": 0.95
+    },
+    {
+      "from": "delete_by_jid",
+      "to": "load_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "render",
+      "to": "display_class",
+      "confidence": 0.5
+    },
+    {
+      "from": "drain",
+      "to": "process_job",
+      "confidence": 0.95
+    },
+    {
+      "from": "toggle_pause_queue!",
+      "to": "paused?",
+      "confidence": 0.5
+    },
+    {
+      "from": "remove_last_char_from_filter",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "controls",
+      "to": "terminate!",
+      "confidence": 0.95
+    },
+    {
+      "from": "retry",
+      "to": "load_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "client_middleware",
+      "to": "client_middleware",
+      "confidence": 0.95
+    },
+    {
+      "from": "fetch",
+      "to": "requeue",
+      "confidence": 0.9
+    },
+    {
+      "from": "processor_result",
+      "to": "start",
+      "confidence": 0.95
+    },
+    {
+      "from": "display_tags",
+      "to": "h",
+      "confidence": 0.95
+    },
+    {
+      "from": "setup_options",
+      "to": "default_capsule",
+      "confidence": 0.9
+    },
+    {
+      "from": "erb",
+      "to": "_erb",
+      "confidence": 0.95
+    },
+    {
+      "from": "heartbeat",
+      "to": "❤",
+      "confidence": 0.95
+    },
+    {
+      "from": "parse_options",
+      "to": "option_parser",
+      "confidence": 0.95
+    },
+    {
+      "from": "bkt_time_s",
+      "to": "at",
+      "confidence": 0.5
+    },
+    {
+      "from": "application.rb",
+      "to": "workers_size",
+      "confidence": 0.5
+    },
+    {
+      "from": "freeze!",
+      "to": "freeze!",
+      "confidence": 0.95
+    },
+    {
+      "from": "sidekiq.rb",
+      "to": "concurrency",
+      "confidence": 0.5
+    },
+    {
+      "from": "cleanup",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "server_middleware",
+      "to": "server_middleware",
+      "confidence": 0.95
+    },
+    {
+      "from": "run",
+      "to": "capsules",
+      "confidence": 0.5
+    },
+    {
+      "from": "poll_interval_average",
+      "to": "scaled_poll_interval",
+      "confidence": 0.95
+    },
+    {
+      "from": "logger",
+      "to": "logger",
+      "confidence": 0.95
+    },
+    {
+      "from": "atomic_push",
+      "to": "dump_json",
+      "confidence": 0.5
+    },
+    {
+      "from": "process_retry",
+      "to": "compress_backtrace",
+      "confidence": 0.95
+    },
+    {
+      "from": "local_redis_pool",
+      "to": "new_redis_pool",
+      "confidence": 0.5
+    },
+    {
+      "from": "process_retry",
+      "to": "retries_exhausted",
+      "confidence": 0.95
+    },
+    {
+      "from": "t",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "error_backtrace",
+      "to": "uncompress_backtrace",
+      "confidence": 0.95
+    },
+    {
+      "from": "bulk_requeue",
+      "to": "job",
+      "confidence": 0.5
+    },
+    {
+      "from": "style_tag",
+      "to": "add_to_head",
+      "confidence": 0.95
+    },
+    {
+      "from": "queue_summaries",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "navigate",
+      "to": "reset_data",
+      "confidence": 0.5
+    },
+    {
+      "from": "insert_after",
+      "to": "klass",
+      "confidence": 0.5
+    },
+    {
+      "from": "tid",
+      "to": "current",
+      "confidence": 0.95
+    },
+    {
+      "from": "dispatch",
+      "to": "jid",
+      "confidence": 0.5
+    },
+    {
+      "from": "get_one",
+      "to": "handle_fetch_exception",
+      "confidence": 0.95
+    },
+    {
+      "from": "stop",
+      "to": "hard_shutdown",
+      "confidence": 0.95
+    },
+    {
+      "from": "overview",
+      "to": "retry_size",
+      "confidence": 0.9
+    },
+    {
+      "from": "cli.rb",
+      "to": "quiet",
+      "confidence": 0.9
+    },
+    {
+      "from": "push_bulk",
+      "to": "empty?",
+      "confidence": 0.9
+    },
+    {
+      "from": "build_client",
+      "to": "default_configuration",
+      "confidence": 0.5
+    },
+    {
+      "from": "create",
+      "to": "delete",
+      "confidence": 0.5
+    },
+    {
+      "from": "print_banner",
+      "to": "banner",
+      "confidence": 0.95
+    },
+    {
+      "from": "reloading",
+      "to": "notify",
+      "confidence": 0.95
+    },
+    {
+      "from": "find_job",
+      "to": "load_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "datasets",
+      "to": "buildDataset",
+      "confidence": 0.95
+    },
+    {
+      "from": "head",
+      "to": "route",
+      "confidence": 0.95
+    },
+    {
+      "from": "parse",
+      "to": "default_configuration",
+      "confidence": 0.9
+    },
+    {
+      "from": "raw_push",
+      "to": "atomic_push",
+      "confidence": 0.95
+    },
+    {
+      "from": "some_job.rb",
+      "to": "queue_as",
+      "confidence": 0.5
+    },
+    {
+      "from": "atomic_push",
+      "to": "load_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "redis_info",
+      "to": "to_h",
+      "confidence": 0.5
+    },
+    {
+      "from": "remove_last_char_from_filter",
+      "to": "on_filter_change",
+      "confidence": 0.95
+    },
+    {
+      "from": "quiet!",
+      "to": "each_selection",
+      "confidence": 0.9
+    },
+    {
+      "from": "call",
+      "to": "configure",
+      "confidence": 0.95
+    },
+    {
+      "from": "render_status_section",
+      "to": "format_memory",
+      "confidence": 0.9
+    },
+    {
+      "from": "config",
+      "to": "config",
+      "confidence": 0.95
+    },
+    {
+      "from": "new_redis_pool",
+      "to": "create",
+      "confidence": 0.9
+    },
+    {
+      "from": "render_status_section",
+      "to": "t",
+      "confidence": 0.9
+    },
+    {
+      "from": "jobs",
+      "to": "jobs_by_queue",
+      "confidence": 0.95
+    },
+    {
+      "from": "render_controls",
+      "to": "controls",
+      "confidence": 0.9
+    },
+    {
+      "from": "boot.rb",
+      "to": "configure_server",
+      "confidence": 0.5
+    },
+    {
+      "from": "unfiltered?",
+      "to": "url_params",
+      "confidence": 0.5
+    },
+    {
+      "from": "render",
+      "to": "track_fps",
+      "confidence": 0.95
+    },
+    {
+      "from": "put",
+      "to": "route",
+      "confidence": 0.95
+    },
+    {
+      "from": "push_bulk",
+      "to": "delete",
+      "confidence": 0.5
+    },
+    {
+      "from": "application.rb",
+      "to": "delete_or_add_queue",
+      "confidence": 0.9
+    },
+    {
+      "from": "❤",
+      "to": "kill",
+      "confidence": 0.5
+    },
+    {
+      "from": "controls",
+      "to": "toggle_pause_queue!",
+      "confidence": 0.95
+    },
+    {
+      "from": "render",
+      "to": "t",
+      "confidence": 0.9
+    },
+    {
+      "from": "post",
+      "to": "route",
+      "confidence": 0.95
+    },
+    {
+      "from": "should_interrupt?",
+      "to": "default_configuration",
+      "confidence": 0.5
+    },
+    {
+      "from": "schedule",
+      "to": "dump_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "u",
+      "to": "i",
+      "confidence": 0.95
+    },
+    {
+      "from": "application.rb",
+      "to": "json",
+      "confidence": 0.5
+    },
+    {
+      "from": "toggleKls",
+      "to": "update",
+      "confidence": 0.5
+    },
+    {
+      "from": "scan",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "controls.rb",
+      "to": "remove_last_char_from_filter",
+      "confidence": 0.5
+    },
+    {
+      "from": "addListeners",
+      "to": "updateFuzzyTimes",
+      "confidence": 0.95
+    },
+    {
+      "from": "metrics.js",
+      "to": "HistBubbleChart",
+      "confidence": 0.95
+    },
+    {
+      "from": "call",
+      "to": "current",
+      "confidence": 0.95
+    },
+    {
+      "from": "render",
+      "to": "t",
+      "confidence": 0.9
+    },
+    {
+      "from": "kill",
+      "to": "death_handlers",
+      "confidence": 0.5
+    },
+    {
+      "from": "render",
+      "to": "stats_content_split",
+      "confidence": 0.5
+    },
+    {
+      "from": "application.js",
+      "to": "i",
+      "confidence": 0.95
+    },
+    {
+      "from": "normalize_item",
+      "to": "normalized_hash",
+      "confidence": 0.95
+    },
+    {
+      "from": "persist",
+      "to": "build_cattrs_hash",
+      "confidence": 0.95
+    },
+    {
+      "from": "perform_inline",
+      "to": "default_configuration",
+      "confidence": 0.5
+    },
+    {
+      "from": "traverse",
+      "to": "traverse",
+      "confidence": 0.95
+    },
+    {
+      "from": "latency",
+      "to": "load_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "add_to_queue",
+      "to": "load_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "render_metrics_chart",
+      "to": "at",
+      "confidence": 0.5
+    },
+    {
+      "from": "retries_exhausted",
+      "to": "run_death_handlers",
+      "confidence": 0.95
+    },
+    {
+      "from": "setup_options",
+      "to": "parse_options",
+      "confidence": 0.95
+    },
+    {
+      "from": "❤",
+      "to": "fire_event",
+      "confidence": 0.5
+    },
+    {
+      "from": "a",
+      "to": "e",
+      "confidence": 0.95
+    },
+    {
+      "from": "puma.rb",
+      "to": "fetch",
+      "confidence": 0.5
+    },
+    {
+      "from": "application.rb",
+      "to": "stop!",
+      "confidence": 0.5
+    },
+    {
+      "from": "erb",
+      "to": "views",
+      "confidence": 0.5
+    },
+    {
+      "from": "json",
+      "to": "dump_json",
+      "confidence": 0.5
+    },
+    {
+      "from": "addListeners",
+      "to": "updateNumbers",
+      "confidence": 0.95
+    },
+    {
+      "from": "build",
+      "to": "assets_path",
+      "confidence": 0.95
+    },
+    {
+      "from": "each",
+      "to": "run_at",
+      "confidence": 0.95
+    },
+    {
+      "from": "process_one",
+      "to": "process",
+      "confidence": 0.95
+    },
+    {
+      "from": "application.rb",
+      "to": "params",
+      "confidence": 0.5
+    },
+    {
+      "from": "initialize",
+      "to": "default_configuration",
+      "confidence": 0.5
+    },
+    {
+      "from": "run",
+      "to": "default_capsule",
+      "confidence": 0.9
+    },
+    {
+      "from": "use",
+      "to": "middlewares",
+      "confidence": 0.95
+    },
+    {
+      "from": "quiet!",
+      "to": "signal",
+      "confidence": 0.95
+    },
+    {
+      "from": "u",
+      "to": "n",
+      "confidence": 0.95
+    },
+    {
+      "from": "watchdog",
+      "to": "notify",
+      "confidence": 0.95
+    },
+    {
+      "from": "singularize",
+      "to": "singularize",
+      "confidence": 0.95
+    },
+    {
+      "from": "empty?",
+      "to": "empty?",
+      "confidence": 0.95
+    },
+    {
+      "from": "relations",
+      "to": "id",
+      "confidence": 0.5
+    },
+    {
+      "from": "fdstore",
+      "to": "notify",
+      "confidence": 0.95
+    },
+    {
+      "from": "terminate!",
+      "to": "each_selection",
+      "confidence": 0.9
+    },
+    {
+      "from": "initialize",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "regexp",
+      "to": "filtering?",
+      "confidence": 0.9
+    },
+    {
+      "from": "t",
+      "to": "t",
+      "confidence": 0.95
+    },
+    {
+      "from": "reschedule",
+      "to": "dump_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "call",
+      "to": "locale",
+      "confidence": 0.9
+    },
+    {
+      "from": "fetch",
+      "to": "jid",
+      "confidence": 0.95
+    },
+    {
+      "from": "initialize",
+      "to": "create",
+      "confidence": 0.9
+    },
+    {
+      "from": "call",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "application.rb",
+      "to": "embedded?",
+      "confidence": 0.5
+    },
+    {
+      "from": "process_retry",
+      "to": "time_for",
+      "confidence": 0.95
+    },
+    {
+      "from": "render_content_area",
+      "to": "render_error",
+      "confidence": 0.95
+    },
+    {
+      "from": "render_table",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "local_redis_pool",
+      "to": "new_redis_pool",
+      "confidence": 0.95
+    },
+    {
+      "from": "append_to_filter",
+      "to": "on_filter_change",
+      "confidence": 0.95
+    },
+    {
+      "from": "to_json",
+      "to": "dump_json",
+      "confidence": 0.5
+    },
+    {
+      "from": "handle_input",
+      "to": "filtering?",
+      "confidence": 0.9
+    },
+    {
+      "from": "sidekiq_adapter.rb",
+      "to": "on",
+      "confidence": 0.5
+    },
+    {
+      "from": "stop",
+      "to": "quiet",
+      "confidence": 0.95
+    },
+    {
+      "from": "clear_heartbeat",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "wrap",
+      "to": "wrap",
+      "confidence": 0.95
+    },
+    {
+      "from": "sidekiq.rb",
+      "to": "capsule",
+      "confidence": 0.5
+    },
+    {
+      "from": "initialize",
+      "to": "bulk_fetch",
+      "confidence": 0.95
+    },
+    {
+      "from": "fetch_stats_fast!",
+      "to": "load_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "perform_inline",
+      "to": "bid",
+      "confidence": 0.5
+    },
+    {
+      "from": "application.js",
+      "to": "r",
+      "confidence": 0.95
+    },
+    {
+      "from": "build_client",
+      "to": "current",
+      "confidence": 0.5
+    },
+    {
+      "from": "status",
+      "to": "notify",
+      "confidence": 0.95
+    },
+    {
+      "from": "initialize",
+      "to": "delete",
+      "confidence": 0.5
+    },
+    {
+      "from": "redis",
+      "to": "redis",
+      "confidence": 0.95
+    },
+    {
+      "from": "render",
+      "to": "render_stats_section",
+      "confidence": 0.9
+    },
+    {
+      "from": "enqueue_at",
+      "to": "queue_name",
+      "confidence": 0.5
+    },
+    {
+      "from": "signal",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "record_time",
+      "to": "increment",
+      "confidence": 0.95
+    },
+    {
+      "from": "middlewares",
+      "to": "middlewares",
+      "confidence": 0.95
+    },
+    {
+      "from": "❤",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "enqueue_to_in",
+      "to": "client_push",
+      "confidence": 0.5
+    },
+    {
+      "from": "stop",
+      "to": "fire_event",
+      "confidence": 0.5
+    },
+    {
+      "from": "hard_shutdown",
+      "to": "fetcher",
+      "confidence": 0.5
+    },
+    {
+      "from": "atomic_push",
+      "to": "push",
+      "confidence": 0.95
+    },
+    {
+      "from": "size",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "alter_rows!",
+      "to": "each_selection",
+      "confidence": 0.5
+    },
+    {
+      "from": "parse",
+      "to": "validate!",
+      "confidence": 0.95
+    },
+    {
+      "from": "csv_enumerator",
+      "to": "rows",
+      "confidence": 0.9
+    },
+    {
+      "from": "prev_page",
+      "to": "page",
+      "confidence": 0.5
+    },
+    {
+      "from": "application.js",
+      "to": "a",
+      "confidence": 0.95
+    },
+    {
+      "from": "compress_backtrace",
+      "to": "dump_json",
+      "confidence": 0.5
+    },
+    {
+      "from": "initialize",
+      "to": "capsules",
+      "confidence": 0.5
+    },
+    {
+      "from": "u",
+      "to": "u",
+      "confidence": 0.95
+    },
+    {
+      "from": "call",
+      "to": "profiler_options",
+      "confidence": 0.95
+    },
+    {
+      "from": "records",
+      "to": "id",
+      "confidence": 0.5
+    },
+    {
+      "from": "enqueue_to_in",
+      "to": "delete",
+      "confidence": 0.5
+    },
+    {
+      "from": "redis_info",
+      "to": "redis_info",
+      "confidence": 0.95
+    },
+    {
+      "from": "iterate_with_enumerator",
+      "to": "is_cancelled?",
+      "confidence": 0.95
+    },
+    {
+      "from": "created_at",
+      "to": "time_from_timestamp",
+      "confidence": 0.95
+    },
+    {
+      "from": "initialize",
+      "to": "default_configuration",
+      "confidence": 0.5
+    },
+    {
+      "from": "metrics.js",
+      "to": "HistTotalsChart",
+      "confidence": 0.95
+    },
+    {
+      "from": "renderLegend",
+      "to": "legendEntry",
+      "confidence": 0.95
+    },
+    {
+      "from": "dump_threads",
+      "to": "signal",
+      "confidence": 0.95
+    },
+    {
+      "from": "sort_direction_label",
+      "to": "url_params",
+      "confidence": 0.5
+    },
+    {
+      "from": "transactional_push!",
+      "to": "default_job_options",
+      "confidence": 0.5
+    },
+    {
+      "from": "process",
+      "to": "load_json",
+      "confidence": 0.5
+    },
+    {
+      "from": "create",
+      "to": "wrap",
+      "confidence": 0.95
+    },
+    {
+      "from": "dashboard-charts.js",
+      "to": "DashboardChart",
+      "confidence": 0.95
+    },
+    {
+      "from": "bulk_fetch",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "application.rb",
+      "to": "delete",
+      "confidence": 0.5
+    },
+    {
+      "from": "atomic_push",
+      "to": "process_job",
+      "confidence": 0.95
+    },
+    {
+      "from": "config.rb",
+      "to": "logger",
+      "confidence": 0.95
+    },
+    {
+      "from": "render",
+      "to": "render_stats_section",
+      "confidence": 0.9
+    },
+    {
+      "from": "call",
+      "to": "dump_json",
+      "confidence": 0.5
+    },
+    {
+      "from": "parse_config",
+      "to": "symbolize_keys_deep!",
+      "confidence": 0.95
+    },
+    {
+      "from": "push_bulk",
+      "to": "raw_push",
+      "confidence": 0.95
+    },
+    {
+      "from": "chartOptions",
+      "to": "renderLegend",
+      "confidence": 0.95
+    },
+    {
+      "from": "controls.rb",
+      "to": "toggle_select",
+      "confidence": 0.5
+    },
+    {
+      "from": "configure_embed",
+      "to": "concurrency",
+      "confidence": 0.9
+    },
+    {
+      "from": "run_load_hooks",
+      "to": "handle_exception",
+      "confidence": 0.9
+    },
+    {
+      "from": "invoke",
+      "to": "empty?",
+      "confidence": 0.95
+    },
+    {
+      "from": "atomic_push",
+      "to": "inline?",
+      "confidence": 0.95
+    },
+    {
+      "from": "buildDataset",
+      "to": "dataFromSeries",
+      "confidence": 0.95
+    },
+    {
+      "from": "to_json",
+      "to": "dump_json",
+      "confidence": 0.5
+    },
+    {
+      "from": "terminate",
+      "to": "value",
+      "confidence": 0.5
+    },
+    {
+      "from": "all",
+      "to": "processes",
+      "confidence": 0.95
+    },
+    {
+      "from": "poll",
+      "to": "update",
+      "confidence": 0.5
+    },
+    {
+      "from": "retried_at",
+      "to": "time_from_timestamp",
+      "confidence": 0.95
+    },
+    {
+      "from": "setup_options",
+      "to": "queues",
+      "confidence": 0.9
+    },
+    {
+      "from": "e",
+      "to": "t",
+      "confidence": 0.95
+    },
+    {
+      "from": "fetch_previous_iteration_state",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "kill_all",
+      "to": "pop_each",
+      "confidence": 0.95
+    },
+    {
+      "from": "render",
+      "to": "stats_content_split",
+      "confidence": 0.9
+    },
+    {
+      "from": "initialize",
+      "to": "client_opts",
+      "confidence": 0.95
+    },
+    {
+      "from": "params",
+      "to": "params",
+      "confidence": 0.95
+    },
+    {
+      "from": "❤",
+      "to": "capsules",
+      "confidence": 0.5
+    },
+    {
+      "from": "process_job",
+      "to": "jid",
+      "confidence": 0.5
+    },
+    {
+      "from": "tid",
+      "to": "current",
+      "confidence": 0.5
+    },
+    {
+      "from": "all",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "retries_exhausted",
+      "to": "handle_exception",
+      "confidence": 0.9
+    },
+    {
+      "from": "application.rb",
+      "to": "helpers",
+      "confidence": 0.95
+    },
+    {
+      "from": "parse",
+      "to": "initialize_logger",
+      "confidence": 0.95
+    },
+    {
+      "from": "run",
+      "to": "redis_info",
+      "confidence": 0.9
+    },
+    {
+      "from": "add_metric",
+      "to": "bkt_time_s",
+      "confidence": 0.95
+    },
+    {
+      "from": "application.rb",
+      "to": "reload_page",
+      "confidence": 0.5
+    },
+    {
+      "from": "process_retry",
+      "to": "delay_for",
+      "confidence": 0.95
+    },
+    {
+      "from": "refresh_data",
+      "to": "leader?",
+      "confidence": 0.5
+    },
+    {
+      "from": "remove_job",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "initialize",
+      "to": "at",
+      "confidence": 0.95
+    },
+    {
+      "from": "call",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "❤",
+      "to": "dump_json",
+      "confidence": 0.5
+    },
+    {
+      "from": "render_metrics_chart",
+      "to": "t",
+      "confidence": 0.9
+    },
+    {
+      "from": "process",
+      "to": "dispatch",
+      "confidence": 0.95
+    },
+    {
+      "from": "addListeners",
+      "to": "initializeBulkToggle",
+      "confidence": 0.95
+    },
+    {
+      "from": "strings",
+      "to": "parse_yaml",
+      "confidence": 0.95
+    },
+    {
+      "from": "refresh_data",
+      "to": "refresh_data_for_stats",
+      "confidence": 0.9
+    },
+    {
+      "from": "client_push",
+      "to": "delete",
+      "confidence": 0.5
+    },
+    {
+      "from": "render",
+      "to": "render_table",
+      "confidence": 0.9
+    },
+    {
+      "from": "push",
+      "to": "batching?",
+      "confidence": 0.95
+    },
+    {
+      "from": "render",
+      "to": "hotkey_line",
+      "confidence": 0.95
+    },
+    {
+      "from": "controls",
+      "to": "alter_rows!",
+      "confidence": 0.95
+    },
+    {
+      "from": "controls",
+      "to": "quiet!",
+      "confidence": 0.95
+    },
+    {
+      "from": "refresh_data",
+      "to": "refresh_data",
+      "confidence": 0.95
+    },
+    {
+      "from": "locales",
+      "to": "locales",
+      "confidence": 0.95
+    },
+    {
+      "from": "process",
+      "to": "acknowledge",
+      "confidence": 0.9
+    },
+    {
+      "from": "fetch_marks",
+      "to": "bkt_time_s",
+      "confidence": 0.95
+    },
+    {
+      "from": "fetch",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "processed",
+      "to": "stat",
+      "confidence": 0.95
+    },
+    {
+      "from": "normalize_item",
+      "to": "delete",
+      "confidence": 0.5
+    },
+    {
+      "from": "get_one",
+      "to": "fetcher",
+      "confidence": 0.5
+    },
+    {
+      "from": "dashboard.js",
+      "to": "ready",
+      "confidence": 0.5
+    },
+    {
+      "from": "toggle_pause_queue!",
+      "to": "each_selection",
+      "confidence": 0.9
+    },
+    {
+      "from": "language_name",
+      "to": "strings",
+      "confidence": 0.95
+    },
+    {
+      "from": "retries_exhausted",
+      "to": "send_to_morgue",
+      "confidence": 0.95
+    },
+    {
+      "from": "new_client",
+      "to": "new_client",
+      "confidence": 0.95
+    },
+    {
+      "from": "interrupt_handler.rb",
+      "to": "configure_server",
+      "confidence": 0.5
+    },
+    {
+      "from": "perform_one",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "redis_pool",
+      "to": "current",
+      "confidence": 0.5
+    },
+    {
+      "from": "logger",
+      "to": "logger",
+      "confidence": 0.95
+    },
+    {
+      "from": "initialize",
+      "to": "fetch",
+      "confidence": 0.5
+    },
+    {
+      "from": "dead_size",
+      "to": "stat",
+      "confidence": 0.95
+    },
+    {
+      "from": "run_loop",
+      "to": "render",
+      "confidence": 0.95
+    },
+    {
+      "from": "application.rb",
+      "to": "halt",
+      "confidence": 0.5
+    },
+    {
+      "from": "run",
+      "to": "housekeeping",
+      "confidence": 0.95
+    },
+    {
+      "from": "delete_or_add_queue",
+      "to": "add_to_queue",
+      "confidence": 0.5
+    },
+    {
+      "from": "normalize_item",
+      "to": "validate",
+      "confidence": 0.95
+    },
+    {
+      "from": "info",
+      "to": "to_h",
+      "confidence": 0.5
+    },
+    {
+      "from": "each",
+      "to": "value",
+      "confidence": 0.95
+    },
+    {
+      "from": "flush",
+      "to": "persist",
+      "confidence": 0.9
+    },
+    {
+      "from": "script_tag",
+      "to": "html_tag",
+      "confidence": 0.95
+    },
+    {
+      "from": "handle_exception",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "perform_inline",
+      "to": "verify_json",
+      "confidence": 0.5
+    },
+    {
+      "from": "exit_job.rb",
+      "to": "queue_as",
+      "confidence": 0.5
+    },
+    {
+      "from": "renderCursor",
+      "to": "update",
+      "confidence": 0.5
+    },
+    {
+      "from": "delete",
+      "to": "delete_by_value",
+      "confidence": 0.95
+    },
+    {
+      "from": "default_queue_latency",
+      "to": "stat",
+      "confidence": 0.95
+    },
+    {
+      "from": "redis_pool",
+      "to": "default_configuration",
+      "confidence": 0.9
+    },
+    {
+      "from": "call",
+      "to": "match",
+      "confidence": 0.5
+    },
+    {
+      "from": "r",
+      "to": "e",
+      "confidence": 0.95
+    },
+    {
+      "from": "add_metric",
+      "to": "add_metric",
+      "confidence": 0.95
+    },
+    {
+      "from": "views",
+      "to": "views",
+      "confidence": 0.95
+    },
+    {
+      "from": "stop",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "iterate_with_enumerator",
+      "to": "around_iteration",
+      "confidence": 0.95
+    },
+    {
+      "from": "qparams",
+      "to": "to_query_string",
+      "confidence": 0.95
+    },
+    {
+      "from": "overview",
+      "to": "delimit",
+      "confidence": 0.95
+    },
+    {
+      "from": "refresh_data",
+      "to": "refresh_data_for_stats",
+      "confidence": 0.9
+    },
+    {
+      "from": "process_retry",
+      "to": "dump_json",
+      "confidence": 0.5
+    },
+    {
+      "from": "render",
+      "to": "render_status_section",
+      "confidence": 0.95
+    },
+    {
+      "from": "clear",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "perform_in",
+      "to": "at",
+      "confidence": 0.95
+    },
+    {
+      "from": "application.rb",
+      "to": "parse_key",
+      "confidence": 0.9
+    },
+    {
+      "from": "render",
+      "to": "render_stats_section",
+      "confidence": 0.9
+    },
+    {
+      "from": "application.rb",
+      "to": "scheduled_size",
+      "confidence": 0.5
+    },
+    {
+      "from": "load_strings",
+      "to": "find_locale_files",
+      "confidence": 0.95
+    },
+    {
+      "from": "drain",
+      "to": "delete_for",
+      "confidence": 0.95
+    },
+    {
+      "from": "tracking.rb",
+      "to": "flush",
+      "confidence": 0.95
+    },
+    {
+      "from": "metrics.js",
+      "to": "JobMetricsOverviewChart",
+      "confidence": 0.95
+    },
+    {
+      "from": "delete",
+      "to": "route",
+      "confidence": 0.95
+    },
+    {
+      "from": "enqueue",
+      "to": "profile",
+      "confidence": 0.5
+    },
+    {
+      "from": "trim",
+      "to": "default_configuration",
+      "confidence": 0.9
+    },
+    {
+      "from": "refresh_data_for_set",
+      "to": "page",
+      "confidence": 0.5
+    },
+    {
+      "from": "retry_all",
+      "to": "load_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "global",
+      "to": "handle_exception",
+      "confidence": 0.9
+    },
+    {
+      "from": "assets_path",
+      "to": "assets_path",
+      "confidence": 0.95
+    },
+    {
+      "from": "application.js",
+      "to": "t",
+      "confidence": 0.95
+    },
+    {
+      "from": "overview",
+      "to": "enqueued",
+      "confidence": 0.9
+    },
+    {
+      "from": "qparams",
+      "to": "params",
+      "confidence": 0.5
+    },
+    {
+      "from": "enqueue_jobs",
+      "to": "zpopbyscore",
+      "confidence": 0.95
+    },
+    {
+      "from": "toggleKls",
+      "to": "buildDataset",
+      "confidence": 0.95
+    },
+    {
+      "from": "render_controls",
+      "to": "debugging?",
+      "confidence": 0.95
+    },
+    {
+      "from": "perform_inline",
+      "to": "dump_json",
+      "confidence": 0.5
+    },
+    {
+      "from": "redis_pool",
+      "to": "redis_pool",
+      "confidence": 0.95
+    },
+    {
+      "from": "render_controls",
+      "to": "data",
+      "confidence": 0.9
+    },
+    {
+      "from": "render",
+      "to": "striped_rows",
+      "confidence": 0.9
+    },
+    {
+      "from": "hard_shutdown",
+      "to": "size",
+      "confidence": 0.9
+    },
+    {
+      "from": "for_job",
+      "to": "add_metric",
+      "confidence": 0.95
+    },
+    {
+      "from": "set",
+      "to": "at",
+      "confidence": 0.95
+    },
+    {
+      "from": "process_job",
+      "to": "server_middleware",
+      "confidence": 0.95
+    },
+    {
+      "from": "addListeners",
+      "to": "addShiftClickListeners",
+      "confidence": 0.95
+    },
+    {
+      "from": "watchdog",
+      "to": "handle_exception",
+      "confidence": 0.95
+    },
+    {
+      "from": "initialize",
+      "to": "fetch_stats_fast!",
+      "confidence": 0.95
+    },
+    {
+      "from": "build_enumerator",
+      "to": "array_enumerator",
+      "confidence": 0.5
+    },
+    {
+      "from": "client_push",
+      "to": "current",
+      "confidence": 0.5
+    },
+    {
+      "from": "application.rb",
+      "to": "page_items",
+      "confidence": 0.9
+    },
+    {
+      "from": "fetch_previous_iteration_state",
+      "to": "load_json",
+      "confidence": 0.5
+    },
+    {
+      "from": "run",
+      "to": "jruby?",
+      "confidence": 0.95
+    },
+    {
+      "from": "application.rb",
+      "to": "retry_all",
+      "confidence": 0.5
+    },
+    {
+      "from": "render",
+      "to": "striped_rows",
+      "confidence": 0.5
+    },
+    {
+      "from": "delete",
+      "to": "delete",
+      "confidence": 0.95
+    },
+    {
+      "from": "track",
+      "to": "track_time",
+      "confidence": 0.95
+    },
+    {
+      "from": "retry_all",
+      "to": "pop_each",
+      "confidence": 0.95
+    },
+    {
+      "from": "run",
+      "to": "pro?",
+      "confidence": 0.9
+    },
+    {
+      "from": "stop",
+      "to": "quiet",
+      "confidence": 0.95
+    },
+    {
+      "from": "render_controls",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "application.js",
+      "to": "n",
+      "confidence": 0.95
+    },
+    {
+      "from": "client_middleware",
+      "to": "copy_for",
+      "confidence": 0.5
+    },
+    {
+      "from": "processed",
+      "to": "date_stat_hash",
+      "confidence": 0.95
+    },
+    {
+      "from": "client_opts",
+      "to": "delete",
+      "confidence": 0.5
+    },
+    {
+      "from": "get_locale",
+      "to": "strings",
+      "confidence": 0.95
+    },
+    {
+      "from": "puma.rb",
+      "to": "concurrency",
+      "confidence": 0.5
+    },
+    {
+      "from": "toggle_select",
+      "to": "delete",
+      "confidence": 0.5
+    },
+    {
+      "from": "application.rb",
+      "to": "load_json",
+      "confidence": 0.5
+    },
+    {
+      "from": "configure_server",
+      "to": "server?",
+      "confidence": 0.95
+    },
+    {
+      "from": "redis_info",
+      "to": "default_configuration",
+      "confidence": 0.5
+    },
+    {
+      "from": "app",
+      "to": "build",
+      "confidence": 0.95
+    },
+    {
+      "from": "hard_shutdown",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "failed",
+      "to": "stat",
+      "confidence": 0.95
+    },
+    {
+      "from": "refresh_data",
+      "to": "format_memory",
+      "confidence": 0.9
+    },
+    {
+      "from": "redirect_with_query",
+      "to": "redirect",
+      "confidence": 0.5
+    },
+    {
+      "from": "stats",
+      "to": "incr",
+      "confidence": 0.95
+    },
+    {
+      "from": "development.rb",
+      "to": "configure",
+      "confidence": 0.5
+    },
+    {
+      "from": "a",
+      "to": "r",
+      "confidence": 0.95
+    },
+    {
+      "from": "application.rb",
+      "to": "kill_all",
+      "confidence": 0.5
+    },
+    {
+      "from": "render",
+      "to": "render_metrics_chart",
+      "confidence": 0.95
+    },
+    {
+      "from": "errno",
+      "to": "notify",
+      "confidence": 0.95
+    },
+    {
+      "from": "overview",
+      "to": "dead_size",
+      "confidence": 0.9
+    },
+    {
+      "from": "constructor",
+      "to": "init",
+      "confidence": 0.5
+    },
+    {
+      "from": "update",
+      "to": "update",
+      "confidence": 0.95
+    },
+    {
+      "from": "render",
+      "to": "stats_content_split",
+      "confidence": 0.9
+    },
+    {
+      "from": "application.rb",
+      "to": "search",
+      "confidence": 0.9
+    },
+    {
+      "from": "option_parser",
+      "to": "banner",
+      "confidence": 0.95
+    },
+    {
+      "from": "delayed_post",
+      "to": "long_method",
+      "confidence": 0.5
+    },
+    {
+      "from": "queues",
+      "to": "queues",
+      "confidence": 0.95
+    },
+    {
+      "from": "batching?",
+      "to": "current",
+      "confidence": 0.5
+    },
+    {
+      "from": "atomic_push",
+      "to": "fake?",
+      "confidence": 0.95
+    },
+    {
+      "from": "hard_shutdown",
+      "to": "bulk_requeue",
+      "confidence": 0.5
+    },
+    {
+      "from": "all",
+      "to": "queues",
+      "confidence": 0.95
+    },
+    {
+      "from": "handle_exception",
+      "to": "handle_exception",
+      "confidence": 0.95
+    },
+    {
+      "from": "controls.rb",
+      "to": "next_page",
+      "confidence": 0.5
+    },
+    {
+      "from": "processes_size",
+      "to": "stat",
+      "confidence": 0.95
+    },
+    {
+      "from": "normalized_hash",
+      "to": "default_job_options",
+      "confidence": 0.5
+    },
+    {
+      "from": "initialize",
+      "to": "reset_data",
+      "confidence": 0.95
+    },
+    {
+      "from": "__local_test_mode",
+      "to": "current",
+      "confidence": 0.5
+    },
+    {
+      "from": "strings",
+      "to": "find_locale_files",
+      "confidence": 0.95
+    },
+    {
+      "from": "process",
+      "to": "execute_job",
+      "confidence": 0.95
+    },
+    {
+      "from": "filter_link",
+      "to": "h",
+      "confidence": 0.95
+    },
+    {
+      "from": "get",
+      "to": "route",
+      "confidence": 0.95
+    },
+    {
+      "from": "for_job",
+      "to": "add_hist",
+      "confidence": 0.95
+    },
+    {
+      "from": "prepare",
+      "to": "load_locale",
+      "confidence": 0.95
+    },
+    {
+      "from": "refresh_data_for_stats",
+      "to": "retry_size",
+      "confidence": 0.5
+    },
+    {
+      "from": "call",
+      "to": "locale",
+      "confidence": 0.5
+    },
+    {
+      "from": "insert_before",
+      "to": "klass",
+      "confidence": 0.5
+    },
+    {
+      "from": "remove_job",
+      "to": "score",
+      "confidence": 0.95
+    },
+    {
+      "from": "dispatch",
+      "to": "stats",
+      "confidence": 0.95
+    },
+    {
+      "from": "remove",
+      "to": "klass",
+      "confidence": 0.5
+    },
+    {
+      "from": "build_enumerator",
+      "to": "active_record_batches_enumerator",
+      "confidence": 0.5
+    },
+    {
+      "from": "deep_symbolize_keys",
+      "to": "deep_symbolize_keys",
+      "confidence": 0.95
+    },
+    {
+      "from": "i18n.rb",
+      "to": "configure_server",
+      "confidence": 0.5
+    },
+    {
+      "from": "environment_title_prefix",
+      "to": "default_configuration",
+      "confidence": 0.5
+    },
+    {
+      "from": "refresh_data",
+      "to": "queue_summaries",
+      "confidence": 0.5
+    },
+    {
+      "from": "render",
+      "to": "render_stats_section",
+      "confidence": 0.9
+    },
+    {
+      "from": "lookup",
+      "to": "fetch",
+      "confidence": 0.5
+    },
+    {
+      "from": "all",
+      "to": "overview",
+      "confidence": 0.95
+    },
+    {
+      "from": "rails.rb",
+      "to": "configure_server",
+      "confidence": 0.5
+    },
+    {
+      "from": "reset",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "application.rb",
+      "to": "retry_or_delete_or_kill",
+      "confidence": 0.9
+    },
+    {
+      "from": "u",
+      "to": "o",
+      "confidence": 0.95
+    },
+    {
+      "from": "setup_options",
+      "to": "concurrency",
+      "confidence": 0.9
+    },
+    {
+      "from": "hard_shutdown",
+      "to": "job",
+      "confidence": 0.5
+    },
+    {
+      "from": "refresh_data",
+      "to": "refresh_data_for_stats",
+      "confidence": 0.9
+    },
+    {
+      "from": "call",
+      "to": "wrap",
+      "confidence": 0.5
+    },
+    {
+      "from": "call",
+      "to": "safe_request?",
+      "confidence": 0.95
+    },
+    {
+      "from": "perform_inline",
+      "to": "load_json",
+      "confidence": 0.5
+    },
+    {
+      "from": "refresh_data",
+      "to": "pro?",
+      "confidence": 0.5
+    },
+    {
+      "from": "handle_input",
+      "to": "append_to_filter",
+      "confidence": 0.9
+    },
+    {
+      "from": "quiet",
+      "to": "fire_event",
+      "confidence": 0.5
+    },
+    {
+      "from": "handleUpdate",
+      "to": "startPolling",
+      "confidence": 0.95
+    },
+    {
+      "from": "perform",
+      "to": "fetch_previous_iteration_state",
+      "confidence": 0.95
+    },
+    {
+      "from": "normalized_hash",
+      "to": "get_sidekiq_options",
+      "confidence": 0.5
+    },
+    {
+      "from": "redis_pool",
+      "to": "redis_pool",
+      "confidence": 0.95
+    },
+    {
+      "from": "initialize",
+      "to": "concurrency",
+      "confidence": 0.5
+    },
+    {
+      "from": "latency",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "failed_at",
+      "to": "time_from_timestamp",
+      "confidence": 0.95
+    },
+    {
+      "from": "application.rb",
+      "to": "pro?",
+      "confidence": 0.5
+    },
+    {
+      "from": "top_jobs",
+      "to": "fetch_marks",
+      "confidence": 0.95
+    },
+    {
+      "from": "application.rb",
+      "to": "enqueued",
+      "confidence": 0.5
+    },
+    {
+      "from": "to_data",
+      "to": "to_h",
+      "confidence": 0.9
+    },
+    {
+      "from": "email",
+      "to": "delay_for",
+      "confidence": 0.5
+    },
+    {
+      "from": "test.rb",
+      "to": "configure",
+      "confidence": 0.5
+    },
+    {
+      "from": "process_retry",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "application.rb",
+      "to": "processes_size",
+      "confidence": 0.5
+    },
+    {
+      "from": "queues",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "deserialize_argument",
+      "to": "serialized_global_id?",
+      "confidence": 0.95
+    },
+    {
+      "from": "find_work",
+      "to": "jid",
+      "confidence": 0.95
+    },
+    {
+      "from": "call",
+      "to": "deny",
+      "confidence": 0.95
+    },
+    {
+      "from": "batches",
+      "to": "id",
+      "confidence": 0.5
+    },
+    {
+      "from": "email",
+      "to": "greetings",
+      "confidence": 0.5
+    },
+    {
+      "from": "display_tags",
+      "to": "filter_link",
+      "confidence": 0.95
+    },
+    {
+      "from": "refresh_data",
+      "to": "selected?",
+      "confidence": 0.9
+    },
+    {
+      "from": "iterate_with_enumerator",
+      "to": "interrupted?",
+      "confidence": 0.5
+    },
+    {
+      "from": "filtering",
+      "to": "erb",
+      "confidence": 0.5
+    },
+    {
+      "from": "symbolize_keys_deep!",
+      "to": "delete",
+      "confidence": 0.5
+    },
+    {
+      "from": "run",
+      "to": "rails_app?",
+      "confidence": 0.95
+    },
+    {
+      "from": "exception_caused_by_shutdown?",
+      "to": "exception_caused_by_shutdown?",
+      "confidence": 0.95
+    },
+    {
+      "from": "mark!",
+      "to": "mark!",
+      "confidence": 0.95
+    },
+    {
+      "from": "cleanup",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "call",
+      "to": "wrap",
+      "confidence": 0.95
+    },
+    {
+      "from": "delay_for",
+      "to": "handle_exception",
+      "confidence": 0.9
+    },
+    {
+      "from": "register",
+      "to": "instance",
+      "confidence": 0.5
+    },
+    {
+      "from": "perform_bulk",
+      "to": "build_client",
+      "confidence": 0.95
+    },
+    {
+      "from": "kill",
+      "to": "load_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "iterate_with_enumerator",
+      "to": "default_configuration",
+      "confidence": 0.5
+    },
+    {
+      "from": "retry_size",
+      "to": "stat",
+      "confidence": 0.95
+    },
+    {
+      "from": "stats",
+      "to": "delete",
+      "confidence": 0.95
+    },
+    {
+      "from": "leader",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "included",
+      "to": "sidekiq_class_attribute",
+      "confidence": 0.95
+    },
+    {
+      "from": "routes.rb",
+      "to": "configure",
+      "confidence": 0.9
+    },
+    {
+      "from": "metrics.js",
+      "to": "registerSwatch",
+      "confidence": 0.95
+    },
+    {
+      "from": "tabs",
+      "to": "tabs",
+      "confidence": 0.95
+    },
+    {
+      "from": "addListeners",
+      "to": "setLivePollFromUrl",
+      "confidence": 0.95
+    },
+    {
+      "from": "concurrency",
+      "to": "concurrency",
+      "confidence": 0.95
+    },
+    {
+      "from": "each",
+      "to": "load_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "dashboard-charts.js",
+      "to": "registerLegend",
+      "confidence": 0.95
+    },
+    {
+      "from": "safe_thread",
+      "to": "current",
+      "confidence": 0.5
+    },
+    {
+      "from": "controls.rb",
+      "to": "show_help",
+      "confidence": 0.5
+    },
+    {
+      "from": "sidekiq.rb",
+      "to": "mark!",
+      "confidence": 0.9
+    },
+    {
+      "from": "boot_application",
+      "to": "default_tag",
+      "confidence": 0.9
+    },
+    {
+      "from": "rails.rb",
+      "to": "logger",
+      "confidence": 0.9
+    },
+    {
+      "from": "dashboard-charts.js",
+      "to": "RealtimeChart",
+      "confidence": 0.95
+    },
+    {
+      "from": "random_poll_interval",
+      "to": "poll_interval_average",
+      "confidence": 0.95
+    },
+    {
+      "from": "beat",
+      "to": "❤",
+      "confidence": 0.95
+    },
+    {
+      "from": "cancel!",
+      "to": "cancelled?",
+      "confidence": 0.95
+    },
+    {
+      "from": "delete",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "launcher.rb",
+      "to": "stopping?",
+      "confidence": 0.95
+    },
+    {
+      "from": "render_kv_section",
+      "to": "t",
+      "confidence": 0.95
+    },
+    {
+      "from": "stop!",
+      "to": "signal",
+      "confidence": 0.95
+    },
+    {
+      "from": "poll",
+      "to": "fetchStats",
+      "confidence": 0.95
+    },
+    {
+      "from": "processor_result",
+      "to": "delete",
+      "confidence": 0.9
+    },
+    {
+      "from": "configure_client",
+      "to": "server?",
+      "confidence": 0.95
+    },
+    {
+      "from": "application.rb",
+      "to": "h",
+      "confidence": 0.9
+    },
+    {
+      "from": "redis_info",
+      "to": "redis",
+      "confidence": 0.95
+    },
+    {
+      "from": "constructor",
+      "to": "startPolling",
+      "confidence": 0.95
+    },
+    {
+      "from": "workers_size",
+      "to": "stat",
+      "confidence": 0.95
+    },
+    {
+      "from": "run_load_hooks",
+      "to": "delete",
+      "confidence": 0.5
+    },
+    {
+      "from": "controls.rb",
+      "to": "stop_filtering",
+      "confidence": 0.5
+    },
+    {
+      "from": "display_args",
+      "to": "truncate",
+      "confidence": 0.95
+    },
+    {
+      "from": "refresh_data_for_set",
+      "to": "score",
+      "confidence": 0.5
+    },
+    {
+      "from": "refresh_data",
+      "to": "at",
+      "confidence": 0.5
+    },
+    {
+      "from": "controls.rb",
+      "to": "prev_page",
+      "confidence": 0.5
+    },
+    {
+      "from": "application.rb",
+      "to": "page",
+      "confidence": 0.9
+    },
+    {
+      "from": "schedule",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "addPollingListeners",
+      "to": "livePollCallback",
+      "confidence": 0.95
+    },
+    {
+      "from": "flush_stats",
+      "to": "reset",
+      "confidence": 0.9
+    },
+    {
+      "from": "processes",
+      "to": "tags_for",
+      "confidence": 0.95
+    },
+    {
+      "from": "parse_config",
+      "to": "delete",
+      "confidence": 0.5
+    },
+    {
+      "from": "refresh_data_for_stats",
+      "to": "scheduled_size",
+      "confidence": 0.5
+    },
+    {
+      "from": "toggleKls",
+      "to": "checkIn",
+      "confidence": 0.5
+    },
+    {
+      "from": "bulk_fetch",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "display_tags",
+      "to": "tags",
+      "confidence": 0.5
+    },
+    {
+      "from": "registerSwatch",
+      "to": "toggleKls",
+      "confidence": 0.95
+    },
+    {
+      "from": "stop_and_clear_filtering",
+      "to": "on_filter_change",
+      "confidence": 0.95
+    },
+    {
+      "from": "❤",
+      "to": "local_redis_pool",
+      "confidence": 0.9
+    },
+    {
+      "from": "process_retry",
+      "to": "run_death_handlers",
+      "confidence": 0.95
+    },
+    {
+      "from": "find_job",
+      "to": "jid",
+      "confidence": 0.95
+    },
+    {
+      "from": "strings",
+      "to": "locales",
+      "confidence": 0.5
+    },
+    {
+      "from": "run_death_handlers",
+      "to": "handle_exception",
+      "confidence": 0.9
+    },
+    {
+      "from": "housekeeping",
+      "to": "default_capsule",
+      "confidence": 0.5
+    },
+    {
+      "from": "kill",
+      "to": "default_configuration",
+      "confidence": 0.9
+    },
+    {
+      "from": "leader?",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "perform_one",
+      "to": "delete_for",
+      "confidence": 0.95
+    },
+    {
+      "from": "boot.rb",
+      "to": "concurrency",
+      "confidence": 0.5
+    },
+    {
+      "from": "size",
+      "to": "size",
+      "confidence": 0.95
+    },
+    {
+      "from": "get_sidekiq_options",
+      "to": "default_job_options",
+      "confidence": 0.5
+    },
+    {
+      "from": "retry_or_delete_or_kill",
+      "to": "retry",
+      "confidence": 0.5
+    },
+    {
+      "from": "find_work",
+      "to": "job",
+      "confidence": 0.95
+    },
+    {
+      "from": "processor_result",
+      "to": "size",
+      "confidence": 0.9
+    },
+    {
+      "from": "display_args",
+      "to": "to_display",
+      "confidence": 0.95
+    },
+    {
+      "from": "application.rb",
+      "to": "jid",
+      "confidence": 0.5
+    },
+    {
+      "from": "perform",
+      "to": "assert_enumerator!",
+      "confidence": 0.95
+    },
+    {
+      "from": "chartOptions",
+      "to": "renderCursor",
+      "confidence": 0.95
+    },
+    {
+      "from": "hard_shutdown",
+      "to": "kill",
+      "confidence": 0.9
+    },
+    {
+      "from": "sidekiq_options",
+      "to": "to_h",
+      "confidence": 0.5
+    },
+    {
+      "from": "initialize",
+      "to": "default_configuration",
+      "confidence": 0.5
+    },
+    {
+      "from": "refresh_data_for_stats",
+      "to": "dead_size",
+      "confidence": 0.5
+    },
+    {
+      "from": "for_job",
+      "to": "fetch",
+      "confidence": 0.9
+    },
+    {
+      "from": "handle_input",
+      "to": "controls",
+      "confidence": 0.9
+    },
+    {
+      "from": "create",
+      "to": "scrub",
+      "confidence": 0.95
+    },
+    {
+      "from": "render",
+      "to": "render_table",
+      "confidence": 0.9
+    },
+    {
+      "from": "send_to_morgue",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "refresh_data",
+      "to": "refresh_data_for_stats",
+      "confidence": 0.5
+    },
+    {
+      "from": "display_args",
+      "to": "h",
+      "confidence": 0.95
+    },
+    {
+      "from": "controls.rb",
+      "to": "stop_and_clear_filtering",
+      "confidence": 0.5
+    },
+    {
+      "from": "fetchStats",
+      "to": "fetch",
+      "confidence": 0.5
+    },
+    {
+      "from": "each",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "push_bulk",
+      "to": "normalize_item",
+      "confidence": 0.9
+    },
+    {
+      "from": "parse",
+      "to": "load_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "process",
+      "to": "queue_name",
+      "confidence": 0.9
+    },
+    {
+      "from": "setup_options",
+      "to": "set_environment",
+      "confidence": 0.95
+    },
+    {
+      "from": "application.rb",
+      "to": "redis",
+      "confidence": 0.95
+    },
+    {
+      "from": "initialize",
+      "to": "default_configuration",
+      "confidence": 0.5
+    },
+    {
+      "from": "__set_test_mode",
+      "to": "__local_test_mode",
+      "confidence": 0.95
+    },
+    {
+      "from": "latency",
+      "to": "calculate_latency",
+      "confidence": 0.95
+    },
+    {
+      "from": "selected?",
+      "to": "id",
+      "confidence": 0.5
+    },
+    {
+      "from": "kill",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "csv_batches_enumerator",
+      "to": "batches",
+      "confidence": 0.9
+    },
+    {
+      "from": "t",
+      "to": "strings",
+      "confidence": 0.95
+    },
+    {
+      "from": "enqueue",
+      "to": "enqueue_jobs",
+      "confidence": 0.95
+    },
+    {
+      "from": "push_bulk",
+      "to": "push_bulk",
+      "confidence": 0.95
+    },
+    {
+      "from": "application.rb",
+      "to": "retry_size",
+      "confidence": 0.5
+    },
+    {
+      "from": "server_middleware",
+      "to": "default_configuration",
+      "confidence": 0.9
+    },
+    {
+      "from": "clear",
+      "to": "clear_for",
+      "confidence": 0.95
+    },
+    {
+      "from": "kill_all",
+      "to": "trim",
+      "confidence": 0.95
+    },
+    {
+      "from": "dispatch",
+      "to": "global",
+      "confidence": 0.9
+    },
+    {
+      "from": "redis",
+      "to": "redis",
+      "confidence": 0.95
+    },
+    {
+      "from": "custom_job_info_rows",
+      "to": "custom_job_info_rows",
+      "confidence": 0.95
+    },
+    {
+      "from": "application.rb",
+      "to": "redirect_to",
+      "confidence": 0.5
+    },
+    {
+      "from": "clear_heartbeat",
+      "to": "flush_stats",
+      "confidence": 0.95
+    },
+    {
+      "from": "relations",
+      "to": "delete",
+      "confidence": 0.5
+    },
+    {
+      "from": "safe_request?",
+      "to": "safe_methods?",
+      "confidence": 0.95
+    },
+    {
+      "from": "style_tag",
+      "to": "html_tag",
+      "confidence": 0.95
+    },
+    {
+      "from": "push",
+      "to": "verify_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "jobs",
+      "to": "jobs_by_class",
+      "confidence": 0.95
+    },
+    {
+      "from": "refresh_data",
+      "to": "paused?",
+      "confidence": 0.5
+    },
+    {
+      "from": "url_params",
+      "to": "params",
+      "confidence": 0.95
+    },
+    {
+      "from": "fire_event",
+      "to": "handle_exception",
+      "confidence": 0.95
+    },
+    {
+      "from": "process_retry",
+      "to": "exception_message",
+      "confidence": 0.95
+    },
+    {
+      "from": "fetch_stats!",
+      "to": "fetch_stats_fast!",
+      "confidence": 0.95
+    },
+    {
+      "from": "constructor",
+      "to": "init",
+      "confidence": 0.5
+    },
+    {
+      "from": "create",
+      "to": "deep_symbolize_keys",
+      "confidence": 0.95
+    },
+    {
+      "from": "delete_by_value",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "delete_queue!",
+      "to": "each_selection",
+      "confidence": 0.9
+    },
+    {
+      "from": "enqueue",
+      "to": "queue_name",
+      "confidence": 0.5
+    },
+    {
+      "from": "perform_inline",
+      "to": "normalize_item",
+      "confidence": 0.5
+    },
+    {
+      "from": "enqueued_at",
+      "to": "time_from_timestamp",
+      "confidence": 0.95
+    },
+    {
+      "from": "locale_files",
+      "to": "locales",
+      "confidence": 0.5
+    },
+    {
+      "from": "mainpid",
+      "to": "notify",
+      "confidence": 0.95
+    },
+    {
+      "from": "capsule",
+      "to": "fetch",
+      "confidence": 0.5
+    },
+    {
+      "from": "refresh_data",
+      "to": "refresh_data_for_stats",
+      "confidence": 0.9
+    },
+    {
+      "from": "atomic_push",
+      "to": "dump_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "build",
+      "to": "use",
+      "confidence": 0.95
+    },
+    {
+      "from": "delete_by_jid",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "send_to_morgue",
+      "to": "dump_json",
+      "confidence": 0.5
+    },
+    {
+      "from": "normalize_item",
+      "to": "get_sidekiq_options",
+      "confidence": 0.5
+    },
+    {
+      "from": "verify_json",
+      "to": "json_unsafe?",
+      "confidence": 0.95
+    },
+    {
+      "from": "boot.rb",
+      "to": "capsule",
+      "confidence": 0.5
+    },
+    {
+      "from": "current",
+      "to": "current",
+      "confidence": 0.95
+    },
+    {
+      "from": "patch",
+      "to": "route",
+      "confidence": 0.95
+    },
+    {
+      "from": "queue_summaries",
+      "to": "load_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "invoke",
+      "to": "traverse",
+      "confidence": 0.95
+    },
+    {
+      "from": "scheduled_size",
+      "to": "stat",
+      "confidence": 0.95
+    },
+    {
+      "from": "uncompress_backtrace",
+      "to": "load_json",
+      "confidence": 0.9
+    },
+    {
+      "from": "logger",
+      "to": "logger",
+      "confidence": 0.95
+    },
+    {
+      "from": "lookup",
+      "to": "lookup",
+      "confidence": 0.95
+    },
+    {
+      "from": "process_job",
+      "to": "bid",
+      "confidence": 0.5
+    },
+    {
+      "from": "delete",
+      "to": "delete_by_jid",
+      "confidence": 0.95
+    },
+    {
+      "from": "stopping",
+      "to": "notify",
+      "confidence": 0.95
+    },
+    {
+      "from": "navigate_row",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "symbolize_keys_deep!",
+      "to": "symbolize_keys_deep!",
+      "confidence": 0.95
+    },
+    {
+      "from": "stop!",
+      "to": "embedded?",
+      "confidence": 0.95
+    },
+    {
+      "from": "persist",
+      "to": "key",
+      "confidence": 0.5
+    },
+    {
+      "from": "stop",
+      "to": "stop",
+      "confidence": 0.95
+    },
+    {
+      "from": "production.rb",
+      "to": "configure",
+      "confidence": 0.5
+    },
+    {
+      "from": "create",
+      "to": "new_client",
+      "confidence": 0.9
+    },
+    {
+      "from": "sidekiq.rb",
+      "to": "configure_server",
+      "confidence": 0.5
+    },
+    {
+      "from": "setup_options",
+      "to": "parse_config",
+      "confidence": 0.95
+    },
+    {
+      "from": "refresh_data",
+      "to": "number_with_delimiter",
+      "confidence": 0.9
+    },
+    {
+      "from": "format_context",
+      "to": "current",
+      "confidence": 0.95
+    },
+    {
+      "from": "quiet!",
+      "to": "embedded?",
+      "confidence": 0.95
+    },
+    {
+      "from": "size",
+      "to": "empty?",
+      "confidence": 0.5
+    },
+    {
+      "from": "flush_stats",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "process_retry",
+      "to": "retry_attempts_from",
+      "confidence": 0.95
+    },
+    {
+      "from": "track_time",
+      "to": "record_time",
+      "confidence": 0.9
+    },
+    {
+      "from": "exists?",
+      "to": "klass",
+      "confidence": 0.5
+    },
+    {
+      "from": "controls.rb",
+      "to": "navigate_row",
+      "confidence": 0.5
+    },
+    {
+      "from": "local",
+      "to": "process_retry",
+      "confidence": 0.95
+    },
+    {
+      "from": "inspect",
+      "to": "inspect",
+      "confidence": 0.95
+    },
+    {
+      "from": "addListeners",
+      "to": "updateLivePollButton",
+      "confidence": 0.95
+    },
+    {
+      "from": "redis_client_adapter.rb",
+      "to": "create",
+      "confidence": 0.5
+    },
+    {
+      "from": "trim",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "reschedule",
+      "to": "redis",
+      "confidence": 0.9
+    },
+    {
+      "from": "registerSwatch",
+      "to": "updateSwatch",
+      "confidence": 0.95
+    },
+    {
+      "from": "stop",
+      "to": "clear_heartbeat",
+      "confidence": 0.95
+    },
+    {
+      "from": "render",
+      "to": "render_controls",
+      "confidence": 0.95
+    },
+    {
+      "from": "toggleKls",
+      "to": "updateSwatch",
+      "confidence": 0.95
+    },
+    {
+      "from": "application.js",
+      "to": "e",
+      "confidence": 0.95
+    },
+    {
+      "from": "n",
+      "to": "t",
+      "confidence": 0.95
+    },
+    {
+      "from": "perform",
+      "to": "on_stop",
+      "confidence": 0.95
+    },
+    {
+      "from": "render",
+      "to": "render_redis_info_section",
+      "confidence": 0.95
+    },
+    {
+      "from": "persist",
+      "to": "value",
+      "confidence": 0.95
+    },
+    {
+      "from": "redis_pool",
+      "to": "current",
+      "confidence": 0.9
+    },
+    {
+      "from": "controls.rb",
+      "to": "start_filtering",
+      "confidence": 0.5
+    },
+    {
+      "from": "logger",
+      "to": "logger",
+      "confidence": 0.95
+    },
+    {
+      "from": "stat",
+      "to": "fetch_stats_slow!",
+      "confidence": 0.95
+    },
+    {
+      "from": "buildDataset",
+      "to": "checkOut",
+      "confidence": 0.5
+    },
+    {
+      "from": "e",
+      "to": "trim",
+      "confidence": 0.5
+    },
+    {
+      "from": "render",
+      "to": "pro?",
+      "confidence": 0.5
+    },
+    {
+      "from": "run",
+      "to": "concurrency",
+      "confidence": 0.9
+    },
+    {
+      "from": "redis_pool",
+      "to": "current",
+      "confidence": 0.5
+    },
+    {
+      "from": "check_rtt",
+      "to": "reset",
+      "confidence": 0.9
+    },
+    {
+      "from": "initialize",
+      "to": "current",
+      "confidence": 0.5
+    },
+    {
+      "from": "deserialize_argument",
+      "to": "deserialize_argument",
+      "confidence": 0.95
+    },
+    {
+      "from": "processes",
+      "to": "time_ago",
+      "confidence": 0.95
+    },
+    {
+      "from": "redis_pool",
+      "to": "redis_pool",
+      "confidence": 0.95
+    },
+    {
+      "from": "call",
+      "to": "elapsed",
+      "confidence": 0.95
+    },
+    {
+      "from": "run_loop",
+      "to": "should_refresh?",
+      "confidence": 0.95
+    },
+    {
+      "from": "kill_all",
+      "to": "kill",
+      "confidence": 0.95
+    },
+    {
+      "from": "enqueued",
+      "to": "stat",
+      "confidence": 0.95
+    },
+    {
+      "from": "controls.rb",
+      "to": "navigate",
+      "confidence": 0.5
+    },
+    {
+      "from": "❤",
+      "to": "incr",
+      "confidence": 0.5
+    }
+  ]
+}

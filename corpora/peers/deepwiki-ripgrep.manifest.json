@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "peer": "deepwiki",
+  "repo": "BurntSushi/ripgrep",
+  "base_url": "https://deepwiki.com/BurntSushi/ripgrep",
+  "scored_at": "2026-07-29",
+  "pages": [
+    {
+      "slug": "adding-new-features",
+      "title": "Adding New Features",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/3.5-adding-new-features",
+      "sha256": "56bff86eb3fa864d86501d7fe3798d60f7219111ce68d4ddec3d1c4a0374e65d"
+    },
+    {
+      "slug": "architecture",
+      "title": "Architecture",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/2-architecture",
+      "sha256": "fe5e15898a87266a50db602f9fad9df18e3b15c9eb55b344e2b538f6ee1c947c"
+    },
+    {
+      "slug": "basic-usage",
+      "title": "Basic Usage",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/1.2-basic-usage",
+      "sha256": "f93df3616a3f8ec89abeb4f82b19a7039b3cc43a75fa283936ae1e21e4122407"
+    },
+    {
+      "slug": "benchmark-suite",
+      "title": "Benchmark Suite",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/4.3-benchmark-suite",
+      "sha256": "6ac3b6d040257821220601ff0c10eaeadd1b4ed5c3a10e798bcef988fb04d087"
+    },
+    {
+      "slug": "building-from-source",
+      "title": "Building from Source",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/3.1-building-from-source",
+      "sha256": "fb996b8a42ecc3988cfe554f5840dd80508aaff7837313e9026765a617da74b2"
+    },
+    {
+      "slug": "ci-cd-pipeline",
+      "title": "CI/CD Pipeline",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/3.3-ci-cd-pipeline",
+      "sha256": "f15fe4dcf2402c68b7d671073e2ef23c1eed028513a26de5b1d9043db40d0647"
+    },
+    {
+      "slug": "command-line-interface",
+      "title": "Command Line Interface",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/2.2-command-line-interface",
+      "sha256": "f2dc3bdf84872a69b61340e5f4a5a59a830719be252b12669a6677e2258b356d"
+    },
+    {
+      "slug": "common-questions-and-issues",
+      "title": "Common Questions and Issues",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/5-common-questions-and-issues",
+      "sha256": "34cce6011bdbdbdc39218c6ff5c1c4971c15290a94366efd33c68a3565bfe7cf"
+    },
+    {
+      "slug": "configuration-system",
+      "title": "Configuration System",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/2.8-configuration-system",
+      "sha256": "940dcb5d5d7cbcbed678b9d901af7d93038391e13819315fb38bc0f60cd3e41e"
+    },
+    {
+      "slug": "core-search-engine",
+      "title": "Core Search Engine",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/2.3-core-search-engine",
+      "sha256": "9ace76754c0b98383f6b19854db8c0afe2d6de404b0c9480dc50e6feb32ef331"
+    },
+    {
+      "slug": "development-guide",
+      "title": "Development Guide",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/3-development-guide",
+      "sha256": "2a0050c11be2447ae9d691c6445c694abdacfa7cd38dad5bfbd1877d71eacb7c"
+    },
+    {
+      "slug": "file-traversal-and-filtering",
+      "title": "File Traversal and Filtering",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/2.5-file-traversal-and-filtering",
+      "sha256": "f49b05eec03c6e2eae8ac4b6367a431e3387c6e618046b36d70f002383eed86a"
+    },
+    {
+      "slug": "fuzz-testing",
+      "title": "Fuzz Testing",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/3.6-fuzz-testing",
+      "sha256": "8de28a49c4a9ab2c97e6cb30a9909a0a2ecf202a45de6e213ab6f918c029ac77"
+    },
+    {
+      "slug": "glob-pattern-matching",
+      "title": "Glob Pattern Matching",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/2.6-glob-pattern-matching",
+      "sha256": "ea207db658cb6699833310ed44c85e3bb91b268d1637ad6a0999b9dbf7efdb46"
+    },
+    {
+      "slug": "glossary",
+      "title": "Glossary",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/6-glossary",
+      "sha256": "867e21bd6f58479459d15baa0a15105454c077c33bad537b6ed6cb50bf2bd1e6"
+    },
+    {
+      "slug": "installation",
+      "title": "Installation",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/1.1-installation",
+      "sha256": "40237ae03d2a6f010d9edbdaacf2b18cf418a246086842d2b8d239bb5fd38e2d"
+    },
+    {
+      "slug": "optimization-techniques",
+      "title": "Optimization Techniques",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/4.1-optimization-techniques",
+      "sha256": "85a0d8c2ee3f5e36864dd95e967f7d2b20ee6ff876a50f9048dc3940f45e3fdf"
+    },
+    {
+      "slug": "output-formatting",
+      "title": "Output Formatting",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/2.7-output-formatting",
+      "sha256": "1f724c85a358606c3a62dd3e8197c05c48763a80e9eb73d99e015d3e336ce240"
+    },
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/1-overview",
+      "sha256": "7a69232c7255862008d4f4943b4c69db372f199f29096b5323ede8b7be00143d"
+    },
+    {
+      "slug": "performance-considerations",
+      "title": "Performance Considerations",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/4.2-performance-considerations",
+      "sha256": "57598bda943aa2cc82b9c7d0aaae21b7674f2559225924040f6a40a342da41ac"
+    },
+    {
+      "slug": "performance",
+      "title": "Performance",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/4-performance",
+      "sha256": "79b944e03f107a07639f9dde09290547d97061a00e8a7c72bf8f8073d6c08ee6"
+    },
+    {
+      "slug": "regex-engines",
+      "title": "Regex Engines",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/2.4-regex-engines",
+      "sha256": "edd4c8d916a3474ec4b628c2a49730d10f2a74fb9fce79e9455c27c43e9292e2"
+    },
+    {
+      "slug": "release-process",
+      "title": "Release Process",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/3.4-release-process",
+      "sha256": "4ffa50c0c3b6ba91165ac0d90fa13a9ba0a99436080deb61c69db7b4d329efbe"
+    },
+    {
+      "slug": "testing-framework",
+      "title": "Testing Framework",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/3.2-testing-framework",
+      "sha256": "a3efaf31a01963c14b0c3c72a36d2627f59a72283a326ebcf842e5545d3a01fa"
+    },
+    {
+      "slug": "workspace-and-crate-structure",
+      "title": "Workspace and Crate Structure",
+      "url": "https://deepwiki.com/BurntSushi/ripgrep/2.1-workspace-and-crate-structure",
+      "sha256": "bc1166d9d0529636821c28c7622814120bad874c909dfd3616def3478fd465db"
+    }
+  ],
+  "_description": "DeepWiki reference wiki for BurntSushi/ripgrep, fetched 2026-07-27 via the DeepWiki MCP (read_wiki_contents), split on '# Page:' delimiters. DeepWiki publishes no generation commit; claims judged against a clone from the same capture window."
+}

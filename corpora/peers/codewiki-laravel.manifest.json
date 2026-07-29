@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "peer": "codewiki",
+  "repo": "laravel/framework",
+  "base_url": "https://codewiki.google/github.com/laravel/framework",
+  "scored_at": "2026-07-28",
+  "pinned_source_sha": "cda436eed3a1f700fc8cffec89e99e32bdba8d2e",
+  "pages": [
+    {
+      "slug": "application-foundation-and-lifecycle-management",
+      "title": "Application Foundation and Lifecycle Management",
+      "url": "https://codewiki.google/github.com/laravel/framework#application-foundation-and-lifecycle-management",
+      "sha256": "f83b13d3867e585ec2bc382bda640c30b3e792928e4f06975b8b9be4e9718b83"
+    },
+    {
+      "slug": "authentication-and-authorization",
+      "title": "Authentication and Authorization",
+      "url": "https://codewiki.google/github.com/laravel/framework#authentication-and-authorization",
+      "sha256": "840b662352f5bbe587b5423a24b2c88887cc5daa59d916914d640ceee73274cb"
+    },
+    {
+      "slug": "caching-and-queueing-systems",
+      "title": "Caching and Queueing Systems",
+      "url": "https://codewiki.google/github.com/laravel/framework#caching-and-queueing-systems",
+      "sha256": "6e811eaa2233373082407c4d591bc41445bc0978f63830bccdbfd7235a2c8251"
+    },
+    {
+      "slug": "data-validation",
+      "title": "Data Validation",
+      "url": "https://codewiki.google/github.com/laravel/framework#data-validation",
+      "sha256": "651cb12f0b640e2c73fe78f49755884eebf05f7b7286f700d3959e94b26d6feb"
+    },
+    {
+      "slug": "database-management-and-orm",
+      "title": "Database Management and ORM",
+      "url": "https://codewiki.google/github.com/laravel/framework#database-management-and-orm",
+      "sha256": "deb129278fba9ddf9bc69121947f21404d7587135b480146ec0d82367d58d1dc"
+    },
+    {
+      "slug": "file-system-operations",
+      "title": "File System Operations",
+      "url": "https://codewiki.google/github.com/laravel/framework#file-system-operations",
+      "sha256": "9dae4b0551520aea9928301ec40cecb14ebf285c7e6859749fa92756843f2965"
+    },
+    {
+      "slug": "http-handling-and-routing",
+      "title": "HTTP Handling and Routing",
+      "url": "https://codewiki.google/github.com/laravel/framework#http-handling-and-routing",
+      "sha256": "9053f993f217b82c6bc34fb005af1aa2cfc4f0a34707f7cea3f99fabe0c65a5a"
+    },
+    {
+      "slug": "mail-and-notifications",
+      "title": "Mail and Notifications",
+      "url": "https://codewiki.google/github.com/laravel/framework#mail-and-notifications",
+      "sha256": "ae9da65bf71bb5a2d71139fa487bdf3f7a98538d8d50d1db540f9709d9233809"
+    },
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "url": "https://codewiki.google/github.com/laravel/framework",
+      "sha256": "3b6594b6c37caf1fc0e83baf3a4f55a9a9826a346d8e70e57af40a7f60c56342"
+    },
+    {
+      "slug": "view-rendering",
+      "title": "View Rendering",
+      "url": "https://codewiki.google/github.com/laravel/framework#view-rendering",
+      "sha256": "ab4b73a7cde255e33685de29ae48c490a273de46f3a52529fd3f3febbab1a14e"
+    }
+  ],
+  "_description": "CodeWiki (codewiki.google) reference wiki for laravel/framework, extracted 2026-07-27/28; page shows generation commit cda436eed3a1f700fc8cffec89e99e32bdba8d2e. Sections of the single CodeWiki page split at h2 boundaries; citation labels adapter-normalized to path:line form (see fetch-codewiki/). Judged against a clone at the pinned commit."
+}

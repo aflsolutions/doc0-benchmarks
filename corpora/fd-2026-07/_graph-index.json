@@ -1,0 +1,1318 @@
+{
+  "schema_version": 1,
+  "wiki_id": "5789bb64-3d35-59e1-8d2a-8f6aac6f991d",
+  "node_names": [
+    "exit_codes.rs",
+    "BatchSender",
+    "CONTRIBUTING.md",
+    "is_pipe",
+    "from_arg_matches",
+    "matches",
+    "Token",
+    "OwnerFilter",
+    "sanitize_for_terminal",
+    "FormatTemplate",
+    "tokens_with_basename_no_extension",
+    "filesystem.rs",
+    "threads",
+    "osstr_to_bytes",
+    "max_results",
+    "DirEntry",
+    "Opts",
+    "is_printing",
+    "print_entry_format",
+    "timestamp",
+    "rg_alias_ignore",
+    "Opts",
+    "receive",
+    "CommandSet",
+    "Cross.toml",
+    "StripCwdWhen",
+    "fdfind.bash",
+    "print_error",
+    "strips_newline",
+    "search_str_no_base_dir",
+    "recv",
+    "min_depth",
+    "search_str_for_entry_with_absolute_path",
+    "build_overrides",
+    "is_existing_directory",
+    "is_error",
+    "CommandSet",
+    "template_no_args",
+    "tokens_with_placeholder",
+    "time.rs",
+    "new_command",
+    "is_empty",
+    "max_depth",
+    "generate_custom_path_separator",
+    "execute",
+    "build_walker",
+    "needs_flush",
+    "dirname_root",
+    "func_tests",
+    "Cargo.toml",
+    "CommandBuilder",
+    "exit",
+    "OutputBuffer",
+    "WorkerState",
+    "tokens_multiple",
+    "command_set_no_args",
+    "pattern_has_uppercase_char_simple",
+    "pattern_matches_strings_with_leading_dot",
+    "eq",
+    "replace_separator",
+    "Config",
+    "is_block_device",
+    "command.rs",
+    "escape_preserves_information",
+    "gen_size_filter_parse_test",
+    "dir_entry.rs",
+    "set_working_dir",
+    "ExitCode",
+    "exit_code",
+    "parse",
+    "number_of_tokens",
+    "FormatTemplate",
+    "scripts",
+    "strip_cwd_prefix",
+    "ReceiverMode",
+    "pattern_has_uppercase_char",
+    "maybe_sanitize",
+    "remove_extension",
+    "version-bump.sh",
+    "print",
+    "maybe_sanitize_passthrough_when_not_terminal",
+    "file_type",
+    "all_placeholders",
+    "now",
+    "Check",
+    "config.rs",
+    "tokens_with_literal_braces_and_placeholder",
+    "is_within_greater_than",
+    "is_within_less_than",
+    "batch",
+    "search_str_no_base_dir_with_file_in_current_dir",
+    "Outputs",
+    "default_num_threads",
+    "owner_tests",
+    "print_entry_uncolorized_base",
+    "SizeFilter",
+    "partial_cmp",
+    "cmp",
+    "print_trailing_slash",
+    "metadata",
+    "parse_millis",
+    "path",
+    "build_regex",
+    "search_paths",
+    "ExecutionMode",
+    "DirEntry",
+    "FileType",
+    "starts_with_dash",
+    "main.rs",
+    "needs_escape",
+    "has_tokens",
+    "lock",
+    "is_within_less_than_equal",
+    "handle_cmd_error",
+    "TimeFilter",
+    "ColorWhen",
+    "TestTime",
+    "contrib",
+    "ExitCode",
+    "check_path_separator_length",
+    "tokens_with_parent",
+    "strip_current_dir_basic",
+    "regex_helper.rs",
+    "doc",
+    "flush",
+    "Batch",
+    "file_name",
+    "execute_commands",
+    "applies_to",
+    "tokens_with_literal_braces",
+    "CHANGELOG.md",
+    "TimeFilter",
+    "generate",
+    "Item",
+    "size.rs",
+    "mod.rs",
+    "Encoded",
+    "augment_args_for_update",
+    "print_entry_colorized",
+    "create-deb.sh",
+    "default_path_separator",
+    "gen_completions",
+    "normal",
+    "generate",
+    "scan",
+    "into_iter",
+    "ensure_search_pattern_is_not_a_path",
+    "sponsors.md",
+    "ensure_current_directory_exists",
+    "generate_custom_path_separator_windows",
+    "strips_del",
+    "build_pattern_regex",
+    "parse_only_brace_escapes",
+    "print_completions",
+    "walk.rs",
+    "drop",
+    "input.rs",
+    "tokens_multiple_batch",
+    "DirEntryInner",
+    "from_string",
+    "job",
+    "screencast.sh",
+    "construct_config",
+    "should_ignore",
+    "matches_strings_with_leading_dot_simple",
+    "print_entry",
+    "ReceiverBuffer",
+    "gen_size_filter_failure",
+    "normalize_path",
+    "cli.rs",
+    "sanitize.rs",
+    "is_socket",
+    "token_from_pattern_id",
+    "check",
+    "job.rs",
+    "strip_current_dir",
+    "strips_osc52_clipboard_payload",
+    "SECURITY.md",
+    "into_stripped_path",
+    "push",
+    "execute_batch",
+    "broken_symlink",
+    "tokens_with_no_extension",
+    "BatchSender",
+    "parse",
+    "FileTypes",
+    "hir_matches_strings_with_leading_dot",
+    "new_batch",
+    "new",
+    "SizeFilter",
+    "from_string",
+    "finish",
+    "stop",
+    "process",
+    "output.rs",
+    "Config",
+    "mod.rs",
+    "search_str_for_entry_with_relative_path",
+    "determine_ls_command",
+    "TestTime",
+    "test_unicode_encoding",
+    "CommandBuilder",
+    "style",
+    "send",
+    "no_search_paths",
+    "release-checklist.md",
+    "search_str_for_entry",
+    "fmt",
+    "new",
+    "is_within",
+    "host",
+    "parse_no_placeholders",
+    "check",
+    "from_str",
+    "README.md",
+    "generate_str",
+    "basename",
+    "ensure_single_search_pattern_is_not_a_path",
+    "tokens_with_basename",
+    "new",
+    "filter_ignore",
+    "FileTypes",
+    "CommandTemplate",
+    "rustfmt.toml",
+    "merge_exitcodes",
+    "PathUrl",
+    "success_when_no_results",
+    "hyperlink.rs",
+    "WorkerState",
+    "Check",
+    "push",
+    "new",
+    "src",
+    "HyperlinkWhen",
+    "replace_path_separator",
+    "dash_prefixed_paths_detected",
+    "print_entry_uncolorized",
+    "pattern_has_uppercase_char_advanced",
+    "owner.rs",
+    "set",
+    "ensure_use_hidden_option_for_leading_dot_pattern",
+    "OutputBuffer",
+    "dirname",
+    "fmt",
+    "completion",
+    "correct",
+    "is_within_greater_than_equal",
+    "after",
+    "IntoIter",
+    "stream",
+    "strips_bidi_overrides_and_zero_width",
+    "success_if_no_error",
+    "search_str_no_base_dir_with_plain_relative_path",
+    "error.rs",
+    "PathUrl",
+    "extract_time_constraints",
+    "filter",
+    "strips_c1_csi_and_osc_initiators",
+    "into_path",
+    "before",
+    "augment_args",
+    "tokens_single_batch",
+    "strips_bel_and_null",
+    "run",
+    "CommandTemplate",
+    "filetypes.rs",
+    "new",
+    "Batch",
+    "Exec",
+    "encode",
+    "poll",
+    "in_batch_mode",
+    "ReceiverBuffer",
+    "WorkerResult",
+    "absolute_path",
+    "depth",
+    "keeps_legitimate_unicode_features",
+    "parse_opt",
+    "search_str_for_entry_strips_dot_prefix",
+    "is_char_device",
+    "mod.rs",
+    "main",
+    "is_time_filter_applicable",
+    "path_absolute_form",
+    "hir_has_uppercase_char",
+    "fmt",
+    "spawn_senders",
+    "OwnerFilter",
+    "write",
+    "from",
+    "general_error_if_at_least_one_error",
+    "strips_cr_output_forgery",
+    "strips_osc8_hyperlink_injection",
+    "exec",
+    "preserves_safe_content",
+    "extract_command",
+    "safe_paths_not_flagged",
+    "update_from_arg_matches",
+    "stripped_path",
+    "placeholder_as_executable_rejected"
+  ],
+  "edges": [
+    {
+      "from": "job",
+      "to": "merge_exitcodes",
+      "confidence": 0.9
+    },
+    {
+      "from": "stream",
+      "to": "flush",
+      "confidence": 0.95
+    },
+    {
+      "from": "search_paths",
+      "to": "print_error",
+      "confidence": 0.9
+    },
+    {
+      "from": "spawn_senders",
+      "to": "is_within",
+      "confidence": 0.5
+    },
+    {
+      "from": "execute",
+      "to": "execute_commands",
+      "confidence": 0.9
+    },
+    {
+      "from": "extract_command",
+      "to": "determine_ls_command",
+      "confidence": 0.95
+    },
+    {
+      "from": "poll",
+      "to": "flush",
+      "confidence": 0.95
+    },
+    {
+      "from": "batch",
+      "to": "execute_batch",
+      "confidence": 0.5
+    },
+    {
+      "from": "new",
+      "to": "absolute_path",
+      "confidence": 0.9
+    },
+    {
+      "from": "execute_batch",
+      "to": "handle_cmd_error",
+      "confidence": 0.9
+    },
+    {
+      "from": "push",
+      "to": "finish",
+      "confidence": 0.95
+    },
+    {
+      "from": "spawn_senders",
+      "to": "should_ignore",
+      "confidence": 0.5
+    },
+    {
+      "from": "generate",
+      "to": "from",
+      "confidence": 0.5
+    },
+    {
+      "from": "after",
+      "to": "from_str",
+      "confidence": 0.95
+    },
+    {
+      "from": "scan",
+      "to": "scan",
+      "confidence": 0.95
+    },
+    {
+      "from": "run",
+      "to": "scan",
+      "confidence": 0.5
+    },
+    {
+      "from": "execute",
+      "to": "new",
+      "confidence": 0.95
+    },
+    {
+      "from": "scan",
+      "to": "is_printing",
+      "confidence": 0.9
+    },
+    {
+      "from": "new_batch",
+      "to": "CommandSet",
+      "confidence": 0.95
+    },
+    {
+      "from": "absolute_path",
+      "to": "path_absolute_form",
+      "confidence": 0.95
+    },
+    {
+      "from": "print_entry_colorized",
+      "to": "style",
+      "confidence": 0.9
+    },
+    {
+      "from": "partial_cmp",
+      "to": "cmp",
+      "confidence": 0.95
+    },
+    {
+      "from": "is_time_filter_applicable",
+      "to": "set",
+      "confidence": 0.95
+    },
+    {
+      "from": "construct_config",
+      "to": "strip_cwd_prefix",
+      "confidence": 0.9
+    },
+    {
+      "from": "new",
+      "to": "CommandSet",
+      "confidence": 0.95
+    },
+    {
+      "from": "print_entry_uncolorized_base",
+      "to": "stripped_path",
+      "confidence": 0.9
+    },
+    {
+      "from": "print_entry",
+      "to": "print_entry_format",
+      "confidence": 0.95
+    },
+    {
+      "from": "handle_cmd_error",
+      "to": "print_error",
+      "confidence": 0.9
+    },
+    {
+      "from": "construct_config",
+      "to": "extract_time_constraints",
+      "confidence": 0.95
+    },
+    {
+      "from": "batch",
+      "to": "print_error",
+      "confidence": 0.9
+    },
+    {
+      "from": "print_entry_format",
+      "to": "generate",
+      "confidence": 0.9
+    },
+    {
+      "from": "spawn_senders",
+      "to": "normal",
+      "confidence": 0.9
+    },
+    {
+      "from": "print_entry_uncolorized",
+      "to": "print_trailing_slash",
+      "confidence": 0.95
+    },
+    {
+      "from": "finish",
+      "to": "new_command",
+      "confidence": 0.95
+    },
+    {
+      "from": "spawn_senders",
+      "to": "matches",
+      "confidence": 0.5
+    },
+    {
+      "from": "hir_has_uppercase_char",
+      "to": "hir_has_uppercase_char",
+      "confidence": 0.95
+    },
+    {
+      "from": "generate",
+      "to": "generate",
+      "confidence": 0.95
+    },
+    {
+      "from": "new",
+      "to": "CommandTemplate",
+      "confidence": 0.95
+    },
+    {
+      "from": "execute_batch",
+      "to": "exit_code",
+      "confidence": 0.95
+    },
+    {
+      "from": "hir_has_uppercase_char",
+      "to": "from",
+      "confidence": 0.5
+    },
+    {
+      "from": "ensure_current_directory_exists",
+      "to": "is_existing_directory",
+      "confidence": 0.9
+    },
+    {
+      "from": "construct_config",
+      "to": "new",
+      "confidence": 0.9
+    },
+    {
+      "from": "search_str_for_entry",
+      "to": "file_name",
+      "confidence": 0.9
+    },
+    {
+      "from": "receive",
+      "to": "merge_exitcodes",
+      "confidence": 0.9
+    },
+    {
+      "from": "augment_args_for_update",
+      "to": "augment_args",
+      "confidence": 0.95
+    },
+    {
+      "from": "strip_cwd_prefix",
+      "to": "no_search_paths",
+      "confidence": 0.95
+    },
+    {
+      "from": "construct_config",
+      "to": "pattern_has_uppercase_char",
+      "confidence": 0.9
+    },
+    {
+      "from": "pattern_matches_strings_with_leading_dot",
+      "to": "hir_matches_strings_with_leading_dot",
+      "confidence": 0.95
+    },
+    {
+      "from": "remove_extension",
+      "to": "from",
+      "confidence": 0.5
+    },
+    {
+      "from": "extract_time_constraints",
+      "to": "before",
+      "confidence": 0.5
+    },
+    {
+      "from": "run",
+      "to": "print_completions",
+      "confidence": 0.95
+    },
+    {
+      "from": "pattern_matches_strings_with_leading_dot",
+      "to": "new",
+      "confidence": 0.5
+    },
+    {
+      "from": "augment_args",
+      "to": "new",
+      "confidence": 0.9
+    },
+    {
+      "from": "determine_ls_command",
+      "to": "new",
+      "confidence": 0.9
+    },
+    {
+      "from": "send",
+      "to": "needs_flush",
+      "confidence": 0.95
+    },
+    {
+      "from": "poll",
+      "to": "stop",
+      "confidence": 0.95
+    },
+    {
+      "from": "construct_config",
+      "to": "max_results",
+      "confidence": 0.9
+    },
+    {
+      "from": "job",
+      "to": "print_error",
+      "confidence": 0.9
+    },
+    {
+      "from": "spawn_senders",
+      "to": "file_name",
+      "confidence": 0.9
+    },
+    {
+      "from": "is_error",
+      "to": "from",
+      "confidence": 0.95
+    },
+    {
+      "from": "receive",
+      "to": "in_batch_mode",
+      "confidence": 0.9
+    },
+    {
+      "from": "print_entry_colorized",
+      "to": "replace_path_separator",
+      "confidence": 0.95
+    },
+    {
+      "from": "basename",
+      "to": "file_name",
+      "confidence": 0.5
+    },
+    {
+      "from": "from_string",
+      "to": "parse_opt",
+      "confidence": 0.95
+    },
+    {
+      "from": "job",
+      "to": "stripped_path",
+      "confidence": 0.5
+    },
+    {
+      "from": "run",
+      "to": "construct_config",
+      "confidence": 0.95
+    },
+    {
+      "from": "flush",
+      "to": "flush",
+      "confidence": 0.95
+    },
+    {
+      "from": "execute_commands",
+      "to": "handle_cmd_error",
+      "confidence": 0.95
+    },
+    {
+      "from": "sanitize_for_terminal",
+      "to": "needs_escape",
+      "confidence": 0.95
+    },
+    {
+      "from": "generate",
+      "to": "new",
+      "confidence": 0.95
+    },
+    {
+      "from": "execute_batch",
+      "to": "merge_exitcodes",
+      "confidence": 0.9
+    },
+    {
+      "from": "print",
+      "to": "flush",
+      "confidence": 0.95
+    },
+    {
+      "from": "maybe_sanitize_passthrough_when_not_terminal",
+      "to": "maybe_sanitize",
+      "confidence": 0.95
+    },
+    {
+      "from": "build_regex",
+      "to": "new",
+      "confidence": 0.9
+    },
+    {
+      "from": "normalize_path",
+      "to": "new",
+      "confidence": 0.9
+    },
+    {
+      "from": "new",
+      "to": "has_tokens",
+      "confidence": 0.9
+    },
+    {
+      "from": "is_within_less_than",
+      "to": "from_string",
+      "confidence": 0.95
+    },
+    {
+      "from": "pattern_has_uppercase_char",
+      "to": "new",
+      "confidence": 0.5
+    },
+    {
+      "from": "generate",
+      "to": "new",
+      "confidence": 0.5
+    },
+    {
+      "from": "remove_extension",
+      "to": "dirname",
+      "confidence": 0.95
+    },
+    {
+      "from": "into_stripped_path",
+      "to": "stripped_path",
+      "confidence": 0.95
+    },
+    {
+      "from": "print_entry_colorized",
+      "to": "maybe_sanitize",
+      "confidence": 0.9
+    },
+    {
+      "from": "build_pattern_regex",
+      "to": "from",
+      "confidence": 0.9
+    },
+    {
+      "from": "construct_config",
+      "to": "from",
+      "confidence": 0.9
+    },
+    {
+      "from": "into_path",
+      "to": "into_path",
+      "confidence": 0.95
+    },
+    {
+      "from": "strips_osc52_clipboard_payload",
+      "to": "sanitize_for_terminal",
+      "confidence": 0.95
+    },
+    {
+      "from": "is_time_filter_applicable",
+      "to": "new",
+      "confidence": 0.95
+    },
+    {
+      "from": "receive",
+      "to": "process",
+      "confidence": 0.95
+    },
+    {
+      "from": "poll",
+      "to": "stream",
+      "confidence": 0.95
+    },
+    {
+      "from": "extract_time_constraints",
+      "to": "after",
+      "confidence": 0.5
+    },
+    {
+      "from": "print_entry_format",
+      "to": "stripped_path",
+      "confidence": 0.9
+    },
+    {
+      "from": "ensure_search_pattern_is_not_a_path",
+      "to": "ensure_single_search_pattern_is_not_a_path",
+      "confidence": 0.95
+    },
+    {
+      "from": "send",
+      "to": "send",
+      "confidence": 0.95
+    },
+    {
+      "from": "poll",
+      "to": "recv",
+      "confidence": 0.95
+    },
+    {
+      "from": "stripped_path",
+      "to": "strip_current_dir",
+      "confidence": 0.9
+    },
+    {
+      "from": "print_entry_uncolorized_base",
+      "to": "maybe_sanitize",
+      "confidence": 0.9
+    },
+    {
+      "from": "print_entry_uncolorized",
+      "to": "stripped_path",
+      "confidence": 0.9
+    },
+    {
+      "from": "run",
+      "to": "gen_completions",
+      "confidence": 0.9
+    },
+    {
+      "from": "execute_batch",
+      "to": "finish",
+      "confidence": 0.95
+    },
+    {
+      "from": "spawn_senders",
+      "to": "style",
+      "confidence": 0.9
+    },
+    {
+      "from": "new",
+      "to": "generate",
+      "confidence": 0.95
+    },
+    {
+      "from": "run",
+      "to": "build_regex",
+      "confidence": 0.95
+    },
+    {
+      "from": "run",
+      "to": "search_paths",
+      "confidence": 0.9
+    },
+    {
+      "from": "generate",
+      "to": "remove_extension",
+      "confidence": 0.9
+    },
+    {
+      "from": "is_within_less_than_equal",
+      "to": "from_string",
+      "confidence": 0.95
+    },
+    {
+      "from": "receive",
+      "to": "batch",
+      "confidence": 0.5
+    },
+    {
+      "from": "new",
+      "to": "new",
+      "confidence": 0.95
+    },
+    {
+      "from": "before",
+      "to": "from_str",
+      "confidence": 0.95
+    },
+    {
+      "from": "maybe_sanitize",
+      "to": "sanitize_for_terminal",
+      "confidence": 0.95
+    },
+    {
+      "from": "extract_command",
+      "to": "new_batch",
+      "confidence": 0.9
+    },
+    {
+      "from": "run",
+      "to": "ensure_use_hidden_option_for_leading_dot_pattern",
+      "confidence": 0.95
+    },
+    {
+      "from": "stripped_path",
+      "to": "starts_with_dash",
+      "confidence": 0.95
+    },
+    {
+      "from": "execute_commands",
+      "to": "push",
+      "confidence": 0.95
+    },
+    {
+      "from": "spawn_senders",
+      "to": "applies_to",
+      "confidence": 0.5
+    },
+    {
+      "from": "print_entry",
+      "to": "print_entry_colorized",
+      "confidence": 0.95
+    },
+    {
+      "from": "stop",
+      "to": "stream",
+      "confidence": 0.95
+    },
+    {
+      "from": "construct_config",
+      "to": "extract_command",
+      "confidence": 0.95
+    },
+    {
+      "from": "update_from_arg_matches",
+      "to": "from_arg_matches",
+      "confidence": 0.95
+    },
+    {
+      "from": "generate_str",
+      "to": "generate",
+      "confidence": 0.95
+    },
+    {
+      "from": "print",
+      "to": "print_error",
+      "confidence": 0.9
+    },
+    {
+      "from": "is_within_greater_than_equal",
+      "to": "from_string",
+      "confidence": 0.95
+    },
+    {
+      "from": "from_arg_matches",
+      "to": "Exec",
+      "confidence": 0.95
+    },
+    {
+      "from": "from_string",
+      "to": "OwnerFilter",
+      "confidence": 0.95
+    },
+    {
+      "from": "execute",
+      "to": "generate",
+      "confidence": 0.95
+    },
+    {
+      "from": "receive",
+      "to": "new",
+      "confidence": 0.95
+    },
+    {
+      "from": "construct_config",
+      "to": "max_depth",
+      "confidence": 0.9
+    },
+    {
+      "from": "print_entry_colorized",
+      "to": "stripped_path",
+      "confidence": 0.9
+    },
+    {
+      "from": "search_paths",
+      "to": "new",
+      "confidence": 0.9
+    },
+    {
+      "from": "print_entry_uncolorized_base",
+      "to": "replace_path_separator",
+      "confidence": 0.95
+    },
+    {
+      "from": "print_entry_uncolorized_base",
+      "to": "print_trailing_slash",
+      "confidence": 0.95
+    },
+    {
+      "from": "is_existing_directory",
+      "to": "file_name",
+      "confidence": 0.9
+    },
+    {
+      "from": "recv",
+      "to": "recv",
+      "confidence": 0.95
+    },
+    {
+      "from": "is_within_greater_than",
+      "to": "from_string",
+      "confidence": 0.95
+    },
+    {
+      "from": "broken_symlink",
+      "to": "new",
+      "confidence": 0.5
+    },
+    {
+      "from": "run",
+      "to": "set_working_dir",
+      "confidence": 0.95
+    },
+    {
+      "from": "is_time_filter_applicable",
+      "to": "timestamp",
+      "confidence": 0.95
+    },
+    {
+      "from": "ensure_single_search_pattern_is_not_a_path",
+      "to": "new",
+      "confidence": 0.9
+    },
+    {
+      "from": "mod.rs",
+      "to": "new",
+      "confidence": 0.5
+    },
+    {
+      "from": "dirname",
+      "to": "from",
+      "confidence": 0.5
+    },
+    {
+      "from": "spawn_senders",
+      "to": "depth",
+      "confidence": 0.9
+    },
+    {
+      "from": "execute_batch",
+      "to": "push",
+      "confidence": 0.95
+    },
+    {
+      "from": "push",
+      "to": "generate",
+      "confidence": 0.95
+    },
+    {
+      "from": "spawn_senders",
+      "to": "send",
+      "confidence": 0.95
+    },
+    {
+      "from": "build_walker",
+      "to": "print_error",
+      "confidence": 0.9
+    },
+    {
+      "from": "print_entry",
+      "to": "new",
+      "confidence": 0.9
+    },
+    {
+      "from": "construct_config",
+      "to": "Config",
+      "confidence": 0.9
+    },
+    {
+      "from": "main",
+      "to": "print_error",
+      "confidence": 0.5
+    },
+    {
+      "from": "normalize_path",
+      "to": "absolute_path",
+      "confidence": 0.9
+    },
+    {
+      "from": "generate",
+      "to": "basename",
+      "confidence": 0.9
+    },
+    {
+      "from": "push",
+      "to": "Outputs",
+      "confidence": 0.95
+    },
+    {
+      "from": "poll",
+      "to": "print_error",
+      "confidence": 0.9
+    },
+    {
+      "from": "pattern_has_uppercase_char",
+      "to": "hir_has_uppercase_char",
+      "confidence": 0.95
+    },
+    {
+      "from": "new_command",
+      "to": "new",
+      "confidence": 0.95
+    },
+    {
+      "from": "search_paths",
+      "to": "ensure_current_directory_exists",
+      "confidence": 0.95
+    },
+    {
+      "from": "run",
+      "to": "build_pattern_regex",
+      "confidence": 0.95
+    },
+    {
+      "from": "normalize_path",
+      "to": "from",
+      "confidence": 0.5
+    },
+    {
+      "from": "scan",
+      "to": "spawn_senders",
+      "confidence": 0.95
+    },
+    {
+      "from": "spawn_senders",
+      "to": "in_batch_mode",
+      "confidence": 0.9
+    },
+    {
+      "from": "construct_config",
+      "to": "rg_alias_ignore",
+      "confidence": 0.9
+    },
+    {
+      "from": "run",
+      "to": "ensure_search_pattern_is_not_a_path",
+      "confidence": 0.95
+    },
+    {
+      "from": "print_entry_colorized",
+      "to": "from",
+      "confidence": 0.5
+    },
+    {
+      "from": "search_paths",
+      "to": "normalize_path",
+      "confidence": 0.95
+    },
+    {
+      "from": "build_walker",
+      "to": "build_overrides",
+      "confidence": 0.95
+    },
+    {
+      "from": "construct_config",
+      "to": "check_path_separator_length",
+      "confidence": 0.95
+    },
+    {
+      "from": "set_working_dir",
+      "to": "is_existing_directory",
+      "confidence": 0.5
+    },
+    {
+      "from": "job",
+      "to": "execute",
+      "confidence": 0.5
+    },
+    {
+      "from": "generate",
+      "to": "dirname",
+      "confidence": 0.9
+    },
+    {
+      "from": "depth",
+      "to": "depth",
+      "confidence": 0.95
+    },
+    {
+      "from": "all_placeholders",
+      "to": "new",
+      "confidence": 0.5
+    },
+    {
+      "from": "scan",
+      "to": "build_walker",
+      "confidence": 0.95
+    },
+    {
+      "from": "construct_config",
+      "to": "min_depth",
+      "confidence": 0.9
+    },
+    {
+      "from": "cmp",
+      "to": "cmp",
+      "confidence": 0.95
+    },
+    {
+      "from": "size.rs",
+      "to": "new",
+      "confidence": 0.5
+    },
+    {
+      "from": "parse",
+      "to": "token_from_pattern_id",
+      "confidence": 0.95
+    },
+    {
+      "from": "new_batch",
+      "to": "number_of_tokens",
+      "confidence": 0.95
+    },
+    {
+      "from": "spawn_senders",
+      "to": "search_str_for_entry",
+      "confidence": 0.95
+    },
+    {
+      "from": "into_stripped_path",
+      "to": "into_path",
+      "confidence": 0.95
+    },
+    {
+      "from": "process",
+      "to": "poll",
+      "confidence": 0.95
+    },
+    {
+      "from": "default_num_threads",
+      "to": "new",
+      "confidence": 0.9
+    },
+    {
+      "from": "search_paths",
+      "to": "is_existing_directory",
+      "confidence": 0.9
+    },
+    {
+      "from": "owner.rs",
+      "to": "OwnerFilter",
+      "confidence": 0.95
+    },
+    {
+      "from": "print_entry_uncolorized",
+      "to": "print_entry_uncolorized_base",
+      "confidence": 0.95
+    },
+    {
+      "from": "number_of_tokens",
+      "to": "has_tokens",
+      "confidence": 0.9
+    },
+    {
+      "from": "file_name",
+      "to": "file_name",
+      "confidence": 0.95
+    },
+    {
+      "from": "spawn_senders",
+      "to": "broken_symlink",
+      "confidence": 0.9
+    },
+    {
+      "from": "print_error",
+      "to": "maybe_sanitize",
+      "confidence": 0.9
+    },
+    {
+      "from": "send",
+      "to": "new",
+      "confidence": 0.95
+    },
+    {
+      "from": "ensure_use_hidden_option_for_leading_dot_pattern",
+      "to": "pattern_matches_strings_with_leading_dot",
+      "confidence": 0.9
+    },
+    {
+      "from": "new",
+      "to": "new_command",
+      "confidence": 0.95
+    },
+    {
+      "from": "print_entry_colorized",
+      "to": "print_trailing_slash",
+      "confidence": 0.95
+    },
+    {
+      "from": "build_pattern_regex",
+      "to": "new",
+      "confidence": 0.9
+    },
+    {
+      "from": "construct_config",
+      "to": "threads",
+      "confidence": 0.9
+    },
+    {
+      "from": "print",
+      "to": "print_entry",
+      "confidence": 0.9
+    },
+    {
+      "from": "batch",
+      "to": "into_stripped_path",
+      "confidence": 0.5
+    },
+    {
+      "from": "generate",
+      "to": "replace_separator",
+      "confidence": 0.95
+    },
+    {
+      "from": "remove_extension",
+      "to": "strip_current_dir",
+      "confidence": 0.9
+    },
+    {
+      "from": "all_placeholders",
+      "to": "generate",
+      "confidence": 0.95
+    },
+    {
+      "from": "parse",
+      "to": "new",
+      "confidence": 0.5
+    },
+    {
+      "from": "normal",
+      "to": "new",
+      "confidence": 0.5
+    },
+    {
+      "from": "execute_commands",
+      "to": "write",
+      "confidence": 0.95
+    },
+    {
+      "from": "fmt",
+      "to": "encode",
+      "confidence": 0.95
+    },
+    {
+      "from": "spawn_senders",
+      "to": "is_printing",
+      "confidence": 0.9
+    }
+  ]
+}

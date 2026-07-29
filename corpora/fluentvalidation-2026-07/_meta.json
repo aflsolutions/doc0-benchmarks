@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "repo": "FluentValidation/FluentValidation",
+  "generated_at": "2026-07-28",
+  "doc0_commit": "f0638375",
+  "source_repo_sha": "0f02e0aaabbf1812c87d23865c723e952d39c927",
+  "models": {
+    "small": "gemini-3.5-flash-lite",
+    "big": "gemini-3.6-flash"
+  },
+  "doc_mode": "technical",
+  "page_count": 24,
+  "source_baseline": "eval/wiki-scorecard/baselines/wave1-FluentValidation-FluentValidation-2026-07-28"
+}

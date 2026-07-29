@@ -168,16 +168,15 @@ function requireJudgeCredentials(): void {
   }
 }
 
-/** Ensures `results/sources/<corpus>/` holds a checkout of `meta.repo` at
- * `meta.source_repo_sha`, so `judgeAccuracy` can resolve citations against
- * it. Reuses an existing checkout if it's already at the right SHA;
- * otherwise (re-)clones. */
-async function ensureSourceRepo(meta: CorpusMeta, corpus: string): Promise<string> {
-  const dir = join(RESULTS_SOURCES_DIR, corpus);
+/** Ensures `results/sources/<dirName>/` holds a checkout of `repo` at `sha`,
+ * so `judgeAccuracy` can resolve citations against it. Reuses an existing
+ * checkout if it's already at the right SHA; otherwise (re-)clones. */
+async function ensureSourceAt(repo: string, sha: string, dirName: string): Promise<string> {
+  const dir = join(RESULTS_SOURCES_DIR, dirName);
   if (await pathExists(dir)) {
     try {
       const head = execFileSync("git", ["-C", dir, "rev-parse", "HEAD"], { encoding: "utf-8" }).trim();
-      if (head === meta.source_repo_sha) return dir;
+      if (head === sha) return dir;
     } catch {
       // Not a git repo (or a stale partial clone) — fall through and re-clone.
     }
@@ -185,31 +184,48 @@ async function ensureSourceRepo(meta: CorpusMeta, corpus: string): Promise<strin
   }
   await mkdir(dirname(dir), { recursive: true });
   try {
-    execFileSync("git", ["clone", "--depth", "1", `https://github.com/${meta.repo}`, dir], { stdio: "inherit" });
-    execFileSync("git", ["fetch", "--depth", "1", "origin", meta.source_repo_sha], { cwd: dir, stdio: "inherit" });
-    execFileSync("git", ["checkout", meta.source_repo_sha], { cwd: dir, stdio: "inherit" });
+    execFileSync("git", ["clone", "--depth", "1", `https://github.com/${repo}`, dir], { stdio: "inherit" });
+    execFileSync("git", ["fetch", "--depth", "1", "origin", sha], { cwd: dir, stdio: "inherit" });
+    execFileSync("git", ["checkout", sha], { cwd: dir, stdio: "inherit" });
   } catch (err) {
     throw new GuardError(
-      `[grounding-scorecard] could not fetch ${meta.repo}@${meta.source_repo_sha} for ${corpus} — ` +
+      `[grounding-scorecard] could not fetch ${repo}@${sha} for ${dirName} — ` +
         `${err instanceof Error ? err.message : String(err)}`,
     );
   }
   return dir;
 }
 
+async function ensureSourceRepo(meta: CorpusMeta, corpus: string): Promise<string> {
+  return ensureSourceAt(meta.repo, meta.source_repo_sha, corpus);
+}
+
 interface PeerManifestHeader {
   peer: string;
+  repo: string;
+  /** Peers that display their generation commit (CodeWiki) record it here so
+   * their claims are judged against the code they actually documented. Absent
+   * for peers that publish no commit (DeepWiki, zread) — those judge against
+   * the corpus's own source checkout. */
+  pinned_source_sha?: string;
+}
+
+interface PeerReference {
+  ref: ReferenceWiki;
+  repo: string;
+  pinnedSourceSha?: string;
 }
 
 /** Loads one peer's fetched pages as a `ReferenceWiki`, keyed by the peer
  * name recorded in its manifest (`deepwiki`, `zread`, …) — the same key used
  * for both `claimSupport.peers` and `comparative.perReference`. */
-async function loadPeerReference(manifestFile: string): Promise<ReferenceWiki> {
+async function loadPeerReference(manifestFile: string): Promise<PeerReference> {
   const manifest = JSON.parse(
     await readFile(join(PEERS_MANIFEST_DIR, manifestFile), "utf-8"),
   ) as PeerManifestHeader;
   const dirName = manifestFile.replace(/\.manifest\.json$/, "");
-  return loadReferenceWiki(join(RESULTS_PEERS_DIR, dirName), manifest.peer);
+  const ref = await loadReferenceWiki(join(RESULTS_PEERS_DIR, dirName), manifest.peer);
+  return { ref, repo: manifest.repo, pinnedSourceSha: manifest.pinned_source_sha };
 }
 
 function judgeRunMeta(seed: number, samples: number): JudgeRunMeta {
@@ -227,15 +243,22 @@ async function runJudgedTier(
   seed: number,
 ): Promise<JudgedMetrics> {
   const sourceDir = await ensureSourceRepo(meta, corpus);
-  const peerRefs = await Promise.all(manifestFiles.map(loadPeerReference));
+  const peerLoads = await Promise.all(manifestFiles.map(loadPeerReference));
 
   const oursAccuracy = await judgeAccuracy(oursPages, sourceDir, liveAccuracyJudge, sampleN, seed);
   const peerAccuracy: Record<string, AccuracyResult> = {};
-  for (const ref of peerRefs) {
-    peerAccuracy[ref.source] = await judgeAccuracy(ref.pages, sourceDir, liveAccuracyJudge, sampleN, seed);
+  for (const { ref, repo, pinnedSourceSha } of peerLoads) {
+    // A peer that pinned its own generation commit is judged against a
+    // checkout at THAT commit — judging it against the corpus's source SHA
+    // would score it on code it never documented.
+    const peerSourceDir =
+      pinnedSourceSha && pinnedSourceSha !== meta.source_repo_sha
+        ? await ensureSourceAt(repo, pinnedSourceSha, `${corpus}-peer-${pinnedSourceSha.slice(0, 12)}`)
+        : sourceDir;
+    peerAccuracy[ref.source] = await judgeAccuracy(ref.pages, peerSourceDir, liveAccuracyJudge, sampleN, seed);
   }
 
-  const comparative = await judgeComparative(oursPages, peerRefs, liveJudge);
+  const comparative = await judgeComparative(oursPages, peerLoads.map(({ ref }) => ref), liveJudge);
 
   return {
     claimSupport: { ours: oursAccuracy, peers: peerAccuracy },

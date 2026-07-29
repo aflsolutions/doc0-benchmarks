@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "peer": "deepwiki",
+  "repo": "sharkdp/fd",
+  "base_url": "https://deepwiki.com/sharkdp/fd",
+  "scored_at": "2026-07-29",
+  "pages": [
+    {
+      "slug": "architecture",
+      "title": "Architecture",
+      "url": "https://deepwiki.com/sharkdp/fd/3-architecture",
+      "sha256": "2d50f5da02f2793a2611227e05593fee3258a0d2b696e6790b4790d95bdb7849"
+    },
+    {
+      "slug": "build-system-and-ci-cd",
+      "title": "Build System and CI/CD",
+      "url": "https://deepwiki.com/sharkdp/fd/5-build-system-and-ci-cd",
+      "sha256": "0ca2ee4d8e96bfd9cf1884e8ff308895b6bf1d0640fa76240bca7315ad5301f2"
+    },
+    {
+      "slug": "command-execution",
+      "title": "Command Execution",
+      "url": "https://deepwiki.com/sharkdp/fd/3.6-command-execution",
+      "sha256": "fbeaea8f8bb5f479541b1afe0f814f1b1f8777e6080958ddb8cd2a99582bc2cd"
+    },
+    {
+      "slug": "command-line-interface",
+      "title": "Command-Line Interface",
+      "url": "https://deepwiki.com/sharkdp/fd/3.2-command-line-interface",
+      "sha256": "0089e39d0bfd7b0f715cd4d6331e1765cd7af060edf8904447978e9572067419"
+    },
+    {
+      "slug": "dependencies",
+      "title": "Dependencies",
+      "url": "https://deepwiki.com/sharkdp/fd/6-dependencies",
+      "sha256": "256b3aa5c1f63c2ad8ced84fb5860d46088b027d5cd3f105fa3ff58c84a0e15e"
+    },
+    {
+      "slug": "entry-point-and-configuration",
+      "title": "Entry Point and Configuration",
+      "url": "https://deepwiki.com/sharkdp/fd/3.1-entry-point-and-configuration",
+      "sha256": "7026b8e70e67f4a052579c97410ff3b0853c179dc5aaaf313320de85027f9acd"
+    },
+    {
+      "slug": "file-system-traversal",
+      "title": "File System Traversal",
+      "url": "https://deepwiki.com/sharkdp/fd/3.3-file-system-traversal",
+      "sha256": "bde5dff05ee96a66c636ce06698845336628122af9574622281939f48a44cccf"
+    },
+    {
+      "slug": "filtering-system",
+      "title": "Filtering System",
+      "url": "https://deepwiki.com/sharkdp/fd/3.4-filtering-system",
+      "sha256": "82a1e442d1f0970229a9f308475ce10d9ee161f7b64e5ef0304723b417c617e1"
+    },
+    {
+      "slug": "getting-started",
+      "title": "Getting Started",
+      "url": "https://deepwiki.com/sharkdp/fd/2-getting-started",
+      "sha256": "96d8a4959d6a782665818be2db59f58452cb73b9e67ff79f66010df7a8b1eb96"
+    },
+    {
+      "slug": "glossary",
+      "title": "Glossary",
+      "url": "https://deepwiki.com/sharkdp/fd/8-glossary",
+      "sha256": "5f830b0ca9e7251b79e00fa37425c6eae56fcf0bf5e627f54a80b7979b1b6f13"
+    },
+    {
+      "slug": "output-formatting",
+      "title": "Output Formatting",
+      "url": "https://deepwiki.com/sharkdp/fd/3.5-output-formatting",
+      "sha256": "0a7f08008bedd0de0596aa82a6e321ae9f64f251a9e1c0cc3dea9a14262af0ac"
+    },
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "url": "https://deepwiki.com/sharkdp/fd/1-overview",
+      "sha256": "fb9f540ad24e002dae251c5b0a09653f376184cd984d417fe26b0415c3c8621e"
+    },
+    {
+      "slug": "project-evolution",
+      "title": "Project Evolution",
+      "url": "https://deepwiki.com/sharkdp/fd/7-project-evolution",
+      "sha256": "68cda40106e4db9c238daa3970687f71f8668d502aaac0ca9c86a187684fc75a"
+    },
+    {
+      "slug": "testing-framework",
+      "title": "Testing Framework",
+      "url": "https://deepwiki.com/sharkdp/fd/4-testing-framework",
+      "sha256": "09dccff0a67186dd9a6549a6873eb134d146c9b05b8cd2c8313b03ad0dd346ec"
+    }
+  ],
+  "_description": "DeepWiki reference wiki for sharkdp/fd, fetched 2026-07-27 via the DeepWiki MCP (read_wiki_contents), split on '# Page:' delimiters. DeepWiki publishes no generation commit; claims judged against a clone from the same capture window."
+}

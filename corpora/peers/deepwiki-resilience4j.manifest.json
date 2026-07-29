@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "peer": "deepwiki",
+  "repo": "resilience4j/resilience4j",
+  "base_url": "https://deepwiki.com/resilience4j/resilience4j",
+  "scored_at": "2026-07-29",
+  "pages": [
+    {
+      "slug": "actuator-endpoints-and-event-streaming",
+      "title": "Actuator Endpoints and Event Streaming",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/11.3-actuator-endpoints-and-event-streaming",
+      "sha256": "1533777cf0c68397c15f7ddf4516877d7de5a9f0e7848e8735745c04b0d1bf3b"
+    },
+    {
+      "slug": "advanced-usage",
+      "title": "Advanced Usage",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/9-advanced-usage",
+      "sha256": "bf38dc816059185a4cb93c2b6cd9eb0ff49e93e9e307bdf072bfe7d24adc2de7"
+    },
+    {
+      "slug": "annotation-based-usage",
+      "title": "Annotation-Based Usage",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/7.1-annotation-based-usage",
+      "sha256": "26a169f2e41efb403fe1f8d0eb11ddea5c234919d1dcd60e1414d61dd62e6c48"
+    },
+    {
+      "slug": "build-process",
+      "title": "Build Process",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/14.1-build-process",
+      "sha256": "b3bbf2affd8da563215e9c940b482d5482f04147520e793b65fda2bc7525570b"
+    },
+    {
+      "slug": "bulkhead-configuration",
+      "title": "Bulkhead Configuration",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/4.2-bulkhead-configuration",
+      "sha256": "aa527f0336e7261b3c5cd6e581d0fdfc38704682989034f714d3c9fe2754754b"
+    },
+    {
+      "slug": "bulkhead",
+      "title": "Bulkhead",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/4-bulkhead",
+      "sha256": "955743a817ebe03b76b4f2d733f6b760e79dc1beca069fb9cb2ef459d27c0718"
+    },
+    {
+      "slug": "cache-pattern",
+      "title": "Cache Pattern",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/9.3-cache-pattern",
+      "sha256": "9b9d976760983194388caac73ec3ec112d99251849a899324c0dcafb111129ca"
+    },
+    {
+      "slug": "circuit-breaker-configuration",
+      "title": "Circuit Breaker Configuration",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/2.2-circuit-breaker-configuration",
+      "sha256": "e4537a5c5fed79cf262b17ca9cba3acc03ba01b4393d432087c1f3eecce7cd1a"
+    },
+    {
+      "slug": "circuit-breaker-state-machine",
+      "title": "Circuit Breaker State Machine",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/2.1-circuit-breaker-state-machine",
+      "sha256": "4f59960c470527bbae668a662702403498b1777d88bf4f97571cf5fb1c470716"
+    },
+    {
+      "slug": "circuit-breaker",
+      "title": "Circuit Breaker",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/2-circuit-breaker",
+      "sha256": "0d9a2204c84f7461458be6c29b77271aa12565f06956d361170c134ce1c8d182"
+    },
+    {
+      "slug": "commons-configuration-integration",
+      "title": "Commons Configuration Integration",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/12.2-commons-configuration-integration",
+      "sha256": "4f495bd660fd2769910cca3113c088ffa5e0958f5e1897fa70e2bf332f5a9c8d"
+    },
+    {
+      "slug": "configuration-reference",
+      "title": "Configuration Reference",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/13-configuration-reference",
+      "sha256": "5758488479fb682d3066a75bd730ae916b978862dda36a17e3c05cd8257c6edf"
+    },
+    {
+      "slug": "core-concepts",
+      "title": "Core Concepts",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/1.1-core-concepts",
+      "sha256": "10230d62cff7ea0f2f9c6ac4aecd2ef3eb7193cb4a39a68c0405a834d4d74b80"
+    },
+    {
+      "slug": "decorator-pattern",
+      "title": "Decorator Pattern",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/9.1-decorator-pattern",
+      "sha256": "5f152f84d29ce2d37a3050eff712931e884c0c1f6f478a71113d5d610b285a76"
+    },
+    {
+      "slug": "developer-guide",
+      "title": "Developer Guide",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/14-developer-guide",
+      "sha256": "8fee80d1578d100178c2ee1f1095951317a6845e307507c1ab2b6f292a250fa3"
+    },
+    {
+      "slug": "dropwizard-metrics-integration",
+      "title": "Dropwizard Metrics Integration",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/11.2-dropwizard-metrics-integration",
+      "sha256": "04cdf74cd8e2fe5c09b06da62e738829cde5d44a6ed06aff528912b7da30808a"
+    },
+    {
+      "slug": "fallback-methods",
+      "title": "Fallback Methods",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/7.2-fallback-methods",
+      "sha256": "987c5ac5578bf2702173c0d81c923e1b98dc4cc5d74be425757d9ee2251fea12"
+    },
+    {
+      "slug": "feign-integration",
+      "title": "Feign Integration",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/8.1-feign-integration",
+      "sha256": "dde820492f3155b7128f025a6f0a27a19ab0e49d225c647d5146b3edd17a7bdc"
+    },
+    {
+      "slug": "glossary",
+      "title": "Glossary",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/15-glossary",
+      "sha256": "af8030ecba01c84bd17ba5eb7a05fc59d7ecc4a41daa773733371d469ac7a9e3"
+    },
+    {
+      "slug": "hedge-pattern",
+      "title": "Hedge Pattern",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/6.2-hedge-pattern",
+      "sha256": "7c044df55e78a0fec7b49caf65eb084c08c4471d2f66bd132e394f9311062534"
+    },
+    {
+      "slug": "http-client-integration",
+      "title": "HTTP Client Integration",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/8-http-client-integration",
+      "sha256": "ba3d0026360582c8618ae21c16030311dbf400c68f0ef9841355ff3d4e62853e"
+    },
+    {
+      "slug": "interval-functions",
+      "title": "Interval Functions",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/9.2-interval-functions",
+      "sha256": "acecae747709f25143cf45ad71596fd66b93feb3a79c2104f72bf6348a39e4c1"
+    },
+    {
+      "slug": "kotlin-coroutines-integration",
+      "title": "Kotlin Coroutines Integration",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/10.3-kotlin-coroutines-integration",
+      "sha256": "cca46ffbf387bf72bcc6a15c77dd0b592e6785c7d961f8a14e6b79ce9e7b8a68"
+    },
+    {
+      "slug": "micrometer-integration",
+      "title": "Micrometer Integration",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/11.1-micrometer-integration",
+      "sha256": "0cc0b4766207515e64dd62dd47067249b940a9ba7e3aa3aaed43d168b985adb1"
+    },
+    {
+      "slug": "micronaut-integration",
+      "title": "Micronaut Integration",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/12-micronaut-integration",
+      "sha256": "eb5e33efd9b5a48aa21375ec26f638f060d762bf5adc98c378650bd5cd2c75f7"
+    },
+    {
+      "slug": "micronaut-interceptors",
+      "title": "Micronaut Interceptors",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/12.1-micronaut-interceptors",
+      "sha256": "a93b9383d54bb698ccb16044a9921a163a68002b8cf71150ab42b43c2106c297"
+    },
+    {
+      "slug": "module-structure",
+      "title": "Module Structure",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/1.2-module-structure",
+      "sha256": "c8576705930439b49c4fe211da69aebdc13f03cecc620bf04b14eaa1932ab888"
+    },
+    {
+      "slug": "observability-and-metrics",
+      "title": "Observability and Metrics",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/11-observability-and-metrics",
+      "sha256": "99ef98966adff2211ecad828529d830328104b4da37e298b4d50c0c0a6979a34"
+    },
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/1-overview",
+      "sha256": "b7eb0ba64fba2545f6e5834a7b2b79d7a8466589884497213d9d10306497d467"
+    },
+    {
+      "slug": "project-reactor-integration",
+      "title": "Project Reactor Integration",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/10.1-project-reactor-integration",
+      "sha256": "152fc97a8582fbf6d4014fd13465ef7880d119a0ab05b7bbdf47f36c262bc3af"
+    },
+    {
+      "slug": "project-setup",
+      "title": "Project Setup",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/14.2-project-setup",
+      "sha256": "16b466eb0bfdecdf277b37e78d059d19b0a8986676d880bdf837c98b1889e56e"
+    },
+    {
+      "slug": "rate-limiter-configuration",
+      "title": "Rate Limiter Configuration",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/3.2-rate-limiter-configuration",
+      "sha256": "1b420226441d024cf7b1e80c341b7e48134f9c34bf9bf824c4efbacc36d54c95"
+    },
+    {
+      "slug": "rate-limiter-implementations",
+      "title": "Rate Limiter Implementations",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/3.1-rate-limiter-implementations",
+      "sha256": "7e27c08d48d721dcb24eaddf555a45b9fb1c964b569869451c9294aa10550fda"
+    },
+    {
+      "slug": "rate-limiter",
+      "title": "Rate Limiter",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/3-rate-limiter",
+      "sha256": "d8bfc47a6cf858a18f74d3a80d3ddf3cdc000d0e0b8b17e872eee1ac88e8b832"
+    },
+    {
+      "slug": "reactive-extensions",
+      "title": "Reactive Extensions",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/10-reactive-extensions",
+      "sha256": "6233d3966f325c0b921df5951ccdef039ef01caf02f2463c08bc69e68482384e"
+    },
+    {
+      "slug": "retry-configuration",
+      "title": "Retry Configuration",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/5.2-retry-configuration",
+      "sha256": "36794f5cabe10285de8c8366923bd8d1440f9e04ba1847edaea1cd2c9cf5f560"
+    },
+    {
+      "slug": "retry-strategies",
+      "title": "Retry Strategies",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/5.1-retry-strategies",
+      "sha256": "0e6ca6d160f52bb55d100216e032bb2e281902d6875818b907b0d040948a7376"
+    },
+    {
+      "slug": "retry",
+      "title": "Retry",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/5-retry",
+      "sha256": "730b3ebb944b13c99f93b3b6e91c7ff426a9024e6f544b5661491f2d66a20b92"
+    },
+    {
+      "slug": "rxjava-2-and-rxjava-3-integration",
+      "title": "RxJava 2 and RxJava 3 Integration",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/10.2-rxjava-2-and-rxjava-3-integration",
+      "sha256": "04aebf320c671eda6eaea40dc2d61cc19cf40f619e6522e867260b7629cfd953"
+    },
+    {
+      "slug": "semaphore-bulkhead-vs-thread-pool-bulkhead",
+      "title": "Semaphore Bulkhead vs Thread Pool Bulkhead",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/4.1-semaphore-bulkhead-vs-thread-pool-bulkhead",
+      "sha256": "4f230d7025f8f06e3bae0a9e55e36e515be03768d5c82a2075a7b548d8380925"
+    },
+    {
+      "slug": "spring-boot-3-and-spring-boot-4",
+      "title": "Spring Boot 3 and Spring Boot 4",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/7.4-spring-boot-3-and-spring-boot-4",
+      "sha256": "51a2005d7a1feb9caea2cba562e6698f31736d398c0dafb7d0ffa785b0a1d6cb"
+    },
+    {
+      "slug": "spring-boot-auto-configuration",
+      "title": "Spring Boot Auto-Configuration",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/7.3-spring-boot-auto-configuration",
+      "sha256": "76ad9aa8f0648b4c45649fe96b76d9146800475b794cad2c6aa1bdebe7b33c56"
+    },
+    {
+      "slug": "spring-cloud-integration",
+      "title": "Spring Cloud Integration",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/7.5-spring-cloud-integration",
+      "sha256": "085583157e8068c4e7eaee8a703df0b725ed6fc218db836b24ce1e54037e70a5"
+    },
+    {
+      "slug": "spring-integration",
+      "title": "Spring Integration",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/7-spring-integration",
+      "sha256": "c300c5d9e5274ca68774fb1702730bfac6fb96bf6a534485728aa1f39f8b95c5"
+    },
+    {
+      "slug": "time-limiter-implementation-and-configuration",
+      "title": "Time Limiter Implementation and Configuration",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/6.1-time-limiter-implementation-and-configuration",
+      "sha256": "1bc2aeeb528dac1b12f9c4cb41214208c0be9ed9008b4f5d89053ffbd3fb3c33"
+    },
+    {
+      "slug": "time-limiter",
+      "title": "Time Limiter",
+      "url": "https://deepwiki.com/resilience4j/resilience4j/6-time-limiter",
+      "sha256": "7251653f9f09420e82ab3e5e2331f3f95f3d64fdc977cd86cdfd8113caed04a6"
+    }
+  ],
+  "_description": "DeepWiki reference wiki for resilience4j/resilience4j, fetched 2026-07-27 via the DeepWiki MCP (read_wiki_contents), split on '# Page:' delimiters. DeepWiki publishes no generation commit; claims judged against a clone from the same capture window."
+}

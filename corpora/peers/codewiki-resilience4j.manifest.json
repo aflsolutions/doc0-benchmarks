@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "peer": "codewiki",
+  "repo": "resilience4j/resilience4j",
+  "base_url": "https://codewiki.google/github.com/resilience4j/resilience4j",
+  "scored_at": "2026-07-28",
+  "pinned_source_sha": "2f3d998c85f10b8ff88a3dca9f24bacf11c3a250",
+  "pages": [
+    {
+      "slug": "caching-with-jcache",
+      "title": "Caching with JCache",
+      "url": "https://codewiki.google/github.com/resilience4j/resilience4j#caching-with-jcache",
+      "sha256": "ec78b11b36f6babf6b727931d508dbd92847fcb249d68f3090a42f8829002076"
+    },
+    {
+      "slug": "core-resilience-patterns",
+      "title": "Core Resilience Patterns",
+      "url": "https://codewiki.google/github.com/resilience4j/resilience4j#core-resilience-patterns",
+      "sha256": "2c52744258b3d376e4778fd1430c6c0439cdf894146937ef1cbfcc87f5feede6"
+    },
+    {
+      "slug": "declarative-resilience-with-annotations",
+      "title": "Declarative Resilience with Annotations",
+      "url": "https://codewiki.google/github.com/resilience4j/resilience4j#declarative-resilience-with-annotations",
+      "sha256": "e25e47e10f344e17d125c31d4f385254557ae85a972d6916a6bee88743bdb783"
+    },
+    {
+      "slug": "external-configuration-with-apache-commons",
+      "title": "External Configuration with Apache Commons",
+      "url": "https://codewiki.google/github.com/resilience4j/resilience4j#external-configuration-with-apache-commons",
+      "sha256": "d9b113b72ffb50f5117a705ad16ae7be7da1b98c8eeed090c142817509b337ef"
+    },
+    {
+      "slug": "feign-client-integration",
+      "title": "Feign Client Integration",
+      "url": "https://codewiki.google/github.com/resilience4j/resilience4j#feign-client-integration",
+      "sha256": "8b76ed13e585d18729ea8e450d8387756c8c009c9560bd13cf23530400e0b857"
+    },
+    {
+      "slug": "hedging-for-responsive-operations",
+      "title": "Hedging for Responsive Operations",
+      "url": "https://codewiki.google/github.com/resilience4j/resilience4j#hedging-for-responsive-operations",
+      "sha256": "72883a81a962ee797bcb847f398165a6b3fdcfc76ac9ee69baed8eb2815c7f44"
+    },
+    {
+      "slug": "kotlin-and-coroutines-integration",
+      "title": "Kotlin and Coroutines Integration",
+      "url": "https://codewiki.google/github.com/resilience4j/resilience4j#kotlin-and-coroutines-integration",
+      "sha256": "6fdb8d8dfd1db7ed2d77b2e9873fc497efcbd85bc301607c49edf194c42ba9e5"
+    },
+    {
+      "slug": "micronaut-framework-integration",
+      "title": "Micronaut Framework Integration",
+      "url": "https://codewiki.google/github.com/resilience4j/resilience4j#micronaut-framework-integration",
+      "sha256": "96f09203cf9bd2c2453904a5c894ee0c2bd01a4ec03474e463bfb587ee691006"
+    },
+    {
+      "slug": "monitoring-and-metrics-integration",
+      "title": "Monitoring and Metrics Integration",
+      "url": "https://codewiki.google/github.com/resilience4j/resilience4j#monitoring-and-metrics-integration",
+      "sha256": "63ec8200e1d796ce7a09094f1866b2254017fc0394cf71ff17bd401c50258c06"
+    },
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "url": "https://codewiki.google/github.com/resilience4j/resilience4j",
+      "sha256": "816683c82ac68ea0376f6891d40a85763da8b01d69ca206213a3f874a839caf6"
+    },
+    {
+      "slug": "reactive-programming-integrations-project-reactor",
+      "title": "Reactive Programming Integrations (Project Reactor)",
+      "url": "https://codewiki.google/github.com/resilience4j/resilience4j#reactive-programming-integrations-project-reactor",
+      "sha256": "a513b9ea35becb365935dd931f3fdfee66f4c3f7e40af96f0dd9bf32dc90bdc6"
+    },
+    {
+      "slug": "spring-framework-integrations",
+      "title": "Spring Framework Integrations",
+      "url": "https://codewiki.google/github.com/resilience4j/resilience4j#spring-framework-integrations",
+      "sha256": "d40500c8acd95e2151711e85dc7df23a922e2405cd456cd7ff5c877f8c08462c"
+    },
+    {
+      "slug": "vavr-functional-programming-integration",
+      "title": "Vavr Functional Programming Integration",
+      "url": "https://codewiki.google/github.com/resilience4j/resilience4j#vavr-functional-programming-integration",
+      "sha256": "0111748929e2ed679326083e1160b69c43856451a20e6ec242b70e585c9e0be0"
+    }
+  ],
+  "_description": "CodeWiki (codewiki.google) reference wiki for resilience4j/resilience4j, extracted 2026-07-27/28; page shows generation commit 2f3d998c85f10b8ff88a3dca9f24bacf11c3a250. Sections of the single CodeWiki page split at h2 boundaries; citation labels adapter-normalized to path:line form (see fetch-codewiki/). Judged against a clone at the pinned commit."
+}

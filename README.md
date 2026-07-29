@@ -14,14 +14,15 @@ Three ingredients, each versioned and inspectable:
 
 ## Results
 
-Claim support is judge-scored (0–1, higher is better); `hopVerificationRate` is the deterministic, code-graph-checked share of call-chain claims doc0 machine-verifies end to end — no peer wiki tool exposes an equivalent number. Full breakdown, honesty section, and per-dimension comparisons: [2026-07-12 grounding scorecard](docs/benchmarks/2026-07-12-grounding-scorecard.md).
+**Latest (2026-07-29): ten never-tuned repositories, three systems, one judge.** Full population (~20,000 claim groups, 0 judge failures), fairness protocol and honesty section in the [Wave-1 three-way matrix report](docs/benchmarks/2026-07-29-wave1-three-way-matrix.md).
 
-| Date | Corpus | doc0 claim support | DeepWiki | zread | doc0 hopVerificationRate | Judge | Report |
-|------|--------|---------------------|----------|-------|--------------------------|-------|--------|
-| 2026-07-12 | redis/redis (37p) | **0.744** (win) | 0.692 | 0.65 | 26.6% | vertex · gemini-3.5-flash · seed 42 · n=40 | [report](docs/benchmarks/2026-07-12-grounding-scorecard.md) |
-| 2026-07-12 | honojs/hono (26p) | 0.692 (loss vs DeepWiki) | **0.872** | 0.667 | 29.3% | vertex · gemini-3.5-flash · seed 42 · n=40 | [report](docs/benchmarks/2026-07-12-grounding-scorecard.md) |
+| Never-tuned mean (10 repos, 8 languages) | doc0 | DeepWiki | CodeWiki (Google) |
+|---|---|---|---|
+| Claim support | **0.856** (0.796–0.904) | 0.588 (0.378–0.776) | 0.430 (0.326–0.591) |
 
-See [`docs/comparison-systems.md`](docs/comparison-systems.md) for the living cross-system table (comparative dimensions, external CodeWikiBench rows).
+doc0 wins every per-repo head-to-head; its worst never-tuned repo outscores both peers' best. Three of the ten repos were a sealed holdout (selected in advance, generated last, no pipeline changes mid-wave) — the holdout mean (0.886) came in *above* the main wave (0.843).
+
+Claim support is judge-scored (0–1, higher is better). doc0 also reports `hopVerificationRate` — the deterministic, code-graph-checked share of call-chain claims machine-verified end to end; no peer wiki tool exposes an equivalent number. Earlier snapshots (the n=40 sampled protocol, superseded by full-population judging) live in [`docs/benchmarks/`](docs/benchmarks/); see [`docs/comparison-systems.md`](docs/comparison-systems.md) for the living cross-system table.
 
 ## Reproduce
 

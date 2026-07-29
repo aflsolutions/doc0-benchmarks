@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "peer": "deepwiki",
+  "repo": "argoproj/argo-cd",
+  "base_url": "https://deepwiki.com/argoproj/argo-cd",
+  "scored_at": "2026-07-29",
+  "pages": [
+    {
+      "slug": "api-server-argocd-server",
+      "title": "API Server (argocd-server)",
+      "url": "https://deepwiki.com/argoproj/argo-cd/4.1-api-server-argocd-server",
+      "sha256": "39ac440ad45046286d0ffb4193290f5a75b8edb06367402bfb638faf160b25f2"
+    },
+    {
+      "slug": "application-controller",
+      "title": "Application Controller",
+      "url": "https://deepwiki.com/argoproj/argo-cd/3.1-application-controller",
+      "sha256": "3fe53ab45c31b5745fa08b9e3e4192518b8efd2cbd8eef8cde7001a83f3c9fec"
+    },
+    {
+      "slug": "application-lifecycle-management",
+      "title": "Application Lifecycle Management",
+      "url": "https://deepwiki.com/argoproj/argo-cd/3-application-lifecycle-management",
+      "sha256": "47d9454d6fc8d29d27c6935da4360537c3bfbe453f8ea817c07bbd45257a81b5"
+    },
+    {
+      "slug": "application-resource",
+      "title": "Application Resource",
+      "url": "https://deepwiki.com/argoproj/argo-cd/2.1-application-resource",
+      "sha256": "be1da754900ca75a5c95bd056cd939c157de24d251fb900af7a84a6ee98b7e5a"
+    },
+    {
+      "slug": "application-service",
+      "title": "Application Service",
+      "url": "https://deepwiki.com/argoproj/argo-cd/4.2-application-service",
+      "sha256": "a479d387c4d252c0f0295e803d3f0f66836204d2c8709dad2638435d0db24b04"
+    },
+    {
+      "slug": "application-views-and-visualization",
+      "title": "Application Views and Visualization",
+      "url": "https://deepwiki.com/argoproj/argo-cd/7.2-application-views-and-visualization",
+      "sha256": "663335422d23960ce4fe19a8a8fd0a62d3e6b8e65388f9988b79c4fc68b4b852"
+    },
+    {
+      "slug": "applicationset-resource",
+      "title": "ApplicationSet Resource",
+      "url": "https://deepwiki.com/argoproj/argo-cd/2.3-applicationset-resource",
+      "sha256": "3899981dbf959019af1bd85d21932857871dad4a1659cd905111d754ba00c3f0"
+    },
+    {
+      "slug": "appproject-resource",
+      "title": "AppProject Resource",
+      "url": "https://deepwiki.com/argoproj/argo-cd/2.2-appproject-resource",
+      "sha256": "ef59a203d3acd9db4a6f83546c9df0f18171cfd1e0309a5b8a88fdc94fcb7bd5"
+    },
+    {
+      "slug": "authentication-and-authorization",
+      "title": "Authentication and Authorization",
+      "url": "https://deepwiki.com/argoproj/argo-cd/5-authentication-and-authorization",
+      "sha256": "43dbdf772c2d27b783b63583a240d9b41043143227fca72f33651a91db43bb25"
+    },
+    {
+      "slug": "authentication-methods",
+      "title": "Authentication Methods",
+      "url": "https://deepwiki.com/argoproj/argo-cd/5.1-authentication-methods",
+      "sha256": "e69b3730b6347de690bd241973dc5e35d0ba8de7bd309afda7f6e21782080103"
+    },
+    {
+      "slug": "build-and-ci-cd-pipeline",
+      "title": "Build and CI/CD Pipeline",
+      "url": "https://deepwiki.com/argoproj/argo-cd/10-build-and-ci-cd-pipeline",
+      "sha256": "2260be74a3698d96f740420fc3e560e23db14d49f7a86bd3611f9cad77726767"
+    },
+    {
+      "slug": "build-system-and-makefile",
+      "title": "Build System and Makefile",
+      "url": "https://deepwiki.com/argoproj/argo-cd/10.1-build-system-and-makefile",
+      "sha256": "b3688599f2b767bc53b6556c256374f643dc7735b2ca592faf324167682e0a7c"
+    },
+    {
+      "slug": "caching-strategy",
+      "title": "Caching Strategy",
+      "url": "https://deepwiki.com/argoproj/argo-cd/9.4-caching-strategy",
+      "sha256": "ba91bbd03a1ce9bf93fd9107df2acae87cafa8d7d2dc4399f6d0352efbe95968"
+    },
+    {
+      "slug": "ci-pipeline",
+      "title": "CI Pipeline",
+      "url": "https://deepwiki.com/argoproj/argo-cd/10.2-ci-pipeline",
+      "sha256": "50dea831c577623cae5b75be5db7f4c8992b80572c350aa7ed591995be8ee9a6"
+    },
+    {
+      "slug": "cli-commands",
+      "title": "CLI Commands",
+      "url": "https://deepwiki.com/argoproj/argo-cd/7.4-cli-commands",
+      "sha256": "b3608df5ff2033a2624a026bdcb3233f14bac00a1910fb2fdc2289d9892bd4a3"
+    },
+    {
+      "slug": "cluster-and-repository-management",
+      "title": "Cluster and Repository Management",
+      "url": "https://deepwiki.com/argoproj/argo-cd/4.4-cluster-and-repository-management",
+      "sha256": "a3978074f273f9473d724796d6d147e24310e50ef2f86aa210e2d13dcd80d016"
+    },
+    {
+      "slug": "code-generation",
+      "title": "Code Generation",
+      "url": "https://deepwiki.com/argoproj/argo-cd/11.2-code-generation",
+      "sha256": "24bf2ed04820775bb9128968b922addd60117322b20cad6130c3b97851b7656b"
+    },
+    {
+      "slug": "code-quality-and-linting",
+      "title": "Code Quality and Linting",
+      "url": "https://deepwiki.com/argoproj/argo-cd/11.4-code-quality-and-linting",
+      "sha256": "f7fb8619033f9a2024b57958c22fc5df1798b7dbbba5dfa5445ae0fd883bbde1"
+    },
+    {
+      "slug": "configuration-and-secrets",
+      "title": "Configuration and Secrets",
+      "url": "https://deepwiki.com/argoproj/argo-cd/6.4-configuration-and-secrets",
+      "sha256": "a2ae0be4398aebac48a131a3a42ba69162e0607bf89fdd943e9dae4ca3d8af73"
+    },
+    {
+      "slug": "configuration-and-settings",
+      "title": "Configuration and Settings",
+      "url": "https://deepwiki.com/argoproj/argo-cd/8-configuration-and-settings",
+      "sha256": "98d83983c3a4ff7d81def9f384631eff830fd6eb26511b9c8d5cda57f89db4ac"
+    },
+    {
+      "slug": "container-images-and-artifacts",
+      "title": "Container Images and Artifacts",
+      "url": "https://deepwiki.com/argoproj/argo-cd/10.4-container-images-and-artifacts",
+      "sha256": "3875abfa945a7e8a7ccc216057bf64ce731a120e024456321f9c83e48b8ec7a0"
+    },
+    {
+      "slug": "core-api-and-custom-resources",
+      "title": "Core API and Custom Resources",
+      "url": "https://deepwiki.com/argoproj/argo-cd/2-core-api-and-custom-resources",
+      "sha256": "5a3f2cdbed21142324accb70fb0f0a47535e93792a72ec41b72703e434890347"
+    },
+    {
+      "slug": "core-components",
+      "title": "Core Components",
+      "url": "https://deepwiki.com/argoproj/argo-cd/1.2-core-components",
+      "sha256": "263a98bc1e814a8a09caa5385b57e7c934e6d74aeabf2168466ea559f2dffe50"
+    },
+    {
+      "slug": "declarative-setup",
+      "title": "Declarative Setup",
+      "url": "https://deepwiki.com/argoproj/argo-cd/8.2-declarative-setup",
+      "sha256": "6f43cc0b54c09e95732127ee12cae185571a84da719849bb5ba54d6f865f2523"
+    },
+    {
+      "slug": "development-and-testing",
+      "title": "Development and Testing",
+      "url": "https://deepwiki.com/argoproj/argo-cd/11-development-and-testing",
+      "sha256": "50077758d4a639a28d79abd5d4faa3d4a95493d08f18708302f42440a5586e7e"
+    },
+    {
+      "slug": "dynamic-configuration-updates",
+      "title": "Dynamic Configuration Updates",
+      "url": "https://deepwiki.com/argoproj/argo-cd/8.4-dynamic-configuration-updates",
+      "sha256": "2633b7de7d3ae60fbf216cf3a48342917986ae7e935ed8c14233673044163fb0"
+    },
+    {
+      "slug": "e2e-testing-framework",
+      "title": "E2E Testing Framework",
+      "url": "https://deepwiki.com/argoproj/argo-cd/11.3-e2e-testing-framework",
+      "sha256": "ddeab9d09dd8e1a0a70eb914338e03e0c7b93847b5e1270e2e966c483953b744"
+    },
+    {
+      "slug": "gitops-workflows",
+      "title": "GitOps Workflows",
+      "url": "https://deepwiki.com/argoproj/argo-cd/9-gitops-workflows",
+      "sha256": "3c1271a14857377c6d82d074ca2ac8a6095b4e75f156a7517d389730d278b0cb"
+    },
+    {
+      "slug": "glossary",
+      "title": "Glossary",
+      "url": "https://deepwiki.com/argoproj/argo-cd/12-glossary",
+      "sha256": "977b0f1480528c642f437b3a12fd0f3671f2d0358dafdda133ddf8cf1f97723f"
+    },
+    {
+      "slug": "installation-and-deployment",
+      "title": "Installation and Deployment",
+      "url": "https://deepwiki.com/argoproj/argo-cd/1.3-installation-and-deployment",
+      "sha256": "f4cc216ab9dea59dd7235a856a97f748720d223916397df5cd8f378b0e366c76"
+    },
+    {
+      "slug": "local-development-environment",
+      "title": "Local Development Environment",
+      "url": "https://deepwiki.com/argoproj/argo-cd/11.1-local-development-environment",
+      "sha256": "edfb7cbcab8419b439f53e0b03dd901625218352f69913aadde404a81d287ea9"
+    },
+    {
+      "slug": "manifest-generation-pipeline",
+      "title": "Manifest Generation Pipeline",
+      "url": "https://deepwiki.com/argoproj/argo-cd/9.1-manifest-generation-pipeline",
+      "sha256": "05edc2272b72b08d36540c0f18f8a9cd30859e0c5ba215d5c31489862b63ca22"
+    },
+    {
+      "slug": "multi-source-applications",
+      "title": "Multi-Source Applications",
+      "url": "https://deepwiki.com/argoproj/argo-cd/9.2-multi-source-applications",
+      "sha256": "7b1ac80e93a1969a605c90d122c3635de3c106300c4c5d741e3ee0dff32b1c65"
+    },
+    {
+      "slug": "notification-architecture",
+      "title": "Notification Architecture",
+      "url": "https://deepwiki.com/argoproj/argo-cd/6.1-notification-architecture",
+      "sha256": "9b05190584d850522a8d09c6def054f72648a6326b6167e6536f202e9062786f"
+    },
+    {
+      "slug": "notifications-system",
+      "title": "Notifications System",
+      "url": "https://deepwiki.com/argoproj/argo-cd/6-notifications-system",
+      "sha256": "f55d038f335b1a5136c3a606bb2941cbf24c80d9487a661779fad92446481085"
+    },
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "url": "https://deepwiki.com/argoproj/argo-cd/1-overview",
+      "sha256": "6d17d2fe5f1aa7e286a8499c600d7a7ed8acd434ada51d30bd82ad3f33e5f3e4"
+    },
+    {
+      "slug": "project-based-access-control",
+      "title": "Project-based Access Control",
+      "url": "https://deepwiki.com/argoproj/argo-cd/5.3-project-based-access-control",
+      "sha256": "2a4c8dfa53aa644c2bc3f35dfefeba2c28bc197c49db423c6adcce1aa62f18ef"
+    },
+    {
+      "slug": "rbac-and-permissions",
+      "title": "RBAC and Permissions",
+      "url": "https://deepwiki.com/argoproj/argo-cd/5.2-rbac-and-permissions",
+      "sha256": "70f5a2a99d8d51d7350d52ae00d0eb8518006139256d13ef91909e4c129cad9f"
+    },
+    {
+      "slug": "reconciliation-loop",
+      "title": "Reconciliation Loop",
+      "url": "https://deepwiki.com/argoproj/argo-cd/3.2-reconciliation-loop",
+      "sha256": "bdba484e76f470d6771bca6c005ecdeaa9a635e8ed44271c97c4fae1b7c0606f"
+    },
+    {
+      "slug": "release-pipeline",
+      "title": "Release Pipeline",
+      "url": "https://deepwiki.com/argoproj/argo-cd/10.3-release-pipeline",
+      "sha256": "3ef5315218827eb6608d328601e3aef66119a5eaa71c0f1939af0b6aec8cfcb8"
+    },
+    {
+      "slug": "repository-server",
+      "title": "Repository Server",
+      "url": "https://deepwiki.com/argoproj/argo-cd/4.3-repository-server",
+      "sha256": "c12555418cfb4acbc3502fd5805eef2a1494fb489f4e14289701e61b876ea2fd"
+    },
+    {
+      "slug": "resource-tree-and-health-assessment",
+      "title": "Resource Tree and Health Assessment",
+      "url": "https://deepwiki.com/argoproj/argo-cd/3.5-resource-tree-and-health-assessment",
+      "sha256": "a93a88af1b031e63aee1d7581dededc914e150b2f0c79917c28b00d664c4a2a6"
+    },
+    {
+      "slug": "server-components",
+      "title": "Server Components",
+      "url": "https://deepwiki.com/argoproj/argo-cd/4-server-components",
+      "sha256": "52736b601aa1f8dfd7673c258f12fdcc4b684bcdabacb6c040e2c433fe82ef19"
+    },
+    {
+      "slug": "service-integrations",
+      "title": "Service Integrations",
+      "url": "https://deepwiki.com/argoproj/argo-cd/6.2-service-integrations",
+      "sha256": "7eb7e6e239fe56fe278c9ddf94ca897db52dae41b0f205346fee502735d3325e"
+    },
+    {
+      "slug": "settings-management",
+      "title": "Settings Management",
+      "url": "https://deepwiki.com/argoproj/argo-cd/8.1-settings-management",
+      "sha256": "48f538bee6ccca778c467b9f45024b0d4e159cde7c2fa832ade7799bff9b4c4c"
+    },
+    {
+      "slug": "source-hydrator-workflow",
+      "title": "Source Hydrator Workflow",
+      "url": "https://deepwiki.com/argoproj/argo-cd/9.3-source-hydrator-workflow",
+      "sha256": "960f07b390a29aa2aae8e706b41b3fe7c8c43b863d90c6442783a0a09e11e60f"
+    },
+    {
+      "slug": "source-types-and-configuration",
+      "title": "Source Types and Configuration",
+      "url": "https://deepwiki.com/argoproj/argo-cd/2.4-source-types-and-configuration",
+      "sha256": "9a215973abc6f22cf997147d37a542c5b8dea30be10bb2a6f416e8d11194090f"
+    },
+    {
+      "slug": "state-comparison-and-diff-engine",
+      "title": "State Comparison and Diff Engine",
+      "url": "https://deepwiki.com/argoproj/argo-cd/3.3-state-comparison-and-diff-engine",
+      "sha256": "c81555b22e8f487f0077fd07f878100e7fb8289d30e922ec8558580a19388c09"
+    },
+    {
+      "slug": "sync-operations",
+      "title": "Sync Operations",
+      "url": "https://deepwiki.com/argoproj/argo-cd/3.4-sync-operations",
+      "sha256": "b797e106b3376fe010a3d28456911a46609433a2888cbce38a04a4617d41d396"
+    },
+    {
+      "slug": "system-architecture",
+      "title": "System Architecture",
+      "url": "https://deepwiki.com/argoproj/argo-cd/1.1-system-architecture",
+      "sha256": "fcc5aa5442f2e9e1643cb48327a10d1dd75da13cb82e9ed8b5cb922f18842a83"
+    },
+    {
+      "slug": "triggers-and-templates",
+      "title": "Triggers and Templates",
+      "url": "https://deepwiki.com/argoproj/argo-cd/6.3-triggers-and-templates",
+      "sha256": "265a22738bfb3036ed1eb962d96f9a972aec3c852bc71fe17e581d7447ddf440"
+    },
+    {
+      "slug": "ui-extensions-and-preferences",
+      "title": "UI Extensions and Preferences",
+      "url": "https://deepwiki.com/argoproj/argo-cd/7.3-ui-extensions-and-preferences",
+      "sha256": "6a70fc3a283835efcc2574c9ac038d3a71e1c3afec190682ccd01502a7b68fec"
+    },
+    {
+      "slug": "ui-testing-framework",
+      "title": "UI Testing Framework",
+      "url": "https://deepwiki.com/argoproj/argo-cd/7.5-ui-testing-framework",
+      "sha256": "23d73793edc526a368ce5469c288984aae6c03031e785b6080dc0576b2550c57"
+    },
+    {
+      "slug": "user-interfaces",
+      "title": "User Interfaces",
+      "url": "https://deepwiki.com/argoproj/argo-cd/7-user-interfaces",
+      "sha256": "3c22975195d2d70576b141e2c80af6fb3fd354a9150d753aa5323ffd375c0b03"
+    },
+    {
+      "slug": "web-ui-architecture",
+      "title": "Web UI Architecture",
+      "url": "https://deepwiki.com/argoproj/argo-cd/7.1-web-ui-architecture",
+      "sha256": "8c455e638b2a8e01471898c3cb8faff96459ce7e12c6a27744156f097a520bb0"
+    },
+    {
+      "slug": "webhooks",
+      "title": "Webhooks",
+      "url": "https://deepwiki.com/argoproj/argo-cd/8.3-webhooks",
+      "sha256": "147d90c53cc43a23ddca16eaf86541e132a06eda72880b98f1d796dfdd63235e"
+    }
+  ],
+  "_description": "DeepWiki reference wiki for argoproj/argo-cd, fetched 2026-07-27 via the DeepWiki MCP (read_wiki_contents), split on '# Page:' delimiters. DeepWiki publishes no generation commit; claims judged against a clone from the same capture window."
+}

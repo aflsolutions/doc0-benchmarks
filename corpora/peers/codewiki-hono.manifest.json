@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "peer": "codewiki",
+  "repo": "honojs/hono",
+  "base_url": "https://codewiki.google/github.com/honojs/hono",
+  "scored_at": "2026-07-28",
+  "pinned_source_sha": "cadff88bba34153646c9b35f24d7cc0cb61be913",
+  "pages": [
+    {
+      "slug": "build-and-packaging-processes",
+      "title": "Build and Packaging Processes",
+      "url": "https://codewiki.google/github.com/honojs/hono#build-and-packaging-processes",
+      "sha256": "01d4a4fe804a177d973d0dc02c1eb3ce45ab906d37d70e2650161ff7c632b988"
+    },
+    {
+      "slug": "core-utilities-and-helpers",
+      "title": "Core Utilities and Helpers",
+      "url": "https://codewiki.google/github.com/honojs/hono#core-utilities-and-helpers",
+      "sha256": "ad8ffedb11ddc6edacf0c995e36762f5727bce6c79493950634a74936996a3ab"
+    },
+    {
+      "slug": "jsx-runtime-for-ui-development",
+      "title": "JSX Runtime for UI Development",
+      "url": "https://codewiki.google/github.com/honojs/hono#jsx-runtime-for-ui-development",
+      "sha256": "c1230f7fc34d29731fde07ba5904498d956290bd89f924fddd8ef3ad81a0fa50"
+    },
+    {
+      "slug": "middleware-system",
+      "title": "Middleware System",
+      "url": "https://codewiki.google/github.com/honojs/hono#middleware-system",
+      "sha256": "72929f2d929cd817ec93ca98f2b3df484a7d4a69106ac9ed05e6675da374c5c9"
+    },
+    {
+      "slug": "multi-runtime-platform-adaptations",
+      "title": "Multi-Runtime Platform Adaptations",
+      "url": "https://codewiki.google/github.com/honojs/hono#multi-runtime-platform-adaptations",
+      "sha256": "c0c6d5a2ca8c6f04fdc4bb39602b51dc7ffa373244ef352553f9407e7951f174"
+    },
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "url": "https://codewiki.google/github.com/honojs/hono",
+      "sha256": "12cbfccb7c4312f50c0d1ce5edd08429a0ed17f0951c523e18cc2d37c658ddc8"
+    },
+    {
+      "slug": "performance-benchmarking",
+      "title": "Performance Benchmarking",
+      "url": "https://codewiki.google/github.com/honojs/hono#performance-benchmarking",
+      "sha256": "d54b0877038e7aa9546cabe2d05c5b29383adfb8298e88180770248fe3bb437e"
+    },
+    {
+      "slug": "request-validation",
+      "title": "Request Validation",
+      "url": "https://codewiki.google/github.com/honojs/hono#request-validation",
+      "sha256": "f9a59d2358a001b1adf088eacdb372db2355fe5f417b9525bc6730c57af55c4d"
+    },
+    {
+      "slug": "router-implementations",
+      "title": "Router Implementations",
+      "url": "https://codewiki.google/github.com/honojs/hono#router-implementations",
+      "sha256": "f30bdb2faa7093343a7cc62efe4bcd47e6c4f5cadde0d10e1cdbfa576f394fb6"
+    },
+    {
+      "slug": "type-safe-client-side-development",
+      "title": "Type-Safe Client-Side Development",
+      "url": "https://codewiki.google/github.com/honojs/hono#type-safe-client-side-development",
+      "sha256": "8f61d53822025f3da39bc71048baa27b1c44078485144811d08c7da6d4b92653"
+    },
+    {
+      "slug": "web-application-framework-core",
+      "title": "Web Application Framework Core",
+      "url": "https://codewiki.google/github.com/honojs/hono#web-application-framework-core",
+      "sha256": "043f5c0d2392facd1afd37178bd989e83c9bd55ad6de0934eae01acdb8443051"
+    }
+  ],
+  "_description": "CodeWiki (codewiki.google) reference wiki for honojs/hono, extracted 2026-07-27/28; page shows generation commit cadff88bba34153646c9b35f24d7cc0cb61be913. Sections of the single CodeWiki page split at h2 boundaries; citation labels adapter-normalized to path:line form (see fetch-codewiki/). Judged against a clone at the pinned commit."
+}
