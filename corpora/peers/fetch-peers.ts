@@ -169,6 +169,7 @@ async function main(): Promise<void> {
   }
 
   const mismatches: Mismatch[] = [];
+  const missingCodewiki: Array<{ manifest: string; command: string }> = [];
   for (const manifestFile of manifestFiles) {
     const manifest = JSON.parse(await readFile(join(PEERS_DIR, manifestFile), "utf-8")) as PeerManifest;
     const dirName = manifestFile.replace(/\.manifest\.json$/, "");
@@ -183,11 +184,13 @@ async function main(): Promise<void> {
       // Verify-only: hash whatever that pipeline already wrote.
       const fetched = (await readdir(outDir)).filter((f) => f.endsWith(".md"));
       if (fetched.length === 0) {
-        console.log(
-          `[fetch-peers] ${manifestFile}: pages not fetched yet — run ` +
-            `\`npx tsx corpora/peers/fetch-codewiki/fetch.ts ${manifest.repo} ${outDir}\` ` +
-            `(needs playwright; see corpora/peers/fetch-codewiki/README.md), then rerun to verify. Skipping.`,
-        );
+        // A silent skip would let this run print success while the judged
+        // runner later rejects the same empty directory (ensurePeersFetched)
+        // — missing pages are a hard failure with the exact fix command.
+        missingCodewiki.push({
+          manifest: manifestFile,
+          command: `npx tsx corpora/peers/fetch-codewiki/fetch.ts ${manifest.repo} ${outDir}`,
+        });
         continue;
       }
       for (const page of manifest.pages) {
@@ -247,6 +250,18 @@ async function main(): Promise<void> {
       }
     }
     console.log(`[fetch-peers] ${manifestFile}: ${manifest.pages.length} pages -> ${outDir}`);
+  }
+
+  if (missingCodewiki.length > 0) {
+    console.error(
+      "[fetch-peers] codewiki pages are browser-extracted and have not been fetched yet " +
+        "(needs playwright; see corpora/peers/fetch-codewiki/README.md). Run, then rerun peers:fetch to verify:",
+    );
+    for (const { command } of missingCodewiki) {
+      console.error(`  ${command}`);
+    }
+    process.exitCode = 1;
+    return;
   }
 
   if (mismatches.length > 0) {

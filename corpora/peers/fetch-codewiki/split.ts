@@ -39,8 +39,13 @@ export function splitExtraction(extraction: CodewikiExtraction, outDir: string):
     body: string[];
   }
   const sections: Section[] = [{ title: "Overview", body: [] }];
+  // "## " only opens a section OUTSIDE fenced code -- shell/Ruby/Python
+  // comments inside a code block would otherwise split the fence across two
+  // pages and mint a spurious section.
+  let inFence = false;
   for (const line of markdown.split("\n")) {
-    const h2 = /^## (.+)$/.exec(line);
+    if (line.startsWith("```")) inFence = !inFence;
+    const h2 = inFence ? null : /^## (.+)$/.exec(line);
     if (h2) sections.push({ title: h2[1].trim(), body: [] });
     else sections[sections.length - 1].body.push(line);
   }

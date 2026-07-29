@@ -74,7 +74,9 @@
 
   const seen = new Set();
   const dedup = blocks.filter((b) => {
-    const k = b.slice(0, 200);
+    // Full-block key: distinct blocks sharing a long common prefix (setup
+    // code, table headers) must never be dropped as duplicates.
+    const k = b;
     if (seen.has(k)) return false;
     seen.add(k);
     return true;

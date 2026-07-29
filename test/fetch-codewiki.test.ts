@@ -44,6 +44,16 @@ describe("normalizeCitations", () => {
 });
 
 describe("splitExtraction", () => {
+  it("does not treat '## ' inside fenced code as a section heading", () => {
+    const markdown = 'intro\n\n## Real Section\n\nbefore\n\n```\n## not a heading\necho done\n```\n\nafter';
+    const pages = splitExtraction({ sha: SHA, markdown }, dir);
+    expect(pages).toBe(2);
+    const section = readFileSync(join(dir, "real-section.md"), "utf-8");
+    expect(section).toContain("## not a heading");
+    expect((section.match(/^```/gm) ?? []).length).toBe(2);
+  });
+
+
   it("removes stale pages from a previous fetch before writing the new sections", () => {
     splitExtraction({ sha: SHA, markdown: "intro\n\n## Kept Section\n\nbody\n\n## Removed Section\n\nold body" }, dir);
     expect(readdirSync(dir).filter((f) => f.endsWith(".md")).sort()).toEqual([
