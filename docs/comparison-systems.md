@@ -60,13 +60,17 @@ Computed directly against the corpus and freshly-fetched peer content with the s
 
 ## External benchmarks (not yet run by us)
 
-CodeWikiBench (ACL Findings 2026) publishes its own evaluator and competitor scores. doc0 has not been run through it yet — Family 2 of this benchmark suite (see `docs/DESIGN.md`) targets exactly that. Listed here for reference only; **do not compare these numbers directly to the claim-support numbers above** — different corpus (21 repos, 7 languages), different judge, different metric definition entirely.
+CodeWikiBench (ACL Findings 2026) publishes its own evaluator and competitor scores, including for [CodeWiki](https://github.com/FSoft-AI4Code/CodeWiki), the paper authors' own generator. doc0 has not been run through it yet — Family 2 of this benchmark suite (see `docs/DESIGN.md`) targets exactly that. Listed here for reference only; **do not compare these numbers directly to the claim-support numbers above** — different corpus, different judge, different metric definition entirely.
 
-| System | CodeWikiBench score | Source |
+The published averages below are the paper's Table 1 "Average" row (4 systems, 7 repositories with per-repo detail; the project page describes the same 68.79/64.06 headline as a 21-repo result — a scope discrepancy we cite as-published without resolving, see `docs/codewikibench-pinned.md` §(f)). The Family-2 run reuses their published per-repo rubrics and their exact judge panel (Gemini 2.5 Flash, GPT-OSS-120B, Kimi K2 Instruct, averaged), so doc0's row will be comparable per-repo against every published row, CodeWiki's included, without re-running any peer.
+
+| System | CodeWikiBench score (avg) | Source |
 |---|---|---|
-| CodeWiki-Sonnet-4 | 68.8% | published, external |
-| DeepWiki | 64.1% | published, external |
-| doc0 | — | not yet run |
+| CodeWiki (Sonnet-4) — the benchmark authors' generator | 68.79% | published, Table 1 |
+| DeepWiki | 64.06% | published, Table 1 |
+| deepwiki-open | 50.05% | published, Table 1 |
+| OpenDeepWiki | 47.13% | published, Table 1 |
+| doc0 | — | not yet run (Family 2) |
 
 ## Change log
 
