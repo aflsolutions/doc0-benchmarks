@@ -314,6 +314,160 @@ export function stripLeadingDetailsBlock(md: string): string {
 }
 
 // ---------------------------------------------------------------------------
+// hoistPreambles — parser-safe preamble hoisting
+// ---------------------------------------------------------------------------
+
+/**
+ * The evaluator's parser (`markdown_to_json.jsonify`) maps each heading to a
+ * dict entry; a section that has CHILD headings becomes a dict of those
+ * children, and any loose content between the parent heading and its first
+ * child heading has nowhere to hang — it is silently dropped. Measured
+ * directly against the pinned parser (2026-08-31 probe, see the dry-run
+ * results): this preamble drop is the ONLY construct lost. Paragraphs,
+ * ordered and unordered lists, tables, blockquotes, and fences under LEAF
+ * headings all survive verbatim.
+ *
+ * The fix packages each preamble as a synthetic first child heading one
+ * level deeper (default title "Overview" — the same key shape CodeWiki's own
+ * example output uses, e.g. "Purpose"), so the words their judge scores are
+ * the words doc0 wrote. Content is never altered, reordered, or summarized:
+ * this is packaging for their parser, not editing.
+ *
+ * Scope notes:
+ * - ATX headings only (`#`…`######`) — doc0-generated GFM never emits setext
+ *   headings, and the corpus exporter preserves that.
+ * - Fences and inline code are masked first (same `maskCode` as
+ *   `transpileMdx`), so a `#` line inside a code sample neither hoists nor
+ *   terminates a section.
+ * - A synthetic title colliding with a real sibling child would merge two
+ *   dict keys in their parser, so the title falls back Overview →
+ *   Introduction → Preamble → "Overview N".
+ * - Content before the file's FIRST heading is out of scope: exported corpus
+ *   pages always open with their H1 (and `stripLeadingDetailsBlock` runs
+ *   earlier in the chain).
+ */
+export function hoistPreambles(md: string): string {
+  const { working, fences, inlines } = maskCode(md);
+  const lines = working.split("\n");
+
+  interface HeadingLine {
+    idx: number;
+    level: number;
+    text: string;
+  }
+  const headings: HeadingLine[] = [];
+  lines.forEach((line, idx) => {
+    const m = /^(#{1,6})\s+(.*)$/.exec(line);
+    if (m) headings.push({ idx, level: m[1].length, text: (m[2] ?? "").trim() });
+  });
+
+  const insertions: { at: number; heading: string }[] = [];
+  for (let i = 0; i < headings.length; i += 1) {
+    const parent = headings[i];
+    const next = headings[i + 1];
+    // Leaf section (no following heading, or the next heading is a sibling or
+    // an ancestor): its content survives their parser untouched.
+    if (!parent || !next || next.level <= parent.level) continue;
+
+    const preamble = lines.slice(parent.idx + 1, next.idx);
+    if (!preamble.some((l) => l.trim().length > 0)) continue;
+
+    const childLevel = parent.level + 1;
+    const sectionEndIdx =
+      headings.slice(i + 1).find((h) => h.level <= parent.level)?.idx ?? lines.length;
+    const siblingTitles = new Set(
+      headings
+        .filter((h) => h.idx > parent.idx && h.idx < sectionEndIdx && h.level === childLevel)
+        .map((h) => h.text.toLowerCase()),
+    );
+    let title = "Overview";
+    if (siblingTitles.has(title.toLowerCase())) title = "Introduction";
+    if (siblingTitles.has(title.toLowerCase())) title = "Preamble";
+    for (let n = 2; siblingTitles.has(title.toLowerCase()); n += 1) title = `Overview ${n}`;
+
+    insertions.push({ at: parent.idx + 1, heading: `${"#".repeat(childLevel)} ${title}` });
+  }
+
+  for (const ins of insertions.reverse()) {
+    lines.splice(ins.at, 0, "", ins.heading);
+  }
+  return unmaskCode(lines.join("\n"), fences, inlines);
+}
+
+// ---------------------------------------------------------------------------
+// neutralizeNonFinalLists — parser-safe list flattening
+// ---------------------------------------------------------------------------
+
+/**
+ * Second measured loss mode in the pinned parser (2026-08-31 probe): within a
+ * section's content span, `markdown_to_json` keeps everything up to and
+ * including the FIRST list, then drops whatever follows it — a paragraph
+ * after a list, and any second list, vanish. A list that closes its section
+ * survives whole.
+ *
+ * Content-preserving fix: any list block that is NOT the final block of its
+ * span gets its markers escaped (`1.` → `1\.`, `-` → `\-`), which renders as
+ * the identical visible text but parses as ordinary paragraphs — and
+ * paragraphs always survive. The section-final list keeps real list syntax.
+ * No words are added, removed, or reordered.
+ *
+ * Mechanics: spans are the line ranges between ATX headings (fences masked
+ * first, so fence content is never touched and never splits a block). Blocks
+ * are blank-line-separated; a block whose first line carries a list marker is
+ * a list block. A loose list that blank-splits into several blocks keeps its
+ * final physical block as a real list and has the earlier items escaped —
+ * visually unchanged, and every word survives either way.
+ */
+export function neutralizeNonFinalLists(md: string): string {
+  const { working, fences, inlines } = maskCode(md);
+  const lines = working.split("\n");
+
+  const isHeading = (l: string): boolean => /^#{1,6}\s+/.test(l);
+  const isMarker = (l: string): boolean => /^\s*(?:[-*+]|\d+[.)])\s+/.test(l);
+  const isIndented = (l: string): boolean => /^\s+\S/.test(l);
+  const isBlank = (l: string): boolean => l.trim() === "";
+
+  const escapeMarker = (i: number): void => {
+    const line = lines[i] ?? "";
+    lines[i] = line
+      .replace(/^(\s*)(\d+)([.)])(\s)/, "$1$2\\$3$4")
+      .replace(/^(\s*)([-*+])(\s)/, "$1\\$2$3");
+  };
+
+  // Line-wise rule per inter-heading span: a list-marker line SURVIVES only
+  // when every non-blank line after it (to the span's end) is itself a list
+  // marker or an indented continuation — i.e. only the span's trailing list
+  // keeps real list syntax. This covers every measured death shape: a list
+  // followed by a paragraph, a second list, a tight lead-in block, and the
+  // corpus staple of a "Sources:" line directly under the final item (which
+  // kills the items but survives itself).
+  const processSpan = (start: number, end: number): void => {
+    // suffixClean[j]: every non-blank line in [j, end) is marker/indented.
+    const suffixClean: boolean[] = new Array<boolean>(end - start + 1);
+    suffixClean[end - start] = true;
+    for (let j = end - 1; j >= start; j -= 1) {
+      const line = lines[j] ?? "";
+      const rest = suffixClean[j - start + 1] ?? true;
+      suffixClean[j - start] = isBlank(line) ? rest : (isMarker(line) || isIndented(line)) && rest;
+    }
+    for (let j = start; j < end; j += 1) {
+      const line = lines[j] ?? "";
+      if (isMarker(line) && !(suffixClean[j - start + 1] ?? true)) escapeMarker(j);
+    }
+  };
+
+  let spanStart = 0;
+  for (let i = 0; i <= lines.length; i += 1) {
+    if (i === lines.length || isHeading(lines[i] ?? "")) {
+      processSpan(spanStart, i);
+      spanStart = i + 1;
+    }
+  }
+
+  return unmaskCode(lines.join("\n"), fences, inlines);
+}
+
+// ---------------------------------------------------------------------------
 // module_tree.json — hierarchy + user_guide merge
 // ---------------------------------------------------------------------------
 
@@ -420,7 +574,12 @@ async function loadCorpusPages(dir: string): Promise<EvaluatorPage[]> {
   return Promise.all(
     entries.map(async (f) => ({
       slug: f.slice(0, -3),
-      content: transpileMdx(stripLeadingDetailsBlock(await readFile(join(dir, f), "utf-8"))),
+      // Order matters: components demote first (Step/Accordion introduce real
+      // headings), preambles hoist next (this reshapes the heading spans), and
+      // list neutralization runs last against the final span layout.
+      content: neutralizeNonFinalLists(
+        hoistPreambles(transpileMdx(stripLeadingDetailsBlock(await readFile(join(dir, f), "utf-8")))),
+      ),
     })),
   );
 }
