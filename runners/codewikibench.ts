@@ -314,6 +314,68 @@ export function stripLeadingDetailsBlock(md: string): string {
 }
 
 // ---------------------------------------------------------------------------
+// normalizeHeadingLevels — parser-safe heading ladder
+// ---------------------------------------------------------------------------
+
+const ATX_HEADING_RE = /^(#{1,6})\s+(.*)$/;
+
+interface HeadingLine {
+  idx: number;
+  level: number;
+  text: string;
+}
+
+/**
+ * The evaluator's parser (`markdown_to_json`, `_dictify_blocks`) splits a
+ * section on headings at EXACTLY one level below its own and, when it finds
+ * any, discards every block before the first one (`dictify_list_by`). A
+ * heading that skips a level is therefore never a key. Measured on the pinned
+ * parser (2026-09-02 probe): an H3 directly under an H1 followed by an H2
+ * loses the H1's preamble AND the whole H3 section, and H4s under an H2 with
+ * no H3 flatten into the H2's text. Its own docstring says as much ("if you
+ * jump ... the high-numbered headings won't be treated as keys").
+ *
+ * The fix re-levels every heading to exactly one deeper than its nearest
+ * shallower predecessor (a stack walk; the first heading keeps its level, the
+ * parser roots at the page minimum anyway), so the ladder never skips:
+ * H1→H3→H2 becomes H1→H2→H2, H2→H4→H3 becomes H2→H3→H3. Heading text and
+ * order are untouched, and the nesting is exactly what a stack-based reader
+ * already infers — packaging for their parser, not editing.
+ *
+ * `hoistPreambles` runs this first so its "synthetic child one level deeper"
+ * invariant holds; the exported form exists for direct pinning.
+ */
+export function normalizeHeadingLevels(md: string): string {
+  const { working, fences, inlines } = maskCode(md);
+  const lines = working.split("\n");
+  normalizeHeadingLines(lines);
+  return unmaskCode(lines.join("\n"), fences, inlines);
+}
+
+/**
+ * Re-levels the ATX headings of a masked line array in place and returns
+ * them with their normalized levels.
+ */
+function normalizeHeadingLines(lines: string[]): HeadingLine[] {
+  const headings: HeadingLine[] = [];
+  // Ancestors still open: the raw level that opened them, and the level they
+  // were assigned.
+  const open: { raw: number; level: number }[] = [];
+  lines.forEach((line, idx) => {
+    const m = ATX_HEADING_RE.exec(line);
+    if (!m) return;
+    const raw = m[1].length;
+    while (open.length > 0 && (open[open.length - 1]?.raw ?? 0) >= raw) open.pop();
+    const parent = open[open.length - 1];
+    const level = parent ? parent.level + 1 : raw;
+    open.push({ raw, level });
+    if (level !== raw) lines[idx] = `${"#".repeat(level)} ${m[2] ?? ""}`;
+    headings.push({ idx, level, text: (m[2] ?? "").trim() });
+  });
+  return headings;
+}
+
+// ---------------------------------------------------------------------------
 // hoistPreambles — parser-safe preamble hoisting
 // ---------------------------------------------------------------------------
 
@@ -323,9 +385,11 @@ export function stripLeadingDetailsBlock(md: string): string {
  * children, and any loose content between the parent heading and its first
  * child heading has nowhere to hang — it is silently dropped. Measured
  * directly against the pinned parser (2026-08-31 probe, see the dry-run
- * results): this preamble drop is the ONLY construct lost. Paragraphs,
- * ordered and unordered lists, tables, blockquotes, and fences under LEAF
- * headings all survive verbatim.
+ * results): under a well-formed heading ladder this preamble drop is the
+ * ONLY construct lost. Paragraphs, ordered and unordered lists, tables,
+ * blockquotes, and fences under LEAF headings all survive verbatim. (A
+ * skipped heading level is the other loss mode; `normalizeHeadingLevels`
+ * above removes it first.)
  *
  * The fix packages each preamble as a synthetic first child heading one
  * level deeper (default title "Overview" — the same key shape CodeWiki's own
@@ -339,6 +403,11 @@ export function stripLeadingDetailsBlock(md: string): string {
  * - Fences and inline code are masked first (same `maskCode` as
  *   `transpileMdx`), so a `#` line inside a code sample neither hoists nor
  *   terminates a section.
+ * - Heading levels are normalized before anything is hoisted: a first child
+ *   that skips a level would otherwise nest under the synthetic heading
+ *   (making it childful, so the parser drops the preamble again), and a
+ *   synthetic heading placed at the child's skipped level would be skipped
+ *   over with it. The sibling-title check runs on the normalized ladder.
  * - A synthetic title colliding with a real sibling child would merge two
  *   dict keys in their parser, so the title falls back Overview →
  *   Introduction → Preamble → "Overview N".
@@ -349,17 +418,7 @@ export function stripLeadingDetailsBlock(md: string): string {
 export function hoistPreambles(md: string): string {
   const { working, fences, inlines } = maskCode(md);
   const lines = working.split("\n");
-
-  interface HeadingLine {
-    idx: number;
-    level: number;
-    text: string;
-  }
-  const headings: HeadingLine[] = [];
-  lines.forEach((line, idx) => {
-    const m = /^(#{1,6})\s+(.*)$/.exec(line);
-    if (m) headings.push({ idx, level: m[1].length, text: (m[2] ?? "").trim() });
-  });
+  const headings = normalizeHeadingLines(lines);
 
   const insertions: { at: number; heading: string }[] = [];
   for (let i = 0; i < headings.length; i += 1) {

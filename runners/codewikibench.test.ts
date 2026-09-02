@@ -2,6 +2,7 @@ import { describe, it, expect } from "vitest";
 import {
   hoistPreambles,
   neutralizeNonFinalLists,
+  normalizeHeadingLevels,
   planEvaluatorInput,
   stripLeadingDetailsBlock,
   transpileMdx,
@@ -334,6 +335,63 @@ describe("hoistPreambles", () => {
     expect(out).toContain("## A\n\n### Overview\n\nA preamble.");
     // B is a leaf: untouched.
     expect(out).toContain("## B\n\nB leaf only.");
+  });
+
+  // The pinned parser splits each section on headings at EXACTLY parent+1 and
+  // discards everything before the first one it finds. A first child that
+  // skips a level (H1 straight to H3, the shape of the committed
+  // redis cluster-routing page) is never a key, so a synthetic ## Overview
+  // would swallow it and lose the preamble again, while a synthetic ### would
+  // be skipped over together with the child. The skip is normalized away
+  // first, so the preamble lands under a leaf key beside its real sibling.
+  it("hoists a preamble whose first child skips a level into a leaf sibling", () => {
+    const out = hoistPreambles("# P\n\nIntro.\n\n### Child\n\nBody.\n\n## Sec\n\nS.\n");
+    expect(out).toBe("# P\n\n## Overview\n\nIntro.\n\n## Child\n\nBody.\n\n## Sec\n\nS.\n");
+  });
+
+  it("checks the synthetic title against the promoted sibling", () => {
+    const out = hoistPreambles("# P\n\nIntro.\n\n### Overview\n\nReal.\n");
+    expect(out).toBe("# P\n\n## Introduction\n\nIntro.\n\n## Overview\n\nReal.\n");
+  });
+});
+
+// ---------------------------------------------------------------------------
+// normalizeHeadingLevels
+// ---------------------------------------------------------------------------
+
+describe("normalizeHeadingLevels", () => {
+  it("promotes a child that skips a level to exactly parent+1", () => {
+    expect(normalizeHeadingLevels("# P\n\n### Child\n\nBody.\n\n## Sec\n\nS.\n")).toBe(
+      "# P\n\n## Child\n\nBody.\n\n## Sec\n\nS.\n",
+    );
+  });
+
+  it("re-levels descendants relative to their promoted parent", () => {
+    expect(normalizeHeadingLevels("# P\n\n### A\n\n##### A1\n\n## B\n")).toBe(
+      "# P\n\n## A\n\n### A1\n\n## B\n",
+    );
+  });
+
+  it("makes a shallower heading after a skip a sibling of the skipped one, never its parent", () => {
+    // H4 under H2 skips H3; the H3 that follows closes the H4 and is H2's
+    // child too, so both come out at level 3.
+    expect(normalizeHeadingLevels("# P\n\n## S\n\n#### Deep\n\nD.\n\n### Next\n\nN.\n")).toBe(
+      "# P\n\n## S\n\n### Deep\n\nD.\n\n### Next\n\nN.\n",
+    );
+  });
+
+  it("leaves a well-formed ladder byte-identical", () => {
+    const md = "# P\n\nIntro.\n\n## A\n\n### A1\n\nLeaf.\n\n## B\n\nB.\n";
+    expect(normalizeHeadingLevels(md)).toBe(md);
+  });
+
+  it("starts the ladder at the page's first heading level", () => {
+    expect(normalizeHeadingLevels("## Top\n\n#### Child\n")).toBe("## Top\n\n### Child\n");
+  });
+
+  it("never touches heading-looking lines inside fences", () => {
+    const md = "# P\n\n```sh\n#### not a heading\n```\n\n### Child\n";
+    expect(normalizeHeadingLevels(md)).toBe("# P\n\n```sh\n#### not a heading\n```\n\n## Child\n");
   });
 });
 
