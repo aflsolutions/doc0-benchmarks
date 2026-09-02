@@ -1,5 +1,8 @@
 import { describe, it, expect } from "vitest";
 import {
+  hoistPreambles,
+  neutralizeNonFinalLists,
+  normalizeHeadingLevels,
   planEvaluatorInput,
   stripLeadingDetailsBlock,
   transpileMdx,
@@ -281,5 +284,185 @@ describe("planEvaluatorInput — merged with user_guide", () => {
     );
     const slugs = plan.files.map((f) => f.slug);
     expect(new Set(slugs).size).toBe(slugs.length);
+  });
+});
+
+// ---------------------------------------------------------------------------
+// hoistPreambles
+// ---------------------------------------------------------------------------
+
+describe("hoistPreambles", () => {
+  it("hoists an intro paragraph under an H1 with H2 children into ## Overview", () => {
+    const out = hoistPreambles("# Page\n\nIntro words.\n\n## First Section\n\nBody.\n");
+    expect(out).toContain("# Page\n\n## Overview\n\nIntro words.");
+    expect(out.indexOf("## Overview")).toBeLessThan(out.indexOf("## First Section"));
+  });
+
+  it("hoists a preamble under an H2 with H3 children into ### Overview", () => {
+    const out = hoistPreambles("# P\n\n## Section\n\nPreamble.\n\n### Child\n\nLeaf.\n");
+    expect(out).toContain("## Section\n\n### Overview\n\nPreamble.");
+  });
+
+  it("leaves leaf sections untouched", () => {
+    const md = "# P\n\n## Leaf\n\nJust a paragraph.\n\n1. item\n";
+    expect(hoistPreambles(md)).toBe(md);
+  });
+
+  it("leaves a childful section with no preamble untouched", () => {
+    const md = "# P\n\n## Section\n\n### Child\n\nBody.\n";
+    expect(hoistPreambles(md)).toBe(md);
+  });
+
+  it("ignores heading-looking lines inside fences, as content and as boundary", () => {
+    const md = "# P\n\nIntro.\n\n```sh\n# not a heading\n## also not\n```\n\n## Real Child\n\nBody.\n";
+    const out = hoistPreambles(md);
+    expect(out).toContain("# P\n\n## Overview\n\nIntro.");
+    // The fence stays verbatim inside the hoisted preamble.
+    expect(out).toContain("```sh\n# not a heading\n## also not\n```");
+    expect(out.match(/## Overview/g)).toHaveLength(1);
+  });
+
+  it("falls back to Introduction when a sibling child is already titled Overview", () => {
+    const out = hoistPreambles("# P\n\nIntro.\n\n## Overview\n\nReal overview.\n");
+    expect(out).toContain("# P\n\n## Introduction\n\nIntro.");
+  });
+
+  it("hoists every childful section independently", () => {
+    const out = hoistPreambles(
+      "# P\n\nTop intro.\n\n## A\n\nA preamble.\n\n### A1\n\nLeaf.\n\n## B\n\nB leaf only.\n",
+    );
+    expect(out).toContain("# P\n\n## Overview\n\nTop intro.");
+    expect(out).toContain("## A\n\n### Overview\n\nA preamble.");
+    // B is a leaf: untouched.
+    expect(out).toContain("## B\n\nB leaf only.");
+  });
+
+  // The pinned parser splits each section on headings at EXACTLY parent+1 and
+  // discards everything before the first one it finds. A first child that
+  // skips a level (H1 straight to H3, the shape of the committed
+  // redis cluster-routing page) is never a key, so a synthetic ## Overview
+  // would swallow it and lose the preamble again, while a synthetic ### would
+  // be skipped over together with the child. The skip is normalized away
+  // first, so the preamble lands under a leaf key beside its real sibling.
+  it("hoists a preamble whose first child skips a level into a leaf sibling", () => {
+    const out = hoistPreambles("# P\n\nIntro.\n\n### Child\n\nBody.\n\n## Sec\n\nS.\n");
+    expect(out).toBe("# P\n\n## Overview\n\nIntro.\n\n## Child\n\nBody.\n\n## Sec\n\nS.\n");
+  });
+
+  it("checks the synthetic title against the promoted sibling", () => {
+    const out = hoistPreambles("# P\n\nIntro.\n\n### Overview\n\nReal.\n");
+    expect(out).toBe("# P\n\n## Introduction\n\nIntro.\n\n## Overview\n\nReal.\n");
+  });
+});
+
+// ---------------------------------------------------------------------------
+// normalizeHeadingLevels
+// ---------------------------------------------------------------------------
+
+describe("normalizeHeadingLevels", () => {
+  it("promotes a child that skips a level to exactly parent+1", () => {
+    expect(normalizeHeadingLevels("# P\n\n### Child\n\nBody.\n\n## Sec\n\nS.\n")).toBe(
+      "# P\n\n## Child\n\nBody.\n\n## Sec\n\nS.\n",
+    );
+  });
+
+  it("re-levels descendants relative to their promoted parent", () => {
+    expect(normalizeHeadingLevels("# P\n\n### A\n\n##### A1\n\n## B\n")).toBe(
+      "# P\n\n## A\n\n### A1\n\n## B\n",
+    );
+  });
+
+  it("makes a shallower heading after a skip a sibling of the skipped one, never its parent", () => {
+    // H4 under H2 skips H3; the H3 that follows closes the H4 and is H2's
+    // child too, so both come out at level 3.
+    expect(normalizeHeadingLevels("# P\n\n## S\n\n#### Deep\n\nD.\n\n### Next\n\nN.\n")).toBe(
+      "# P\n\n## S\n\n### Deep\n\nD.\n\n### Next\n\nN.\n",
+    );
+  });
+
+  it("leaves a well-formed ladder byte-identical", () => {
+    const md = "# P\n\nIntro.\n\n## A\n\n### A1\n\nLeaf.\n\n## B\n\nB.\n";
+    expect(normalizeHeadingLevels(md)).toBe(md);
+  });
+
+  it("starts the ladder at the page's first heading level", () => {
+    expect(normalizeHeadingLevels("## Top\n\n#### Child\n")).toBe("## Top\n\n### Child\n");
+  });
+
+  it("never touches heading-looking lines inside fences", () => {
+    const md = "# P\n\n```sh\n#### not a heading\n```\n\n### Child\n";
+    expect(normalizeHeadingLevels(md)).toBe("# P\n\n```sh\n#### not a heading\n```\n\n## Child\n");
+  });
+});
+
+describe("neutralizeNonFinalLists", () => {
+  it("escapes a list followed by a paragraph, keeps the words verbatim", () => {
+    const out = neutralizeNonFinalLists("## S\n\n1. First step.\n2. Second step.\n\nAfter-list paragraph.\n");
+    expect(out).toContain("1\\. First step.");
+    expect(out).toContain("2\\. Second step.");
+    expect(out).toContain("After-list paragraph.");
+  });
+
+  it("keeps a section-final list as a real list", () => {
+    const md = "## S\n\nLead-in.\n\n1. Only list.\n2. Still fine.\n";
+    expect(neutralizeNonFinalLists(md)).toBe(md);
+  });
+
+  it("escapes the first of two lists, keeps the second", () => {
+    const out = neutralizeNonFinalLists("## S\n\n1. A.\n\nBetween.\n\n- B.\n");
+    expect(out).toContain("1\\. A.");
+    expect(out).toContain("\nBetween.");
+    expect(out).toContain("\n- B.");
+    expect(out).not.toContain("\\- B.");
+  });
+
+  it("escapes nested markers of a non-final list block", () => {
+    const out = neutralizeNonFinalLists("## S\n\n- Parent.\n  1. Child.\n\nTail paragraph.\n");
+    expect(out).toContain("\\- Parent.");
+    expect(out).toContain("  1\\. Child.");
+  });
+
+  it("treats each heading span independently", () => {
+    const out = neutralizeNonFinalLists("## A\n\n1. NonFinal.\n\nTail.\n\n## B\n\n1. Final.\n");
+    expect(out).toContain("1\\. NonFinal.");
+    expect(out).toContain("\n1. Final.");
+  });
+
+  it("never touches list-looking lines inside fences", () => {
+    const md = "## S\n\n```txt\n1. not a list\n- neither\n```\n\nTail.\n";
+    expect(neutralizeNonFinalLists(md)).toBe(md);
+  });
+});
+
+describe("neutralizeNonFinalLists — tight lists", () => {
+  it("escapes a tight list (lead-in directly above the markers) when content follows", () => {
+    const out = neutralizeNonFinalLists(
+      "## S\n\nThe check sequence is:\n1. First check.\n2. Second check.\n\nSources: [x.ts:1-2](y)\n",
+    );
+    expect(out).toContain("The check sequence is:");
+    expect(out).toContain("1\\. First check.");
+    expect(out).toContain("2\\. Second check.");
+    expect(out).toContain("Sources: [x.ts:1-2](y)");
+  });
+
+  it("keeps a tight section-final block untouched", () => {
+    const md = "## S\n\nMechanism:\n1. Detect.\n2. Rewrite.\n";
+    expect(neutralizeNonFinalLists(md)).toBe(md);
+  });
+});
+
+describe("neutralizeNonFinalLists — trailing Sources line", () => {
+  it("escapes a span-final list whose block ends with a Sources paragraph", () => {
+    const out = neutralizeNonFinalLists(
+      "## S\n\nOnion model:\n\n1. Receive context.\n2. Dispatch next.\nSources: [x.ts:1-2](y)\n",
+    );
+    expect(out).toContain("1\\. Receive context.");
+    expect(out).toContain("2\\. Dispatch next.");
+    expect(out).toContain("Sources: [x.ts:1-2](y)");
+  });
+
+  it("keeps a trailing list whose continuations are indented", () => {
+    const md = "## S\n\nLead.\n\n- Parent.\n  1. Child one.\n  2. Child two.\n";
+    expect(neutralizeNonFinalLists(md)).toBe(md);
   });
 });
